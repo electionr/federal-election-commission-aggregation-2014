@@ -34,7 +34,7 @@ rows:
   - name: REPORT CODE
     number: '10'
     value: M12
-  - name: ELECTION CODE
+  - name: ELECTION CODE {was RPTPGI}
     number: '11'
     value: P2012
   - name: DATE OF ELECTION
@@ -109,7 +109,7 @@ rows:
   - name: Total Contributions
     number: 35-11(d)
     value: '2181.00'
-  - name: Transfers from Affiliated/Other Party Committees
+  - name: Transfers from Affiliated/Other Party Cmtes
     number: 36-12.
     value: '0.00'
   - name: All Loans Received
@@ -154,16 +154,16 @@ rows:
   - name: Total Operating Expenditures
     number: 50-21(c)
     value: '17738.21'
-  - name: Transfers to Affiliated/Other Party Committees
+  - name: Transfers to Affiliated/Other Party Cmtes
     number: 51-22.
     value: '0.00'
-  - name: Contributions to Federal Candidates/Committees
+  - name: Contributions to Federal Candidates/Cmtes
     number: 52-23.
     value: '0.00'
   - name: Independent Expenditures
     number: 53-24.
     value: '0.00'
-  - name: Coordinated Expend made by Party Committees
+  - name: Coordinated Expend made by Party Cmtes
     number: 54-25.
     value: '0.00'
   - name: Loan Repayments
@@ -259,7 +259,7 @@ rows:
   - name: Total Contributions
     number: 85-11(d)
     value: '66784.13'
-  - name: Transfers from Affiliated/Other Party Committees
+  - name: Transfers from Affiliated/Other Party Cmtes
     number: 86-12.
     value: '0.00'
   - name: All Loans Received
@@ -304,16 +304,16 @@ rows:
   - name: Total operating Expenditures
     number: 100-21(c)
     value: '157222.74'
-  - name: Transfers to Affiliated/Other Party Committees
+  - name: Transfers to Affiliated/Other Party Cmtes
     number: 101-22.
     value: '0.00'
-  - name: Contributions to Federal Candidates/Committees
+  - name: Contributions to Federal Candidates/Cmtes
     number: 102-23.
     value: '0.00'
   - name: Independent Expenditures
     number: 103-24.
     value: '0.00'
-  - name: Coordinated Expend made by Party Committees
+  - name: Coordinated Expend made by Party Cmtes
     number: 104-25.
     value: '0.00'
   - name: Loan Repayments Made
@@ -474,10 +474,10 @@ rows:
   - name: CONTRIBUTION DATE
     number: '20'
     value: '20131108'
-  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
     number: '21'
     value: '500.00'
-  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
     number: '22'
     value: '500.00'
   - name: CONTRIBUTION PURPOSE DESCRIP
@@ -620,10 +620,10 @@ rows:
   - name: CONTRIBUTION DATE
     number: '20'
     value: '20131113'
-  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
     number: '21'
     value: '300.00'
-  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
     number: '22'
     value: '300.00'
   - name: CONTRIBUTION PURPOSE DESCRIP
@@ -765,10 +765,10 @@ rows:
   - name: CONTRIBUTION DATE
     number: '20'
     value: '20131114'
-  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
     number: '21'
     value: '500.00'
-  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
     number: '22'
     value: '800.00'
   - name: CONTRIBUTION PURPOSE DESCRIP
@@ -910,10 +910,10 @@ rows:
   - name: CONTRIBUTION DATE
     number: '20'
     value: '20131115'
-  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
     number: '21'
     value: '100.00'
-  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
     number: '22'
     value: '260.00'
   - name: CONTRIBUTION PURPOSE DESCRIP
@@ -1055,10 +1055,10 @@ rows:
   - name: CONTRIBUTION DATE
     number: '20'
     value: '20131119'
-  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
     number: '21'
     value: '25.00'
-  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
     number: '22'
     value: '1250.00'
   - name: CONTRIBUTION PURPOSE DESCRIP
@@ -1201,10 +1201,10 @@ rows:
   - name: CONTRIBUTION DATE
     number: '20'
     value: '20131120'
-  - name: CONTRIBUTION AMOUNT (F3L Bundled)
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
     number: '21'
     value: '25.00'
-  - name: CONTRIBUTION AGGREGATE F3L Semi-annual Bundled
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
     number: '22'
     value: '250.00'
   - name: CONTRIBUTION PURPOSE DESCRIP
@@ -1347,7 +1347,7 @@ rows:
   - name: EXPENDITURE DATE
     number: '20'
     value: '20131130'
-  - name: EXPENDITURE AMOUNT (F3L Bundled)
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
     number: '21'
     value: '69.92'
   - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
@@ -1490,7 +1490,7 @@ rows:
   - name: EXPENDITURE DATE
     number: '20'
     value: '20131118'
-  - name: EXPENDITURE AMOUNT (F3L Bundled)
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
     number: '21'
     value: '1832.61'
   - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
@@ -2010,7 +2010,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2120,7 +2120,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2230,7 +2230,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2339,7 +2339,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2449,7 +2449,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2559,7 +2559,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2669,7 +2669,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2779,7 +2779,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2889,7 +2889,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -2999,7 +2999,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3109,7 +3109,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3218,7 +3218,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3327,7 +3327,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3437,7 +3437,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3547,7 +3547,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3657,7 +3657,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3765,7 +3765,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3875,7 +3875,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -3985,7 +3985,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -4095,7 +4095,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -4205,7 +4205,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -4315,7 +4315,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -4425,7 +4425,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
@@ -4535,7 +4535,7 @@ rows:
   - name: Activity is Direct Candidate Support
     number: 30-
     value: ''
-  - name: Activity is Party Public Communications Made by PAC
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
     number: 31-
     value: ''
   - name: MEMO CODE
