@@ -1,0 +1,315 @@
+countrows: 2
+filename: 902930.fec
+header: {}
+rows:
+- 2
+- input: "F1N\x1CC00545616\x1C\x1CYoung for Iowa, Inc.\x1C\x1CPO Box 162\x1C\x1CVan
+    Meter\x1CIA\x1C502610162\x1C\x1Ctreasurer@youngforiowa.com\x1C\x1CYoungForIowa.com\x1C20130601\x1CGunnare\x1CChristopher\x1CDaryl\x1C\x1C\x1C20140129\x1CA\x1C\x1CYoung\x1CDavid\x1C\x1C\x1C\x1CH\x1CIA\x1C03\x1CREP\x1C\x1C\x1C\x1C\x1C\x1C\x1CNONE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CNoll\x1CGina\x1C\x1C\x1C\x1CPO
+    Box 192\x1C\x1CDes Moines\x1CIA\x1C503010192\x1CCustodian of Records\x1C5152848831\x1CGunnare\x1CChristopher\x1CDaryl\x1C\x1C\x1C9621
+    Horton Trl\x1C\x1CUrbandale\x1CIA\x1C503222168\x1CTreasurer\x1C5153270179\x1CNoll\x1CGina\x1C\x1C\x1C\x1CPO
+    Box 192\x1C\x1CDes Moines\x1CIA\x1C503010192\x1CAssistant Treasurer\x1C5152848831\x1CWells
+    Fargo Bank\x1C100 North Main Street\x1C\x1CWinston Salem\x1CNC\x1C27150\x1CEarlham
+    Savings Bank\x1C475 Mill Street\x1CP.O. Box 185\x1CVan Meter\x1CIA\x1C502610162\n"
+  record: fec.version.v8_1.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545616
+  - name: CHANGE OF COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Young for Iowa, Inc.
+  - name: CHANGE OF ADDRESS
+    number: '5'
+    value: ''
+  - name: STREET 1
+    number: '6'
+    value: PO Box 162
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Van Meter
+  - name: STATE
+    number: '9'
+    value: IA
+  - name: ZIP
+    number: '10'
+    value: '502610162'
+  - name: CHANGE OF COMMITTEE EMAIL
+    number: '11'
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '12'
+    value: treasurer@youngforiowa.com
+  - name: CHANGE OF COMMITTEE WEB URL
+    number: '13'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '14'
+    value: YoungForIowa.com
+  - name: EFFECTIVE DATE
+    number: '15'
+    value: '20130601'
+  - name: SIGNATURE LAST NAME
+    number: '16'
+    value: Gunnare
+  - name: SIGNATURE FIRST NAME
+    number: '17'
+    value: Christopher
+  - name: SIGNATURE MIDDLE NAME
+    number: '18'
+    value: Daryl
+  - name: SIGNATURE PREFIX
+    number: '19'
+    value: ''
+  - name: SIGNATURE SUFFIX
+    number: '20'
+    value: ''
+  - name: DATE SIGNED
+    number: '21'
+    value: '20140129'
+  - name: COMMITTEE TYPE
+    number: 22-5.
+    value: A
+  - name: CANDIDATE ID NUMBER
+    number: 23-5.
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: 24-5.
+    value: Young
+  - name: CANDIDATE FIRST NAME
+    number: 25-5.
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-5.
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: 27-5.
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: 28-5.
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 29-5.
+    value: H
+  - name: CANDIDATE STATE
+    number: 30-5.
+    value: IA
+  - name: CANDIDATE DISTRICT
+    number: 31-5.
+    value: '03'
+  - name: PARTY CODE
+    number: 32-5.
+    value: REP
+  - name: PARTY TYPE
+    number: 33-5.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 34-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 35-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 36-5 (f).
+    value: ''
+  - name: LEADERSHIP PAC
+    number: 37-5 (f).
+    value: ''
+  - name: AFFILIATED CMTTE ID NUM
+    number: 38-6.
+    value: ''
+  - name: AFFILIATED CMTTE NAME
+    number: 39-6.
+    value: NONE
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 40-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 41-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 42-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 43-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 44-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 45-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 46-6.
+    value: ''
+  - name: AFFILIATED STREET 2
+    number: 47-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 48-6.
+    value: ''
+  - name: AFFILIATED STATE
+    number: 49-6.
+    value: ''
+  - name: AFFILIATED ZIP
+    number: 50-6.
+    value: ''
+  - name: 'AFFILIATED RELATIONSHIP CODE (with Filing Committee named in field #4)'
+    number: 51-6.
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: 52-7.
+    value: Noll
+  - name: CUSTODIAN FIRST NAME
+    number: 53-7.
+    value: Gina
+  - name: CUSTODIAN MIDDLE NAME
+    number: 54-7.
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: 55-7.
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: 56-7.
+    value: ''
+  - name: CUSTODIAN STREET 1
+    number: 57-7.
+    value: PO Box 192
+  - name: CUSTODIAN STREET 2
+    number: 58-7.
+    value: ''
+  - name: CUSTODIAN CITY
+    number: 59-7.
+    value: Des Moines
+  - name: CUSTODIAN STATE
+    number: 60-7.
+    value: IA
+  - name: CUSTODIAN ZIP
+    number: 61-7.
+    value: '503010192'
+  - name: CUSTODIAN TITLE
+    number: 62-7.
+    value: Custodian of Records
+  - name: CUSTODIAN TELEPHONE
+    number: 63-7.
+    value: '5152848831'
+  - name: TREASURER LAST NAME
+    number: 64-8.
+    value: Gunnare
+  - name: TREASURER FIRST NAME
+    number: 65-8.
+    value: Christopher
+  - name: TREASURER MIDDLE NAME
+    number: 66-8.
+    value: Daryl
+  - name: TREASURER PREFIX
+    number: 67-8.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 68-8.
+    value: ''
+  - name: TREASURER STREET 1
+    number: 69-8.
+    value: 9621 Horton Trl
+  - name: TREASURER STREET 2
+    number: 70-8.
+    value: ''
+  - name: TREASURER CITY
+    number: 71-8.
+    value: Urbandale
+  - name: TREASURER STATE
+    number: 72-8.
+    value: IA
+  - name: TREASURER ZIP
+    number: 73-8.
+    value: '503222168'
+  - name: TREASURER TITLE
+    number: 74-8.
+    value: Treasurer
+  - name: TREASURER TELEPHONE
+    number: 75-8.
+    value: '5153270179'
+  - name: AGENT LAST NAME
+    number: 76-8.
+    value: Noll
+  - name: AGENT FIRST NAME
+    number: 77-8.
+    value: Gina
+  - name: AGENT MIDDLE NAME
+    number: 78-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 79-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 80-8.
+    value: ''
+  - name: AGENT STREET 1
+    number: 81-8.
+    value: PO Box 192
+  - name: AGENT STREET 2
+    number: 82-8.
+    value: ''
+  - name: AGENT CITY
+    number: 83-8.
+    value: Des Moines
+  - name: AGENT STATE
+    number: 84-8.
+    value: IA
+  - name: AGENT ZIP
+    number: 85-8.
+    value: '503010192'
+  - name: AGENT TITLE
+    number: 86-8.
+    value: Assistant Treasurer
+  - name: AGENT TELEPHONE
+    number: 87-8.
+    value: '5152848831'
+  - name: BANK NAME
+    number: 88-9. a)
+    value: Wells Fargo Bank
+  - name: BANK STREET 1
+    number: 89-9. a)
+    value: 100 North Main Street
+  - name: BANK STREET 2
+    number: 90-9. a)
+    value: ''
+  - name: BANK CITY
+    number: 91-9. a)
+    value: Winston Salem
+  - name: BANK STATE
+    number: 92-9. a)
+    value: NC
+  - name: BANK ZIP
+    number: 93-9. a)
+    value: '27150'
+  - name: BANK NAME
+    number: 94-9. b)
+    value: Earlham Savings Bank
+  - name: BANK STREET 1
+    number: 95-9. b)
+    value: 475 Mill Street
+  - name: BANK STREET 2
+    number: 96-9. b)
+    value: P.O. Box 185
+  - name: BANK CITY
+    number: 97-9. b)
+    value: Van Meter
+  - name: BANK STATE
+    number: 98-9. b)
+    value: IA
+  - name: BANK ZIP
+    number: 99-9. b)
+    value: '502610162
+
+'
+sourceurl: !!python/unicode 20140129
+type: chunk
