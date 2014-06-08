@@ -1,0 +1,228 @@
+countrows: 5
+filename: 900723.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH2NC07096\x1CRouzer\x1CDavid\x1CCheston\x1CMr.\x1C\x1C\x1C108 Peach
+    Orchard Drive\x1C\x1CBenson\x1CNC\x1C27504\x1CREP\x1CH\x1CNC\x1C07\x1C2014\x1CC00501643\x1CDavid
+    Rouzer for Congress\x1CPO Box 2267\x1C\x1CSmithfield\x1CNC\x1C27577\x1CC00513143\x1CTake
+    Back North Carolina\x1C2470 Danniell's Bridge Road\x1CSuite 121\x1CAthens\x1CGA\x1C30606\x1CRouzer\x1CDavid\x1CCheston\x1CMr.\x1C\x1C20140116\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2NC07096
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Rouzer
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: Cheston
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 108 Peach Orchard Drive
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Benson
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NC
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '27504'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '07'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00501643
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: David Rouzer for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 2267
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Smithfield
+  - name: PCC STATE
+    number: '24'
+    value: NC
+  - name: PCC ZIP
+    number: '25'
+    value: '27577'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00513143
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Take Back North Carolina
+  - name: AUTH STREET 1
+    number: '28'
+    value: 2470 Danniell's Bridge Road
+  - name: AUTH STREET 2
+    number: '29'
+    value: Suite 121
+  - name: AUTH CITY
+    number: '30'
+    value: Athens
+  - name: AUTH STATE
+    number: '31'
+    value: GA
+  - name: AUTH ZIP
+    number: '32'
+    value: '30606'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Rouzer
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: David
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: Cheston
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140116
+
+'
+- input: "F2S\x1CH2NC07096\x1CC00523555\x1CYoung Guns 2012 Round 2\x1C228 South Washington
+    Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C22314\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2NC07096
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00523555
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Young Guns 2012 Round 2
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 South Washington Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 115
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH2NC07096\x1CC00529792\x1CWilmington Victory Fund\x1C2470 Daniell's
+    Bridge Road\x1CSuite 121\x1CAthens\x1CGA\x1C30606\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2NC07096
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00529792
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Wilmington Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2470 Daniell's Bridge Road
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 121
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30606
+
+'
+- input: "F2S\x1CH2NC07096\x1CC00549709\x1CRouzer Ellmers JFC\x1C2470 Daniell's Bridge
+    Road\x1CSuite 121\x1CAthens\x1CGA\x1C30606\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2NC07096
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00549709
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Rouzer Ellmers JFC
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2470 Daniell's Bridge Road
+  - name: AUTH STREET 2
+    number: '6'
+    value: Suite 121
+  - name: AUTH CITY
+    number: '7'
+    value: Athens
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30606
+
+'
+sourceurl: !!python/unicode 20140117
+type: chunk

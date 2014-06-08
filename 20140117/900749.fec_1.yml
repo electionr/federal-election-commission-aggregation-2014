@@ -1,0 +1,129 @@
+countrows: 2
+filename: 900749.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CP60004900\x1CJeroboan\x1CKins\x1C\x1C\x1C\x1C\x1C163-49 130th avenue
+    Apt GA\x1C\x1CJamaica\x1CNY\x1C11434\x1CRep\x1CP\x1C\x1C\x1C2016\x1C\x1CKins Jeroboan
+    for President\x1C163-49 130th avenue\x1C\x1CJamaica\x1CNY\x1C11434\x1C\x1CKins
+    Jeroboan for President\x1C163-49 130th avenue\x1CGA\x1CJamaica\x1CNY\x1C11434\x1CJeroboan\x1CKins\x1C\x1C\x1C\x1C20140117\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: P60004900
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Jeroboan
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Kins
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 163-49 130th avenue Apt GA
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Jamaica
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NY
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '11434'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: Rep
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: P
+  - name: CANDIDATE STATE
+    number: '16'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2016'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Kins Jeroboan for President
+  - name: PCC STREET 1
+    number: '21'
+    value: 163-49 130th avenue
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Jamaica
+  - name: PCC STATE
+    number: '24'
+    value: NY
+  - name: PCC ZIP
+    number: '25'
+    value: '11434'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Kins Jeroboan for President
+  - name: AUTH STREET 1
+    number: '28'
+    value: 163-49 130th avenue
+  - name: AUTH STREET 2
+    number: '29'
+    value: GA
+  - name: AUTH CITY
+    number: '30'
+    value: Jamaica
+  - name: AUTH STATE
+    number: '31'
+    value: NY
+  - name: AUTH ZIP
+    number: '32'
+    value: '11434'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Jeroboan
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Kins
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140117
+
+'
+sourceurl: !!python/unicode 20140117
+type: chunk

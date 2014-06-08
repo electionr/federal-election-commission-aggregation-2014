@@ -1,0 +1,128 @@
+countrows: 2
+filename: 902017.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CS4AK00214\x1CSullivan\x1CDan\x1C\x1C\x1C\x1C\x1C3705 Arctic Boulevard\x1C#447\x1CAnchorage\x1CAK\x1C995035774\x1CUNK\x1CS\x1CAK\x1C00\x1C2014\x1CC00551093\x1CSullivan
+    for US Senate\x1C3705 Arctic Blvd #447\x1C\x1CAnchorage\x1CAK\x1C995035774\x1CC00553016\x1CFriends
+    for an American Majority\x1C228 S. Washington Street, Suite 11\x1C\x1CAlexandria\x1CVA\x1C223145404\x1CSullivan\x1CDan\x1C\x1C\x1C\x1C20140126\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: S4AK00214
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Sullivan
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Dan
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 3705 Arctic Boulevard
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: '#447'
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Anchorage
+  - name: CANDIDATE STATE
+    number: '12'
+    value: AK
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '995035774'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: UNK
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: S
+  - name: CANDIDATE STATE
+    number: '16'
+    value: AK
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '00'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00551093
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Sullivan for US Senate
+  - name: PCC STREET 1
+    number: '21'
+    value: '3705 Arctic Blvd #447'
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Anchorage
+  - name: PCC STATE
+    number: '24'
+    value: AK
+  - name: PCC ZIP
+    number: '25'
+    value: '995035774'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00553016
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Friends for an American Majority
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S. Washington Street, Suite 11
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '223145404'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Sullivan
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Dan
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140126
+
+'
+sourceurl: !!python/unicode 20140126
+type: chunk
