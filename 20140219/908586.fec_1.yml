@@ -1,0 +1,161 @@
+countrows: 3
+filename: 908586.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH2HI02508\x1CGABBARD\x1CTULSI\x1C\x1C\x1C\x1C\x1CPO BOX 75561\x1C\x1CKAPOLEI\x1CHI\x1C96707\x1CDEM\x1CH\x1CHI\x1C02\x1C2014\x1CC00497396\x1CTULSI
+    FOR HAWAI'I\x1CPO BOX 75561\x1C\x1CKAPOLEI\x1CHI\x1C96707\x1CC00555078\x1CALOHA
+    COMMITTEE\x1CPO BOX 75561\x1C\x1CKAPOLEI\x1CHI\x1C96707\x1CGABBARD\x1CTULSI\x1C\x1C\x1C\x1C20140214\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2HI02508
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: GABBARD
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: TULSI
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO BOX 75561
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: KAPOLEI
+  - name: CANDIDATE STATE
+    number: '12'
+    value: HI
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '96707'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: HI
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00497396
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: TULSI FOR HAWAI'I
+  - name: PCC STREET 1
+    number: '21'
+    value: PO BOX 75561
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: KAPOLEI
+  - name: PCC STATE
+    number: '24'
+    value: HI
+  - name: PCC ZIP
+    number: '25'
+    value: '96707'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00555078
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ALOHA COMMITTEE
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO BOX 75561
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: KAPOLEI
+  - name: AUTH STATE
+    number: '31'
+    value: HI
+  - name: AUTH ZIP
+    number: '32'
+    value: '96707'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: GABBARD
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: TULSI
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140214
+
+'
+- input: "F2S\x1CH2HI02508\x1CC00548222\x1CGABBARD - SINEMA JOINT VICTORY FUND\x1C2910
+    E GARY WAY\x1C\x1CPHOENIX\x1CAZ\x1C85042\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H2HI02508
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00548222
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: GABBARD - SINEMA JOINT VICTORY FUND
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2910 E GARY WAY
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: PHOENIX
+  - name: AUTH STATE
+    number: '8'
+    value: AZ
+  - name: AUTH ZIP
+    number: '9'
+    value: '85042
+
+'
+sourceurl: !!python/unicode 20140219
+type: chunk

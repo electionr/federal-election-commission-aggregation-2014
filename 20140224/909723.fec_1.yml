@@ -1,0 +1,351 @@
+countrows: 6
+filename: 909723.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00544452\x1C\x1CElaine Hays for Congress\x1CPO Box 19476\x1C\x1CAmarillo\x1CTX\x1C79114\x1CH4TX13055\x1CHays\x1CJulia\x1CElaine\x1C\x1C\x1CH\x1CTX\x1C13\x1CTurley\x1CDeborah\x1C\x1C\x1C\x1C20140224\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00544452
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Elaine Hays for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 19476
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Amarillo
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '79114'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4TX13055
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Hays
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Julia
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Elaine
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '13'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Turley
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Deborah
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140224
+
+'
+- input: "F65\x1CC00544452\x1CTX328\x1CIND\x1C\"\"\x1C\"JARRETT\"\x1C\"DEAN\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1307
+    BRIGHTON PLACE\"\x1C\"\"\x1C\"MIDLAND\"\x1CTX\x1C797052818\x1C\x1C20140224\x1C2500.00\x1C\"LEGACY
+    RESERVES\"\x1C\"ENGINEER\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00544452
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX328
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: JARRETT
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DEAN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1307 BRIGHTON PLACE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MIDLAND
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '797052818'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140224'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: LEGACY RESERVES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ENGINEER
+
+'
+- input: "F65\x1CC00544452\x1CTX337\x1CIND\x1C\"\"\x1C\"SIDWELL\"\x1C\"DONNA\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1615
+    S BRYAN ST\"\x1C\"\"\x1C\"AMARILLO\"\x1CTX\x1C791022326\x1C\x1C20140224\x1C2500.00\x1C\"N/A\"\x1C\"HOMEMAKER\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00544452
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX337
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SIDWELL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DONNA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1615 S BRYAN ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AMARILLO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '791022326'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140224'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'HOMEMAKER
+
+'
+- input: "F65\x1CC00544452\x1CTX334\x1CIND\x1C\"\"\x1C\"SIDWELL\"\x1C\"GENE\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"BOX
+    9298\"\x1C\"\"\x1C\"AMARILLO\"\x1CTX\x1C791059298\x1C\x1C20140224\x1C1500.00\x1C\"SIDWELL
+    OIL & GAS, INC.\"\x1C\"OIL AND GAS EXPLORATION & DEVELOPMENT\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00544452
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX334
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: SIDWELL
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: GENE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: BOX 9298
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AMARILLO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '791059298'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140224'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SIDWELL OIL & GAS, INC.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'OIL AND GAS EXPLORATION & DEVELOPMENT
+
+'
+- input: "F65\x1CC00544452\x1CTX331\x1CIND\x1C\"\"\x1C\"TURLEY\"\x1C\"DEBBIE\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"3916
+    DORIS DRIVE\"\x1C\"\"\x1C\"AMARILLO\"\x1CTX\x1C791095507\x1C\x1C20140224\x1C1995.07\x1C\"BROWN,
+    GRAHAM & COMPANY, P.C.\"\x1C\"CPA\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00544452
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX331
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: TURLEY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DEBBIE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3916 DORIS DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AMARILLO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '791095507'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140224'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1995.07'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BROWN, GRAHAM & COMPANY, P.C.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CPA
+
+'
+sourceurl: !!python/unicode 20140224
+type: chunk

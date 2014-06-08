@@ -1,0 +1,3266 @@
+countrows: 26
+filename: 909726.fec
+header: {}
+rows:
+- 2
+- input: "F4A\x1CC00496570\x1CNEW AMERICAN CITY INC\x1CP.O. BOX  36481\x1C\x1CCHARLOTTE\x1CNC\x1C28236\x1CH\x1C\x1CQ1\x1C20130101\x1C20130331\x1CMURREY\x1CDANIEL\x1C\x1C\x1CM.D.\x1C20140224\x1C26672.40\x1C1013664.36\x1C1040336.76\x1C1015062.54\x1C25274.22\x1C0.00\x1C0.00\x1C15062.54\x1C0.00\x1C15062.54\x1C0.00\x1C0.00\x1C1000000.00\x1C0.00\x1C1000000.00\x1C13664.36\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C1013664.36\x1C14707.74\x1C354.80\x1C15062.54\x1C0.00\x1C0.00\x1C1000000.00\x1C1000000.00\x1C0.00\x1C0.00\x1C0.00\x1C1015062.54\x1C26672.40\x1C2013\x1C1013664.36\x1C1040336.76\x1C1015062.54\x1C25274.22\x1C15062.54\x1C0.00\x1C15062.54\x1C0.00\x1C15062.54\x1C0.00\x1C1000000.00\x1C13664.36\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C1013664.36\x1C15062.54\x1C0.00\x1C1000000.00\x1C0.00\x1C1015062.54\n"
+  record: fec.version.v8_1.F4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F4A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NEW AMERICAN CITY INC
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX  36481
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: CHARLOTTE
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '28236'
+  - name: COMMITTEE/ORG TYPE
+    number: '9'
+    value: H
+  - name: COMMITTEE/ORG TYPE - OTHER DESCRIPTION
+    number: '10'
+    value: ''
+  - name: REPORT CODE
+    number: '11'
+    value: Q1
+  - name: COVERAGE FROM DATE
+    number: '12'
+    value: '20130101'
+  - name: COVERAGE THROUGH DATE
+    number: '13'
+    value: '20130331'
+  - name: TREASURER LAST NAME
+    number: '14'
+    value: MURREY
+  - name: TREASURER FIRST NAME
+    number: '15'
+    value: DANIEL
+  - name: TREASURER MIDDLE NAME
+    number: '16'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '17'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '18'
+    value: M.D.
+  - name: DATE SIGNED
+    number: '19'
+    value: '20140224'
+  - name: cash on hand beg. report per.
+    number: 20-6.(b)
+    value: '26672.40'
+  - name: Total receipts
+    number: 21-6.(c)
+    value: '1013664.36'
+  - name: Subtotal
+    number: 22-6.(d)
+    value: '1040336.76'
+  - name: Total disbursements
+    number: 23-7.
+    value: '1015062.54'
+  - name: COH CLOSE (COL A)
+    number: 24-8.
+    value: '25274.22'
+  - name: Debts to
+    number: 25-9.
+    value: '0.00'
+  - name: Debts by
+    number: 26-10.
+    value: '0.00'
+  - name: Convention expenditures
+    number: 27-11.
+    value: '15062.54'
+  - name: refunds/rebates/returns relating to conv exp.
+    number: 28-12.
+    value: '0.00'
+  - name: Expenditures subject to limits
+    number: 29-12(a)
+    value: '15062.54'
+  - name: expend. from prior years subject to limits
+    number: 30-12(b)
+    value: '0.00'
+  - name: Federal Funds SCH A
+    number: 31-13.
+    value: '0.00'
+  - name: Itemized
+    number: 32-14(a)
+    value: '1000000.00'
+  - name: unitemized
+    number: 33-14(b)
+    value: '0.00'
+  - name: subtotal
+    number: 34-14(c)
+    value: '1000000.00'
+  - name: Transfers from affiliated cmtes.
+    number: 35-15.
+    value: '13664.36'
+  - name: loans received
+    number: 36-16(a)
+    value: '0.00'
+  - name: loan repayments received
+    number: 37-16(b)
+    value: '0.00'
+  - name: subtotal loans/repayments
+    number: 38-16(c)
+    value: '0.00'
+  - name: Itemized
+    number: 39-17(a)
+    value: '0.00'
+  - name: unitemized
+    number: 40-17(b)
+    value: '0.00'
+  - name: subtotal
+    number: 41-17(c)
+    value: '0.00'
+  - name: Itemized
+    number: 42-18(a)
+    value: '0.00'
+  - name: unitemized
+    number: 43-18(b)
+    value: '0.00'
+  - name: subtotal
+    number: 44-18(c)
+    value: '0.00'
+  - name: Itemized
+    number: 45-19(a)
+    value: '0.00'
+  - name: unitemized
+    number: 46-19(b)
+    value: '0.00'
+  - name: subtotal
+    number: 47-19(c)
+    value: '0.00'
+  - name: total receipts
+    number: 48-20.
+    value: '1013664.36'
+  - name: Itemized
+    number: 49-21(a)
+    value: '14707.74'
+  - name: unitemized
+    number: 50-21(b)
+    value: '354.80'
+  - name: subtotal
+    number: 51-21(c)
+    value: '15062.54'
+  - name: Transfers to Affiliated Cmtes
+    number: 52-22.
+    value: '0.00'
+  - name: loans made
+    number: 53-23(a)
+    value: '0.00'
+  - name: loan repayments made
+    number: 54-23(b)
+    value: '1000000.00'
+  - name: subtotal
+    number: 55-23(c)
+    value: '1000000.00'
+  - name: Itemized
+    number: 56-24(a)
+    value: '0.00'
+  - name: unitemized
+    number: 57-24(b)
+    value: '0.00'
+  - name: subtotal
+    number: 58-24(c)
+    value: '0.00'
+  - name: Total disbursements
+    number: 59-25.
+    value: '1015062.54'
+  - name: Cash on Hand
+    number: 60-6.(a)
+    value: '26672.40'
+  - name: YEAR
+    number: 61-6.(a) 19
+    value: '2013'
+  - name: Total receipts
+    number: 62-6.(c)
+    value: '1013664.36'
+  - name: Subtotal
+    number: 63-6.(d)
+    value: '1040336.76'
+  - name: Total disbursements
+    number: 64-7.
+    value: '1015062.54'
+  - name: COH CLOSE (COL B)
+    number: 65-8.
+    value: '25274.22'
+  - name: Convention expenditures
+    number: 66-11.
+    value: '15062.54'
+  - name: refunds/rebates/returns relating to conv exp.
+    number: 67-12.
+    value: '0.00'
+  - name: Expenditures subject to limits
+    number: 68-12(a)
+    value: '15062.54'
+  - name: expend. from prior years subject to limits
+    number: 69-12(b)
+    value: '0.00'
+  - name: total expenditures subject to limits
+    number: 70-12(c)
+    value: '15062.54'
+  - name: Federal Funds
+    number: 71-13.
+    value: '0.00'
+  - name: subtotal
+    number: 72-14(c)
+    value: '1000000.00'
+  - name: Transfers from affiliated cmtes.
+    number: 73-15.
+    value: '13664.36'
+  - name: subtotal loans/repayments
+    number: 74-16(c)
+    value: '0.00'
+  - name: subtotal
+    number: 75-17(c)
+    value: '0.00'
+  - name: subtotal
+    number: 76-18(c)
+    value: '0.00'
+  - name: subtotal
+    number: 77-19(c)
+    value: '0.00'
+  - name: total receipts
+    number: 78-20.
+    value: '1013664.36'
+  - name: subtotal
+    number: 79-21(c)
+    value: '15062.54'
+  - name: Transfers to Affiliated Cmtes
+    number: 80-22.
+    value: '0.00'
+  - name: subtotal
+    number: 81-23(c)
+    value: '1000000.00'
+  - name: subtotal
+    number: 82-24(c)
+    value: '0.00'
+  - name: Total disbursements
+    number: 83-25.
+    value: '1015062.54
+
+'
+- input: "SA14A\x1CC00496570\x1CSA14A.4120\x1C\x1C\x1CORG\x1CDuke Energy Corp.\x1C\x1C\x1C\x1C\x1C\x1C526
+    College St\x1C\x1CCharlotte\x1CNC\x1C28202\x1C\x1C\x1C20130228\x1C500000.00\x1C500000.00\x1CIn-Kind
+    Loan Repayment\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA14A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA14A.4120
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: Duke Energy Corp.
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 526 College St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Charlotte
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '28202'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130228'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: In-Kind Loan Repayment
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA14A\x1CC00496570\x1CSA14A.4121\x1C\x1C\x1CORG\x1CDuke Energy Corp.\x1C\x1C\x1C\x1C\x1C\x1C526
+    College St\x1C\x1CCharlotte\x1CNC\x1C28202\x1C\x1C\x1C20130228\x1C500000.00\x1C1000000.00\x1CIn-Kind
+    Loan Repayment\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA14A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA14A.4121
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: Duke Energy Corp.
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 526 College St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Charlotte
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '28202'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130228'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: In-Kind Loan Repayment
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA15\x1CC00496570\x1CSA15.4116\x1C\x1C\x1CPTY\x1CCOMMITTEE FOR CHARLOTTE/CHARLOTTE
+    DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CP.O. BOX  36481\x1C\x1CCHARLOTTE\x1CNC\x1C28236\x1C\x1C\x1C20130102\x1C11628.00\x1C11628.00\x1C\x1C\x1C\x1CC00493254\x1CCOMMITTEE
+    FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA15
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA15.4116
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: P.O. BOX  36481
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '28236'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130102'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '11628.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '11628.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: C00493254
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA15\x1CC00496570\x1CSA15.4117\x1C\x1C\x1CPTY\x1CCOMMITTEE FOR CHARLOTTE/CHARLOTTE
+    DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CP.O. BOX  36481\x1C\x1CCHARLOTTE\x1CNC\x1C28236\x1C\x1C\x1C20130208\x1C378.00\x1C12006.00\x1C\x1C\x1C\x1CC00493254\x1CCOMMITTEE
+    FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA15
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA15.4117
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: P.O. BOX  36481
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '28236'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130208'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '378.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '12006.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: C00493254
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA15\x1CC00496570\x1CSA15.4118\x1C\x1C\x1CPTY\x1CCOMMITTEE FOR CHARLOTTE/CHARLOTTE
+    DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CP.O. BOX  36481\x1C\x1CCHARLOTTE\x1CNC\x1C28236\x1C\x1C\x1C20130214\x1C658.36\x1C12664.36\x1C\x1C\x1C\x1CC00493254\x1CCOMMITTEE
+    FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA15
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA15.4118
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: P.O. BOX  36481
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '28236'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130214'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '658.36'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '12664.36'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: C00493254
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA15\x1CC00496570\x1CSA15.4119\x1C\x1C\x1CPTY\x1CCOMMITTEE FOR CHARLOTTE/CHARLOTTE
+    DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CP.O. BOX  36481\x1C\x1CCHARLOTTE\x1CNC\x1C28236\x1C\x1C\x1C20130219\x1C1000.00\x1C13664.36\x1C\x1C\x1C\x1CC00493254\x1CCOMMITTEE
+    FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA15
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA15.4119
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PTY
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: P.O. BOX  36481
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '28236'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130219'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '13664.36'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: C00493254
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: COMMITTEE FOR CHARLOTTE/CHARLOTTE DNC HOST COMMITTEE
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4129\x1C\x1C\x1CORG\x1CBANK OF AMERICA\x1C\x1C\x1C\x1C\x1C\x1C400
+    S. TRYON\x1C\x1CCHARLOTTE\x1CNC\x1C28285\x1C\x1C\x1C20130301\x1C35.00\x1C\x1CBank
+    Charges\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4129
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: BANK OF AMERICA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 400 S. TRYON
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28285'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130301'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '35.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Bank Charges
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4130\x1C\x1C\x1CORG\x1CBANK OF AMERICA\x1C\x1C\x1C\x1C\x1C\x1C400
+    S. TRYON\x1C\x1CCHARLOTTE\x1CNC\x1C28285\x1C\x1C\x1C20130301\x1C35.00\x1C\x1CBank
+    Charges\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4130
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: BANK OF AMERICA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 400 S. TRYON
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28285'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130301'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '35.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Bank Charges
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4131\x1C\x1C\x1CORG\x1CBANK OF AMERICA\x1C\x1C\x1C\x1C\x1C\x1C400
+    S. TRYON\x1C\x1CCHARLOTTE\x1CNC\x1C28285\x1C\x1C\x1C20130329\x1C29.95\x1C\x1CBank
+    Charges\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4131
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: BANK OF AMERICA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 400 S. TRYON
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28285'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130329'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '29.95'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Bank Charges
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4133\x1C\x1C\x1CORG\x1CCondor Flag\x1C\x1C\x1C\x1C\x1C\x1C4705
+    Dwight Evans Rd\x1C\x1CCharlotte\x1CNC\x1C28217\x1C\x1C\x1C20130102\x1C4613.32\x1C\x1CFlags\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4133
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Condor Flag
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 4705 Dwight Evans Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Charlotte
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28217'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130102'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '4613.32'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Flags
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4138\x1C\x1C\x1CORG\x1CDuke Energy Corp.\x1C\x1C\x1C\x1C\x1C\x1C526
+    College St\x1C\x1CCharlotte\x1CNC\x1C28202\x1C\x1C\x1C20130228\x1C500000.00\x1C\x1CIn-Kind
+    Loan Repayment\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4138
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Duke Energy Corp.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 526 College St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Charlotte
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28202'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130228'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500000.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: In-Kind Loan Repayment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4140\x1C\x1C\x1CORG\x1CDuke Energy Corp.\x1C\x1C\x1C\x1C\x1C\x1C526
+    College St\x1C\x1CCharlotte\x1CNC\x1C28202\x1C\x1C\x1C20130228\x1C500000.00\x1C\x1CIn-Kind
+    Loan Repayment\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CX\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4140
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Duke Energy Corp.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 526 College St
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Charlotte
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28202'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130228'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500000.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: In-Kind Loan Repayment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4144\x1C\x1C\x1CORG\x1CPaylocity Corporation\x1C\x1C\x1C\x1C\x1C\x1C3850
+    N Wilke Rd\x1C\x1CArlington Heights\x1CIL\x1C60004\x1C\x1C\x1C20130122\x1C1748.47\x1C\x1CProcessing
+    Fees\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4144
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Paylocity Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3850 N Wilke Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington Heights
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60004'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130122'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1748.47'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Processing Fees
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4145\x1C\x1C\x1CORG\x1CPaylocity Corporation\x1C\x1C\x1C\x1C\x1C\x1C3850
+    N Wilke Rd\x1C\x1CArlington Heights\x1CIL\x1C60004\x1C\x1C\x1C20130129\x1C35.00\x1C\x1CProcessing
+    Fees\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4145
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Paylocity Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3850 N Wilke Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington Heights
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60004'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130129'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '35.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Processing Fees
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4142\x1C\x1C\x1CORG\x1CPaylocity Corporation\x1C\x1C\x1C\x1C\x1C\x1C3850
+    N Wilke Rd\x1C\x1CArlington Heights\x1CIL\x1C60004\x1C\x1C\x1C20130328\x1C35.00\x1C\x1CProcessing
+    Fees\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4142
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Paylocity Corporation
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3850 N Wilke Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington Heights
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60004'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130328'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '35.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Processing Fees
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB21A\x1CC00496570\x1CSB21A.4146\x1C\x1C\x1CORG\x1CUS National Whitewater
+    Center Pkwy\x1C\x1C\x1C\x1C\x1C\x1C5000 Whitewater Center Pkwy\x1C\x1CCharlotte\x1CNC\x1C28214\x1C\x1C\x1C20130102\x1C8176.00\x1C\x1CVenue
+    Rental\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB21A.4146
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: US National Whitewater Center Pkwy
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5000 Whitewater Center Pkwy
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Charlotte
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28214'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130102'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '8176.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Venue Rental
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB23B\x1CC00496570\x1CSB23B.4148\x1C\x1C\x1CORG\x1CBANK OF AMERICA\x1C\x1C\x1C\x1C\x1C\x1C400
+    S. TRYON\x1C\x1CCHARLOTTE\x1CNC\x1C28285\x1C\x1C\x1C20130228\x1C500000.00\x1C\x1CIn-Kind
+    Loan Repayment\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23B
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB23B.4148
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: BANK OF AMERICA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 400 S. TRYON
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: CHARLOTTE
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28285'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130228'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500000.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: In-Kind Loan Repayment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB23B\x1CC00496570\x1CSB23B.4149\x1C\x1C\x1CORG\x1CMechanics & Farmers Bank\x1C\x1C\x1C\x1C\x1C\x1C100
+    Beatties Ford Rd\x1C\x1CCharlotte\x1CNC\x1C28216\x1C\x1C\x1C20130228\x1C500000.00\x1C\x1CIn-Kind
+    Loan Repayment\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23B
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB23B.4149
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Mechanics & Farmers Bank
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 100 Beatties Ford Rd
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Charlotte
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '28216'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130228'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500000.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: In-Kind Loan Repayment
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SC/10\x1CC00496570\x1CSC/10.4111\x1C\x1CORG\x1CBANK OF AMERICA\x1C\x1C\x1C\x1C\x1C\x1C400
+    S. TRYON\x1C\x1CCHARLOTTE\x1CNC\x1C28285\x1C\x1C\x1C500000.00\x1C500000.00\x1C0.00\x1C20121002\x1C2/28/2013\x1C0.0000\x1CN\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4111
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: ''
+  - name: ENTITY TYPE
+    number: '5'
+    value: ORG
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: BANK OF AMERICA
+  - name: LENDER LAST NAME
+    number: '7'
+    value: ''
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: ''
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 400 S. TRYON
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: CHARLOTTE
+  - name: LENDER STATE
+    number: '15'
+    value: NC
+  - name: LENDER ZIP
+    number: '16'
+    value: '28285'
+  - name: ELECTION CODE
+    number: '17'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '500000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '500000.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '0.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20121002'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 2/28/2013
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: N
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC2/10\x1CC00496570\x1CSC/10.4111.0.SC2\x1CSC/10.4111\x1CEnergy Corp.\x1CDuke\x1C\x1C\x1C\x1C526
+    College St\x1C\x1CCharlotte\x1CNC\x1C28202\x1C\x1C\x1C0.00\n"
+  record: fec.version.v8_1.SC2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC2/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4111.0.SC2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: SC/10.4111
+  - name: GUARANTOR LAST NAME
+    number: '5'
+    value: Energy Corp.
+  - name: GUARANTOR FIRST NAME
+    number: '6'
+    value: Duke
+  - name: GUARANTOR MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: GUARANTOR PREFIX
+    number: '8'
+    value: ''
+  - name: GUARANTOR SUFFIX
+    number: '9'
+    value: ''
+  - name: GUARANTOR STREET 1
+    number: '10'
+    value: 526 College St
+  - name: GUARANTOR STREET 2
+    number: '11'
+    value: ''
+  - name: GUARANTOR CITY
+    number: '12'
+    value: Charlotte
+  - name: GUARANTOR STATE
+    number: '13'
+    value: NC
+  - name: GUARANTOR ZIP
+    number: '14'
+    value: '28202'
+  - name: GUARANTOR EMPLOYER
+    number: '15'
+    value: ''
+  - name: GUARANTOR OCCUPATION
+    number: '16'
+    value: ''
+  - name: GUARANTEED AMOUNT
+    number: '17'
+    value: '0.00
+
+'
+- input: "SC/10\x1CC00496570\x1CSC/10.4108\x1C\x1CORG\x1CMechanics & Farmers Bank\x1C\x1C\x1C\x1C\x1C\x1C100
+    Beatties Ford Rd\x1C\x1CCharlotte\x1CNC\x1C28216\x1C\x1C\x1C500000.00\x1C500000.00\x1C0.00\x1C20121002\x1C2/28/2013\x1C0.0000\x1CN\x1CN\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4108
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: ''
+  - name: ENTITY TYPE
+    number: '5'
+    value: ORG
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: Mechanics & Farmers Bank
+  - name: LENDER LAST NAME
+    number: '7'
+    value: ''
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: ''
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 100 Beatties Ford Rd
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: Charlotte
+  - name: LENDER STATE
+    number: '15'
+    value: NC
+  - name: LENDER ZIP
+    number: '16'
+    value: '28216'
+  - name: ELECTION CODE
+    number: '17'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '500000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '500000.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '0.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20121002'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 2/28/2013
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: N
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC2/10\x1CC00496570\x1CSC/10.4108.0.SC2\x1CSC/10.4108\x1CEnergy Corp.\x1CDuke\x1C\x1C\x1C\x1C526
+    College St\x1C\x1CCharlotte\x1CNC\x1C28202\x1C\x1C\x1C0.00\n"
+  record: fec.version.v8_1.SC2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC2/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4108.0.SC2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: SC/10.4108
+  - name: GUARANTOR LAST NAME
+    number: '5'
+    value: Energy Corp.
+  - name: GUARANTOR FIRST NAME
+    number: '6'
+    value: Duke
+  - name: GUARANTOR MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: GUARANTOR PREFIX
+    number: '8'
+    value: ''
+  - name: GUARANTOR SUFFIX
+    number: '9'
+    value: ''
+  - name: GUARANTOR STREET 1
+    number: '10'
+    value: 526 College St
+  - name: GUARANTOR STREET 2
+    number: '11'
+    value: ''
+  - name: GUARANTOR CITY
+    number: '12'
+    value: Charlotte
+  - name: GUARANTOR STATE
+    number: '13'
+    value: NC
+  - name: GUARANTOR ZIP
+    number: '14'
+    value: '28202'
+  - name: GUARANTOR EMPLOYER
+    number: '15'
+    value: ''
+  - name: GUARANTOR OCCUPATION
+    number: '16'
+    value: ''
+  - name: GUARANTEED AMOUNT
+    number: '17'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00496570\x1CSD10.4112\x1CORG\x1CCondor Flag\x1C\x1C\x1C\x1C\x1C\x1C4705
+    Dwight Evans Rd\x1C\x1CCharlotte\x1CNC\x1C28217\x1CFlags\x1C4613.32\x1C0.00\x1C4613.32\x1C0.00\n"
+  record: fec.version.v8_1.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4112
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: Condor Flag
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 4705 Dwight Evans Rd
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Charlotte
+  - name: CREDITOR STATE
+    number: '14'
+    value: NC
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '28217'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Flags
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '4613.32'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '4613.32'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+- input: "SD10\x1CC00496570\x1CSD10.4114\x1CORG\x1CUS National Whitewater Center Pkwy\x1C\x1C\x1C\x1C\x1C\x1C5000
+    Whitewater Center Pkwy\x1C\x1CCharlotte\x1CNC\x1C28214\x1CSpace Rental\x1C8176.00\x1C0.00\x1C8176.00\x1C0.00\n"
+  record: fec.version.v8_1.SD
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00496570
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SD10.4114
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CREDITOR ORGANIZATION NAME
+    number: '5'
+    value: US National Whitewater Center Pkwy
+  - name: CREDITOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CREDITOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CREDITOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CREDITOR PREFIX
+    number: '9'
+    value: ''
+  - name: CREDITOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CREDITOR STREET 1
+    number: '11'
+    value: 5000 Whitewater Center Pkwy
+  - name: CREDITOR STREET 2
+    number: '12'
+    value: ''
+  - name: CREDITOR CITY
+    number: '13'
+    value: Charlotte
+  - name: CREDITOR STATE
+    number: '14'
+    value: NC
+  - name: CREDITOR ZIP
+    number: '15'
+    value: '28214'
+  - name: PURPOSE OF DEBT OR OBLIGATION
+    number: '16'
+    value: Space Rental
+  - name: BEGINNING BALANCE (This Period)
+    number: '17'
+    value: '8176.00'
+  - name: INCURRED AMOUNT (This Period)
+    number: '18'
+    value: '0.00'
+  - name: PAYMENT AMOUNT (This Period)
+    number: '19'
+    value: '8176.00'
+  - name: BALANCE AT CLOSE (This Period)
+    number: '20'
+    value: '0.00
+
+'
+sourceurl: !!python/unicode 20140224
+type: chunk

@@ -1,0 +1,918 @@
+countrows: 8
+filename: 911345.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00448696\x1C48\x1C\x1CSenate Conservatives Fund\x1CPO Box 388\x1C\x1CAlexandria\x1CVA\x1C223130388\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: Senate Conservatives Fund
+  - name: STREET 1
+    number: '6'
+    value: PO Box 388
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Alexandria
+  - name: STATE
+    number: '9'
+    value: VA
+  - name: ZIP
+    number: '10'
+    value: '223130388'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Kilgore
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Paul
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140311
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E158AE2D6B78B445A901
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Senate Conservatives Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 388
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '223130388'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140208'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '687.25'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140208'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '64038.30'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Maness-Online Processing
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00448696
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4LA00115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Maness
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilgore
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Paul
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140311'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00448696\x1CE158AE2D6B78B445A901\x1C\x1C\x1CORG\x1CSenate Conservatives
+    Fund\x1C\x1C\x1C\x1C\x1C\x1CPO Box 388\x1C\x1CAlexandria\x1CVA\x1C223130388\x1CP2014\x1C\x1C20140208\x1C687.25\x1C20140208\x1C64038.30\x1CIE-Maness-Online
+    Processing\x1C\x1CC00448696\x1CS\x1CS4LA00115\x1CManess\x1CRobert\x1CL\x1C\x1C\x1CS\x1C\x1CLA\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E100B941E897A47C7AA1
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Senate Conservatives Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 388
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '223130388'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140215'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '214.10'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140215'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '64252.40'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Maness-Online Processing
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00448696
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4LA00115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Maness
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilgore
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Paul
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140311'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00448696\x1CE100B941E897A47C7AA1\x1C\x1C\x1CORG\x1CSenate Conservatives
+    Fund\x1C\x1C\x1C\x1C\x1C\x1CPO Box 388\x1C\x1CAlexandria\x1CVA\x1C223130388\x1CP2014\x1C\x1C20140215\x1C214.10\x1C20140215\x1C64252.40\x1CIE-Maness-Online
+    Processing\x1C\x1CC00448696\x1CS\x1CS4LA00115\x1CManess\x1CRobert\x1CL\x1C\x1C\x1CS\x1C\x1CLA\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EC3464E289DAA4475B80
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Senate Conservatives Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 388
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '223130388'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140222'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '658.05'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140222'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '64910.45'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Maness-Online Processing
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00448696
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4LA00115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Maness
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilgore
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Paul
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140311'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00448696\x1CEC3464E289DAA4475B80\x1C\x1C\x1CORG\x1CSenate Conservatives
+    Fund\x1C\x1C\x1C\x1C\x1C\x1CPO Box 388\x1C\x1CAlexandria\x1CVA\x1C223130388\x1CP2014\x1C\x1C20140222\x1C658.05\x1C20140222\x1C64910.45\x1CIE-Maness-Online
+    Processing\x1C\x1CC00448696\x1CS\x1CS4LA00115\x1CManess\x1CRobert\x1CL\x1C\x1C\x1CS\x1C\x1CLA\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9715DCA1C0CE4BA68F3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Senate Conservatives Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 388
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '223130388'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140228'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '417.10'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140228'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '65327.55'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Maness-Online Processing
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00448696
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4LA00115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Maness
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilgore
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Paul
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140311'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00448696\x1CE9715DCA1C0CE4BA68F3\x1C\x1C\x1CORG\x1CSenate Conservatives
+    Fund\x1C\x1C\x1C\x1C\x1C\x1CPO Box 388\x1C\x1CAlexandria\x1CVA\x1C223130388\x1CP2014\x1C\x1C20140228\x1C417.10\x1C20140228\x1C65327.55\x1CIE-Maness-Online
+    Processing\x1C\x1CC00448696\x1CS\x1CS4LA00115\x1CManess\x1CRobert\x1CL\x1C\x1C\x1CS\x1C\x1CLA\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: EAD9EF38DB72547D4908
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Senate Conservatives Fund
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 388
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '223130388'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140308'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '599.70'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140308'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '65927.25'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Maness-Online Processing
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00448696
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4LA00115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Maness
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilgore
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Paul
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140311'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00448696\x1CEAD9EF38DB72547D4908\x1C\x1C\x1CORG\x1CSenate Conservatives
+    Fund\x1C\x1C\x1C\x1C\x1C\x1CPO Box 388\x1C\x1CAlexandria\x1CVA\x1C223130388\x1CP2014\x1C\x1C20140308\x1C599.70\x1C20140308\x1C65927.25\x1CIE-Maness-Online
+    Processing\x1C\x1CC00448696\x1CS\x1CS4LA00115\x1CManess\x1CRobert\x1CL\x1C\x1C\x1CS\x1C\x1CLA\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00448696
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E5B933A00A33B4DAF86C
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Allegiance Direct LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 421 E E St
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Purcellville
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '201323320'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140310'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '17211.18'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140311'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '83138.43'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Maness-Direct Mail Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4LA00115
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Maness
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Kilgore
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Paul
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140311'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00448696\x1CE5B933A00A33B4DAF86C\x1C\x1C\x1CORG\x1CAllegiance Direct
+    LLC\x1C\x1C\x1C\x1C\x1C\x1C421 E E St\x1C\x1CPurcellville\x1CVA\x1C201323320\x1CP2014\x1C\x1C20140310\x1C17211.18\x1C20140311\x1C83138.43\x1CIE-Maness-Direct
+    Mail Production\x1C\x1C\x1CS\x1CS4LA00115\x1CManess\x1CRobert\x1CL\x1C\x1C\x1CS\x1C\x1CLA\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140311\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+sourceurl: !!python/unicode 20140311
+type: chunk

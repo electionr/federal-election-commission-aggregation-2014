@@ -1,0 +1,217 @@
+countrows: 4
+filename: 910132.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00457556\x1C\x1CQuigley for Congress\x1CPO Box 13040\x1C\x1CChicago\x1CIL\x1C60613\x1CH0IL05096\x1CQuigley\x1CMike\x1C\x1C\x1C\x1CH\x1CIL\x1C05\x1CHayden\x1CRonald\x1C\x1C\x1C\x1C20140227\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00457556
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Quigley for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 13040
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60613'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0IL05096
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Quigley
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Mike
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IL
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Hayden
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Ronald
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140227
+
+'
+- input: "F65\x1CC00457556\x1CC3813029\x1CPAC\x1CILLINOIS BANKPAC\x1C\x1C\x1C\x1C\x1C\x1C1120
+    Connecticut Avenue NW\x1CSuite 600\x1CWashington\x1CDC\x1C20036\x1CC00004275\x1C20140227\x1C1000.00\x1CAMERICAN
+    BANKERS ASSOCIATION PAC (BANK\x1CVice President of Congressional Affair\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00457556
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C3813029
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ILLINOIS BANKPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1120 Connecticut Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00004275
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AMERICAN BANKERS ASSOCIATION PAC (BANK
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Vice President of Congressional Affair
+
+'
+- input: "F65\x1CC00457556\x1CC3813030\x1CPAC\x1CAMERICAN HOSPITAL ASSOCIATION PAC\x1C\x1C\x1C\x1C\x1C\x1C325
+    Seventh Street NW\x1CSuite 700\x1CWashington\x1CDC\x1C20004\x1CC00106146\x1C20140227\x1C10000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00457556
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C3813030
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN HOSPITAL ASSOCIATION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 325 Seventh Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 700
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00106146
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '10000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140228
+type: chunk

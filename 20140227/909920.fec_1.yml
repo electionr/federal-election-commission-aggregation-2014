@@ -1,0 +1,151 @@
+countrows: 3
+filename: 909920.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00254573\x1C20140227\x1CEddie Bernice Johnson for Congress\x1C3102
+    Maple Avenue, Suite 605\x1C\x1CDallas\x1CTX\x1C75201   \x1CH2TX00015\x1CJohnson\x1CEddie\x1CBernice\x1C\x1C\x1CH\x1CTX\x1C30\x1CWhitaker\x1CRandy\x1C\x1C\x1C\x1C20140227\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140227'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Eddie Bernice Johnson for Congress
+  - name: STREET 1
+    number: '5'
+    value: 3102 Maple Avenue, Suite 605
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75201   '
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2TX00015
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Johnson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Eddie
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Bernice
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '30'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Whitaker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Randy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140227
+
+'
+- input: "F65\x1CC00254573\x1C40227.C4200\x1CORG\x1CHoneywell International PAC\x1C\x1C\x1C\x1C\x1C\x1C101
+    Constitution Ave., NW, Ste. 50\x1C\x1CWashington\x1CDC\x1C20001\x1C\x1C20140227\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00254573
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40227.C4200
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Honeywell International PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Constitution Ave., NW, Ste. 50
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140227
+type: chunk

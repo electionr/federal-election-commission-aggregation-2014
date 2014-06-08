@@ -1,0 +1,651 @@
+countrows: 10
+filename: 909959.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00392670\x1C\x1CPoe for Congress\x1CP.O. Box 14222\x1C\x1CHumble\x1CTX\x1C77347\x1C\x1CPoe\x1CTed\x1C\x1CMr.\x1C\x1C\x1C\x1C\x1CLisker\x1CLisa\x1C\x1C\x1C\x1C20140227\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Poe for Congress
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 14222
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Humble
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77347'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Poe
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Ted
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lisker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Lisa
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140227
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6E170A6B502F848B4815
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Nicandros
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Steve
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 414 Pineneedle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770246604'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140225'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Frontera Resources Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C6E170A6B502F848B4815\x1CIND\x1C\x1CNicandros\x1CSteve\x1C\x1C\x1C\x1C414
+    Pineneedle\x1C\x1CHouston\x1CTX\x1C770246604\x1C\x1C20140225\x1C1000.00\x1CFrontera
+    Resources Corporation\x1CChairman\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 625E5DC916FC94E48B5F
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Williamson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Elizabeth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3040 Post Oak, Ste. 1100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770566540'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140225'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Frontera Resources Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: VP Investor Relations
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C625E5DC916FC94E48B5F\x1CIND\x1C\x1CWilliamson\x1CElizabeth\x1C\x1C\x1C\x1C3040
+    Post Oak, Ste. 1100\x1C\x1CHouston\x1CTX\x1C770566540\x1C\x1C20140225\x1C1000.00\x1CFrontera
+    Resources Corporation\x1CVP Investor Relations\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6449CE60E93254910BA6
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mamulaishvili
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Zaza
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3040 Post Oak Blvd., Ste. 1100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '770566540'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140225'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Frontera Resources Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EVP
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C6449CE60E93254910BA6\x1CIND\x1C\x1CMamulaishvili\x1CZaza\x1C\x1C\x1C\x1C3040
+    Post Oak Blvd., Ste. 1100\x1C\x1CHouston\x1CTX\x1C770566540\x1C\x1C20140225\x1C1000.00\x1CFrontera
+    Resources Corporation\x1CEVP\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 643FE6571BBF045A9AB6
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Zuberi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Imaad
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10166 Rush Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South El Monte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917333224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Avenue Ventures
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Private Equity
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C643FE6571BBF045A9AB6\x1CIND\x1C\x1CZuberi\x1CImaad\x1C\x1C\x1C\x1C10166
+    Rush Street\x1C\x1CSouth El Monte\x1CCA\x1C917333224\x1C\x1C20140226\x1C2600.00\x1CAvenue
+    Ventures\x1CPrivate Equity\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 62030D4F07D9F499286F
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rao-Zuberi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Willa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10166 Rush Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South El Monte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917333224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CAI Industries
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Business Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C62030D4F07D9F499286F\x1CIND\x1C\x1CRao-Zuberi\x1CWilla\x1C\x1C\x1C\x1C10166
+    Rush Street\x1C\x1CSouth El Monte\x1CCA\x1C917333224\x1C\x1C20140226\x1C2600.00\x1CCAI
+    Industries\x1CBusiness Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 697DE02DD7DE14C008D7
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rao-Zuberi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Willa
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10166 Rush Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South El Monte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917333224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CAI Industries
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Business Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C697DE02DD7DE14C008D7\x1CIND\x1C\x1CRao-Zuberi\x1CWilla\x1C\x1C\x1C\x1C10166
+    Rush Street\x1C\x1CSouth El Monte\x1CCA\x1C917333224\x1C\x1C20140226\x1C2600.00\x1CCAI
+    Industries\x1CBusiness Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6911D9ED872F84944A6F
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Zuberi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Imaad
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10166 Rush Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South El Monte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917333224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Avenue Ventures
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Private Equity
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C6911D9ED872F84944A6F\x1CIND\x1C\x1CZuberi\x1CImaad\x1C\x1C\x1C\x1C10166
+    Rush Street\x1C\x1CSouth El Monte\x1CCA\x1C917333224\x1C\x1C20140226\x1C2600.00\x1CAvenue
+    Ventures\x1CPrivate Equity\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 64A161E543A7142FCAE9
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: USA Rice Federation PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4301 Fairfax Dr Ste 425
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'attn: Ms. Emily Williams'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '222031653'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140226'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C64A161E543A7142FCAE9\x1CPAC\x1CUSA Rice Federation PAC\x1C\x1C\x1C\x1C\x1C\x1C4301
+    Fairfax Dr Ste 425\x1Cattn: Ms. Emily Williams\x1CArlington\x1CVA\x1C222031653\x1C\x1C20140226\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140227
+type: chunk

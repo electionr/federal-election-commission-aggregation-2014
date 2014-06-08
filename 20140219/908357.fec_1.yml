@@ -1,0 +1,226 @@
+countrows: 5
+filename: 908357.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0IN03198\x1CStutzman\x1CMarlin\x1CA\x1C\x1C\x1C\x1C0250 W 600 N\x1C\x1CHowe\x1CIN\x1C46746\x1CREP\x1CH\x1CIN\x1C03\x1C2014\x1CC00484683\x1CStutzman
+    for Congress\x1CPO Box 129\x1C\x1CHowe\x1CIN\x1C46746\x1CC00523985\x1CFreshman
+    Hold'em JFC\x1C209 Pennsylvania Ave SE Ste 2109\x1C\x1CWashington\x1CDC\x1C20003\x1CStutzman\x1CMarlin\x1CA\x1C\x1C\x1C20140219\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IN03198
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Stutzman
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Marlin
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: A
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 0250 W 600 N
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Howe
+  - name: CANDIDATE STATE
+    number: '12'
+    value: IN
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '46746'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '03'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00484683
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Stutzman for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: PO Box 129
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: Howe
+  - name: PCC STATE
+    number: '24'
+    value: IN
+  - name: PCC ZIP
+    number: '25'
+    value: '46746'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00523985
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Freshman Hold'em JFC
+  - name: AUTH STREET 1
+    number: '28'
+    value: 209 Pennsylvania Ave SE Ste 2109
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Washington
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20003'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Stutzman
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Marlin
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: A
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140219
+
+'
+- input: "F2S\x1CH0IN03198\x1CC00544148\x1CBucshon - Stutzman Victory Fund\x1CPO Box
+    26141\x1C\x1CAlexandria\x1CVA\x1C22313\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IN03198
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00544148
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Bucshon - Stutzman Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 26141
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22313
+
+'
+- input: "F2S\x1CH0IN03198\x1CC00556779\x1CHoosier Palmetto Victory Fund\x1CPO Box
+    26141\x1C\x1CAlexandria\x1CVA\x1C223136141\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IN03198
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00556779
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Hoosier Palmetto Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 26141
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '223136141
+
+'
+- input: "F2S\x1CH0IN03198\x1CC00551549\x1CStutzman Victory Fund\x1CPO Box 26141\x1C\x1CAlexandria\x1CVA\x1C223136141\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0IN03198
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00551549
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Stutzman Victory Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO Box 26141
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '223136141
+
+'
+sourceurl: !!python/unicode 20140219
+type: chunk

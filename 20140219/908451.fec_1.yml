@@ -1,0 +1,484 @@
+countrows: 8
+filename: 908451.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00250720\x1C\x1CFRIENDS OF SAM JOHNSON\x1CP.O. Box 860096\x1C\x1CPlano\x1CTX\x1C75086\x1CH2TX03118\x1CJohnson\x1CSam\x1C\x1CMr.\x1C\x1CH\x1CTX\x1C03\x1CBozeman\x1CLyndon\x1C\x1CMr.\x1C\x1C20140219\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: FRIENDS OF SAM JOHNSON
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 860096
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Plano
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75086'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2TX03118
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Johnson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Sam
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Bozeman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Lyndon
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140219
+
+'
+- input: "F65\x1CC00250720\x1C0044547\x1CIND\x1C\x1CHaddock\x1CRon\x1CW.\x1CMr.\x1C\x1C2200
+    Ross Avenue\x1CSuite 4130W\x1CDallas\x1CTX\x1C75201\x1C\x1C20140213\x1C5000.00\x1CAEI
+    Servies, LLC\x1CExecutive Chairman\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '0044547'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Haddock
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ron
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2200 Ross Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 4130W
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75201'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140213'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AEI Servies, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive Chairman
+
+'
+- input: "F65\x1CC00250720\x1C0044571\x1CIND\x1C\x1CStaubach\x1CRoger\x1C\x1CMr.\x1C\x1C8343
+    Douglas Ave. Ste. 100\x1C\x1CDallas\x1CTX\x1C75224\x1C\x1C20140218\x1C2600.00\x1CThe
+    Staubach Company\x1CChief Executive Officer\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '0044571'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Staubach
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roger
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8343 Douglas Ave. Ste. 100
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Dallas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140218'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Staubach Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Chief Executive Officer
+
+'
+- input: "F65\x1CC00250720\x1C0044572\x1CIND\x1C\x1CPerot\x1CH. Ross\x1C\x1CMr.\x1CSr.\x1CP.O.
+    Box 269014\x1C\x1CPlano\x1CTX\x1C75026\x1C\x1C20140218\x1C2600.00\x1CThe Perot
+    Group\x1CChairman\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '0044572'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perot
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: H. Ross
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Sr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 269014
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Plano
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75026'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140218'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Perot Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Chairman
+
+'
+- input: "F65\x1CC00250720\x1C0044576\x1CIND\x1C\x1CSpeese\x1CMark\x1CE.\x1CMr.\x1C\x1C5600
+    Champions Drive\x1C\x1CPlano\x1CTX\x1C75093\x1C\x1C20140219\x1C1000.00\x1CRent
+    A Center\x1CChairman/CEO\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '0044576'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Speese
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5600 Champions Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Plano
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75093'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140219'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rent A Center
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Chairman/CEO
+
+'
+- input: "F65\x1CC00250720\x1C0044550\x1CORG\x1CDan Burton for Congress\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 50593\x1C\x1CIndianapolis\x1CIN\x1C46250\x1CC00145862\x1C20140213\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '0044550'
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Dan Burton for Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 50593
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Indianapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '46250'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00145862
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140213'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00250720\x1C0044552\x1CPAC\x1CTexas Farm Bureau Agfund, Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 2689\x1C\x1CWaco\x1CTX\x1C767022689\x1CC00214981\x1C20140214\x1C3800.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00250720
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '0044552'
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Texas Farm Bureau Agfund, Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 2689
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Waco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '767022689'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00214981
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140214'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3800.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140219
+type: chunk

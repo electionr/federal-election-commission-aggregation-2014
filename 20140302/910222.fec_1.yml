@@ -1,0 +1,219 @@
+countrows: 4
+filename: 910222.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00553412\x1C\x1CWesley For Congress\x1CPO Box 2611\x1C\x1CCorpus
+    Christi\x1CTX\x1C78403\x1CH4TX27055\x1CReed\x1CWesley\x1CC\x1C\x1C\x1CH\x1CTX\x1C27\x1CReed\x1CWesley\x1CC\x1C\x1C\x1C20140301\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00553412
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Wesley For Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 2611
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Corpus Christi
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78403'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4TX27055
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Reed
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Wesley
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: C
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '27'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Reed
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Wesley
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: C
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140301
+
+'
+- input: "F65\x1CC00553412\x1CVNHZ1CAQS21\x1CIND\x1C\x1CBalboa\x1CJoe\x1CEdward\x1C\x1C\x1C4822
+    Urban St\x1C\x1CCorpus Christi\x1CTX\x1C784152519\x1C\x1C20140327\x1C1000.00\x1CRocks
+    Discount Vitamins\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00553412
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNHZ1CAQS21
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Balboa
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joe
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Edward
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4822 Urban St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Corpus Christi
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '784152519'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140327'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rocks Discount Vitamins
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00553412\x1CVNHZ1CAQRT8\x1CIND\x1C\x1CFinley\x1CGeorge A III\x1C\x1C\x1C\x1C210
+    McBride Ln\x1C\x1CCorpus Christi\x1CTX\x1C784082338\x1C\x1C20140327\x1C1000.00\x1CCC
+    Distributors Inc.\x1CDefense Contractor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00553412
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNHZ1CAQRT8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Finley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: George A III
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 210 McBride Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Corpus Christi
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '784082338'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140327'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CC Distributors Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Defense Contractor
+
+'
+sourceurl: !!python/unicode 20140302
+type: chunk

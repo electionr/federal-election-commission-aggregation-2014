@@ -1,0 +1,308 @@
+countrows: 6
+filename: 909731.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00545467\x1C\x1CHURD FOR CONGRESS\x1CPO BOX 656\x1C\x1CHELOTES\x1CTX\x1C78023\x1CH0TX23086\x1CHURD\x1CWILLIAM\x1C\x1C\x1C\x1CH\x1CTX\x1C23\x1CCRATE\x1CBRADLEY\x1C\x1C\x1C\x1C20140225\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: HURD FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 656
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HELOTES
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78023'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0TX23086
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: HURD
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: WILLIAM
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: CRATE
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: BRADLEY
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140225
+
+'
+- input: "TEXT\x1CC00545467\x1C.TEXT\x1C\x1CF6N\x1CTHE TRANSACTION FROM WILLIAM HURD
+    CONSTITUTES A CANDIDATE LOAN\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: .TEXT
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6N
+  - name: TEXT4000
+    number: '6'
+    value: 'THE TRANSACTION FROM WILLIAM HURD CONSTITUTES A CANDIDATE LOAN
+
+'
+- input: "F65\x1CC00545467\x1CF6.5585\x1CIND\x1C\x1CLINDSEY\x1CRYAN\x1C\x1C\x1C\x1C5008
+    LOCKWOOD DR\x1C\x1CWACO\x1CTX\x1C76710\x1C\x1C20140225\x1C1000.00\x1COLDCASTLE
+    MATERIALS\x1CVP\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5585
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: LINDSEY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: RYAN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5008 LOCKWOOD DR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WACO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '76710'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140225'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: OLDCASTLE MATERIALS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'VP
+
+'
+- input: "F65\x1CC00545467\x1CF6.5584\x1CIND\x1C\x1CMCGRAW\x1CNORMA\x1C\x1C\x1C\x1C6406
+    OLYMPIA DR\x1C\x1CHOUSTON\x1CTX\x1C77057\x1C\x1C20140224\x1C2000.00\x1CSECOND
+    BAPTIST\x1CFITNESS DIRECTOR\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5584
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MCGRAW
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: NORMA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6406 OLYMPIA DR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HOUSTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77057'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140224'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SECOND BAPTIST
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'FITNESS DIRECTOR
+
+'
+- input: "F65\x1CC00545467\x1CF6.5583\x1CCAN\x1C\x1CHURD\x1CWILLIAM\x1C\x1C\x1C\x1CPO
+    BOX 656\x1C\x1CHELOTES\x1CTX\x1C78023\x1C\x1C20140224\x1C20000.00\x1CSELF-EMPLOYED\x1CCONSULTANT\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5583
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HURD
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: WILLIAM
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 656
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HELOTES
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78023'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140224'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '20000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF-EMPLOYED
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CONSULTANT
+
+'
+sourceurl: !!python/unicode 20140225
+type: chunk

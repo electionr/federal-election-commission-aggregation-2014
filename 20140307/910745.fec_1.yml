@@ -1,0 +1,129 @@
+countrows: 2
+filename: 910745.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH4SC01073\x1CSanford\x1CMarshall\x1CC.\x1CHon.\x1C\x1C\x1CPO Box
+    160\x1C\x1CSullivans Island\x1CSC\x1C29482\x1CREP\x1CH\x1CSC\x1C01\x1C2014\x1CC00285254\x1CSANFORD
+    FOR CONGRESS\x1CP. O. BOX 160\x1C\x1CSULLIVANS ISLAND\x1CSC\x1C29482\x1CC00556779\x1CHoosier
+    Palmetto Victory Fund\x1CPO Box 26141\x1C\x1CAlexandria\x1CVA\x1C22313\x1CSanford\x1CMarshall\x1CC.\x1CHon.\x1C\x1C20140307\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4SC01073
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Sanford
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Marshall
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: C.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO Box 160
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Sullivans Island
+  - name: CANDIDATE STATE
+    number: '12'
+    value: SC
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '29482'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00285254
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: SANFORD FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: P. O. BOX 160
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: SULLIVANS ISLAND
+  - name: PCC STATE
+    number: '24'
+    value: SC
+  - name: PCC ZIP
+    number: '25'
+    value: '29482'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00556779
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Hoosier Palmetto Victory Fund
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO Box 26141
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22313'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Sanford
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Marshall
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: C.
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Hon.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140307
+
+'
+sourceurl: !!python/unicode 20140307
+type: chunk

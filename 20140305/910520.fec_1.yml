@@ -1,0 +1,1201 @@
+countrows: 10
+filename: 910520.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00509893\x1C24\x1C\x1CNational Right to Life Victory Fund\x1C512
+    10th Street, NW\x1C\x1CWashington\x1CDC\x1C20004    \x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: National Right to Life Victory Fund
+  - name: STREET 1
+    number: '6'
+    value: 512 10th Street, NW
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Washington
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20004    '
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Cockfield
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Wayne
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140305
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E47822941C96B42B2B96
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Tigre-Strategics, Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3817 W Dale Ave
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Tampa
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '336094436'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special Primary2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140103'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '185.52'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '185.52'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Phone Calls-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE47822941C96B42B2B96\x1C\x1C\x1CORG\x1CTigre-Strategics,
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C3817 W Dale Ave\x1C\x1CTampa\x1CFL\x1C336094436\x1CO2014\x1CSpecial
+    Primary2014\x1C20140103\x1C185.52\x1C\x1C185.52\x1CIE-Phone Calls-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E136D9C41D2DC4B96813
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Tigre-Strategics, Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3817 W Dale Ave
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Tampa
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '336094436'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special Primary2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140113'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '192.36'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '377.88'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Phone Calls-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE136D9C41D2DC4B96813\x1C\x1C\x1CORG\x1CTigre-Strategics,
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C3817 W Dale Ave\x1C\x1CTampa\x1CFL\x1C336094436\x1CO2014\x1CSpecial
+    Primary2014\x1C20140113\x1C192.36\x1C\x1C377.88\x1CIE-Phone Calls-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E45F222D7D233420FA34
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Doyle Printing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 5206 46th Ave
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hyattsville
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '207812305'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2487.32'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '6827.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Printing-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE45F222D7D233420FA34\x1C\x1C\x1CORG\x1CDoyle Printing\x1C\x1C\x1C\x1C\x1C\x1C5206
+    46th Ave\x1C\x1CHyattsville\x1CMD\x1C207812305\x1CO2014\x1CSpecial General2014\x1C20140219\x1C2487.32\x1C\x1C6827.16\x1CIE-Printing-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E668B821862774D2985E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Doyle Printing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 5206 46th Ave
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hyattsville
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '207812305'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '700.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '6827.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Printing-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE668B821862774D2985E\x1C\x1C\x1CORG\x1CDoyle Printing\x1C\x1C\x1C\x1C\x1C\x1C5206
+    46th Ave\x1C\x1CHyattsville\x1CMD\x1C207812305\x1CO2014\x1CSpecial General2014\x1C20140219\x1C700.00\x1C\x1C6827.16\x1CIE-Printing-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E86D25231B2504D11ABB
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Accumail
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: '3381 75th Ave #H'
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Landover
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '207851512'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3087.84'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '6827.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Postage-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE86D25231B2504D11ABB\x1C\x1C\x1CORG\x1CAccumail\x1C\x1C\x1C\x1C\x1C\x1C3381
+    75th Ave #H\x1C\x1CLandover\x1CMD\x1C207851512\x1CO2014\x1CSpecial General2014\x1C20140219\x1C3087.84\x1C\x1C6827.16\x1CIE-Postage-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E1DC4025BAD0A461B9BB
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Doyle Printing
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 5206 46th Ave
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Hyattsville
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '207812305'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '552.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '6827.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Printing-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE1DC4025BAD0A461B9BB\x1C\x1C\x1CORG\x1CDoyle Printing\x1C\x1C\x1C\x1C\x1C\x1C5206
+    46th Ave\x1C\x1CHyattsville\x1CMD\x1C207812305\x1CO2014\x1CSpecial General2014\x1C20140219\x1C552.00\x1C\x1C6827.16\x1CIE-Printing-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E9F6D4B77A66D4714874
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Tigre-Strategics, Inc
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3817 W Dale Ave
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Tampa
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '336094436'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140228'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '301.27'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '7128.43'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Phone Calls-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE9F6D4B77A66D4714874\x1C\x1C\x1CORG\x1CTigre-Strategics,
+    Inc\x1C\x1C\x1C\x1C\x1C\x1C3817 W Dale Ave\x1C\x1CTampa\x1CFL\x1C336094436\x1CO2014\x1CSpecial
+    General2014\x1C20140228\x1C301.27\x1C\x1C7128.43\x1CIE-Phone Calls-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00509893
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: E05691E81798B44E6917
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Marketel Media, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 33175 Temecula Pkwy
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Temecula
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '925927310'
+  - name: ELECTION CODE
+    number: '18'
+    value: O2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Special General2014
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140304'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '7590.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '14718.43'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Radio Ads-Jolly
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4FL13101
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Jolly
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: David
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: W
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '13'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: FL
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Cockfield
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Wayne
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140305'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00509893\x1CE05691E81798B44E6917\x1C\x1C\x1CORG\x1CMarketel Media,
+    Inc.\x1C\x1C\x1C\x1C\x1C\x1C33175 Temecula Pkwy\x1C\x1CTemecula\x1CCA\x1C925927310\x1CO2014\x1CSpecial
+    General2014\x1C20140304\x1C7590.00\x1C\x1C14718.43\x1CIE-Radio Ads-Jolly\x1C\x1C\x1CS\x1CH4FL13101\x1CJolly\x1CDavid\x1CW\x1C\x1C\x1CH\x1C13\x1CFL\x1CCockfield\x1CWayne\x1C\x1C\x1C\x1C20140305\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+sourceurl: !!python/unicode 20140305
+type: chunk

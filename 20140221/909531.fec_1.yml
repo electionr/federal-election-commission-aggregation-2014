@@ -1,0 +1,439 @@
+countrows: 7
+filename: 909531.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00392670\x1C\x1CPoe for Congress\x1CP.O. Box 14222\x1C\x1CHumble\x1CTX\x1C77347\x1C\x1CPoe\x1CTed\x1C\x1CMr.\x1C\x1C\x1C\x1C\x1CLisker\x1CLisa\x1C\x1C\x1C\x1C20140221\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Poe for Congress
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 14222
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Humble
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77347'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Poe
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Ted
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lisker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Lisa
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140221
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6F48401AC71E14DB1AFC
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: South Texas Sugarcane Producers PAC Subcommittee of RGVSG Inc PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box Drawer A
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Santa Rosa
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78593'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140219'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C6F48401AC71E14DB1AFC\x1CPAC\x1CSouth Texas Sugarcane
+    Producers PAC Subcommittee of RGVSG Inc PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box Drawer
+    A\x1C\x1CSanta Rosa\x1CTX\x1C78593\x1C\x1C20140219\x1C1000.00\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6DCC9351ED34240599EA
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Petry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roosevelt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6414 Crystal Pt
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Missouri City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '774593055'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140221'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: GP Industrial Contractors, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President / CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C6DCC9351ED34240599EA\x1CIND\x1C\x1CPetry\x1CRoosevelt\x1C\x1C\x1C\x1C6414
+    Crystal Pt\x1C\x1CMissouri City\x1CTX\x1C774593055\x1C\x1C20140221\x1C2400.00\x1CGP
+    Industrial Contractors, Inc\x1CPresident / CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6AB7C4D84AF374FE6BE3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Petry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Marlene
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6414 Crystal Pt
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Missouri City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '774593055'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140221'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Registered Nurse
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C6AB7C4D84AF374FE6BE3\x1CIND\x1C\x1CPetry\x1CMarlene\x1C\x1C\x1C\x1C6414
+    Crystal Pt\x1C\x1CMissouri City\x1CTX\x1C774593055\x1C\x1C20140221\x1C2400.00\x1CSelf
+    Employed\x1CRegistered Nurse\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 655B7DA6E109B4631895
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Petry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Marlene
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6414 Crystal Pt
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Missouri City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '774593055'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140221'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Registered Nurse
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C655B7DA6E109B4631895\x1CIND\x1C\x1CPetry\x1CMarlene\x1C\x1C\x1C\x1C6414
+    Crystal Pt\x1C\x1CMissouri City\x1CTX\x1C774593055\x1C\x1C20140221\x1C2600.00\x1CSelf
+    Employed\x1CRegistered Nurse\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00392670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 69E4E3A87519541A59EA
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Petry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Roosevelt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6414 Crystal Pt
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Missouri City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '774593055'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140221'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: GP Industrial Contractors, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President / CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00392670\x1C69E4E3A87519541A59EA\x1CIND\x1C\x1CPetry\x1CRoosevelt\x1C\x1C\x1C\x1C6414
+    Crystal Pt\x1C\x1CMissouri City\x1CTX\x1C774593055\x1C\x1C20140221\x1C2600.00\x1CGP
+    Industrial Contractors, Inc\x1CPresident / CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140221
+type: chunk

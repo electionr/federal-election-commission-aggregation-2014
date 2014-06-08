@@ -1,0 +1,350 @@
+countrows: 6
+filename: 910083.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00310532\x1C20140228\x1CKay Granger Campaign Fund\x1C715 Jones Street,
+    Suite 101\x1C\x1CFort Worth\x1CTX\x1C76102   \x1CH6TX12060\x1CGranger\x1CKay\x1C\x1C\x1C\x1CH\x1CTX\x1C12\x1CTilley\x1CRice\x1CM.\x1C\x1CJr.\x1C20140228\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00310532
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140228'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Kay Granger Campaign Fund
+  - name: STREET 1
+    number: '5'
+    value: 715 Jones Street, Suite 101
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Fort Worth
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '76102   '
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6TX12060
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Granger
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Kay
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Tilley
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Rice
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: M.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: Jr.
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140228
+
+'
+- input: "F65\x1CC00310532\x1C40228.C27111\x1CIND\x1C\x1CGrace\x1CBeryl\x1C\x1C\x1C\x1C211
+    Vista del mar\x1C\x1CLos Gatos\x1CCA\x1C95030\x1C\x1C20140227\x1C1000.00\x1CHomemaker\x1CHomemaker\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00310532
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40228.C27111
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Grace
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Beryl
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 211 Vista del mar
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Gatos
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '95030'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Homemaker
+
+'
+- input: "F65\x1CC00310532\x1C40228.C27115\x1CPAC\x1CIndependent Bankers Assn. of
+    Texas PAC\x1C\x1C\x1C\x1C\x1C\x1CChristopher L. Williston, CAE\x1C1700 Rio Grande
+    St., Suite 100 \x1CAustin\x1CTX\x1C787011683\x1CC00332841\x1C20140227\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00310532
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40228.C27115
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Independent Bankers Assn. of Texas PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Christopher L. Williston, CAE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '1700 Rio Grande St., Suite 100 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Austin
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '787011683'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00332841
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00310532\x1C40228.C27112\x1CIND\x1C\x1CKashnow\x1CDick\x1C\x1C\x1C\x1C10
+    Faxon Forest\x1C\x1CAtherton\x1CCA\x1C94027\x1C\x1C20140227\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00310532
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40228.C27112
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kashnow
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10 Faxon Forest
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atherton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94027'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00310532\x1C40228.C27114\x1CPAC\x1CNatl Beer Wholesalers Assn PAC\x1C\x1C\x1C\x1C\x1C\x1CCraig
+    A. Purser\x1C1101 King Street, Suite 600 \x1CAlexandria\x1CVA\x1C223142944\x1CC00144766\x1C20140227\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00310532
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40228.C27114
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Natl Beer Wholesalers Assn PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Craig A. Purser
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '1101 King Street, Suite 600 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '223142944'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00144766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140227'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140228
+type: chunk

@@ -1,0 +1,129 @@
+countrows: 2
+filename: 911750.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH4VA10089\x1CCOMSTOCK\x1CBARBARA\x1CJ.\x1C\x1C\x1C\x1C6822 WEMBERLY
+    WAY\x1C\x1CMCLEAN\x1CVA\x1C22101\x1CREP\x1CH\x1CVA\x1C10\x1C2014\x1CC00554261\x1CCOMSTOCK
+    FOR CONGRESS\x1CPO BOX 71596\x1C\x1CRICHMOND\x1CVA\x1C23255\x1CC00558361\x1CWINNING
+    WOMEN\x1C228 S. WASHINGTON ST., STE. 115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\x1CCOMSTOCK\x1CBARBARA\x1CJ.\x1C\x1C\x1C20140306\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4VA10089
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: COMSTOCK
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: BARBARA
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: J.
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 6822 WEMBERLY WAY
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: MCLEAN
+  - name: CANDIDATE STATE
+    number: '12'
+    value: VA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '22101'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '10'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00554261
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: COMSTOCK FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: PO BOX 71596
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: RICHMOND
+  - name: PCC STATE
+    number: '24'
+    value: VA
+  - name: PCC ZIP
+    number: '25'
+    value: '23255'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00558361
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: WINNING WOMEN
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S. WASHINGTON ST., STE. 115
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '22314'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: COMSTOCK
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: BARBARA
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: J.
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140306
+
+'
+sourceurl: !!python/unicode 20140313
+type: chunk

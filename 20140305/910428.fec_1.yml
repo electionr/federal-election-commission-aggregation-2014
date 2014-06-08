@@ -1,0 +1,760 @@
+countrows: 7
+filename: 910428.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00499020\x1C48\x1C\x1CFREEDOMWORKS FOR AMERICA\x1C400 N CAPITOL
+    STREET NW SUITE 765\x1C\x1CWASHINGTON\x1CDC\x1C20001\x1CWalker\x1CR. Russ\x1C\x1C\x1C\x1C20140304\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499020
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: FREEDOMWORKS FOR AMERICA
+  - name: STREET 1
+    number: '6'
+    value: 400 N CAPITOL STREET NW SUITE 765
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: WASHINGTON
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20001'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Walker
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: R. Russ
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140304
+
+'
+- input: "SE\x1CC00499020\x1CSE.8024\x1C\x1C\x1CORG\x1CArrowhead Graphics, Inc.\x1C\x1C\x1C\x1C\x1C\x1C508
+    Houston St\x1C\x1CGreensboro\x1CNC\x1C27401\x1CP2014\x1C\x1C20140217\x1C4852.42\x1C20140217\x1C4852.42\x1CIE-McDaniel-Shipping\x1C001\x1CC00499020\x1CS\x1CS4MS00120\x1CMCDANIEL\x1CCHRISTOPHER
+    BRIAN\x1C\x1C\x1C\x1CS\x1C00\x1CMS\x1CWalker\x1CR. Russ\x1C\x1C\x1C\x1C20140304\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499020
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.8024
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Arrowhead Graphics, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 508 Houston St
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Greensboro
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '27401'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140217'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4852.42'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140217'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '4852.42'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-McDaniel-Shipping
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00499020
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4MS00120
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCDANIEL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTOPHER BRIAN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MS
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Walker
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: R. Russ
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140304'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00499020\x1CSE.8025\x1C\x1C\x1CORG\x1CArrowhead Graphics, Inc.\x1C\x1C\x1C\x1C\x1C\x1C508
+    Houston St\x1C\x1CGreensboro\x1CNC\x1C27401\x1CP2014\x1C\x1C20140219\x1C4454.50\x1C20140219\x1C9306.92\x1CIE-McDaniel-Door
+    Hangers/Shipping\x1C004\x1CC00499020\x1CS\x1CS4MS00120\x1CMCDANIEL\x1CCHRISTOPHER
+    BRIAN\x1C\x1C\x1C\x1CS\x1C00\x1CMS\x1CWalker\x1CR. Russ\x1C\x1C\x1C\x1C20140304\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499020
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.8025
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Arrowhead Graphics, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 508 Houston St
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Greensboro
+  - name: PAYEE STATE
+    number: '16'
+    value: NC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '27401'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140219'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4454.50'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140219'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9306.92'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-McDaniel-Door Hangers/Shipping
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00499020
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4MS00120
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: MCDANIEL
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CHRISTOPHER BRIAN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MS
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Walker
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: R. Russ
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140304'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00499020\x1CSE.8026\x1C\x1C\x1CORG\x1CFreedomworks, Inc.\x1C\x1C\x1C\x1C\x1C\x1C400
+    N Capitol St., NW\x1CSuite 735\x1CWashington\x1CDC\x1C20001\x1CP2014\x1C\x1C20140228\x1C340.66\x1C20140228\x1C9647.58\x1CIE-Cochran-Est.
+    Staff & Overhead\x1C001\x1CC00499020\x1CO\x1CS8MS00055\x1CCOCHRAN\x1CTHAD\x1C\x1C\x1C\x1CS\x1C00\x1CMS\x1CWalker\x1CR.
+    Russ\x1C\x1C\x1C\x1C20140304\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499020
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.8026
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Freedomworks, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 400 N Capitol St., NW
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 735
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20001'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140228'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '340.66'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140228'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9647.58'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Cochran-Est. Staff & Overhead
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00499020
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8MS00055
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: COCHRAN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: THAD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MS
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Walker
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: R. Russ
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140304'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00499020\x1CSE.8028\x1C\x1C\x1CORG\x1CFreedomworks, Inc.\x1C\x1C\x1C\x1C\x1C\x1C400
+    N Capitol St., NW\x1CSuite 735\x1CWashington\x1CDC\x1C20001\x1CP2014\x1C\x1C20140303\x1C4.56\x1C20140303\x1C10810.89\x1CIE-Cochran-Social
+    Media Communications\x1C004\x1CC00499020\x1CO\x1CS8MS00055\x1CCOCHRAN\x1CTHAD\x1C\x1C\x1C\x1CS\x1C00\x1CMS\x1CWalker\x1CR.
+    Russ\x1C\x1C\x1C\x1C20140304\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499020
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.8028
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Freedomworks, Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 400 N Capitol St., NW
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 735
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20001'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140303'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '4.56'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140303'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '10810.89'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Cochran-Social Media Communications
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00499020
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8MS00055
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: COCHRAN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: THAD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MS
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Walker
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: R. Russ
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140304'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00499020\x1CSE.8027\x1C\x1C\x1CORG\x1CRebecca Hagelin Communications\x1C\x1C\x1C\x1C\x1C\x1C4572
+    25th Road North\x1C\x1CArlington\x1CVA\x1C22207\x1CP2014\x1C\x1C20140303\x1C1158.75\x1C20140303\x1C10806.33\x1CIE-Cochran-Media
+    Buy\x1C004\x1CC00499020\x1CO\x1CS8MS00055\x1CCOCHRAN\x1CTHAD\x1C\x1C\x1C\x1CS\x1C00\x1CMS\x1CWalker\x1CR.
+    Russ\x1C\x1C\x1C\x1C20140304\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00499020
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.8027
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Rebecca Hagelin Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 4572 25th Road North
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22207'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140303'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1158.75'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140303'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '10806.33'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: IE-Cochran-Media Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00499020
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8MS00055
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: COCHRAN
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: THAD
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MS
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Walker
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: R. Russ
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140304'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140305
+type: chunk
