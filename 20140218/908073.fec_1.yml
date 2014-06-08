@@ -1,0 +1,150 @@
+countrows: 3
+filename: 908073.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00549089\x1C\x1CMarchbanks for Congress\x1CP.O. Box 6643\x1C\x1CLUBBOCK\x1CTX\x1C79493\x1CH4TX19276\x1CMARCHBANKS\x1CJAMES\x1CNEAL\x1C\x1C\x1CH\x1CTX\x1C19\x1CBressler\x1CJared\x1CLyle\x1CMr.\x1C\x1C20140218\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549089
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Marchbanks for Congress
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 6643
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LUBBOCK
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '79493'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4TX19276
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: MARCHBANKS
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: JAMES
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: NEAL
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '19'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Bressler
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jared
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: Lyle
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140218
+
+'
+- input: "F65\x1CC00549089\x1CF6.4626\x1CIND\x1C\x1CGodbold\x1CCarlton\x1C\x1C\x1C\x1C222
+    Chuck Wagon Rd.\x1C\x1CLubbock\x1CTX\x1C79404\x1C\x1C20140214\x1C2600.00\x1Cretired\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549089
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4626
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Godbold
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carlton
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 222 Chuck Wagon Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lubbock
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '79404'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140214'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140218
+type: chunk

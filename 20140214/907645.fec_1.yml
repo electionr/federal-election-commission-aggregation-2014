@@ -1,0 +1,152 @@
+countrows: 3
+filename: 907645.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00504332\x1C\x1CSusan Narvaiz for Congress\x1C102 WONDER WORLD DRIVE
+    SUITE 304\x1CPMB 304\x1CSAN MARCOS\x1CTX\x1C78666\x1CH2TX35029\x1CNARVAIZ\x1CSUSAN\x1C\x1C\x1C\x1CH\x1CTX\x1C35\x1CPavlovsky\x1CGail\x1CM.\x1C\x1C\x1C20140214\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504332
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Susan Narvaiz for Congress
+  - name: STREET 1
+    number: '5'
+    value: 102 WONDER WORLD DRIVE SUITE 304
+  - name: STREET 2
+    number: '6'
+    value: PMB 304
+  - name: CITY
+    number: '7'
+    value: SAN MARCOS
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78666'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2TX35029
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: NARVAIZ
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: SUSAN
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '35'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Pavlovsky
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Gail
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: M.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140214
+
+'
+- input: "F65\x1CC00504332\x1CF6.6317\x1CIND\x1C\x1CBrininstool\x1CJoe\x1C\x1C\x1C\x1C415
+    Vineyard Lane\x1C\x1CCarlsbad\x1CNM\x1C88220\x1C\x1C20140214\x1C2600.00\x1CBES
+    Supply\x1CSmall Business Owner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504332
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6317
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Brininstool
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joe
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 415 Vineyard Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carlsbad
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NM
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '88220'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140214'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BES Supply
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Small Business Owner
+
+'
+sourceurl: !!python/unicode 20140214
+type: chunk

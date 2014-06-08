@@ -1,0 +1,1668 @@
+countrows: 11
+filename: 907237.fec
+header: {}
+rows:
+- 2
+- input: "F3XN\x1CC00213348\x1CHolcim (US) Inc. PAC\x1C\x1C201 Jones Road\x1C\x1CWaltham\x1CMA\x1C02451\x1CM2\x1C\x1C\x1C\x1C20140101\x1C20140131\x1CX\x1CLoomes\x1CDavid\x1C\x1C\x1C\x1C20140211\x1C126044.23\x1C7632.51\x1C133676.74\x1C0.00\x1C133676.74\x1C0.00\x1C0.00\x1C3333.12\x1C4299.39\x1C7632.51\x1C0.00\x1C0.00\x1C7632.51\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7632.51\x1C7632.51\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7632.51\x1C0.00\x1C7632.51\x1C0.00\x1C0.00\x1C0.00\x1C126044.23\x1C2014\x1C7632.51\x1C133676.74\x1C0.00\x1C133676.74\x1C3333.12\x1C4299.39\x1C7632.51\x1C0.00\x1C0.00\x1C7632.51\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7632.51\x1C7632.51\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7632.51\x1C0.00\x1C7632.51\x1C0.00\x1C0.00\x1C0.00\n"
+  record: fec.version.v8_1.F3X
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3XN
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Holcim (US) Inc. PAC
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 201 Jones Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Waltham
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02451'
+  - name: REPORT CODE
+    number: '10'
+    value: M2
+  - name: ELECTION CODE {was RPTPGI}
+    number: '11'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '12'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '13'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '14'
+    value: '20140101'
+  - name: COVERAGE THROUGH DATE
+    number: '15'
+    value: '20140131'
+  - name: QUALIFIED COMMITTEE
+    number: '16'
+    value: X
+  - name: TREASURER LAST NAME
+    number: '17'
+    value: Loomes
+  - name: TREASURER FIRST NAME
+    number: '18'
+    value: David
+  - name: TREASURER MIDDLE NAME
+    number: '19'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '20'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '21'
+    value: ''
+  - name: DATE SIGNED
+    number: '22'
+    value: '20140211'
+  - name: Cash on Hand beginning
+    number: 23-6(b)
+    value: '126044.23'
+  - name: Total Receipts
+    number: 24-6(c)
+    value: '7632.51'
+  - name: Subtotal
+    number: 25-6(d)
+    value: '133676.74'
+  - name: Total Disbursements
+    number: 26-7.
+    value: '0.00'
+  - name: Cash on Hand at Close
+    number: 27-8.
+    value: '133676.74'
+  - name: Debts to
+    number: 28-9.
+    value: '0.00'
+  - name: Debts by
+    number: 29-10.
+    value: '0.00'
+  - name: Itemized
+    number: 30-11(a)i
+    value: '3333.12'
+  - name: Unitemized
+    number: 31-11(a)ii
+    value: '4299.39'
+  - name: Total
+    number: 32-11(a)iii
+    value: '7632.51'
+  - name: Political Party Committees
+    number: 33-11(b)
+    value: '0.00'
+  - name: Other Political Committees (PACs)
+    number: 34-11(c)
+    value: '0.00'
+  - name: Total Contributions
+    number: 35-11(d)
+    value: '7632.51'
+  - name: Transfers from Affiliated/Other Party Cmtes
+    number: 36-12.
+    value: '0.00'
+  - name: All Loans Received
+    number: 37-13.
+    value: '0.00'
+  - name: Loan Repayments Received
+    number: 38-14.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures (refunds)
+    number: 39-15.
+    value: '0.00'
+  - name: Refunds of Federal Contributions
+    number: 40-16.
+    value: '0.00'
+  - name: Other Federal Receipts (dividends)
+    number: 41-17.
+    value: '0.00'
+  - name: Transfers from Nonfederal Account (H3)
+    number: 42-18(a)
+    value: '0.00'
+  - name: Transfers from Non-Federal (Levin - H5)
+    number: 43-18(b)
+    value: '0.00'
+  - name: Total Non-Federal Transfers (18a+18b)
+    number: 44-18(c)
+    value: '0.00'
+  - name: Total Receipts
+    number: 45-19.
+    value: '7632.51'
+  - name: Total Federal Receipts
+    number: 46-20.
+    value: '7632.51'
+  - name: Federal Share
+    number: 47-21(a)i
+    value: '0.00'
+  - name: Non-Federal Share
+    number: 48-21(a)ii
+    value: '0.00'
+  - name: Other Federal Operating Expenditures
+    number: 49-21(b)
+    value: '0.00'
+  - name: Total Operating Expenditures
+    number: 50-21(c)
+    value: '0.00'
+  - name: Transfers to Affiliated/Other Party Cmtes
+    number: 51-22.
+    value: '0.00'
+  - name: Contributions to Federal Candidates/Cmtes
+    number: 52-23.
+    value: '0.00'
+  - name: Independent Expenditures
+    number: 53-24.
+    value: '0.00'
+  - name: Coordinated Expend made by Party Cmtes
+    number: 54-25.
+    value: '0.00'
+  - name: Loan Repayments
+    number: 55-26.
+    value: '0.00'
+  - name: Loans Made
+    number: 56-27.
+    value: '0.00'
+  - name: Individuals/Persons
+    number: 57-28(a)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 58-28(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 59-28(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 60-28(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 61-29.
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Fed Share
+    number: 62-30(a)i
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Non-Fed
+    number: 63-30(a)ii
+    value: '0.00'
+  - name: Non-Allocable 100% Fed Election Activity
+    number: 64-30(b)
+    value: '0.00'
+  - name: Total Federal Election Activity
+    number: 65-30(c)
+    value: '0.00'
+  - name: Total Disbursements
+    number: 66-31.
+    value: '0.00'
+  - name: Total Federal Disbursements
+    number: 67-32.
+    value: '0.00'
+  - name: Total Contributions
+    number: 68-33.
+    value: '7632.51'
+  - name: Total Contribution Refunds
+    number: 69-34.
+    value: '0.00'
+  - name: Net Contributions
+    number: 70-35.
+    value: '7632.51'
+  - name: Total Federal Operating Expenditures
+    number: 71-36.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 72-37.
+    value: '0.00'
+  - name: Net Operating Expenditures
+    number: 73-38.
+    value: '0.00'
+  - name: Cash on Hand Jan 1, 19
+    number: 74-6(a)
+    value: '126044.23'
+  - name: Year for Above
+    number: '75'
+    value: '2014'
+  - name: Total Receipts
+    number: 76-6(c)
+    value: '7632.51'
+  - name: Subtotal
+    number: 77-6(d)
+    value: '133676.74'
+  - name: Total disbursements
+    number: 78-7.
+    value: '0.00'
+  - name: Cash on Hand Close
+    number: 79-8.
+    value: '133676.74'
+  - name: Itemized
+    number: 80-11(a)i
+    value: '3333.12'
+  - name: Unitemized
+    number: 81-11(a)ii
+    value: '4299.39'
+  - name: Total
+    number: 82-11(a)iii
+    value: '7632.51'
+  - name: Political Party committees
+    number: 83-11(b)
+    value: '0.00'
+  - name: Other Political Committees (PACs)
+    number: 84-11(c)
+    value: '0.00'
+  - name: Total Contributions
+    number: 85-11(d)
+    value: '7632.51'
+  - name: Transfers from Affiliated/Other Party Cmtes
+    number: 86-12.
+    value: '0.00'
+  - name: All Loans Received
+    number: 87-13.
+    value: '0.00'
+  - name: Loan Repayments Received
+    number: 88-14.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures (refunds)
+    number: 89-15.
+    value: '0.00'
+  - name: Refunds of Federal Contributions
+    number: 90-16.
+    value: '0.00'
+  - name: Other Federal Receipts (dividends)
+    number: 91-17.
+    value: '0.00'
+  - name: Transfers from Nonfederal Account (H3)
+    number: 92-18(a)
+    value: '0.00'
+  - name: Transfers from Non-Federal (Levin - H5)
+    number: 93-18(b)
+    value: '0.00'
+  - name: Total Non-Federal Transfers (18a+18b)
+    number: 94-18(c)
+    value: '0.00'
+  - name: Total Receipts
+    number: 95-19.
+    value: '7632.51'
+  - name: Total Federal Receipts
+    number: 96-20.
+    value: '7632.51'
+  - name: Federal Share
+    number: 97-21(a)i
+    value: '0.00'
+  - name: Non-Federal Share
+    number: 98-21(a)ii
+    value: '0.00'
+  - name: Other Federal Operating Expenditures
+    number: 99-21(b)
+    value: '0.00'
+  - name: Total operating Expenditures
+    number: 100-21(c)
+    value: '0.00'
+  - name: Transfers to Affiliated/Other Party Cmtes
+    number: 101-22.
+    value: '0.00'
+  - name: Contributions to Federal Candidates/Cmtes
+    number: 102-23.
+    value: '0.00'
+  - name: Independent Expenditures
+    number: 103-24.
+    value: '0.00'
+  - name: Coordinated Expend made by Party Cmtes
+    number: 104-25.
+    value: '0.00'
+  - name: Loan Repayments Made
+    number: 105-26.
+    value: '0.00'
+  - name: Loans Made
+    number: 106-27.
+    value: '0.00'
+  - name: Individuals/Persons
+    number: 107-28(a)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 108-28(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 109-28(c)
+    value: '0.00'
+  - name: Total contributions Refunds
+    number: 110-28(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 111-29.
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Fed Share
+    number: 112-30(a)i
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Non-Fed
+    number: 113-30(a)ii
+    value: '0.00'
+  - name: Non-Allocable 100% Fed Election Activity
+    number: 114-30(b)
+    value: '0.00'
+  - name: Total Federal Election Activity
+    number: 115-30(c)
+    value: '0.00'
+  - name: Total Disbursements
+    number: 116-31.
+    value: '0.00'
+  - name: Total Federal Disbursements
+    number: 117-32.
+    value: '0.00'
+  - name: Total Contributions
+    number: 118-33.
+    value: '7632.51'
+  - name: Total Contribution Refunds
+    number: 119-34.
+    value: '0.00'
+  - name: Net contributions
+    number: 120-35.
+    value: '7632.51'
+  - name: Total Federal Operating Expenditures
+    number: 121-36.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 122-37.
+    value: '0.00'
+  - name: Net Operating Expenditures
+    number: 123-38.
+    value: '0.00
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7578029007\x1C\x1C\x1CIND\x1C\x1CKrugh\x1CErika\x1C\x1C\x1C\x1C7088
+    Pinecrest\x1C\x1CPark City\x1CUT\x1C840985387\x1C\x1C\x1C20140131\x1C204.03\x1C204.03\x1C\x1CHolcim
+    (US) Inc.\x1CManager\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($68.01 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7578029007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Krugh
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Erika
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 7088 Pinecrest
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Park City
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: UT
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '840985387'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '204.03'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '204.03'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Manager
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($68.01 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7578159007\x1C\x1C\x1CIND\x1C\x1CCollins\x1CJohn\x1C\x1C\x1C\x1CP.O.
+    Box 851405\x1C\x1CMobile\x1CAL\x1C366851405\x1C\x1C\x1C20140131\x1C576.90\x1C576.90\x1C\x1CHolcim
+    (US) Inc.\x1CMgr. Region St\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($192.30 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7578159007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Collins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: P.O. Box 851405
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Mobile
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '366851405'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '576.90'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '576.90'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Mgr. Region St
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($192.30 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7578219007\x1C\x1C\x1CIND\x1C\x1CTodd\x1CJohn\x1C\x1C\x1C\x1C693
+    S Calaveras Dr\x1C\x1CPueblo West\x1CCO\x1C810071913\x1C\x1C\x1C20140131\x1C271.14\x1C271.14\x1C\x1CHolcim
+    (US) Inc.\x1CManager Optimization Hh\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($90.38 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7578219007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Todd
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 693 S Calaveras Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Pueblo West
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '810071913'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '271.14'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '271.14'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Manager Optimization Hh
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($90.38 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7579179007\x1C\x1C\x1CIND\x1C\x1CLoomes\x1CDavid\x1C\x1C\x1C\x1C4
+    Elderberry Cir\x1C\x1CSudbury\x1CMA\x1C017761689\x1C\x1C\x1C20140131\x1C354.66\x1C354.66\x1C\x1CHolcim
+    (US) Inc.\x1CVP Commercial Services\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($118.22 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7579179007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Loomes
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 4 Elderberry Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Sudbury
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: 017761689
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '354.66'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '354.66'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: VP Commercial Services
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($118.22 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7579259007\x1C\x1C\x1CIND\x1C\x1CLewis\x1CFrederick\x1C\x1C\x1C\x1C37
+    Regatta View Way\x1C\x1CSaratoga Springs\x1CNY\x1C128668304\x1C\x1C\x1C20140131\x1C352.59\x1C352.59\x1C\x1CHolcim
+    (US) Inc.\x1CGM NE Sales\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($117.53 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7579259007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lewis
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Frederick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 37 Regatta View Way
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Saratoga Springs
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '128668304'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '352.59'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '352.59'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: GM NE Sales
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($117.53 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7579309007\x1C\x1C\x1CIND\x1C\x1CMorin\x1CJason\x1C\x1C\x1C\x1C76
+    Rolling Woods Dr\x1C\x1CBedford\x1CNH\x1C031104540\x1C\x1C\x1C20140131\x1C480.00\x1C480.00\x1C\x1CHolcim
+    (US) Inc.\x1CVP Environment & Govt Affairs\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($160.00 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7579309007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Morin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Jason
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 76 Rolling Woods Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Bedford
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: NH
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '031104540'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '480.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '480.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: VP Environment & Govt Affairs
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($160.00 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR7579359007\x1C\x1C\x1CIND\x1C\x1CReinhart\x1CRichard\x1C\x1C\x1C\x1C11
+    Wilson Rd\x1C\x1CLexington\x1CMA\x1C024217426\x1C\x1C\x1C20140131\x1C423.69\x1C423.69\x1C\x1CHolcim
+    (US) Inc.\x1CSr VP CFO\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($141.23 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR7579359007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Reinhart
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 11 Wilson Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Lexington
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '024217426'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '423.69'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '423.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Sr VP CFO
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($141.23 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR9950349007\x1C\x1C\x1CIND\x1C\x1CLively\x1CRobert\x1C\x1C\x1C\x1C4200
+    Lexi Circle\x1C\x1CBroomfield\x1CCO\x1C800239588\x1C\x1C\x1C20140131\x1C221.61\x1C221.61\x1C\x1CHolcim
+    (US) Inc.\x1CGM\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($73.87 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR9950349007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lively
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 4200 Lexi Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Broomfield
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '800239588'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '221.61'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '221.61'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: GM
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($73.87 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11ai\x1CC00213348\x1CPR9993329007\x1C\x1C\x1CIND\x1C\x1CJagger\x1CNorman\x1C\x1C\x1C\x1C7890
+    9th St Circle N\x1C\x1COakdale\x1CMN\x1C551285347\x1C\x1C\x1C20140131\x1C448.50\x1C448.50\x1C\x1CHolcim
+    (US) Inc.\x1CSVP Sales & Marketing\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP/R
+    Deduction ($149.50 Bi-Weekly)\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11ai
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213348
+  - name: TRANSACTION ID
+    number: '3'
+    value: PR9993329007
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Jagger
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Norman
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 7890 9th St Circle N
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Oakdale
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '551285347'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '448.50'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '448.50'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Holcim (US) Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: SVP Sales & Marketing
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: P/R Deduction ($149.50 Bi-Weekly)
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140211
+type: chunk

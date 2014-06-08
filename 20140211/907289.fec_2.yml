@@ -1,0 +1,261 @@
+countrows: 8
+filename: 907289.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00025254\x1CX2\x1CD515706\x1CSB30B\x1C7/13/2013, 8/13/2013, 9/13/2013,
+    10/13/2013 AT&T Mobility, PO Box 6416, Carol Stream, IL 60197, $50.00, $50.00,
+    $50.00, $50.00. 9/23/2013, 10/4/2013, Stockphoto LP, Suite 200, 1240 20th Ave
+    SE, Calgary, Alberta, Canada, Stock Video, $48.00, $250.00.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X2
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D515706
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB30B
+  - name: TEXT4000
+    number: '6'
+    value: '7/13/2013, 8/13/2013, 9/13/2013, 10/13/2013 AT&T Mobility, PO Box 6416,
+      Carol Stream, IL 60197, $50.00, $50.00, $50.00, $50.00. 9/23/2013, 10/4/2013,
+      Stockphoto LP, Suite 200, 1240 20th Ave SE, Calgary, Alberta, Canada, Stock
+      Video, $48.00, $250.00.
+
+'
+- input: "TEXT\x1CC00025254\x1CX3\x1CD517459\x1CSB21B\x1C11/20/2013, AmericInn, 1406
+    East Lyon St, Marshall, MN 56258, Hotel, $122.96, 11/20/2013, Kwik Trip, 1522
+    Vierling Dr E, Shakopee, MN 55379, Gas for UHaul Van, $65.00, 11/21/2013, UHaul,
+    833 University Ave, St. Paul, MN 55104, UHaul Van, $182.02. Mileage $144.48.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517459
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB21B
+  - name: TEXT4000
+    number: '6'
+    value: '11/20/2013, AmericInn, 1406 East Lyon St, Marshall, MN 56258, Hotel, $122.96,
+      11/20/2013, Kwik Trip, 1522 Vierling Dr E, Shakopee, MN 55379, Gas for UHaul
+      Van, $65.00, 11/21/2013, UHaul, 833 University Ave, St. Paul, MN 55104, UHaul
+      Van, $182.02. Mileage $144.48.
+
+'
+- input: "TEXT\x1CC00025254\x1CX4\x1CD517477\x1CSB21B\x1C10/31/2013, 11/1/2013, Salut
+    Grand, 917 Grand Ave, St. Paul, MN 55105, Fundraising Lunch, $36.11, $35.24, 11/1/2013,
+    Bonfire, 850 Grand Ave, St. Paul, MN 55105, Fundraising Lunch, $23.95, 11/7/2013,
+    11/13/2013, Downtowner Woodfire Grill, 253 W 7th St, Saint Paul, MN 55102, Fundraising
+    Lunch, $50.69, $26.26, 11/14/2013, Louisiana Cafe, 613 Selby Ave, St. Paul, MN
+    55102, Fundraising Lunch, $32.83.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517477
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SB21B
+  - name: TEXT4000
+    number: '6'
+    value: '10/31/2013, 11/1/2013, Salut Grand, 917 Grand Ave, St. Paul, MN 55105,
+      Fundraising Lunch, $36.11, $35.24, 11/1/2013, Bonfire, 850 Grand Ave, St. Paul,
+      MN 55105, Fundraising Lunch, $23.95, 11/7/2013, 11/13/2013, Downtowner Woodfire
+      Grill, 253 W 7th St, Saint Paul, MN 55102, Fundraising Lunch, $50.69, $26.26,
+      11/14/2013, Louisiana Cafe, 613 Selby Ave, St. Paul, MN 55102, Fundraising Lunch,
+      $32.83.
+
+'
+- input: "TEXT\x1CC00025254\x1CX5\x1CD517458\x1CH4\x1C11/14/2013, ULINE, 2200 S Lakeshore
+    Drive, Waukegan, IL 60085 Cardboard Boxes $180.26, 11/24/2013, Frattallone's Ace
+    Hardware, 1676 Grand Ave, St. Paul, MN 55105, Mouse Traps, $13.98, 12/1/2013,
+    Office Depot, 1615 West County Road C, Roseville, MN 55113, Certificates/Folders,
+    $88.88.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X5
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517458
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: H4
+  - name: TEXT4000
+    number: '6'
+    value: '11/14/2013, ULINE, 2200 S Lakeshore Drive, Waukegan, IL 60085 Cardboard
+      Boxes $180.26, 11/24/2013, Frattallone''s Ace Hardware, 1676 Grand Ave, St.
+      Paul, MN 55105, Mouse Traps, $13.98, 12/1/2013, Office Depot, 1615 West County
+      Road C, Roseville, MN 55113, Certificates/Folders, $88.88.
+
+'
+- input: "TEXT\x1CC00025254\x1CX6\x1CD517462\x1CH4\x1C11/9/2013, Rainbow Food, 1104
+    Lagoon Ave, Minneapolis, MN 55408, Volunteer Food, $42.52, 11/11/2013, College
+    of St. Benedict's Catering, 37 South College Ave, St. Joseph, MN 56374, Volunteer
+    Food, $65.98, 11/20/2013, Messa Pizza, 1323 4th St SE, Minneapolis, MN 55414,
+    Volunteer Food, $32.00. Mileage $967.62.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X6
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517462
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: H4
+  - name: TEXT4000
+    number: '6'
+    value: '11/9/2013, Rainbow Food, 1104 Lagoon Ave, Minneapolis, MN 55408, Volunteer
+      Food, $42.52, 11/11/2013, College of St. Benedict''s Catering, 37 South College
+      Ave, St. Joseph, MN 56374, Volunteer Food, $65.98, 11/20/2013, Messa Pizza,
+      1323 4th St SE, Minneapolis, MN 55414, Volunteer Food, $32.00. Mileage $967.62.
+
+'
+- input: "TEXT\x1CC00025254\x1CX7\x1CD517464\x1CH4\x1C10/10/2013, Target, University
+    Ave, St. Paul, MN 55407, Office Supplies, $19.35, 11/4/2013, Pizza Nia, 306 East
+    Hennepin Ave, Minneapolis, MN 55414, Meal, $34.66, 11/5/2013, Elsie's, 729 NE
+    Marshall Ave, Minneapolis, MN 55413, Meal, $13.25, 11/5/2013, Pat's Tab, 3510
+    Nicollet Ave, Minneapolis, MN 55408, Meal, $32.00, 11/20/2013, French Meadow,
+    Minneapolis Airport, Minneapolis, MN 55423, Meal,, $26.60, 11/22/2013, Lafittes
+    Blacksmith Shop, 941 Bourbon Street, New Orleans, LA 70116, Meal, $46.50, 11/23/2013,
+    Nola Hilton Riverside, 2 Poydras Street, New Orleans, LA 70116, Meal, $111.70,
+    11/24/2013, Subway, 900 Airline Highway, Kenner, LA 70062, Meal, $5.56, 12/7/2013,
+    Caribou Coffee, 1193 S Robert St, West St. Paul, 55118, Coffee for Executive Committee,
+    $25.69, 12/7/2013, SuperAmerica, 3453 Nicollet Ave, Minneapolis, MN 55408, 2 Dozen
+    Donuts for Executive Committee, $15.98.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X7
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517464
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: H4
+  - name: TEXT4000
+    number: '6'
+    value: '10/10/2013, Target, University Ave, St. Paul, MN 55407, Office Supplies,
+      $19.35, 11/4/2013, Pizza Nia, 306 East Hennepin Ave, Minneapolis, MN 55414,
+      Meal, $34.66, 11/5/2013, Elsie''s, 729 NE Marshall Ave, Minneapolis, MN 55413,
+      Meal, $13.25, 11/5/2013, Pat''s Tab, 3510 Nicollet Ave, Minneapolis, MN 55408,
+      Meal, $32.00, 11/20/2013, French Meadow, Minneapolis Airport, Minneapolis, MN
+      55423, Meal,, $26.60, 11/22/2013, Lafittes Blacksmith Shop, 941 Bourbon Street,
+      New Orleans, LA 70116, Meal, $46.50, 11/23/2013, Nola Hilton Riverside, 2 Poydras
+      Street, New Orleans, LA 70116, Meal, $111.70, 11/24/2013, Subway, 900 Airline
+      Highway, Kenner, LA 70062, Meal, $5.56, 12/7/2013, Caribou Coffee, 1193 S Robert
+      St, West St. Paul, 55118, Coffee for Executive Committee, $25.69, 12/7/2013,
+      SuperAmerica, 3453 Nicollet Ave, Minneapolis, MN 55408, 2 Dozen Donuts for Executive
+      Committee, $15.98.
+
+'
+- input: "TEXT\x1CC00025254\x1CX8\x1CD517468\x1CH4\x1C11/12/2013, 11/13/2013, 11/14/2013
+    Facebook, Department 415 PO Box 10005, Palo Alto, CA 94303, Generic Party Ads,
+    $30.00, $30.00, $30.00, 11/16/2013, Holiday Station Store, 200 Wabasha St S, St.
+    Paul, MN 55102, Office Supplies, $8.28, 11/20/2013, Jimmy John's, 241 7th St.,
+    St. Paul, MN 55107, Volunteer Food, $153.21, 11/21/2013, 12/4/2013, State of Minnesota,
+    75 Rev. Dr. Martin Luther King Jr.  Blvd, St. Paul, MN 55155, Parking, $2.75,
+    $2.75. Mileage $81.94.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517468
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: H4
+  - name: TEXT4000
+    number: '6'
+    value: '11/12/2013, 11/13/2013, 11/14/2013 Facebook, Department 415 PO Box 10005,
+      Palo Alto, CA 94303, Generic Party Ads, $30.00, $30.00, $30.00, 11/16/2013,
+      Holiday Station Store, 200 Wabasha St S, St. Paul, MN 55102, Office Supplies,
+      $8.28, 11/20/2013, Jimmy John''s, 241 7th St., St. Paul, MN 55107, Volunteer
+      Food, $153.21, 11/21/2013, 12/4/2013, State of Minnesota, 75 Rev. Dr. Martin
+      Luther King Jr.  Blvd, St. Paul, MN 55155, Parking, $2.75, $2.75. Mileage $81.94.
+
+'
+- input: "TEXT\x1CC00025254\x1CX9\x1CD517469\x1CH4\x1C12/12/2013, Target, 449 Commerce
+    Dr, Woodbury, MN 55125, Holiday Cards, $16.07\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00025254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: D517469
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: H4
+  - name: TEXT4000
+    number: '6'
+    value: '12/12/2013, Target, 449 Commerce Dr, Woodbury, MN 55125, Holiday Cards,
+      $16.07
+
+'
+sourceurl: !!python/unicode 20140211
+type: chunk
