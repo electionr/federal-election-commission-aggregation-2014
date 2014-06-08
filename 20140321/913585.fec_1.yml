@@ -1,0 +1,284 @@
+countrows: 5
+filename: 913585.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00244335\x1C\x1CCitizens for Eleanor Holmes Norton\x1C2201 Wisconsin
+    Avenue, NW\x1CSuite 320\x1CWashington\x1CDC\x1C20007\x1CH0DC00058\x1CNorton\x1CEleanor
+    Holmes\x1C\x1C\x1C\x1CH\x1CDC\x1C\x1CSimons\x1CWilliam\x1C\x1C\x1C\x1C20140321\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00244335
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Citizens for Eleanor Holmes Norton
+  - name: STREET 1
+    number: '5'
+    value: 2201 Wisconsin Avenue, NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 320
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20007'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0DC00058
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Norton
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Eleanor Holmes
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: DC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Simons
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140321
+
+'
+- input: "F65\x1CC00244335\x1CF6.12593\x1CPAC\x1CAFGE Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1C80
+    F Street, NW\x1C\x1CWashington\x1CDC\x1C20001\x1CC00009936\x1C20140321\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00244335
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12593
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AFGE Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 80 F Street, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00009936
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140321'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00244335\x1CF6.12592\x1CPAC\x1CPASS PAC (Professional Aviation Safety
+    Specialists)\x1C\x1C\x1C\x1C\x1C\x1C1150 - 17th Street, NW\x1CSuite 702\x1CWashington\x1CDC\x1C20036\x1CC00286807\x1C20140321\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00244335
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12592
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PASS PAC (Professional Aviation Safety Specialists)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1150 - 17th Street, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 702
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00286807
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140321'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00244335\x1CF6.12591\x1CPAC\x1CTransportation Trades Dept AFL-CIO
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C815 16th Street, NW\x1C4th Floor\x1CWashington\x1CDC\x1C20006\x1CC00280909\x1C20140321\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00244335
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.12591
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Transportation Trades Dept AFL-CIO PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 815 16th Street, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 4th Floor
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00280909
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140321'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140321
+type: chunk

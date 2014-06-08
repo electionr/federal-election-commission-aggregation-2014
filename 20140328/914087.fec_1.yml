@@ -1,0 +1,162 @@
+countrows: 3
+filename: 914087.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH4LA05130\x1CMCALLISTER\x1CVANCE\x1CMICHAEL\x1C\x1C\x1C\x1C2460 HIGHWAY
+    594\x1C\x1CMONROE\x1CLA\x1C71203\x1CREP\x1CH\x1CLA\x1C05\x1C2014\x1CC00549352\x1CCOMMITTEE
+    TO ELECT VANCE MCALLISTER\x1CPOST OFFICE BOX 15412\x1C\x1CMONROE\x1CLA\x1C71207\x1CC00493783\x1CFRESHMAN
+    AGRICULTURAL REPUBLICAN MEMBERS TRUST AKA FARM TRUST\x1CPO BOX 30844\x1C\x1CBETHESDA\x1CMD\x1C20824\x1CMCALLISTER\x1CVANCE\x1CMICHAEL\x1C\x1C\x1C20140327\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4LA05130
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: MCALLISTER
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: VANCE
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: MICHAEL
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 2460 HIGHWAY 594
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: MONROE
+  - name: CANDIDATE STATE
+    number: '12'
+    value: LA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '71203'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: LA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '05'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00549352
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: COMMITTEE TO ELECT VANCE MCALLISTER
+  - name: PCC STREET 1
+    number: '21'
+    value: POST OFFICE BOX 15412
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: MONROE
+  - name: PCC STATE
+    number: '24'
+    value: LA
+  - name: PCC ZIP
+    number: '25'
+    value: '71207'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00493783
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: FRESHMAN AGRICULTURAL REPUBLICAN MEMBERS TRUST AKA FARM TRUST
+  - name: AUTH STREET 1
+    number: '28'
+    value: PO BOX 30844
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: BETHESDA
+  - name: AUTH STATE
+    number: '31'
+    value: MD
+  - name: AUTH ZIP
+    number: '32'
+    value: '20824'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: MCALLISTER
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: VANCE
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: MICHAEL
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140327
+
+'
+- input: "F2S\x1CH4LA05130\x1CC00493783\x1CFRESHMAN AGRICULTURAL REPUBLICAN MEMBERS
+    TRUST AKA FARM TRUST\x1CPO BOX 30844\x1C\x1CBETHESDA\x1CMD\x1C20824\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4LA05130
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493783
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: FRESHMAN AGRICULTURAL REPUBLICAN MEMBERS TRUST AKA FARM TRUST
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO BOX 30844
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: BETHESDA
+  - name: AUTH STATE
+    number: '8'
+    value: MD
+  - name: AUTH ZIP
+    number: '9'
+    value: '20824
+
+'
+sourceurl: !!python/unicode 20140328
+type: chunk

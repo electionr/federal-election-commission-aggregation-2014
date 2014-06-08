@@ -1,0 +1,129 @@
+countrows: 2
+filename: 914012.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH4VA00031\x1CHERRING\x1CCHARNIELE L\x1C\x1C\x1C\x1C\x1C715 N ASHTON
+    ST\x1C\x1CALEXANDRIA\x1CVA\x1C22312\x1CDEM\x1CH\x1CVA\x1C08\x1C2014\x1CC00555433\x1CHERRING
+    FOR CONGRESS\x1C715 N ASHTON ST\x1C\x1CALEXANDRIA\x1CVA\x1C22312\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CHERRING\x1CCHARNIELE
+    L\x1C\x1C\x1C\x1C20140326\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H4VA00031
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: HERRING
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: CHARNIELE L
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 715 N ASHTON ST
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: ALEXANDRIA
+  - name: CANDIDATE STATE
+    number: '12'
+    value: VA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '22312'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: DEM
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: 08
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00555433
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: HERRING FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: 715 N ASHTON ST
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: ALEXANDRIA
+  - name: PCC STATE
+    number: '24'
+    value: VA
+  - name: PCC ZIP
+    number: '25'
+    value: '22312'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: ''
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: AUTH STREET 1
+    number: '28'
+    value: ''
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: ''
+  - name: AUTH STATE
+    number: '31'
+    value: ''
+  - name: AUTH ZIP
+    number: '32'
+    value: ''
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: HERRING
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: CHARNIELE L
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140326
+
+'
+sourceurl: !!python/unicode 20140326
+type: chunk
