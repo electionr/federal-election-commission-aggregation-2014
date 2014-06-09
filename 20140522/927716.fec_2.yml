@@ -1,0 +1,493 @@
+countrows: 20
+filename: 927716.fec
+header: {}
+rows:
+- input: "TEXT\x1CC00258475\x1CTIDTA602\x1CIDTA602\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA602
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA602
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17432\x1CINCA17432\x1CSA11AI\x1CContribution refunded
+    (see Line 20a)\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17432
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17432
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution refunded (see Line 20a)
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17433IDTA607\x1CINCA17433IDTA607\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17433IDTA607
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17433IDTA607
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA607\x1CIDTA607\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA607
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA607
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17433IDTA608\x1CINCA17433IDTA608\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17433IDTA608
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17433IDTA608
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA608\x1CIDTA608\x1CSA11AI\x1CContribution received
+    through conduit ActBlue; contribution refunded (see Line 20a)\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA608
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA608
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue; contribution refunded (see
+      Line 20a)
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17395\x1CINCA17395\x1CSA11AI\x1CRedeposited Item\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17395
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17395
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Redeposited Item
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17394\x1CINCA17394\x1CSA11AI\x1CReturned Item\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17394
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17394
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Returned Item
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17390IDTA603\x1CINCA17390IDTA603\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17390IDTA603
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17390IDTA603
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA603\x1CIDTA603\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA603
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA603
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17346IDTA589\x1CINCA17346IDTA589\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17346IDTA589
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17346IDTA589
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA589\x1CIDTA589\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA589
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA589
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17344IDTA576\x1CINCA17344IDTA576\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17344IDTA576
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17344IDTA576
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA576\x1CIDTA576\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA576
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA576
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17298IDTA569\x1CINCA17298IDTA569\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17298IDTA569
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17298IDTA569
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA569\x1CIDTA569\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA569
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA569
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17344IDTA577\x1CINCA17344IDTA577\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17344IDTA577
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17344IDTA577
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA577\x1CIDTA577\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA577
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA577
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+- input: "TEXT\x1CC00258475\x1CTINCA17344IDTA581\x1CINCA17344IDTA581\x1CSA11AI\x1CConduit
+    for above contributor; total earmarked through conduit - PAC limit not affected\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINCA17344IDTA581
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INCA17344IDTA581
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Conduit for above contributor; total earmarked through conduit - PAC limit
+      not affected
+
+'
+- input: "TEXT\x1CC00258475\x1CTIDTA581\x1CIDTA581\x1CSA11AI\x1CContribution received
+    through conduit ActBlue\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00258475
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TIDTA581
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: IDTA581
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: SA11AI
+  - name: TEXT4000
+    number: '6'
+    value: 'Contribution received through conduit ActBlue
+
+'
+sourceurl: !!python/unicode 20140522
+type: chunk

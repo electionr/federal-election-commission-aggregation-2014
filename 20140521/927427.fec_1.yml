@@ -1,0 +1,617 @@
+countrows: 10
+filename: 927427.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00350520\x1C\x1CIssa for Congress\x1CPO Box 760\x1C\x1CVista\x1CCA\x1C92085\x1CH0CA48024\x1CIssa\x1CDarrell\x1C\x1C\x1C\x1CH\x1CCA\x1C49\x1CSlater\x1CJen\x1C\x1C\x1C\x1C20140521\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Issa for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 760
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Vista
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92085'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0CA48024
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Issa
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Darrell
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '49'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Slater
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jen
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140521
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48305\x1CIND\x1C\x1CALVIS\x1CSTEVEN\x1C\x1C\x1C\x1C8827
+    W SAM HOUSTON PKWY N, #200\x1C\x1CHouston\x1CTX\x1C77040\x1C\x1C20140521\x1C1000.00\x1CHOUSTON
+    OAKS COUNTRY CLUB & FAMILY SPO\x1COWNER\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48305
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ALVIS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: STEVEN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '8827 W SAM HOUSTON PKWY N, #200'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77040'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HOUSTON OAKS COUNTRY CLUB & FAMILY SPO
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'OWNER
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48308\x1CCOM\x1CCULAC THE PAC OF CREDIT UNION
+    LEGISLATIVE ACTION COUNCIL\x1C\x1C\x1C\x1C\x1C\x1C601 PENNSYLVANIA AVE NW, #600\x1C\x1CWASHINGTON\x1CDC\x1C20004\x1C\x1C20140520\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48308
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CULAC THE PAC OF CREDIT UNION LEGISLATIVE ACTION COUNCIL
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '601 PENNSYLVANIA AVE NW, #600'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48306\x1CIND\x1C\x1CDANNENBAUM\x1CJAMES\x1C\x1C\x1C\x1C3100
+    W ALABAMA ST\x1C\x1CHOUSTON\x1CTX\x1C77098\x1C\x1C20140521\x1C2600.00\x1CDANNENBAUM
+    ENGINEERING CORP\x1CCONSULTING ENGINEER\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48306
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DANNENBAUM
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JAMES
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3100 W ALABAMA ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HOUSTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77098'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DANNENBAUM ENGINEERING CORP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CONSULTING ENGINEER
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48307\x1CIND\x1C\x1CDANNENBAUM\x1CSHIRLEY\x1C\x1C\x1C\x1C3100
+    W ALABAMA ST\x1C\x1CHouston\x1CTX\x1C77098\x1C\x1C20140521\x1C2600.00\x1CDANNENBAUM
+    ENGINEERING CORP\x1CDIRECTOR\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48307
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: DANNENBAUM
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: SHIRLEY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3100 W ALABAMA ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77098'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DANNENBAUM ENGINEERING CORP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'DIRECTOR
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48304\x1CIND\x1C\x1CFRIEDBERG\x1CBARRY\x1C\x1C\x1C\x1C134
+    E 71ST ST\x1C\x1CNEW YORK\x1CNY\x1C10021\x1C\x1C20140521\x1C1000.00\x1CFRIEDBERG
+    MILSTEIN\x1CINVESMENTS\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48304
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FRIEDBERG
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: BARRY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 134 E 71ST ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: NEW YORK
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '10021'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: FRIEDBERG MILSTEIN
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'INVESMENTS
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48309\x1CCOM\x1CHONEYWELL INTERNATIONAL PAC\x1C\x1C\x1C\x1C\x1C\x1C101
+    CONSTITUTION AVENUE NW\x1CSUITE 500 WEST\x1CWASHINGTON\x1CDC\x1C20001\x1C\x1C20140520\x1C3444.17\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48309
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HONEYWELL INTERNATIONAL PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 CONSTITUTION AVENUE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 500 WEST
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3444.17'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48310\x1CCOM\x1CHONEYWELL INTERNATIONAL PAC\x1C\x1C\x1C\x1C\x1C\x1C101
+    CONSTITUTION AVENUE NW\x1CSUITE 500 WEST\x1CWASHINGTON\x1CDC\x1C20001\x1C\x1C20140520\x1C2555.83\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48310
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: HONEYWELL INTERNATIONAL PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 CONSTITUTION AVENUE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 500 WEST
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2555.83'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00350520\x1CINC.F65.48311\x1CIND\x1C\x1CLOVE\x1CKENNETH\x1C\x1C\x1C\x1C3423
+    FM 762\x1C\x1CRichmond\x1CTX\x1C77469\x1C\x1C20140520\x1C2600.00\x1CCOPPER STATE
+    RUBBER OF ARIZONA, INC\x1CATTORNEY\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00350520
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.48311
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: LOVE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: KENNETH
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3423 FM 762
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Richmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77469'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: COPPER STATE RUBBER OF ARIZONA, INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+sourceurl: !!python/unicode 20140521
+type: chunk

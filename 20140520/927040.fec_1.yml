@@ -1,0 +1,297 @@
+countrows: 5
+filename: 927040.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00386110\x1C\x1CSCOTT GARRETT FOR CONGRESS\x1CP.O. Box 905\x1C\x1CNewton\x1CNJ\x1C07860\x1CH8NJ05052\x1CGarrett\x1CScott\x1C\x1CRep.\x1C\x1CH\x1CNJ\x1C05\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140520\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386110
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: SCOTT GARRETT FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 905
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Newton
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: 07860
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8NJ05052
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Garrett
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Scott
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Rep.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '05'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kilgore
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Paul
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140520
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386110
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 64CDDD361B3BD4E4980A
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Conway
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Art
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Hon.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 311 Algonquin Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Franklin Lakes
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '074171001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DialAmerica
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President and CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00386110\x1C64CDDD361B3BD4E4980A\x1CIND\x1C\x1CConway\x1CArt\x1CW.\x1CHon.\x1C\x1C311
+    Algonquin Road\x1C\x1CFranklin Lakes\x1CNJ\x1C074171001\x1C\x1C20140519\x1C2600.00\x1CDialAmerica\x1CPresident
+    and CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386110
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6FC96EB5751EE407BAD7
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Conway
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Art
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Hon.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 311 Algonquin Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Franklin Lakes
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '074171001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DialAmerica
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President and CEO
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00386110\x1C6FC96EB5751EE407BAD7\x1CIND\x1C\x1CConway\x1CArt\x1CW.\x1CHon.\x1C\x1C311
+    Algonquin Road\x1C\x1CFranklin Lakes\x1CNJ\x1C074171001\x1C\x1C20140519\x1C2600.00\x1CDialAmerica\x1CPresident
+    and CEO\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00386110
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6F95D813B8A9B4283B2D
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kriser
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gregory
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3000 S. Ocean Blvd. 501
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Palm Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '334805638'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: GAK Investments, Inc. (self)
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Private Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00386110\x1C6F95D813B8A9B4283B2D\x1CIND\x1C\x1CKriser\x1CGregory\x1C\x1CMr.\x1C\x1C3000
+    S. Ocean Blvd. 501\x1C\x1CPalm Beach\x1CFL\x1C334805638\x1C\x1C20140520\x1C2500.00\x1CGAK
+    Investments, Inc. (self)\x1CPrivate Investor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140520
+type: chunk

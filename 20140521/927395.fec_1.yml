@@ -1,0 +1,151 @@
+countrows: 3
+filename: 927395.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00257337\x1C\x1CKen Calvert for Congress Committee\x1CPO Box 78376\x1C\x1CCorona\x1CCA\x1C92877\x1CH2CA37023\x1CCalvert\x1CKen\x1C\x1C\x1C\x1CH\x1CCA\x1C42\x1CVasels\x1CNicholas
+    C.\x1C\x1C\x1C\x1C20140521\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00257337
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Ken Calvert for Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: PO Box 78376
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Corona
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92877'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2CA37023
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Calvert
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Ken
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '42'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Vasels
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Nicholas C.
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140521
+
+'
+- input: "F65\x1CC00257337\x1CINC.F65.12823\x1CCOM\x1CMonsanto Citizenship Fund\x1C\x1C\x1C\x1C\x1C\x1C800
+    N Lindbergh Blvd\x1C\x1CSt Louis\x1CMO\x1C63167\x1CC00042069\x1C20140520\x1C4000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00257337
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.12823
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Monsanto Citizenship Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 800 N Lindbergh Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: St Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63167'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00042069
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '4000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140521
+type: chunk

@@ -1,0 +1,420 @@
+countrows: 7
+filename: 926929.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00299404\x1C20140520\x1CFRELINGHUYSEN FOR CONGRESS\x1C19 CATTANO
+    AVENUE\x1C\x1CMORRISTOWN\x1CNJ\x1C07960   \x1CH2NJ05014\x1CFRELINGHUYSEN\x1CRODNEY\x1CP.\x1C\x1C\x1CH\x1CNJ\x1C11\x1CTREASURER\x1CWARREN\x1CJ.
+    LESHNER,\x1C\x1C\x1C20140520\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00299404
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140520'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: FRELINGHUYSEN FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: 19 CATTANO AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: MORRISTOWN
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: '07960   '
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2NJ05014
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: FRELINGHUYSEN
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: RODNEY
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: P.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '11'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: TREASURER
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: WARREN
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: J. LESHNER,
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140520
+
+'
+- input: "F65\x1CC00299404\x1C40520.C20436\x1CPAC\x1CArchPAC\x1C\x1C\x1C\x1C\x1C\x1CArch
+    Coal, Inc. PAC\x1COne City Place Drive, Ste. 300 \x1CSaint Louis\x1CMO\x1C63141\x1CC00167668\x1C20140520\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00299404
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40520.C20436
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ArchPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Arch Coal, Inc. PAC
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'One City Place Drive, Ste. 300 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Saint Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '63141'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00167668
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00299404\x1C40520.C20439\x1CIND\x1C\x1CBiedron\x1CMark\x1CW.\x1C\x1C\x1CP.O.
+    Box 93\x1C\x1CPottersville\x1CNJ\x1C07979\x1C\x1C20140520\x1C1500.00\x1CInformation
+    Requested\x1CInformation Requested\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00299404
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40520.C20439
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Biedron
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: W.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 93
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pottersville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 07979
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Information Requested
+
+'
+- input: "F65\x1CC00299404\x1C40520.C20440\x1CIND\x1C\x1CChung\x1CSengshiu\x1C\x1C\x1C\x1C26
+    Robert Street\x1C\x1CParsippany\x1CNJ\x1C070542933\x1C\x1C20140520\x1C1500.00\x1CFrontier
+    Performance Polymers\x1CPresident\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00299404
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40520.C20440
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chung
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sengshiu
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 26 Robert Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Parsippany
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 070542933
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Frontier Performance Polymers
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President
+
+'
+- input: "F65\x1CC00299404\x1C40520.C20441\x1CIND\x1C\x1CDurling\x1CDean\x1CC.\x1C\x1C\x1CP.O.
+    Box 600\x1C\x1CWhitehouse Station\x1CNJ\x1C08889\x1C\x1C20140520\x1C1500.00\x1CQuick
+    Chek Corp.\x1CExecutive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00299404
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40520.C20441
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Durling
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Dean
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 600
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Whitehouse Station
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 08889
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Quick Chek Corp.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive
+
+'
+- input: "F65\x1CC00299404\x1C40520.C20442\x1CIND\x1C\x1CMiller\x1CPaul\x1CT.\x1C\x1CII\x1C1202
+    Southways\x1C\x1CDelray Beach\x1CFL\x1C334837218\x1C\x1C20140520\x1C1500.00\x1CSelf\x1COwner/Pres.
+    Car Dealerships\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00299404
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 40520.C20442
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Miller
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: T.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: II
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1202 Southways
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Delray Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '334837218'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner/Pres. Car Dealerships
+
+'
+sourceurl: !!python/unicode 20140520
+type: chunk

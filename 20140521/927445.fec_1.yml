@@ -1,0 +1,176 @@
+countrows: 4
+filename: 927445.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00556670\x1C\x1CCarr for Congress\x1C525 E. Seaside Way, #101-C\x1C\x1CLong
+    Beach\x1CCA\x1C90802\x1CH4CA33135\x1CCarr\x1CElan S.\x1C\x1C\x1C\x1CH\x1CCA\x1C33\x1CCrummitt\x1CGary\x1C\x1C\x1C\x1C20140521\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556670
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Carr for Congress
+  - name: STREET 1
+    number: '5'
+    value: '525 E. Seaside Way, #101-C'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Long Beach
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90802'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA33135
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Carr
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Elan S.
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '33'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Crummitt
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Gary
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140521
+
+'
+- input: "F65\x1CC00556670\x1CINC.F65.697\x1CCAN\x1C\x1CCarr\x1CElan S.\x1C\x1C\x1C\x1CP.O.Box
+    3800\x1C\x1CBeverly Hills\x1CCA\x1C90212\x1C\x1C20140519\x1C20000.00\x1CCounty
+    of Los Angeles\x1CDeputy District Attorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.697
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Carr
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Elan S.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O.Box 3800
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Beverly Hills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140519'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '20000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: County of Los Angeles
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Deputy District Attorney
+
+'
+- input: "TEXT\x1CC00556670\x1CTINC.F65.697\x1CINC.F65.697\x1CF65\x1CLOAN FROM PERSONAL
+    FUNDS\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556670
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TINC.F65.697
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: INC.F65.697
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F65
+  - name: TEXT4000
+    number: '6'
+    value: 'LOAN FROM PERSONAL FUNDS
+
+'
+sourceurl: !!python/unicode 20140521
+type: chunk
