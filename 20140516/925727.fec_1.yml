@@ -1,0 +1,217 @@
+countrows: 4
+filename: 925727.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00501254\x1C\x1CFriends of Michelle\x1C2015 Dietz PL NW\x1C\x1CAlbuquerque\x1CNM\x1C87107\x1CH8NM01257\x1CGrisham\x1CMichelle\x1CLujan\x1CMs.\x1C\x1CH\x1CNM\x1C01\x1CDaniels\x1CJeannine\x1C\x1CMs.\x1C\x1C20140516\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of Michelle
+  - name: STREET 1
+    number: '5'
+    value: 2015 Dietz PL NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Albuquerque
+  - name: STATE
+    number: '8'
+    value: NM
+  - name: ZIP
+    number: '9'
+    value: '87107'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8NM01257
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Grisham
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Michelle
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Lujan
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Ms.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NM
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Daniels
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jeannine
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Ms.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140516
+
+'
+- input: "F65\x1CC00501254\x1CC10328201\x1CIND\x1C\x1CChavez\x1CR. Martin\x1C\x1C\x1C\x1C400
+    W 12th St\x1CApt TH6\x1CNew York\x1CNY\x1C100141861\x1C\x1C20140515\x1C1000.00\x1CGoldman
+    Sachs\x1CBanker\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10328201
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chavez
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: R. Martin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 400 W 12th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt TH6
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100141861'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Goldman Sachs
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Banker
+
+'
+- input: "F65\x1CC00501254\x1CC10329408\x1CPAC\x1CWALGREEN CO PAC\x1C\x1C\x1C\x1C\x1C\x1C104
+    WILMOT ROAD MS #1447\x1C\x1CDEERFIELD\x1CIL\x1C60015\x1CC00160770\x1C20140515\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10329408
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WALGREEN CO PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '104 WILMOT ROAD MS #1447'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: DEERFIELD
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60015'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00160770
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140516
+type: chunk

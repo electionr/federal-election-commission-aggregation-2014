@@ -1,0 +1,220 @@
+countrows: 4
+filename: 924248.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00554899\x1C\x1CRYAN COSTELLO FOR CONGRESS\x1CPO BOX 3154\x1C\x1CWEST
+    CHESTER\x1CPA\x1C19381\x1CH0PA06076\x1CCOSTELLO\x1CRYAN A\x1C\x1C\x1C\x1CH\x1CPA\x1C06\x1CWITHERS\x1CSCOT\x1CR.\x1C\x1C\x1C20140509\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554899
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: RYAN COSTELLO FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 3154
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WEST CHESTER
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19381'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0PA06076
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: COSTELLO
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: RYAN A
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: WITHERS
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: SCOT
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: R.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140509
+
+'
+- input: "F65\x1CC00554899\x1CF6.5340\x1CIND\x1C\x1CHOEY\x1CFRANCIS\x1CJ\x1C\x1C\x1C1346
+    PENNSRIDGE PLACE\x1C\x1CDOWNINGTOWN\x1CPA\x1C19335\x1C\x1C20140508\x1C1000.00\x1CHOEY
+    INVESTMENTS, INC\x1COWNER\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5340
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: HOEY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: FRANCIS
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1346 PENNSRIDGE PLACE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: DOWNINGTOWN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '19335'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140508'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: HOEY INVESTMENTS, INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'OWNER
+
+'
+- input: "F65\x1CC00554899\x1CF6.5345\x1CPAC\x1CINTERNATIONAL FRANCHISE ASSOCIATION
+    FRANCHISING POLITICAL ACTION COMMITTEE INC\x1C\x1C\x1C\x1C\x1C\x1C1501 K STREET
+    NW\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1CC00084491\x1C20140508\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554899
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5345
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INTERNATIONAL FRANCHISE ASSOCIATION FRANCHISING POLITICAL ACTION COMMITTEE
+      INC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1501 K STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00084491
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140508'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140509
+type: chunk

@@ -1,0 +1,156 @@
+countrows: 3
+filename: 925309.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00554543\x1C\x1CSteve Crass for Congress\x1C5132 N Palm Avenue\x1CPMB
+    232\x1CFresno\x1CCA\x1C937042236\x1CH4CA16148\x1CCrass\x1CSteven\x1C\x1C\x1C\x1CH\x1CCA\x1C16\x1CLawler\x1CKelly\x1C\x1C\x1C\x1C20140516\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554543
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Steve Crass for Congress
+  - name: STREET 1
+    number: '5'
+    value: 5132 N Palm Avenue
+  - name: STREET 2
+    number: '6'
+    value: PMB 232
+  - name: CITY
+    number: '7'
+    value: Fresno
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '937042236'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA16148
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Crass
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Steven
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '16'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lawler
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Kelly
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140516
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554543
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '398000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kellogg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Luxon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 45 S State Highway 59
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Merced
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '953416917'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kellogg's Supply
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00554543\x1C398000\x1CIND\x1C\x1CKellogg\x1CLuxon\x1CC\x1C\x1C\x1C45
+    S State Highway 59\x1C\x1CMerced\x1CCA\x1C953416917\x1C\x1C20140515\x1C1300\x1CKellogg's
+    Supply\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140516
+type: chunk

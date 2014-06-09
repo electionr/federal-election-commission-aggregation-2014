@@ -1,0 +1,285 @@
+countrows: 5
+filename: 925913.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00443705\x1C\x1CJackie Speier for Congress\x1CPO BOX 112\x1C\x1CBURLINGAME\x1CCA\x1C94011\x1CH8CA12171\x1CSpeier\x1CJackie\x1C\x1C\x1C\x1CH\x1CCA\x1C14\x1CMILLER\x1CRUSSELL\x1C\x1C\x1C\x1C20140518\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443705
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Jackie Speier for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 112
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: BURLINGAME
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94011'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8CA12171
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Speier
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Jackie
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '14'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: MILLER
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: RUSSELL
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140518
+
+'
+- input: "F65\x1CC00443705\x1C65-19129\x1CIND\x1C\x1CMiddleton\x1CFred\x1CA\x1C\x1C\x1C400
+    S. El Camino Real STE 1200\x1C\x1CSan Mateo\x1CCA\x1C94402\x1C\x1C20140516\x1C1000.00\x1CSanderling
+    Ventures\x1CManaging Director\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443705
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 65-19129
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Middleton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Fred
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 400 S. El Camino Real STE 1200
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Mateo
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94402'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sanderling Ventures
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Managing Director
+
+'
+- input: "F65\x1CC00443705\x1C65-19132\x1CIND\x1C\x1CKramer\x1CMargaret\x1C\x1C\x1C\x1CP.o.
+    Box 3794\x1C\x1CRedwood City\x1CCA\x1C94064\x1C\x1C20140516\x1C1000.00\x1CBurlingame
+    Recreation Center\x1CYoga Instructor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443705
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 65-19132
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kramer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Margaret
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.o. Box 3794
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Redwood City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94064'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Burlingame Recreation Center
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Yoga Instructor
+
+'
+- input: "F65\x1CC00443705\x1C65-19127\x1CIND\x1C\x1CGibbons\x1CCinta\x1C\x1C\x1C\x1C23
+    Grant Ave\x1C\x1CSan Francisco\x1CCA\x1C94108\x1C\x1C20140516\x1C1000.00\x1CCinta
+    Salon\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00443705
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 65-19127
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gibbons
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Cinta
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 23 Grant Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Francisco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94108'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cinta Salon
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+sourceurl: !!python/unicode 20140518
+type: chunk

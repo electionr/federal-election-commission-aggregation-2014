@@ -1,0 +1,415 @@
+countrows: 7
+filename: 925770.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00266940\x1C\x1CSanford Bishop for Congress\x1CP. O. Box 909\x1C\x1CColumbus\x1CGA\x1C31902\x1CH2GA02031\x1CBishop\x1CSanford\x1CD\x1C\x1CJr\x1CH\x1CGA\x1C02\x1CPugh\x1CEvelyn\x1CT\x1C\x1C\x1C20140517\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00266940
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Sanford Bishop for Congress
+  - name: STREET 1
+    number: '5'
+    value: P. O. Box 909
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '31902'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2GA02031
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Bishop
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Sanford
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: D
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: Jr
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Pugh
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Evelyn
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: T
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140517
+
+'
+- input: "F65\x1CC00266940\x1CC8784864\x1CPAC\x1CAFSCME PAC\x1C\x1C\x1C\x1C\x1C\x1C1625
+    L STREET NW\x1C\x1CWASHIINGTON\x1CDC\x1C20036\x1CC30000798\x1C20140516\x1C2000.00\x1CPAC\x1Cpac\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00266940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8784864
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AFSCME PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1625 L STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHIINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C30000798
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: PAC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'pac
+
+'
+- input: "F65\x1CC00266940\x1CC8784863\x1CPAC\x1CAMERICAN ASSOCIATION OF NURSE ANESTHETISTS
+    SEPARATE SEGREGATED FUND (CRNA-PAC)\x1C\x1C\x1C\x1C\x1C\x1C222 SOUTH PROSPECT
+    AVE\x1CC/O FINANCE DEPARTMENT\x1CPARK RIDGE\x1CIL\x1C60068\x1CC00173153\x1C20140516\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00266940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8784863
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN ASSOCIATION OF NURSE ANESTHETISTS SEPARATE SEGREGATED FUND (CRNA-PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 222 SOUTH PROSPECT AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: C/O FINANCE DEPARTMENT
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PARK RIDGE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60068'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00173153
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00266940\x1CC8784866\x1CPAC\x1CMcKesson Corporation Employees Political
+    Fund\x1C\x1C\x1C\x1C\x1C\x1C1 Post St\x1CFl 32\x1CSan Francisco\x1CCA\x1C941045255\x1Cc00108035\x1C20140516\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00266940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8784866
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: McKesson Corporation Employees Political Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 Post St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Fl 32
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Francisco
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '941045255'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: c00108035
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00266940\x1CC8784865\x1CPAC\x1CThe Coca-Cola Co Nonpartisan Comm\x1C\x1C\x1C\x1C\x1C\x1C310
+    North Avenue\x1C\x1CAtlanta\x1CGA\x1C30313\x1CC00012468\x1C20140516\x1C2500.00\x1CPAC\x1Cpac\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00266940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8784865
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: The Coca-Cola Co Nonpartisan Comm
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 310 North Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atlanta
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '30313'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00012468
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: PAC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'pac
+
+'
+- input: "F65\x1CC00266940\x1CC8784867\x1CPAC\x1CUnited Technologies PAC\x1C\x1C\x1C\x1C\x1C\x1C1401
+    I Street, NW\x1CSuite 600\x1CWashington\x1CDC\x1C20005\x1CC00035683\x1C20140516\x1C1000.00\x1CPAC\x1Cpac\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00266940
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8784867
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: United Technologies PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1401 I Street, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00035683
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140516'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: PAC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'pac
+
+'
+sourceurl: !!python/unicode 20140517
+type: chunk

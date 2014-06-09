@@ -1,0 +1,151 @@
+countrows: 3
+filename: 924274.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00557082\x1C\x1CTrivedi for Congress\x1C959 Firetower Road\x1C\x1CBirdsboro\x1CPA\x1C19508\x1CH0PA06084\x1CTrivedi\x1CManan\x1C\x1C\x1C\x1CH\x1CPA\x1C06\x1CBinder\x1CBret\x1C\x1C\x1C\x1C20140508\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00557082
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Trivedi for Congress
+  - name: STREET 1
+    number: '5'
+    value: 959 Firetower Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Birdsboro
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19508'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0PA06084
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Trivedi
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Manan
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Binder
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Bret
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140508
+
+'
+- input: "F65\x1CC00557082\x1CVN89WCMNG13\x1CIND\x1C\x1CButtenweiser\x1CPeter\x1CL.\x1C\x1C\x1C8325
+    St. Martins Lane\x1C\x1CPhiladelphia\x1CPA\x1C191184122\x1C\x1C20140509\x1C2600.00\x1CPeter
+    Buttenwieser & Assoc.\x1CEducation Consultant\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00557082
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN89WCMNG13
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Buttenweiser
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Peter
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8325 St. Martins Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Philadelphia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '191184122'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140509'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Peter Buttenwieser & Assoc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Education Consultant
+
+'
+sourceurl: !!python/unicode 20140510
+type: chunk

@@ -1,0 +1,151 @@
+countrows: 3
+filename: 925737.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00289603\x1C\x1CLofgren for Congress\x1Cc/o Contribution Solutions,
+    LLC\x1C123 E. San Carlos St., #531\x1CSan Jose\x1CCA\x1C95112\x1CH4CA16049\x1CLofgren\x1CZoe\x1C\x1C\x1C\x1CH\x1CCA\x1C19\x1CFredkin\x1CMark\x1CB.\x1C\x1C\x1C20140516\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289603
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Lofgren for Congress
+  - name: STREET 1
+    number: '5'
+    value: c/o Contribution Solutions, LLC
+  - name: STREET 2
+    number: '6'
+    value: '123 E. San Carlos St., #531'
+  - name: CITY
+    number: '7'
+    value: San Jose
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95112'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA16049
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Lofgren
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Zoe
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '19'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Fredkin
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Mark
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: B.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140516
+
+'
+- input: "F65\x1CC00289603\x1CC10329418\x1CPAC\x1CHilton Worldwide PAC\x1C\x1C\x1C\x1C\x1C\x1C7930
+    Jones Branch Dr.\x1CSuite 1100\x1CMc Lean\x1CVA\x1C22102\x1CC00213074\x1C20140515\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289603
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10329418
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Hilton Worldwide PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7930 Jones Branch Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Mc Lean
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22102'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00213074
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140516
+type: chunk

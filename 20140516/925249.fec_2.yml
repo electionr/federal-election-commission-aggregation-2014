@@ -1,0 +1,589 @@
+countrows: 6
+filename: 925249.fec
+header: {}
+rows:
+- input: "H4\x1CC00188367\x1C21a-16-14459-0080\x1C\x1C\x1CIND\x1C\x1CLiang\x1CCynthia\x1C\x1C\x1C\x1C15523
+    NE Tracey Ln.\x1C\x1CPortland\x1COR\x1C97230\x1CWayne Morse Gala 02.08.14\x1C20140430\x1C59.98\x1C47.98\x1C12.00\x1C11120.71\x1CReimbursement
+    - See memos\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00188367
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 21a-16-14459-0080
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Liang
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Cynthia
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 15523 NE Tracey Ln.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Portland
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97230'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Wayne Morse Gala 02.08.14
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20140430'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '59.98'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '47.98'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '12.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11120.71'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Reimbursement - See memos
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 26-
+    value: ''
+  - name: Activity is Direct Fundraising
+    number: 27-
+    value: X
+  - name: Activity is an Exempt Activity
+    number: 28-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 29-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 30-
+    value: ''
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
+    number: 31-
+    value: ''
+  - name: MEMO CODE
+    number: '32'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '33'
+    value: '
+
+'
+- input: "H4\x1CC00188367\x1C21a-16-14459-24577\x1C21a-16-14459-0080\x1CH4\x1CORG\x1COffice
+    Depot #0832\x1C\x1C\x1C\x1C\x1C\x1C323 SE Martin Luther King Blvd.\x1C\x1CPortland\x1COR\x1C97214\x1CWayne
+    Morse Gala 02.08.14\x1C20140430\x1C59.98\x1C47.98\x1C12.00\x1C0.00\x1CPaper\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v8_1.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00188367
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 21a-16-14459-24577
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 21a-16-14459-0080
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 'Office Depot #0832'
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 323 SE Martin Luther King Blvd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Portland
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97214'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Wayne Morse Gala 02.08.14
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20140430'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '59.98'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '47.98'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '12.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '0.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Paper
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 26-
+    value: ''
+  - name: Activity is Direct Fundraising
+    number: 27-
+    value: X
+  - name: Activity is an Exempt Activity
+    number: 28-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 29-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 30-
+    value: ''
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
+    number: 31-
+    value: ''
+  - name: MEMO CODE
+    number: '32'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '33'
+    value: '
+
+'
+- input: "H4\x1CC00188367\x1C21a-16-14484-24606\x1C\x1C\x1CORG\x1CMorel Ink\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 4625\x1C\x1CPortland\x1COR\x1C97208\x1CWayne Morse Gala 02.08.14\x1C20140430\x1C187.56\x1C150.05\x1C37.51\x1C11308.27\x1CProgram
+    insert\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00188367
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 21a-16-14484-24606
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Morel Ink
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 4625
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Portland
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97208'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Wayne Morse Gala 02.08.14
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20140430'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '187.56'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '150.05'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '37.51'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11308.27'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Program insert
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 26-
+    value: ''
+  - name: Activity is Direct Fundraising
+    number: 27-
+    value: X
+  - name: Activity is an Exempt Activity
+    number: 28-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 29-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 30-
+    value: ''
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
+    number: 31-
+    value: ''
+  - name: MEMO CODE
+    number: '32'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '33'
+    value: '
+
+'
+- input: "H4\x1CC00188367\x1C21a-16-14492-0080\x1C\x1C\x1CORG\x1CBank of America\x1C\x1C\x1C\x1C\x1C\x1C1001
+    SW Fifth Ave.\x1C\x1CPortland\x1COR\x1C97204\x1CWayne Morse Gala 02.08.14\x1C20140430\x1C159.98\x1C127.98\x1C32.00\x1C11468.25\x1CCredit
+    card payment - see memos\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00188367
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 21a-16-14492-0080
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Bank of America
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1001 SW Fifth Ave.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Portland
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97204'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Wayne Morse Gala 02.08.14
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20140430'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '159.98'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '127.98'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '32.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '11468.25'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Credit card payment - see memos
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 26-
+    value: ''
+  - name: Activity is Direct Fundraising
+    number: 27-
+    value: X
+  - name: Activity is an Exempt Activity
+    number: 28-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 29-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 30-
+    value: ''
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
+    number: 31-
+    value: ''
+  - name: MEMO CODE
+    number: '32'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '33'
+    value: '
+
+'
+- input: "H4\x1CC00188367\x1C21a-16-14492-24643\x1C21a-16-14492-0080\x1CH4\x1CORG\x1COffice
+    Depot #0832\x1C\x1C\x1C\x1C\x1C\x1C323 SE Martin Luther King Blvd.\x1C\x1CPortland\x1COR\x1C97214\x1CWayne
+    Morse Gala 02.08.14\x1C20140430\x1C159.98\x1C127.98\x1C32.00\x1C0.00\x1CName badges\x1C\x1C\x1CX\x1C\x1C\x1C\x1C\x1CX\x1C\n"
+  record: fec.version.v8_1.SH4
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00188367
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 21a-16-14492-24643
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: 21a-16-14492-0080
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: H4
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: 'Office Depot #0832'
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 323 SE Martin Luther King Blvd.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Portland
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97214'
+  - name: ACCOUNT/EVENT IDENTIFIER
+    number: '18'
+    value: Wayne Morse Gala 02.08.14
+  - name: EXPENDITURE DATE
+    number: '19'
+    value: '20140430'
+  - name: TOTAL FED-NONFED AMOUNT
+    number: '20'
+    value: '159.98'
+  - name: FEDERAL SHARE
+    number: '21'
+    value: '127.98'
+  - name: NONFEDERAL SHARE
+    number: '22'
+    value: '32.00'
+  - name: ACTIVITY/EVENT TOTAL YTD
+    number: '23'
+    value: '0.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Name badges
+  - name: CATEGORY CODE
+    number: '25'
+    value: ''
+  - name: Activity is Administrative - Only
+    number: 26-
+    value: ''
+  - name: Activity is Direct Fundraising
+    number: 27-
+    value: X
+  - name: Activity is an Exempt Activity
+    number: 28-
+    value: ''
+  - name: Activity is Generic Voter Drive - Only
+    number: 29-
+    value: ''
+  - name: Activity is Direct Candidate Support
+    number: 30-
+    value: ''
+  - name: (Activity is Public Communications {Referring Only to Party} Made by PAC
+    number: 31-
+    value: ''
+  - name: MEMO CODE
+    number: '32'
+    value: X
+  - name: MEMO TEXT/DESCRIPTION
+    number: '33'
+    value: '
+
+'
+- input: "TEXT\x1CC00188367\x1CTEXT-00000\x1C\x1CF3XN\x1CSchedule A Line 15 reflects
+    a number of receipts for the payment of rent, telephone and copies. The Democratic
+    Party of Oregon shares office space with several organizations. We write one check
+    to pay rent. The amount of rent paid by each organization is assessed at the usual
+    and normal charge, determined by the amount of space occupied by the organization.
+    Schedule A Line 15 reflects receipts from various County party and candidate committees.
+    The Democratic Party of Oregon offers our County Committees and candidates a number
+    of technology services at cost.  These services include website and email services.
+    Payments for salaries and wages reported on Schedule H4 are for employees who
+    spent less than 25% of their time on FEA or activities in connection with a Federal
+    election. Employees who spend more than 25% of their time on FEA or activities
+    in connection with a Federal election are paid with 100% Federal funds as are
+    their fringe benefits and reported on Line 30b. Please note that the actual date
+    of the Fundraising event reflected on the H2, Wayne Morse Gala 02.08.14 had to
+    be changed from 02.08.14 to 04.25.14 due to severe weather in February. This report
+    includes expenditures related to that event.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00188367
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TEXT-00000
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F3XN
+  - name: TEXT4000
+    number: '6'
+    value: 'Schedule A Line 15 reflects a number of receipts for the payment of rent,
+      telephone and copies. The Democratic Party of Oregon shares office space with
+      several organizations. We write one check to pay rent. The amount of rent paid
+      by each organization is assessed at the usual and normal charge, determined
+      by the amount of space occupied by the organization. Schedule A Line 15 reflects
+      receipts from various County party and candidate committees. The Democratic
+      Party of Oregon offers our County Committees and candidates a number of technology
+      services at cost.  These services include website and email services. Payments
+      for salaries and wages reported on Schedule H4 are for employees who spent less
+      than 25% of their time on FEA or activities in connection with a Federal election.
+      Employees who spend more than 25% of their time on FEA or activities in connection
+      with a Federal election are paid with 100% Federal funds as are their fringe
+      benefits and reported on Line 30b. Please note that the actual date of the Fundraising
+      event reflected on the H2, Wayne Morse Gala 02.08.14 had to be changed from
+      02.08.14 to 04.25.14 due to severe weather in February. This report includes
+      expenditures related to that event.
+
+'
+sourceurl: !!python/unicode 20140516
+type: chunk

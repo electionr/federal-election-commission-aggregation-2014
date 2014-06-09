@@ -1,0 +1,339 @@
+countrows: 4
+filename: 924621.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00007880\x1C24\x1C\x1CCULAC the PAC of Credit Union National Association\x1C601
+    Pennsylvania Avenue, NW\x1CSouth Building, Suite 600\x1CWashington\x1CDC\x1C200042601\x1CSowick\x1CPatricia\x1C\x1C\x1C\x1C20140513\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00007880
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: CULAC the PAC of Credit Union National Association
+  - name: STREET 1
+    number: '6'
+    value: 601 Pennsylvania Avenue, NW
+  - name: STREET 2
+    number: '7'
+    value: South Building, Suite 600
+  - name: CITY
+    number: '8'
+    value: Washington
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '200042601'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Sowick
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Patricia
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140513
+
+'
+- input: "SE\x1CC00007880\x1C1596209\x1C\x1C\x1C\x1CRoland-Kelly Inc.\x1C\x1C\x1C\x1C\x1C\x1C689
+    S Collier Blvd\x1C\x1CMarco Island\x1CFL\x1C34145\x1CP2014\x1C\x1C20140513\x1C143869.35\x1C\x1C143869.35\x1CTV
+    AD PRODUCTION AND BUY\x1C004\x1C\x1CS\x1C\x1CMcConnell\x1CMitch\x1C\x1CSen.\x1C\x1CS\x1C\x1CKY\x1CSowick\x1CPatricia\x1C\x1C\x1C\x1C20140513\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00007880
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1596209'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Roland-Kelly Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 689 S Collier Blvd
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Marco Island
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '34145'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140513'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '143869.35'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '143869.35'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AD PRODUCTION AND BUY
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McConnell
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mitch
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: KY
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Sowick
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patricia
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140513'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00007880\x1C1596222\x1C\x1C\x1C\x1CRoland-Kelly Inc.\x1C\x1C\x1C\x1C\x1C\x1C689
+    S Collier Blvd\x1C\x1CMarco Island\x1CFL\x1C34145\x1CG2014\x1C\x1C20140513\x1C12524.76\x1C\x1C156394.11\x1CTV
+    AND RADIO AD PRODUCTION\x1C004\x1C\x1CS\x1C\x1CMcConnell\x1CMitch\x1C\x1CSen.\x1C\x1CS\x1C\x1CKY\x1CSowick\x1CPatricia\x1C\x1C\x1C\x1C20140513\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00007880
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1596222'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ''
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Roland-Kelly Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 689 S Collier Blvd
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Marco Island
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '34145'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140513'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '12524.76'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: ''
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '156394.11'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV AND RADIO AD PRODUCTION
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: McConnell
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mitch
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Sen.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: KY
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Sowick
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Patricia
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140513'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140513
+type: chunk

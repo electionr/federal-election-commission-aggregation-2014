@@ -1,0 +1,150 @@
+countrows: 3
+filename: 924523.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00551739\x1C\x1CJames Lee Witt for Congress\x1CPO Box 36\x1C\x1CDardanelle\x1CAR\x1C72834\x1CH4AR04063\x1CWitt\x1CJames\x1CLee\x1C\x1C\x1CH\x1CAR\x1C04\x1CNash\x1CBob\x1C\x1C\x1C\x1C20140513\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551739
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: James Lee Witt for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 36
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dardanelle
+  - name: STATE
+    number: '8'
+    value: AR
+  - name: ZIP
+    number: '9'
+    value: '72834'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4AR04063
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Witt
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: James
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Lee
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: AR
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Nash
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Bob
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140513
+
+'
+- input: "F65\x1CC00551739\x1CVN91QCQCGY9\x1CPAC\x1CCOMMITTEE FOR A LIVABLE FUTURE\x1C\x1C\x1C\x1C\x1C\x1C830
+    NE Holladay St\x1CSte 105\x1CPortland\x1COR\x1C972325105\x1CC00323352\x1C20140512\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551739
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN91QCQCGY9
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: COMMITTEE FOR A LIVABLE FUTURE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 830 NE Holladay St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 105
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Portland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '972325105'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00323352
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140512'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140513
+type: chunk

@@ -1,0 +1,227 @@
+countrows: 4
+filename: 925255.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00554113\x1C\x1CRatcliffe for Congress\x1C2931 Ridge Road, Suite
+    101\x1CPMB  #217\x1CRockwall\x1CTX\x1C750326684\x1CH4TX04153\x1CRatcliffe\x1CJohn\x1CL\x1C\x1C\x1CH\x1CTX\x1C04\x1CRatcliffe\x1CMichele\x1C\x1C\x1C\x1C20140515\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554113
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Ratcliffe for Congress
+  - name: STREET 1
+    number: '5'
+    value: 2931 Ridge Road, Suite 101
+  - name: STREET 2
+    number: '6'
+    value: 'PMB  #217'
+  - name: CITY
+    number: '7'
+    value: Rockwall
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '750326684'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4TX04153
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Ratcliffe
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: L
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Ratcliffe
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Michele
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140515
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554113
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '7001'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ratcliffe
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 706 Starlight Pass
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Heath
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '750325984'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140514'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '25000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ashcroft Law Firm
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00554113\x1C7001\x1CIND\x1C\x1CRatcliffe\x1CJohn\x1CL\x1C\x1C\x1C706
+    Starlight Pass\x1C\x1CHeath\x1CTX\x1C750325984\x1C\x1C20140514\x1C25000\x1CAshcroft
+    Law Firm\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554113
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1859000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Campanaro
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2607 Chesterfield Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Baltimore
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '212131106'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140515'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Management Analyst
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00554113\x1C1859000\x1CIND\x1C\x1CCampanaro\x1CRobert\x1C\x1C\x1C\x1C2607
+    Chesterfield Avenue\x1C\x1CBaltimore\x1CMD\x1C212131106\x1C\x1C20140515\x1C2600\x1CRetired\x1CManagement
+    Analyst\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140516
+type: chunk

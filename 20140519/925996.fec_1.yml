@@ -1,0 +1,150 @@
+countrows: 3
+filename: 925996.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00541938\x1C\x1CPat Murphy for Iowa\x1CPO BOX 692\x1C\x1CDUBUQUE\x1CIA\x1C52004\x1CH4IA01069\x1CMurphy\x1CPatrick\x1C\x1C\x1C\x1CH\x1CIA\x1C01\x1CKrug\x1CVicki\x1C\x1C\x1C\x1C20140519\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00541938
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Pat Murphy for Iowa
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 692
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DUBUQUE
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '52004'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4IA01069
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Murphy
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Patrick
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Krug
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Vicki
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140519
+
+'
+- input: "F65\x1CC00541938\x1CVN8F9CN6D88\x1CCCM\x1CMARK POCAN FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1C309
+    N Baldwin St\x1C\x1CMadison\x1CWI\x1C537031701\x1CC00502179\x1C20140518\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00541938
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8F9CN6D88
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MARK POCAN FOR CONGRESS
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 309 N Baldwin St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Madison
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '537031701'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00502179
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140518'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140519
+type: chunk

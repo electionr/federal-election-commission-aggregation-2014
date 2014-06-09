@@ -1,0 +1,284 @@
+countrows: 5
+filename: 924043.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00543272\x1C\x1CDaylin for Congress\x1CP.O. Box 228\x1C\x1CJenkintown\x1CPA\x1C19046\x1CH4PA13181\x1CLeach\x1CDaylin\x1C\x1CSen.\x1C\x1CH\x1CPA\x1C13\x1CMassicotte\x1CChristopher\x1C\x1CMr.\x1C\x1C20140508\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00543272
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Daylin for Congress
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 228
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jenkintown
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19046'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4PA13181
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Leach
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Daylin
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Sen.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '13'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Massicotte
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Christopher
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140508
+
+'
+- input: "F65\x1CC00543272\x1CVN87SCPRGF3\x1CIND\x1C\x1CIsett\x1CBarry\x1C\x1C\x1C\x1C360
+    Renninger Rd\x1C\x1CPerkiomenville\x1CPA\x1C180749628\x1C\x1C20140506\x1C1000.00\x1CBarry
+    Isett & Associates\x1CConsulting Engineer\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00543272
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN87SCPRGF3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Isett
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Barry
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 360 Renninger Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Perkiomenville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '180749628'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140506'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Barry Isett & Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Consulting Engineer
+
+'
+- input: "F65\x1CC00543272\x1CVN87SCPRTP0\x1CCAN\x1C\x1CLeach\x1CDaylin\x1C\x1C\x1C\x1C421
+    Alderbrook Dr\x1C\x1CWayne\x1CPA\x1C190872247\x1C\x1C20140506\x1C250000.00\x1CCommonwealth
+    of Pennsylvania\x1CState Senator\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00543272
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN87SCPRTP0
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Leach
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Daylin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 421 Alderbrook Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Wayne
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '190872247'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140506'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '250000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Commonwealth of Pennsylvania
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'State Senator
+
+'
+- input: "F65\x1CC00543272\x1CVN87SCPV6G3\x1CIND\x1C\x1CMorgan\x1CEileen\x1C\x1C\x1C\x1C764
+    Mount Moro Road\x1C\x1CVillanova\x1CPA\x1C19085\x1C\x1C20140507\x1C1000.00\x1CN/A\x1CHomemaker\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00543272
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN87SCPV6G3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Morgan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Eileen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 764 Mount Moro Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Villanova
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '19085'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140507'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Homemaker
+
+'
+sourceurl: !!python/unicode 20140508
+type: chunk
