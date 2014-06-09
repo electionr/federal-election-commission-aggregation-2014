@@ -1,0 +1,152 @@
+countrows: 3
+filename: 928636.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00555961\x1C\x1CCRAMER FOR CONGRESS\x1CPO BOX 741\x1C\x1CGRIMES\x1CIA\x1C50111\x1CH4IA03099\x1CCRAMER\x1CROBERT
+    JAMES\x1C\x1C\x1C\x1CH\x1CIA\x1C03\x1CThomas III\x1CJames\x1CC\x1C\x1C\x1C20140529\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00555961
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: CRAMER FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 741
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: GRIMES
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '50111'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4IA03099
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: CRAMER
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: ROBERT JAMES
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Thomas III
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: James
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: C
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140529
+
+'
+- input: "F65\x1CC00555961\x1CF6.4989\x1CCAN\x1C\x1CCRAMER\x1CROBERT JAMES\x1C\x1C\x1C\x1CPO
+    BOX 741\x1C\x1CGRIMES\x1CIA\x1C50111\x1C\x1C20140527\x1C125000.00\x1CCramer &
+    Associates\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00555961
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4989
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: CRAMER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ROBERT JAMES
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 741
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: GRIMES
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '50111'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '125000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Cramer & Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+sourceurl: !!python/unicode 20140529
+type: chunk

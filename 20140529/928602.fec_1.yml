@@ -1,0 +1,818 @@
+countrows: 13
+filename: 928602.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00546507\x1C\x1CAppel for Iowa, Inc.\x1CP.O. Box 702\x1C\x1CDes
+    Moines\x1CIA\x1C50303\x1CH4IA03065\x1CAppel\x1CStaci\x1C\x1C\x1C\x1CH\x1CIA\x1C03\x1CSkinner\x1CEd\x1C\x1C\x1C\x1C20140529\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Appel for Iowa, Inc.
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 702
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Des Moines
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '50303'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4IA03065
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Appel
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Staci
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Skinner
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Ed
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140529
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA4X6K9\x1CIND\x1C\x1CBaker\x1CKeith\x1C\x1C\x1C\x1C1244
+    32nd St\x1C\x1CDes Moines\x1CIA\x1C503112812\x1C\x1C20140528\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA4X6K9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Baker
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Keith
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1244 32nd St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Des Moines
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '503112812'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA4X6P3\x1CIND\x1C\x1CDeming\x1CRichard\x1CL\x1C\x1C\x1C300
+    Walnut St\x1CUnit 148\x1CDes Moines\x1CIA\x1C503092243\x1C\x1C20140528\x1C400.00\x1CMercy
+    Medical\x1CPhysician\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA4X6P3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Deming
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 300 Walnut St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Unit 148
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Des Moines
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '503092243'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mercy Medical
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Physician
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA4X6S6\x1CIND\x1C\x1CDeming\x1CRichard\x1CL\x1C\x1C\x1C300
+    Walnut St\x1CUnit 148\x1CDes Moines\x1CIA\x1C503092243\x1C\x1C20140528\x1C600.00\x1CMercy
+    Medical\x1CPhysician\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA4X6S6
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Deming
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Richard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 300 Walnut St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Unit 148
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Des Moines
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '503092243'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mercy Medical
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Physician
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA4W830\x1CIND\x1C\x1CFahey\x1CMichael\x1CG.\x1C\x1C\x1C9304
+    Davenport St\x1C\x1COmaha\x1CNE\x1C681143802\x1C\x1C20140527\x1C1000.00\x1CN/A\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA4W830
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fahey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: G.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9304 Davenport St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Omaha
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NE
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '681143802'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA58B22\x1CIND\x1C\x1CHuser\x1CGeri\x1CD\x1C\x1C\x1C213
+    7th St NW\x1C\x1CAltoona\x1CIA\x1C500091477\x1C\x1C20140528\x1C2600.00\x1CState
+    of Iowa\x1CState Representative\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA58B22
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Huser
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Geri
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 213 7th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Altoona
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '500091477'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: State of Iowa
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'State Representative
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA4X5C1\x1CPAC\x1CPROGRESSIVE ACTION POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1CPO Box 70980\x1C\x1CWashington\x1CDC\x1C200240980\x1CC00513176\x1C20140528\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA4X5C1
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PROGRESSIVE ACTION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 70980
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200240980'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00513176
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA58AS1\x1CIND\x1C\x1CRasmussen\x1CKurt\x1CE\x1C\x1C\x1C6846
+    NW Beaver Dr\x1C\x1CJohnston\x1CIA\x1C501311212\x1C\x1C20140528\x1C700.00\x1CJensen
+    Construction\x1CContractor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA58AS1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rasmussen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kurt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6846 NW Beaver Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Johnston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '501311212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '700.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Jensen Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Contractor
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA58AV7\x1CIND\x1C\x1CRasmussen\x1CKurt\x1CE\x1C\x1C\x1C6846
+    NW Beaver Dr\x1C\x1CJohnston\x1CIA\x1C501311212\x1C\x1C20140528\x1C2100.00\x1CJensen
+    Construction\x1CContractor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA58AV7
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rasmussen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kurt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6846 NW Beaver Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Johnston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '501311212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2100.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Jensen Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Contractor
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA588F9\x1CIND\x1C\x1CRodan\x1CAmnon\x1C\x1C\x1C\x1C6114
+    La Salle Ave\x1C# 442\x1COakland\x1CCA\x1C946112802\x1C\x1C20140528\x1C2600.00\x1CRodan
+    & Fields\x1CCEO\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA588F9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rodan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Amnon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6114 La Salle Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# 442'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Oakland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '946112802'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Rodan & Fields
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA588C5\x1CIND\x1C\x1CRosenbury\x1CJanet\x1CK\x1C\x1C\x1C938
+    Glen Oaks Ter\x1C\x1CWest Des Moines\x1CIA\x1C502666669\x1C\x1C20140528\x1C1000.00\x1Cnone\x1Cretired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA588C5
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rosenbury
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Janet
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: K
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 938 Glen Oaks Ter
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: West Des Moines
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '502666669'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: none
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'retired
+
+'
+- input: "F65\x1CC00546507\x1CVNVNFA4W8C1\x1CPAC\x1CUNITED TRANSPORTATION UNION POLITICAL
+    ACTION COMMITTEE (UTU PAC)\x1C\x1C\x1C\x1C\x1C\x1C24950 Country Club Blvd\x1CSte
+    340\x1CNorth Olmsted\x1COH\x1C440705333\x1CC00001636\x1C20140527\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546507
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVNFA4W8C1
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITED TRANSPORTATION UNION POLITICAL ACTION COMMITTEE (UTU PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 24950 Country Club Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 340
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: North Olmsted
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '440705333'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00001636
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140529
+type: chunk

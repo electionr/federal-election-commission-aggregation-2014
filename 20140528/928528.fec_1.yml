@@ -1,0 +1,483 @@
+countrows: 8
+filename: 928528.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00501254\x1C\x1CFriends of Michelle\x1C2015 Dietz PL NW\x1C\x1CAlbuquerque\x1CNM\x1C87107\x1CH8NM01257\x1CGrisham\x1CMichelle\x1CLujan\x1CMs.\x1C\x1CH\x1CNM\x1C01\x1CDaniels\x1CJeannine\x1C\x1CMs.\x1C\x1C20140528\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of Michelle
+  - name: STREET 1
+    number: '5'
+    value: 2015 Dietz PL NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Albuquerque
+  - name: STATE
+    number: '8'
+    value: NM
+  - name: ZIP
+    number: '9'
+    value: '87107'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8NM01257
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Grisham
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Michelle
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Lujan
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Ms.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NM
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Daniels
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jeannine
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Ms.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140528
+
+'
+- input: "F65\x1CC00501254\x1CC10336954\x1CPAC\x1CABBOTT LABORATORIES EMPLOYEE POLITICAL
+    ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C100 ABBOTT PARK RD.\x1CD312 AP6D-2\x1CABBOTT
+    PARK\x1CIL\x1C60064\x1CC00040279\x1C20140527\x1C1500.00\x1CABBOTT LABORATORIES
+    EMPLOYEE POLITICAL\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10336954
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ABBOTT LABORATORIES EMPLOYEE POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 100 ABBOTT PARK RD.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: D312 AP6D-2
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ABBOTT PARK
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60064'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00040279
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ABBOTT LABORATORIES EMPLOYEE POLITICAL
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00501254\x1CC10336946\x1CPAC\x1CAMERICAN GASTROENTEROLOGICAL ASSOCIATION
+    INC. PAC\x1C\x1C\x1C\x1C\x1C\x1C4720 Montgomery Ln\x1CSte 430\x1CBethesda\x1CMD\x1C208143441\x1CC00423228\x1C20140527\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10336946
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN GASTROENTEROLOGICAL ASSOCIATION INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4720 Montgomery Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 430
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bethesda
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208143441'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00423228
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00501254\x1CC10336938\x1CPAC\x1CAmerican Society of Anesthesiologists
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C520 N Northwest Hwy\x1C\x1CPark Ridge\x1CIL\x1C600682538\x1CC00255752\x1C20140527\x1C1000.00\x1C\x1CPAC
+    Political Coordinator\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10336938
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Society of Anesthesiologists PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 520 N Northwest Hwy
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Park Ridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '600682538'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00255752
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'PAC Political Coordinator
+
+'
+- input: "F65\x1CC00501254\x1CC10336958\x1CPAC\x1CAMERICAN SOCIETY OF ASSOCIATION
+    EXECUTIVES APAC\x1C\x1C\x1C\x1C\x1C\x1C1575 I St NW\x1C\x1CWashington\x1CDC\x1C200051105\x1CC00041566\x1C20140527\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10336958
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN SOCIETY OF ASSOCIATION EXECUTIVES APAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1575 I St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200051105'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00041566
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00501254\x1CC10336949\x1CPAC\x1CCME Group, Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1C20
+    S Wacker Dr\x1C\x1CChicago\x1CIL\x1C606067431\x1CC00076299\x1C20140527\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10336949
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CME Group, Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20 S Wacker Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '606067431'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00076299
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00501254\x1CC10336957\x1CPAC\x1CPRIME THERAPEUTICS LLC EMPLOYEE
+    PAC (PRIMEPAC)\x1C\x1C\x1C\x1C\x1C\x1C1305 Corporate Center Dr\x1C\x1CEagan\x1CMN\x1C551211204\x1CC00498105\x1C20140527\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00501254
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10336957
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PRIME THERAPEUTICS LLC EMPLOYEE PAC (PRIMEPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1305 Corporate Center Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Eagan
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '551211204'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00498105
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140528
+type: chunk

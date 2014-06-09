@@ -1,0 +1,553 @@
+countrows: 9
+filename: 928271.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00556100\x1C\x1CWendy Greuel for Congress\x1C777 S. Figueroa St.,
+    Suite 4050\x1C\x1CLos Angeles\x1CCA\x1C90017\x1CH4CA33101\x1CGreuel\x1CWendy\x1C\x1C\x1C\x1CH\x1CCA\x1C33\x1CKaufman\x1CStephen\x1CJ.\x1C\x1C\x1C20140525\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Wendy Greuel for Congress
+  - name: STREET 1
+    number: '5'
+    value: 777 S. Figueroa St., Suite 4050
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90017'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA33101
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Greuel
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Wendy
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '33'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kaufman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Stephen
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: J.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140525
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRKYV0\x1CIND\x1C\x1CGorfaine\x1CMichael\x1C\x1C\x1C\x1C4111
+    W Alameda Ave\x1CSte 509\x1CBurbank\x1CCA\x1C915054171\x1C\x1C20140523\x1C2600.00\x1CThe
+    Gorfaine/Schwartz Agency, Inc.\x1CMusic Agent\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRKYV0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gorfaine
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4111 W Alameda Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 509
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Burbank
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '915054171'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Gorfaine/Schwartz Agency, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Music Agent
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRRET8\x1CIND\x1C\x1CGrant\x1CStuart\x1C\x1C\x1C\x1C11
+    Summit Ln\x1C\x1CGreenville\x1CDE\x1C198072159\x1C\x1C20140523\x1C1000.00\x1CGrant
+    & Eisenhofer\x1CAttorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRRET8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Grant
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stuart
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11 Summit Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Greenville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DE
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '198072159'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Grant & Eisenhofer
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRNTJ5\x1CIND\x1C\x1CHelmer\x1CGregory\x1C\x1C\x1C\x1C10353
+    Monte Mar Dr\x1C\x1CLos Angeles\x1CCA\x1C900643428\x1C\x1C20140523\x1C1000.00\x1CHelmer
+    Friedman LLP\x1CAttorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRNTJ5
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Helmer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gregory
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10353 Monte Mar Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900643428'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Helmer Friedman LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRREX1\x1CIND\x1C\x1CKatzenberg\x1CJeffrey\x1C\x1C\x1C\x1C11400
+    W Olympic Blvd\x1CSte 550\x1CLos Angeles\x1CCA\x1C900641585\x1C\x1C20140523\x1C1300.00\x1CDreamworks
+    Animation\x1CChief Executive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRREX1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Katzenberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeffrey
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11400 W Olympic Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 550
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900641585'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dreamworks Animation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Chief Executive
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRREY9\x1CIND\x1C\x1CKatzenberg\x1CMarilyn\x1C\x1C\x1C\x1C11400
+    W Olympic Blvd\x1CSte 550\x1CLos Angeles\x1CCA\x1C900641585\x1C\x1C20140523\x1C1300.00\x1CN/A\x1CHomemaker\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRREY9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Katzenberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Marilyn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11400 W Olympic Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 550
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900641585'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Homemaker
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRN6F8\x1CIND\x1C\x1CStevins\x1CFarrel\x1C\x1C\x1C\x1C713
+    E 223rd St\x1C\x1CCarson\x1CCA\x1C907454111\x1C\x1C20140523\x1C1000.00\x1CTIS
+    Construction Services, Inc.\x1CConstruction\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRN6F8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stevins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Farrel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 713 E 223rd St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '907454111'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: TIS Construction Services, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Construction
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRN6J2\x1CIND\x1C\x1CStevins\x1CFarrel\x1C\x1C\x1C\x1C713
+    E 223rd St\x1C\x1CCarson\x1CCA\x1C907454111\x1C\x1C20140523\x1C1600.00\x1CTIS
+    Construction Services, Inc.\x1CConstruction\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRN6J2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stevins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Farrel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 713 E 223rd St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '907454111'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: TIS Construction Services, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Construction
+
+'
+sourceurl: !!python/unicode 20140526
+type: chunk

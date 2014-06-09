@@ -1,0 +1,151 @@
+countrows: 3
+filename: 928984.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00504613\x1C\x1CHorsford for Congress\x1C6100 Elton Ave, Suite 1000\x1C\x1CLas
+    Vegas\x1CNV\x1C89107\x1CH2NV04011\x1CHorsford\x1CSteven\x1CA\x1C\x1C\x1CH\x1CNV\x1C04\x1CKern\x1CMichael\x1C\x1CMr.\x1C\x1C20140530\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504613
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Horsford for Congress
+  - name: STREET 1
+    number: '5'
+    value: 6100 Elton Ave, Suite 1000
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Las Vegas
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89107'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2NV04011
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Horsford
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Steven
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: A
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NV
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kern
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Michael
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140530
+
+'
+- input: "F65\x1CC00504613\x1CVN8PPCP8WR1\x1CPAC\x1CLABORERS' INTERNATIONAL UNION
+    OF NORTH AMERICA (LIUNA) PAC\x1C\x1C\x1C\x1C\x1C\x1C905 16th St NW\x1CFl 2\x1CWashington\x1CDC\x1C200061703\x1CC00007922\x1C20140530\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504613
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8PPCP8WR1
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: LABORERS' INTERNATIONAL UNION OF NORTH AMERICA (LIUNA) PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 905 16th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Fl 2
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200061703'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00007922
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140530
+type: chunk

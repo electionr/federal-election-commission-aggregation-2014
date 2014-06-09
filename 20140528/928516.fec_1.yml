@@ -1,0 +1,1650 @@
+countrows: 13
+filename: 928516.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00295527\x1C24\x1C\x1CCitizens United Political Victory Fund\x1C1006
+    Pennsylvania Ave. SE\x1C\x1CWashington\x1CDC\x1C20003\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140528\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: Citizens United Political Victory Fund
+  - name: STREET 1
+    number: '6'
+    value: 1006 Pennsylvania Ave. SE
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: Washington
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20003'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Allen
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Kevin
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140528
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496971
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Doug Wallick
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 13608 Wendover Road
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Silver Spring
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20904'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '900.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - grip and lighting. Ad supports Sam Clovis and
+      airs May 27th to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496971\x1C\x1C\x1CORG\x1CDoug Wallick\x1C\x1C\x1C\x1C\x1C\x1C13608
+    Wendover Road\x1C\x1CSilver Spring\x1CMD\x1C20904\x1CP2014\x1C\x1C20140527\x1C900.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - grip and lighting. Ad supports Sam Clovis and airs May 27th to
+    June 3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496973
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Telescript DC Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: '4938 Hampden Lane #348'
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Bethesda
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20814'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '406.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - teleprompter.  Ad supports Sam Clovis and airs
+      May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496973\x1C\x1C\x1CORG\x1CTelescript DC Inc.\x1C\x1C\x1C\x1C\x1C\x1C4938
+    Hampden Lane #348\x1C\x1CBethesda\x1CMD\x1C20814\x1CP2014\x1C\x1C20140527\x1C406.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - teleprompter.  Ad supports Sam Clovis and airs May 27 to June
+    3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496974
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Pond5 Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 80 Fifth Avenue 18th Floor
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10011'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '59.99'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - photography.  Ad supports Sam Clovis and airs
+      May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496974\x1C\x1C\x1CORG\x1CPond5 Inc.\x1C\x1C\x1C\x1C\x1C\x1C80
+    Fifth Avenue 18th Floor\x1C\x1CNew York\x1CNY\x1C10011\x1CP2014\x1C\x1C20140527\x1C59.99\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - photography.  Ad supports Sam Clovis and airs May 27 to June 3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496975
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Shutterstock Inc.
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 350 Fifth Avenue 21st Floor
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10018'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '79.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - film footage.  Ad supports Sam Clovis and airs
+      May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496975\x1C\x1C\x1CORG\x1CShutterstock Inc.\x1C\x1C\x1C\x1C\x1C\x1C350
+    Fifth Avenue 21st Floor\x1C\x1CNew York\x1CNY\x1C10018\x1CP2014\x1C\x1C20140527\x1C79.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - film footage.  Ad supports Sam Clovis and airs May 27 to June
+    3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496980
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Corbis
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 250 Hudson Street 4th Floor
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New York
+  - name: PAYEE STATE
+    number: '16'
+    value: NY
+  - name: PAYEE ZIP
+    number: '17'
+    value: '10012'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '520.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - photographs.  Ad supports Sam Clovis and airs
+      May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496980\x1C\x1C\x1CORG\x1CCorbis\x1C\x1C\x1C\x1C\x1C\x1C250
+    Hudson Street 4th Floor\x1C\x1CNew York\x1CNY\x1C10012\x1CP2014\x1C\x1C20140527\x1C520.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - photographs.  Ad supports Sam Clovis and airs May 27 to June 3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496982
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Amigo Media LLC
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3000 Spout Run Parkway C307
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22201'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '750.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - color correction.  Ad supports Sam Clovis and
+      airs May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496982\x1C\x1C\x1CORG\x1CAmigo Media LLC\x1C\x1C\x1C\x1C\x1C\x1C3000
+    Spout Run Parkway C307\x1C\x1CArlington\x1CVA\x1C22201\x1CP2014\x1C\x1C20140527\x1C750.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - color correction.  Ad supports Sam Clovis and airs May 27 to June
+    3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496983
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Ott House Audio
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1111 East West Highway 3rd Floor
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Silver Spring
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20910'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '450.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - audio correction.  Ad supports Sam Clovis and
+      airs May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496983\x1C\x1C\x1CORG\x1COtt House Audio\x1C\x1C\x1C\x1C\x1C\x1C1111
+    East West Highway 3rd Floor\x1C\x1CSilver Spring\x1CMD\x1C20910\x1CP2014\x1C\x1C20140527\x1C450.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - audio correction.  Ad supports Sam Clovis and airs May 27 to June
+    3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496986
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Extreme Reach
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 75 Second Avenue Suite 720
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Needham
+  - name: PAYEE STATE
+    number: '16'
+    value: MA
+  - name: PAYEE ZIP
+    number: '17'
+    value: 02494
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '432.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Online delivery of ad content to media station.  Ad supports Sam Clovis
+      and airs May 27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496986\x1C\x1C\x1CORG\x1CExtreme Reach\x1C\x1C\x1C\x1C\x1C\x1C75
+    Second Avenue Suite 720\x1C\x1CNeedham\x1CMA\x1C02494\x1CP2014\x1C\x1C20140527\x1C432.00\x1C20140520\x1C57670.04\x1COnline
+    delivery of ad content to media station.  Ad supports Sam Clovis and airs May
+    27 to June 3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B497045
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Flavio Claure
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 11509 Veirs Mill Road
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Silver Spring
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20902'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '650.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - audio.  Ad supports Sam Clovis and airs May
+      27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00295527
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB497045\x1C\x1C\x1CORG\x1CFlavio Claure\x1C\x1C\x1C\x1C\x1C\x1C11509
+    Veirs Mill Road\x1C\x1CSilver Spring\x1CMD\x1C20902\x1CP2014\x1C\x1C20140527\x1C650.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - audio.  Ad supports Sam Clovis and airs May 27 to June 3rd.\x1C004\x1CC00295527\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496960
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Carolyn Marie Sewer
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 18805 Walker's Choice Road
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Montgomery Village
+  - name: PAYEE STATE
+    number: '16'
+    value: MD
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20886'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '300.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad production - make up.  Ad supports Sam Clovis and airs May
+      27 to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496960\x1C\x1C\x1CORG\x1CCarolyn Marie Sewer\x1C\x1C\x1C\x1C\x1C\x1C18805
+    Walker's Choice Road\x1C\x1CMontgomery Village\x1CMD\x1C20886\x1CP2014\x1C\x1C20140527\x1C300.00\x1C20140520\x1C57670.04\x1CTelevision
+    ad production - make up.  Ad supports Sam Clovis and airs May 27 to June 3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00295527
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: B496968
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Patrick Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 317
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Marshfield
+  - name: PAYEE STATE
+    number: '16'
+    value: MO
+  - name: PAYEE ZIP
+    number: '17'
+    value: '65706'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '53123.05'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140521'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '57670.04'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Television ad buy supporting Sam Clovis. Ad airs May 27th to June 3rd.
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00546275
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4IA00111
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Clovis
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Samuel
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: IA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Allen
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Kevin
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140527'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00295527\x1CB496968\x1C\x1C\x1CORG\x1CPatrick Media\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 317\x1C\x1CMarshfield\x1CMO\x1C65706\x1CP2014\x1C\x1C20140527\x1C53123.05\x1C20140521\x1C57670.04\x1CTelevision
+    ad buy supporting Sam Clovis. Ad airs May 27th to June 3rd.\x1C004\x1CC00546275\x1CS\x1CS4IA00111\x1CClovis\x1CSamuel\x1C\x1C\x1C\x1CS\x1C\x1CIA\x1CAllen\x1CKevin\x1C\x1C\x1C\x1C20140527\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+sourceurl: !!python/unicode 20140528
+type: chunk

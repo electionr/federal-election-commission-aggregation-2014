@@ -1,0 +1,155 @@
+countrows: 3
+filename: 929360.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00497321\x1C\x1CVargas for Congress\x1C330 Encinitas Boulevard\x1CSuite
+    101\x1CEncinitas\x1CCA\x1C920248705\x1CH2CA50026\x1CVargas\x1CJuan C.\x1C\x1C\x1C\x1CH\x1CCA\x1C51\x1CHaley\x1CNancy\x1C\x1C\x1C\x1C20140603\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497321
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Vargas for Congress
+  - name: STREET 1
+    number: '5'
+    value: 330 Encinitas Boulevard
+  - name: STREET 2
+    number: '6'
+    value: Suite 101
+  - name: CITY
+    number: '7'
+    value: Encinitas
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '920248705'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2CA50026
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Vargas
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Juan C.
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '51'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Haley
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Nancy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140603
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497321
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '2529000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Jobs Opportunities & Education PAC (JOE PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 50 E Street SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200032620'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00500637
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140603'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00497321\x1C2529000\x1CCOM\x1CJobs Opportunities & Education PAC
+    (JOE PAC)\x1C\x1C\x1C\x1C\x1C\x1C50 E Street SE\x1CSuite 1\x1CWashington\x1CDC\x1C200032620\x1CC00500637\x1C20140603\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140603
+type: chunk

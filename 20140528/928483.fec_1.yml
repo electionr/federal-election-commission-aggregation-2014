@@ -1,0 +1,154 @@
+countrows: 3
+filename: 928483.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00549188\x1C\x1CBirman for Congress\x1CPO Box 647\x1C\x1CFolsom\x1CCA\x1C957630647\x1CH4CA07055\x1CBirman\x1CIgor\x1CA\x1C\x1C\x1CH\x1CCA\x1C07\x1CLawler\x1CKelly\x1C\x1C\x1C\x1C20140527\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549188
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Birman for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 647
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Folsom
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '957630647'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA07055
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Birman
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Igor
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: A
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lawler
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Kelly
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140527
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549188
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3515000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Committee to Re Elect Trent Franks to Congress
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 8105
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Glendale
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AZ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '853128105'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00367110
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00549188\x1C3515000\x1CCOM\x1CCommittee to Re Elect Trent Franks
+    to Congress\x1C\x1C\x1C\x1C\x1C\x1CPO Box 8105\x1C\x1CGlendale\x1CAZ\x1C853128105\x1CC00367110\x1C20140527\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140528
+type: chunk

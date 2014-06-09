@@ -1,0 +1,2348 @@
+countrows: 18
+filename: 928981.fec
+header: {}
+rows:
+- 2
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: Women Speak Out PAC
+  - name: STREET 1
+    number: '6'
+    value: 1707 L St. NW
+  - name: STREET 2
+    number: '7'
+    value: Suite 550
+  - name: CITY
+    number: '8'
+    value: Washington
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20036'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Buchanan
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Emily
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: Ms.
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140530'
+  - value: '
+
+'
+  expected_count: 16
+  input: "F24N\x1CC00530766\x1C24\x1C\x1CWomen Speak Out PAC\x1C1707 L St. NW\x1CSuite
+    550\x1CWashington\x1CDC\x1C20036\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\n"
+  input_count: 17
+  record: fec.version.v8_1.F24
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 22f4e88f-05e9-4df8-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Personalized Marketing Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 85 Air Park Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lynchburg
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '24502'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140513'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1675.20'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140513'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9817.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Fundraising Letter
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0AR00028
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Pryor
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: AR
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C22f4e88f-05e9-4df8-b\x1C\x1C\x1CORG\x1CPersonalized Marketing
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C85 Air Park Drive\x1C\x1CLynchburg\x1CVA\x1C24502\x1CG2014\x1C\x1C20140513\x1C1675.20\x1C20140513\x1C9817.87\x1CFundraising
+    Letter\x1C003\x1CC00530766\x1CO\x1CS0AR00028\x1CPryor\x1CMark\x1CL\x1CMr.\x1C\x1CS\x1C00\x1CAR\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: aa4761f7-3a85-458e-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Personalized Marketing Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 85 Air Park Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lynchburg
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '24502'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140513'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2811.67'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140513'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9817.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Fundraising Letter
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0AR00028
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Pryor
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: AR
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1Caa4761f7-3a85-458e-b\x1C\x1C\x1CORG\x1CPersonalized Marketing
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C85 Air Park Drive\x1C\x1CLynchburg\x1CVA\x1C24502\x1CG2014\x1C\x1C20140513\x1C2811.67\x1C20140513\x1C9817.87\x1CFundraising
+    Letter\x1C003\x1CC00530766\x1CO\x1CS0AR00028\x1CPryor\x1CMark\x1CL\x1CMr.\x1C\x1CS\x1C00\x1CAR\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 3d367401-9c33-4aeb-8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Personalized Marketing Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 85 Air Park Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lynchburg
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '24502'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140513'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1675.20'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140513'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '13847.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Fundraising Letter
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8NC00239
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hagan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Kay
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NC
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C3d367401-9c33-4aeb-8\x1C\x1C\x1CORG\x1CPersonalized Marketing
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C85 Air Park Drive\x1C\x1CLynchburg\x1CVA\x1C24502\x1CG2014\x1C\x1C20140513\x1C1675.20\x1C20140513\x1C13847.05\x1CFundraising
+    Letter\x1C003\x1CC00530766\x1CO\x1CS8NC00239\x1CHagan\x1CKay\x1C\x1CMs.\x1C\x1CS\x1C00\x1CNC\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: e6b39cce-cee6-4206-a
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Personalized Marketing Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 85 Air Park Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lynchburg
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '24502'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140513'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2811.67'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140513'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '13847.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Fundraising Letter
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8NC00239
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hagan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Kay
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NC
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1Ce6b39cce-cee6-4206-a\x1C\x1C\x1CORG\x1CPersonalized Marketing
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C85 Air Park Drive\x1C\x1CLynchburg\x1CVA\x1C24502\x1CG2014\x1C\x1C20140513\x1C2811.67\x1C20140513\x1C13847.05\x1CFundraising
+    Letter\x1C003\x1CC00530766\x1CO\x1CS8NC00239\x1CHagan\x1CKay\x1C\x1CMs.\x1C\x1CS\x1C00\x1CNC\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 5f1c754e-10a7-44b4-9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 4400 North Point Parkway
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '15'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140528'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '250.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140528'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9817.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Design
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0AR00028
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Pryor
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: AR
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C5f1c754e-10a7-44b4-9\x1C\x1C\x1CORG\x1CThe Stoneridge
+    Group\x1C\x1C\x1C\x1C\x1C\x1C4400 North Point Parkway\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2014\x1C\x1C20140528\x1C250.00\x1C20140528\x1C9817.87\x1CWebsite
+    Design\x1C004\x1CC00530766\x1CO\x1CS0AR00028\x1CPryor\x1CMark\x1CL\x1CMr.\x1C\x1CS\x1C00\x1CAR\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 478f1c16-9768-47e1-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 4400 North Point Parkway
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '15'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140528'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2375.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140528'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9817.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Design
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0AR00028
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Pryor
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: AR
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C478f1c16-9768-47e1-b\x1C\x1C\x1CORG\x1CThe Stoneridge
+    Group\x1C\x1C\x1C\x1C\x1C\x1C4400 North Point Parkway\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2014\x1C\x1C20140528\x1C2375.00\x1C20140528\x1C9817.87\x1CWebsite
+    Design\x1C004\x1CC00530766\x1CO\x1CS0AR00028\x1CPryor\x1CMark\x1CL\x1CMr.\x1C\x1CS\x1C00\x1CAR\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: c3496f5a-2f88-4af9-a
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 4400 North Point Parkway
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '15'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140528'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '250.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140528'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '13847.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Design
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8NC00239
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hagan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Kay
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NC
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1Cc3496f5a-2f88-4af9-a\x1C\x1C\x1CORG\x1CThe Stoneridge
+    Group\x1C\x1C\x1C\x1C\x1C\x1C4400 North Point Parkway\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2014\x1C\x1C20140528\x1C250.00\x1C20140528\x1C13847.05\x1CWebsite
+    Design\x1C004\x1CC00530766\x1CO\x1CS8NC00239\x1CHagan\x1CKay\x1C\x1CMs.\x1C\x1CS\x1C00\x1CNC\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 2c8e45b7-28b5-4edc-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Stoneridge Group
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 4400 North Point Parkway
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 190
+  - name: PAYEE CITY
+    number: '15'
+    value: Alpharetta
+  - name: PAYEE STATE
+    number: '16'
+    value: GA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '30022'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140528'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2375.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140528'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '13847.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Website Design
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8NC00239
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hagan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Kay
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NC
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C2c8e45b7-28b5-4edc-b\x1C\x1C\x1CORG\x1CThe Stoneridge
+    Group\x1C\x1C\x1C\x1C\x1C\x1C4400 North Point Parkway\x1CSuite 190\x1CAlpharetta\x1CGA\x1C30022\x1CG2014\x1C\x1C20140528\x1C2375.00\x1C20140528\x1C13847.05\x1CWebsite
+    Design\x1C004\x1CC00530766\x1CO\x1CS8NC00239\x1CHagan\x1CKay\x1C\x1CMs.\x1C\x1CS\x1C00\x1CNC\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 39363486-d7d5-497f-a
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Victory Phones
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 190 Monroe Ave, NW
+  - name: PAYEE STREET  2
+    number: '14'
+    value: 5th Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: Grand Rapids
+  - name: PAYEE STATE
+    number: '16'
+    value: MI
+  - name: PAYEE ZIP
+    number: '17'
+    value: '49503'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140528'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '6735.18'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140528'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '13847.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Phone Calls
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8NC00239
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hagan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Kay
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NC
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C39363486-d7d5-497f-a\x1C\x1C\x1CORG\x1CVictory Phones\x1C\x1C\x1C\x1C\x1C\x1C190
+    Monroe Ave, NW\x1C5th Floor\x1CGrand Rapids\x1CMI\x1C49503\x1CG2014\x1C\x1C20140528\x1C6735.18\x1C20140528\x1C13847.05\x1CPhone
+    Calls\x1C004\x1CC00530766\x1CO\x1CS8NC00239\x1CHagan\x1CKay\x1C\x1CMs.\x1C\x1CS\x1C00\x1CNC\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: f317d6e3-2480-4cb6-9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Pound Feinstein
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1620 I St., NW
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 925
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20006'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140520'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2706.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140520'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '9817.87'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Brochures
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S0AR00028
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Pryor
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Mr.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: AR
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1Cf317d6e3-2480-4cb6-9\x1C\x1C\x1CORG\x1CPound Feinstein\x1C\x1C\x1C\x1C\x1C\x1C1620
+    I St., NW\x1CSuite 925\x1CWashington\x1CDC\x1C20006\x1CG2014\x1C\x1C20140520\x1C2706.00\x1C20140520\x1C9817.87\x1CBrochures\x1C004\x1CC00530766\x1CO\x1CS0AR00028\x1CPryor\x1CMark\x1CL\x1CMr.\x1C\x1CS\x1C00\x1CAR\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 24b25700-0357-42f3-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: United States Treasury
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: PO Box 804522
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Cincinatti
+  - name: PAYEE STATE
+    number: '16'
+    value: OH
+  - name: PAYEE ZIP
+    number: '17'
+    value: '45280'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140530'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '22.93'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140530'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '15416.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Taxes
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6LA00227
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Landrieu
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C24b25700-0357-42f3-b\x1C\x1C\x1CORG\x1CUnited States
+    Treasury\x1C\x1C\x1C\x1C\x1C\x1CPO Box 804522\x1C\x1CCincinatti\x1COH\x1C45280\x1CG2014\x1C\x1C20140530\x1C22.93\x1C20140530\x1C15416.16\x1CTaxes\x1C001\x1CC00530766\x1CO\x1CS6LA00227\x1CLandrieu\x1CMary\x1CL\x1CMs.\x1C\x1CS\x1C00\x1CLA\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: df2e7295-a09d-41f2-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Department Of Employment Services
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 4058 Minnesota Ave, NE
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20019'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140530'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '8.43'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140530'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '15416.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Taxes
+  - name: CATEGORY CODE
+    number: '25'
+    value: '001'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6LA00227
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Landrieu
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1Cdf2e7295-a09d-41f2-b\x1C\x1C\x1CORG\x1CDepartment Of
+    Employment Services\x1C\x1C\x1C\x1C\x1C\x1C4058 Minnesota Ave, NE\x1C\x1CWashington\x1CDC\x1C20019\x1CG2014\x1C\x1C20140530\x1C8.43\x1C20140530\x1C15416.16\x1CTaxes\x1C001\x1CC00530766\x1CO\x1CS6LA00227\x1CLandrieu\x1CMary\x1CL\x1CMs.\x1C\x1CS\x1C00\x1CLA\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 4c160c5e-2649-4e60-b
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Fast Signs
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3001 Tulana Ave.
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 1
+  - name: PAYEE CITY
+    number: '15'
+    value: New Orleans
+  - name: PAYEE STATE
+    number: '16'
+    value: LA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '70111'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140529'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '224.81'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140529'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '15416.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Banner
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6LA00227
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Landrieu
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C4c160c5e-2649-4e60-b\x1C\x1C\x1CORG\x1CFast Signs\x1C\x1C\x1C\x1C\x1C\x1C3001
+    Tulana Ave.\x1CSuite 1\x1CNew Orleans\x1CLA\x1C70111\x1CG2014\x1C\x1C20140529\x1C224.81\x1C20140529\x1C15416.16\x1CBanner\x1C004\x1CC00530766\x1CO\x1CS6LA00227\x1CLandrieu\x1CMary\x1CL\x1CMs.\x1C\x1CS\x1C00\x1CLA\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 7f839893-2904-4bb7-8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Design 4 Marketing Communications
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 106 N Collins St
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Plant City
+  - name: PAYEE STATE
+    number: '16'
+    value: FL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '33565'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140529'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '550.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140529'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '15416.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Banner
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6LA00227
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Landrieu
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C7f839893-2904-4bb7-8\x1C\x1C\x1CORG\x1CDesign 4 Marketing
+    Communications\x1C\x1C\x1C\x1C\x1C\x1C106 N Collins St\x1C\x1CPlant City\x1CFL\x1C33565\x1CG2014\x1C\x1C20140529\x1C550.00\x1C20140529\x1C15416.16\x1CBanner\x1C004\x1CC00530766\x1CO\x1CS6LA00227\x1CLandrieu\x1CMary\x1CL\x1CMs.\x1C\x1CS\x1C00\x1CLA\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 97d7a171-17c0-433b-9
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Lukens Company
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2800 Shirlington Road
+  - name: PAYEE STREET  2
+    number: '14'
+    value: 9th Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22206'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140530'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '8000.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140530'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '15416.16'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Door Hangers
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S6LA00227
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Landrieu
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Mary
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: L
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: LA
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C97d7a171-17c0-433b-9\x1C\x1C\x1CORG\x1CThe Lukens Company\x1C\x1C\x1C\x1C\x1C\x1C2800
+    Shirlington Road\x1C9th Floor\x1CArlington\x1CVA\x1C22206\x1CG2014\x1C\x1C20140530\x1C8000.00\x1C20140530\x1C15416.16\x1CDoor
+    Hangers\x1C004\x1CC00530766\x1CO\x1CS6LA00227\x1CLandrieu\x1CMary\x1CL\x1CMs.\x1C\x1CS\x1C00\x1CLA\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00530766
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 0b1e2127-8c34-4611-8
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Lukens Company
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2800 Shirlington Road
+  - name: PAYEE STREET  2
+    number: '14'
+    value: 9th Floor
+  - name: PAYEE CITY
+    number: '15'
+    value: Arlington
+  - name: PAYEE STATE
+    number: '16'
+    value: VA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '22206'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140530'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '8000.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140530'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '13847.05'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Door Hangers
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00530766
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S8NC00239
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: Hagan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: Kay
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: Ms.
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NC
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Buchanan
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Emily
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: Ms.
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140530'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - value: '
+
+'
+  expected_count: 44
+  input: "SE\x1CC00530766\x1C0b1e2127-8c34-4611-8\x1C\x1C\x1CORG\x1CThe Lukens Company\x1C\x1C\x1C\x1C\x1C\x1C2800
+    Shirlington Road\x1C9th Floor\x1CArlington\x1CVA\x1C22206\x1CG2014\x1C\x1C20140530\x1C8000.00\x1C20140530\x1C13847.05\x1CDoor
+    Hangers\x1C004\x1CC00530766\x1CO\x1CS8NC00239\x1CHagan\x1CKay\x1C\x1CMs.\x1C\x1CS\x1C00\x1CNC\x1CBuchanan\x1CEmily\x1C\x1CMs.\x1C\x1C20140530\x1C\x1C\x1C\n"
+  input_count: 45
+  record: fec.version.v8_1.SE
+  result: []
+sourceurl: !!python/unicode 20140530
+type: chunk

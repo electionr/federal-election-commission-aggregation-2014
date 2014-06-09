@@ -1,0 +1,154 @@
+countrows: 3
+filename: 928402.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00556001\x1C\x1CSchultz for Iowa\x1CPO Box 3522\x1C\x1CUrbandale\x1CIA\x1C503230522\x1C\x1CSchultz\x1CMatthew\x1CDavid\x1C\x1C\x1C\x1C\x1C\x1COverholtzer\x1CDavid\x1C\x1C\x1C\x1C20140527\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556001
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Schultz for Iowa
+  - name: STREET 1
+    number: '5'
+    value: PO Box 3522
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Urbandale
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '503230522'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Schultz
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Matthew
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: David
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Overholtzer
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: David
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140527
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556001
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 698BAB9AC1DAF4F86BEF
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Skinner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6210 San Jose Blvd W
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jacksonville
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '322172370'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: FORESTRY
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00556001\x1C698BAB9AC1DAF4F86BEF\x1CIND\x1C\x1CSkinner\x1CCharles\x1C\x1C\x1C\x1C6210
+    San Jose Blvd W\x1C\x1CJacksonville\x1CFL\x1C322172370\x1C\x1C20140527\x1C1000.00\x1CSelf\x1CFORESTRY\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140527
+type: chunk

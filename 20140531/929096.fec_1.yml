@@ -1,0 +1,753 @@
+countrows: 12
+filename: 929096.fec
+header: {}
+rows:
+- 2
+- input: "F6A\x1CC00556100\x1C20140529\x1CWendy Greuel for Congress\x1C777 S. Figueroa
+    St., Suite 4050\x1C\x1CLos Angeles\x1CCA\x1C90017\x1CH4CA33101\x1CGreuel\x1CWendy\x1C\x1C\x1C\x1CH\x1CCA\x1C33\x1CKaufman\x1CStephen\x1CJ.\x1C\x1C\x1C20140531\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140529'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Wendy Greuel for Congress
+  - name: STREET 1
+    number: '5'
+    value: 777 S. Figueroa St., Suite 4050
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90017'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA33101
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Greuel
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Wendy
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '33'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kaufman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Stephen
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: J.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140531
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRWEE5\x1CIND\x1C\x1CFogltance\x1CJeff\x1C\x1C\x1C\x1C1518
+    Arrow Hwy\x1CSte D\x1CLa Verne\x1CCA\x1C917505330\x1C\x1C20140527\x1C2600.00\x1CFogltance
+    Electric\x1CCEO\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRWEE5
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fogltance
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jeff
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1518 Arrow Hwy
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste D
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Verne
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '917505330'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Fogltance Electric
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRZ9X3\x1CIND\x1C\x1CGhadamian\x1CMorad\x1C\x1C\x1C\x1C41
+    E 31st St\x1C\x1CNew York\x1CNY\x1C100166802\x1C\x1C20140527\x1C1001.00\x1CMarjan
+    International\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRZ9X3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ghadamian
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Morad
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 41 E 31st St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100166802'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1001.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Marjan International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCSAGY5\x1CIND\x1C\x1CGilmore\x1CTom\x1C\x1C\x1C\x1C411
+    S Main St\x1CUnit 603\x1CLos Angeles\x1CCA\x1C900131334\x1C\x1C20140527\x1C1000.00\x1CGilmore
+    Associates\x1CReal Estate Developer\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCSAGY5
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gilmore
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Tom
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 411 S Main St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Unit 603
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900131334'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Gilmore Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Real Estate Developer
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRX621\x1CIND\x1C\x1CGlucroft\x1CMichael\x1C\x1C\x1C\x1C1752
+    Fair Ave\x1C\x1CSimi Valley\x1CCA\x1C930633228\x1C\x1C20140527\x1C2600.00\x1CThe
+    Cabinet King\x1CVP of Sales\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRX621
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Glucroft
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1752 Fair Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Simi Valley
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '930633228'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Cabinet King
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'VP of Sales
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRWEZ9\x1CIND\x1C\x1CGregory\x1CToy\x1C\x1C\x1C\x1C151
+    S Medio Dr\x1C\x1CLos Angeles\x1CCA\x1C900493935\x1C\x1C20140527\x1C1300.00\x1CGoldstein
+    Planting Investments, LLC\x1CSenior Vice President\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRWEZ9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gregory
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Toy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 151 S Medio Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900493935'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1300.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Goldstein Planting Investments, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Senior Vice President
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRWCD2\x1CIND\x1C\x1CKhalili\x1CSina\x1C\x1C\x1C\x1C7231
+    Atoll Ave\x1C\x1CNorth Hollywood\x1CCA\x1C916054105\x1C\x1C20140527\x1C2600.00\x1CTurbo
+    Chilled Air Conditioning Inc.\x1CMechanical Contractor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRWCD2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Khalili
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sina
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7231 Atoll Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: North Hollywood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '916054105'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Turbo Chilled Air Conditioning Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Mechanical Contractor
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRZ9N2\x1CIND\x1C\x1CLacy\x1CClay\x1C\x1C\x1C\x1C11762
+    Stonehenge Ln\x1C\x1CLos Angeles\x1CCA\x1C900771302\x1C\x1C20140527\x1C1000.00\x1CSelf-Employed\x1CSelf-Employed\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRZ9N2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lacy
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Clay
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11762 Stonehenge Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900771302'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Self-Employed
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRWG07\x1CIND\x1C\x1CLeibovitch\x1CLinda\x1C\x1C\x1C\x1C1700
+    Lexington Rd\x1C\x1CBeverly Hills\x1CCA\x1C902102810\x1C\x1C20140527\x1C1000.00\x1CLinda
+    Leibovitch\x1CPolitical Strategist\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRWG07
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Leibovitch
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Linda
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1700 Lexington Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Beverly Hills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902102810'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Linda Leibovitch
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Political Strategist
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRT016\x1CIND\x1C\x1CModrzejewski\x1CChris\x1C\x1C\x1C\x1C584
+    Rosemont Ave\x1C\x1CPasadena\x1CCA\x1C911033253\x1C\x1C20140527\x1C1000.00\x1CM
+    Advisors\x1CConsultant\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRT016
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Modrzejewski
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Chris
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 584 Rosemont Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pasadena
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '911033253'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: M Advisors
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Consultant
+
+'
+- input: "F65\x1CC00556100\x1CVNJ3PCRZA15\x1CCCM\x1CUA Political Education Committee\x1C\x1C\x1C\x1C\x1C\x1C3
+    Park Pl\x1C\x1CAnnapolis\x1CMD\x1C214013687\x1C\x1C20140527\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556100
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ3PCRZA15
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UA Political Education Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3 Park Pl
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Annapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '214013687'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140531
+type: chunk

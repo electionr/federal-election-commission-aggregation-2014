@@ -1,0 +1,351 @@
+countrows: 6
+filename: 929443.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00368522\x1C\x1CJoe Wilson for Congress\x1CPO Box 2145\x1C\x1CWest
+    Columbia\x1CSC\x1C291712145\x1CH2SC02059\x1CWilson\x1CJoe\x1C\x1CThe Hon.\x1C\x1CH\x1CSC\x1C02\x1CBurkett\x1CDonald\x1CH.\x1C\x1C\x1C20140604\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Joe Wilson for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 2145
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: West Columbia
+  - name: STATE
+    number: '8'
+    value: SC
+  - name: ZIP
+    number: '9'
+    value: '291712145'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2SC02059
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Wilson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Joe
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: The Hon.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: SC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Burkett
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Donald
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: H.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140604
+
+'
+- input: "F65\x1CC00368522\x1CTX101550\x1CPAC\x1C\"CULAC THE PAC OF CREDIT UNION NATIONAL
+    ASSOCIATION\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"601  PENNSYLVANIA AVENUE
+    NW\"\x1C\"SUITE 600 \"\x1C\"WASHINGTON\"\x1CDC\x1C200042601\x1CC00007880\x1C20140603\x1C3000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX101550
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CULAC THE PAC OF CREDIT UNION NATIONAL ASSOCIATION
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 601  PENNSYLVANIA AVENUE NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'SUITE 600 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200042601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00007880
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140603'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00368522\x1CTX101551\x1CPAC\x1C\"AREVA  INC. PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"7475
+    \ WISCONSIN AVENUE\"\x1C\"SUITE 1100 \"\x1C\"BETHESDA\"\x1CMD\x1C208143424\x1CC00395285\x1C20140603\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX101551
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AREVA  INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7475  WISCONSIN AVENUE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'SUITE 1100 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BETHESDA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '208143424'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00395285
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140603'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00368522\x1CTX101552\x1CPAC\x1C\"EMPLOYEES OF NORTHROP GRUMMAN PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"2980
+    \ FAIRVIEW PARK DRIVE\"\x1C\"\"\x1C\"FALLS CHURCH\"\x1CVA\x1C220424511\x1CC00088591\x1C20140603\x1C2500.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX101552
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: EMPLOYEES OF NORTHROP GRUMMAN PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2980  FAIRVIEW PARK DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: FALLS CHURCH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '220424511'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00088591
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140603'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00368522\x1CTX101549\x1CIND\x1C\"\"\x1C\"FARLEY\"\x1C\"JOHN\"\x1C\"\"\x1C\"MR.\"\x1C\"\"\x1C\"PO
+    BOX 269\"\x1C\"\"\x1C\"BALLENTINE\"\x1CSC\x1C290020269\x1C\x1C20140604\x1C1000.00\x1C\"CONTRACT
+    CONSTRUCTION, INC.\"\x1C\"CONSTRUCTION\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00368522
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX101549
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FARLEY
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOHN
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: MR.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 269
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BALLENTINE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '290020269'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CONTRACT CONSTRUCTION, INC.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CONSTRUCTION
+
+'
+sourceurl: !!python/unicode 20140604
+type: chunk

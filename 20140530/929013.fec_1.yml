@@ -1,0 +1,151 @@
+countrows: 3
+filename: 929013.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00462697\x1C\x1CGaramendi for Congress\x1C1050 17th St NW Ste 590\x1C\x1CWashington\x1CDC\x1C20036\x1CH0CA10149\x1CGaramendi\x1CJohn\x1C\x1C\x1C\x1CH\x1CCA\x1C03\x1CKyriacopoulos\x1CJanica\x1C\x1C\x1C\x1C20140530\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462697
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Garamendi for Congress
+  - name: STREET 1
+    number: '5'
+    value: 1050 17th St NW Ste 590
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0CA10149
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Garamendi
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kyriacopoulos
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Janica
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140530
+
+'
+- input: "F65\x1CC00462697\x1CC9569688\x1CIND\x1C\x1CPalmer\x1CMark\x1CJ.\x1C\x1C\x1C2949
+    Portage Bay W.\x1CApt. 143\x1CDavis\x1CCA\x1C956162858\x1C\x1C20140529\x1C1000.00\x1CEarth
+    Island Institute\x1CAssociate Director\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00462697
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C9569688
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Palmer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2949 Portage Bay W.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 143
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Davis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '956162858'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140529'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Earth Island Institute
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Associate Director
+
+'
+sourceurl: !!python/unicode 20140530
+type: chunk

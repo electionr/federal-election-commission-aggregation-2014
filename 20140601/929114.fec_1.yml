@@ -1,0 +1,151 @@
+countrows: 3
+filename: 929114.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00504704\x1C\x1CCramer for Congress\x1CPO  Box 396\x1C\x1CBismarck\x1CND\x1C58502\x1CH0ND01026\x1CCramer\x1CKevin\x1C\x1C\x1C\x1CH\x1CND\x1C\x1CMarston\x1CChristopher\x1CM.\x1C\x1C\x1C20140531\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504704
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Cramer for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO  Box 396
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bismarck
+  - name: STATE
+    number: '8'
+    value: ND
+  - name: ZIP
+    number: '9'
+    value: '58502'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0ND01026
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Cramer
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Kevin
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ND
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Marston
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Christopher
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: M.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140531
+
+'
+- input: "F65\x1CC00504704\x1CTX4810\x1CIND\x1C\"\"\x1C\"BEHM\"\x1C\"LENNY\"\x1C\"E.\"\x1C\"\"\x1C\"\"\x1C\"3901
+    HIGHWAY 2 AND 52 W\"\x1C\"UKCC120201\"\x1C\"MINOT\"\x1CND\x1C587012814\x1C\x1C20140530\x1C2000.00\x1C\"SUNBEHM
+    GAS\"\x1C\"VICE PRESIDENT\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00504704
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX4810
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BEHM
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: LENNY
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: E.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3901 HIGHWAY 2 AND 52 W
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: UKCC120201
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MINOT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ND
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '587012814'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SUNBEHM GAS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'VICE PRESIDENT
+
+'
+sourceurl: !!python/unicode 20140601
+type: chunk

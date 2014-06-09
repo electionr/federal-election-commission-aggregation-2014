@@ -1,0 +1,151 @@
+countrows: 3
+filename: 929764.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00376673\x1C\x1CDutch Ruppersberger for Congress Committee\x1CPO
+    Box 231\x1C\x1CTimonium\x1CMD\x1C21094\x1CH2MD02160\x1CRuppersberger\x1CDutch\x1C\x1C\x1C\x1CH\x1CMD\x1C02\x1CDeger\x1CDavid\x1C\x1C\x1C\x1C20140606\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376673
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Dutch Ruppersberger for Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: PO Box 231
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Timonium
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21094'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2MD02160
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Ruppersberger
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Dutch
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: MD
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Deger
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: David
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140606
+
+'
+- input: "F65\x1CC00376673\x1CC20710537\x1CPAC\x1CCSX Corporation Good Government
+    Fund\x1C\x1C\x1C\x1C\x1C\x1C1331 Pennsylvania Ave NW\x1CSte 560, National Place\x1CWashington\x1CDC\x1C200041745\x1CC00163832\x1C20140606\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00376673
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C20710537
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CSX Corporation Good Government Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1331 Pennsylvania Ave NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 560, National Place
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200041745'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00163832
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140606'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140606
+type: chunk

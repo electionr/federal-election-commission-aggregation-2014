@@ -1,0 +1,582 @@
+countrows: 9
+filename: 929660.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00463687\x1C\x1CScott Rigell for Congress\x1C915 First Colonial
+    Road\x1CSuite 100\x1CVirginia Beach\x1CVA\x1C23454\x1CH0VA02084\x1CRigell\x1CEdward
+    Scott\x1C\x1CMr.\x1C\x1CH\x1CVA\x1C02\x1CWood Jr.\x1CJoseph\x1C\x1C\x1C\x1C20140605\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Scott Rigell for Congress
+  - name: STREET 1
+    number: '5'
+    value: 915 First Colonial Road
+  - name: STREET 2
+    number: '6'
+    value: Suite 100
+  - name: CITY
+    number: '7'
+    value: Virginia Beach
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23454'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0VA02084
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Rigell
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Edward Scott
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Wood Jr.
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Joseph
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140605
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 673741684361048A192F
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ashkenazi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Avraham
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4004 Atlantic Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 802
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Virginia Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '234512625'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1100.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: IAT International Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C673741684361048A192F\x1CIND\x1C\x1CAshkenazi\x1CAvraham\x1C\x1CMr.\x1C\x1C4004
+    Atlantic Ave\x1CApt 802\x1CVirginia Beach\x1CVA\x1C234512625\x1C\x1C20140605\x1C1100.00\x1CIAT
+    International Inc\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6CC306EB8AEF242999A3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jester
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Milan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: David
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 200 63rd St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Virginia Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '234512125'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Marlyn Development
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C6CC306EB8AEF242999A3\x1CIND\x1C\x1CJester\x1CMilan\x1CDavid\x1CMr.\x1C\x1C200
+    63rd St\x1C\x1CVirginia Beach\x1CVA\x1C234512125\x1C\x1C20140605\x1C1000.00\x1CMarlyn
+    Development\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 65C5FF7AAB32142EF8EC
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joseph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Douglas
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 123 College Pl
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ph 1
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norfolk
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '235101953'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dollar Tree Stores
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: retired chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C65C5FF7AAB32142EF8EC\x1CIND\x1C\x1CPerry\x1CJoseph\x1CDouglas\x1CMr.\x1C\x1C123
+    College Pl\x1CPh 1\x1CNorfolk\x1CVA\x1C235101953\x1C\x1C20140605\x1C2500.00\x1CDollar
+    Tree Stores\x1Cretired chairman\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6E3FF0A95E11E442F912
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ashkenazi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patricia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4004 Atlantic Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 802
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Virginia Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '234512625'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1750.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: IAT International Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C6E3FF0A95E11E442F912\x1CIND\x1C\x1CAshkenazi\x1CPatricia\x1C\x1CMrs.\x1C\x1C4004
+    Atlantic Ave\x1CApt 802\x1CVirginia Beach\x1CVA\x1C234512625\x1C\x1C20140605\x1C1750.00\x1CIAT
+    International Inc\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6233A61F3D6E14DD080E
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ashkenazi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Avraham
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4004 Atlantic Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 802
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Virginia Beach
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '234512625'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1750.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: IAT International Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C6233A61F3D6E14DD080E\x1CIND\x1C\x1CAshkenazi\x1CAvraham\x1C\x1CMr.\x1C\x1C4004
+    Atlantic Ave\x1CApt 802\x1CVirginia Beach\x1CVA\x1C234512625\x1C\x1C20140605\x1C1750.00\x1CIAT
+    International Inc\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 614091F77A6A14230912
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Perry
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Patricia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Walker
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 123 College Pl
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ph 1
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Norfolk
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '235101953'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C614091F77A6A14230912\x1CIND\x1C\x1CPerry\x1CPatricia\x1CWalker\x1CMrs.\x1C\x1C123
+    College Pl\x1CPh 1\x1CNorfolk\x1CVA\x1C235101953\x1C\x1C20140605\x1C2500.00\x1CRetired\x1Cretired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00463687
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6EC276B4BADDF4C7EBF1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Casey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Arthur
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 813 Diligence Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 116
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Newport News
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '236064237'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Casey Auto Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President/Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00463687\x1C6EC276B4BADDF4C7EBF1\x1CIND\x1C\x1CCasey\x1CArthur\x1C\x1CMr.\x1C\x1C813
+    Diligence Dr\x1CSte 116\x1CNewport News\x1CVA\x1C236064237\x1C\x1C20140605\x1C2600.00\x1CCasey
+    Auto Group\x1CPresident/Owner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140605
+type: chunk

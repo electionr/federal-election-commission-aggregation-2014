@@ -1,0 +1,775 @@
+countrows: 13
+filename: 928537.fec
+header: {}
+rows:
+- 2
+- input: "F6A\x1CC00351379\x1C20140523\x1CMike Honda for Congress\x1Cc/o Contribution
+    Solutions, LLC\x1C123 E. San Carlos St., #531\x1CSan Jose\x1CCA\x1C95112\x1CH0CA15148\x1CHonda\x1CMike\x1C\x1C\x1C\x1CH\x1CCA\x1C17\x1CDay\x1CVicki\x1C\x1C\x1C\x1C20140528\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140523'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Mike Honda for Congress
+  - name: STREET 1
+    number: '5'
+    value: c/o Contribution Solutions, LLC
+  - name: STREET 2
+    number: '6'
+    value: '123 E. San Carlos St., #531'
+  - name: CITY
+    number: '7'
+    value: San Jose
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95112'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0CA15148
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Honda
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Mike
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '17'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Day
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Vicki
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140528
+
+'
+- input: "F65\x1CC00351379\x1CC10044810\x1CPAC\x1CBecton, Dickinson and Company PAC\x1C\x1C\x1C\x1C\x1C\x1C1
+    Becton Dr.\x1CMC 085\x1CFranklin Lakes\x1CNJ\x1C07417\x1CC00376582\x1C20140523\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10044810
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Becton, Dickinson and Company PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 Becton Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: MC 085
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Franklin Lakes
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07417'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00376582
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00351379\x1CC10042774\x1CIND\x1C\x1CChen\x1CSolomon\x1C\x1C\x1C\x1C5430
+    Arroyo Summit Dr.\x1C\x1CLa Canada Flintridge\x1CCA\x1C91011\x1C\x1C20140522\x1C2600.00\x1CSuperior
+    Communications\x1CBusiness Executive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10042774
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Solomon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5430 Arroyo Summit Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Canada Flintridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '91011'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Superior Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Business Executive
+
+'
+- input: "F65\x1CC00351379\x1CC10042775\x1CIND\x1C\x1CChen\x1CSolomon\x1C\x1C\x1C\x1C5430
+    Arroyo Summit Dr.\x1C\x1CLa Canada Flintridge\x1CCA\x1C91011\x1C\x1C20140522\x1C2400.00\x1CSuperior
+    Communications\x1CBusiness Executive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10042775
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Solomon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5430 Arroyo Summit Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Canada Flintridge
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '91011'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Superior Communications
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Business Executive
+
+'
+- input: "F65\x1CC00351379\x1CC10042782\x1CIND\x1C\x1CChen\x1CYi Ru\x1C\x1C\x1C\x1C1049
+    30th Street NW\x1C\x1CWashington\x1CDC\x1C200073823\x1C\x1C20140522\x1C1000.00\x1CChrist
+    International Church\x1CExecutive Director\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10042782
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Yi Ru
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1049 30th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200073823'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Christ International Church
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive Director
+
+'
+- input: "F65\x1CC00351379\x1CC10044809\x1CPAC\x1CEmployees of Northrop Grumman Corporation
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C2980 Fairview Park Drive\x1C\x1CFalls Church\x1CVA\x1C22042\x1CC00088591\x1C20140523\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10044809
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Employees of Northrop Grumman Corporation PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2980 Fairview Park Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Falls Church
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22042'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00088591
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00351379\x1CC10037806\x1CIND\x1C\x1CFerguson\x1CJimmy\x1C\x1C\x1C\x1C1508
+    Dessan Ridge Lane #801\x1C\x1CSan Antonio\x1CTX\x1C78254\x1C\x1C20140521\x1C1000.00\x1CMax
+    Tab, Inc/McDonald's\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10037806
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ferguson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jimmy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '1508 Dessan Ridge Lane #801'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: San Antonio
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78254'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Max Tab, Inc/McDonald's
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00351379\x1CC10039105\x1CCCM\x1CGrace for New York\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 656555\x1C\x1CFresh Meadows\x1CNY\x1C11365\x1CC00516666\x1C20140522\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10039105
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Grace for New York
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 656555
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fresh Meadows
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '11365'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00516666
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00351379\x1CC10042783\x1CIND\x1C\x1CHwang\x1CHeu-Li\x1C\x1C\x1C\x1C9302
+    Lee Highway\x1CSuite 1200\x1CFairfax\x1CVA\x1C22031\x1C\x1C20140522\x1C1000.00\x1CPyramid
+    Systems, Inc.\x1CCEO & Co-Founder\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10042783
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hwang
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Heu-Li
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9302 Lee Highway
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1200
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fairfax
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22031'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Pyramid Systems, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CEO & Co-Founder
+
+'
+- input: "F65\x1CC00351379\x1CC10039112\x1CIND\x1C\x1CKhan\x1CJaved\x1CSaleem\x1C\x1C\x1C12168
+    Farr Ranch Road\x1C\x1CSaratoga\x1CCA\x1C95070\x1C\x1C20140522\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10039112
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Khan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Javed
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Saleem
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12168 Farr Ranch Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Saratoga
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '95070'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00351379\x1CC10042771\x1CIND\x1C\x1CPeterson\x1CDavid\x1C\x1C\x1C\x1C268
+    Bush Street\x1CSuite 2712\x1CWalnut Creek\x1CCA\x1C94598\x1C\x1C20140522\x1C1600.00\x1CSapphire
+    Consultants\x1CAccountability System Developer\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10042771
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Peterson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 268 Bush Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 2712
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Walnut Creek
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '94598'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sapphire Consultants
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Accountability System Developer
+
+'
+- input: "TEXT\x1CC00351379\x1CX0\x1C\x1CF6A\x1CAddition of two contributions received
+    5/23/14.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00351379
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6A
+  - name: TEXT4000
+    number: '6'
+    value: 'Addition of two contributions received 5/23/14.
+
+'
+sourceurl: !!python/unicode 20140528
+type: chunk

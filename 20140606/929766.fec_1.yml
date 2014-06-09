@@ -1,0 +1,350 @@
+countrows: 3
+filename: 929766.fec
+header: {}
+rows:
+- 2
+- input: "F1A\x1CC00468868\x1C\x1CZP Action\x1C\x1C203 South Union Street\x1CSTE 300\x1CAlexandria\x1CVA\x1C22314\x1C\x1CExec.Dir@ZPAction.org;dbacker@dbcapitolstrategies.com\x1C\x1Cwww.ZPAction.org\x1C20140606\x1CBacker\x1CDan\x1C\x1C\x1CEsq.\x1C20140606\x1CF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CNONE\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CBacker\x1CDan\x1C\x1C\x1CEsq.\x1C203
+    South Union Street\x1CSTE 300\x1CAlexandria\x1CVA\x1C22314\x1CTreasurer\x1C2022105431\x1CBacker\x1CDan\x1C\x1C\x1CEsq.\x1C203
+    South Union Street\x1CSTE 300\x1CAlexandria\x1CVA\x1C22314\x1CTreasurer\x1C2022105431\x1CBacker\x1CDan\x1C\x1C\x1CEsq.\x1C203
+    South Union Street\x1CSTE 300\x1CAlexandria\x1CVA\x1C22314\x1CTreasurer\x1C2022105431\x1CAccess
+    National Bank\x1C4221 Walney Road\x1CSuite 120\x1CChantilly\x1CVA\x1C20151\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.F1
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468868
+  - name: CHANGE OF COMMITTEE NAME
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: ZP Action
+  - name: CHANGE OF ADDRESS
+    number: '5'
+    value: ''
+  - name: STREET 1
+    number: '6'
+    value: 203 South Union Street
+  - name: STREET 2
+    number: '7'
+    value: STE 300
+  - name: CITY
+    number: '8'
+    value: Alexandria
+  - name: STATE
+    number: '9'
+    value: VA
+  - name: ZIP
+    number: '10'
+    value: '22314'
+  - name: CHANGE OF COMMITTEE EMAIL
+    number: '11'
+    value: ''
+  - name: COMMITTEE EMAIL
+    number: '12'
+    value: Exec.Dir@ZPAction.org;dbacker@dbcapitolstrategies.com
+  - name: CHANGE OF COMMITTEE WEB URL
+    number: '13'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '14'
+    value: www.ZPAction.org
+  - name: EFFECTIVE DATE
+    number: '15'
+    value: '20140606'
+  - name: SIGNATURE LAST NAME
+    number: '16'
+    value: Backer
+  - name: SIGNATURE FIRST NAME
+    number: '17'
+    value: Dan
+  - name: SIGNATURE MIDDLE NAME
+    number: '18'
+    value: ''
+  - name: SIGNATURE PREFIX
+    number: '19'
+    value: ''
+  - name: SIGNATURE SUFFIX
+    number: '20'
+    value: Esq.
+  - name: DATE SIGNED
+    number: '21'
+    value: '20140606'
+  - name: COMMITTEE TYPE
+    number: 22-5.
+    value: F
+  - name: CANDIDATE ID NUMBER
+    number: 23-5.
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: 24-5.
+    value: ''
+  - name: CANDIDATE FIRST NAME
+    number: 25-5.
+    value: ''
+  - name: CANDIDATE MIDDLE NAME
+    number: 26-5.
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: 27-5.
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: 28-5.
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: 29-5.
+    value: ''
+  - name: CANDIDATE STATE
+    number: 30-5.
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: 31-5.
+    value: ''
+  - name: PARTY CODE
+    number: 32-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 33-5.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 34-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 35-5 (e).
+    value: ''
+  - name: LOBBYIST/REGISTRANT PAC
+    number: 36-5 (f).
+    value: ''
+  - name: LEADERSHIP PAC
+    number: 37-5 (f).
+    value: ''
+  - name: AFFILIATED CMTTE ID NUM
+    number: 38-6.
+    value: ''
+  - name: AFFILIATED CMTTE NAME
+    number: 39-6.
+    value: NONE
+  - name: AFFILIATED CANDIDATE ID NUM
+    number: 40-6.
+    value: ''
+  - name: AFFILIATED LAST NAME
+    number: 41-6.
+    value: ''
+  - name: AFFILIATED FIRST NAME
+    number: 42-6.
+    value: ''
+  - name: AFFILIATED MIDDLE NAME
+    number: 43-6.
+    value: ''
+  - name: AFFILIATED PREFIX
+    number: 44-6.
+    value: ''
+  - name: AFFILIATED SUFFIX
+    number: 45-6.
+    value: ''
+  - name: AFFILIATED STREET 1
+    number: 46-6.
+    value: ''
+  - name: AFFILIATED STREET 2
+    number: 47-6.
+    value: ''
+  - name: AFFILIATED CITY
+    number: 48-6.
+    value: ''
+  - name: AFFILIATED STATE
+    number: 49-6.
+    value: ''
+  - name: AFFILIATED ZIP
+    number: 50-6.
+    value: ''
+  - name: 'AFFILIATED RELATIONSHIP CODE (with Filing Committee named in field #4)'
+    number: 51-6.
+    value: ''
+  - name: CUSTODIAN LAST NAME
+    number: 52-7.
+    value: Backer
+  - name: CUSTODIAN FIRST NAME
+    number: 53-7.
+    value: Dan
+  - name: CUSTODIAN MIDDLE NAME
+    number: 54-7.
+    value: ''
+  - name: CUSTODIAN PREFIX
+    number: 55-7.
+    value: ''
+  - name: CUSTODIAN SUFFIX
+    number: 56-7.
+    value: Esq.
+  - name: CUSTODIAN STREET 1
+    number: 57-7.
+    value: 203 South Union Street
+  - name: CUSTODIAN STREET 2
+    number: 58-7.
+    value: STE 300
+  - name: CUSTODIAN CITY
+    number: 59-7.
+    value: Alexandria
+  - name: CUSTODIAN STATE
+    number: 60-7.
+    value: VA
+  - name: CUSTODIAN ZIP
+    number: 61-7.
+    value: '22314'
+  - name: CUSTODIAN TITLE
+    number: 62-7.
+    value: Treasurer
+  - name: CUSTODIAN TELEPHONE
+    number: 63-7.
+    value: '2022105431'
+  - name: TREASURER LAST NAME
+    number: 64-8.
+    value: Backer
+  - name: TREASURER FIRST NAME
+    number: 65-8.
+    value: Dan
+  - name: TREASURER MIDDLE NAME
+    number: 66-8.
+    value: ''
+  - name: TREASURER PREFIX
+    number: 67-8.
+    value: ''
+  - name: TREASURER SUFFIX
+    number: 68-8.
+    value: Esq.
+  - name: TREASURER STREET 1
+    number: 69-8.
+    value: 203 South Union Street
+  - name: TREASURER STREET 2
+    number: 70-8.
+    value: STE 300
+  - name: TREASURER CITY
+    number: 71-8.
+    value: Alexandria
+  - name: TREASURER STATE
+    number: 72-8.
+    value: VA
+  - name: TREASURER ZIP
+    number: 73-8.
+    value: '22314'
+  - name: TREASURER TITLE
+    number: 74-8.
+    value: Treasurer
+  - name: TREASURER TELEPHONE
+    number: 75-8.
+    value: '2022105431'
+  - name: AGENT LAST NAME
+    number: 76-8.
+    value: Backer
+  - name: AGENT FIRST NAME
+    number: 77-8.
+    value: Dan
+  - name: AGENT MIDDLE NAME
+    number: 78-8.
+    value: ''
+  - name: AGENT PREFIX
+    number: 79-8.
+    value: ''
+  - name: AGENT SUFFIX
+    number: 80-8.
+    value: Esq.
+  - name: AGENT STREET 1
+    number: 81-8.
+    value: 203 South Union Street
+  - name: AGENT STREET 2
+    number: 82-8.
+    value: STE 300
+  - name: AGENT CITY
+    number: 83-8.
+    value: Alexandria
+  - name: AGENT STATE
+    number: 84-8.
+    value: VA
+  - name: AGENT ZIP
+    number: 85-8.
+    value: '22314'
+  - name: AGENT TITLE
+    number: 86-8.
+    value: Treasurer
+  - name: AGENT TELEPHONE
+    number: 87-8.
+    value: '2022105431'
+  - name: BANK NAME
+    number: 88-9. a)
+    value: Access National Bank
+  - name: BANK STREET 1
+    number: 89-9. a)
+    value: 4221 Walney Road
+  - name: BANK STREET 2
+    number: 90-9. a)
+    value: Suite 120
+  - name: BANK CITY
+    number: 91-9. a)
+    value: Chantilly
+  - name: BANK STATE
+    number: 92-9. a)
+    value: VA
+  - name: BANK ZIP
+    number: 93-9. a)
+    value: '20151'
+  - name: BANK NAME
+    number: 94-9. b)
+    value: ''
+  - name: BANK STREET 1
+    number: 95-9. b)
+    value: ''
+  - name: BANK STREET 2
+    number: 96-9. b)
+    value: ''
+  - name: BANK CITY
+    number: 97-9. b)
+    value: ''
+  - name: BANK STATE
+    number: 98-9. b)
+    value: ''
+  - name: BANK ZIP
+    number: 99-9. b)
+    value: '
+
+'
+- input: "TEXT\x1CC00468868\x1C.TEXT\x1C\x1CF1A\x1CThis amendment filed to update
+    bank address.  Consistent with the stipulated judgment in Carey v. FEC, this committee
+    has established a separate bank account (a Carey Account) to deposit and withdraw
+    funds raised in unlimited amounts from individuals, corporations, labor organizations,
+    and/or other political committees (Carey Contributions).  The Carey Contributions
+    maintained in this Carey account will not be used to make contributions, whether
+    direct, in-kind, or via coordinated communications, or coordinated expenditures,
+    to federal candidates or committees.\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468868
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: .TEXT
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F1A
+  - name: TEXT4000
+    number: '6'
+    value: 'This amendment filed to update bank address.  Consistent with the stipulated
+      judgment in Carey v. FEC, this committee has established a separate bank account
+      (a Carey Account) to deposit and withdraw funds raised in unlimited amounts
+      from individuals, corporations, labor organizations, and/or other political
+      committees (Carey Contributions).  The Carey Contributions maintained in this
+      Carey account will not be used to make contributions, whether direct, in-kind,
+      or via coordinated communications, or coordinated expenditures, to federal candidates
+      or committees.
+
+'
+sourceurl: !!python/unicode 20140606
+type: chunk

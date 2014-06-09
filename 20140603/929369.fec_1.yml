@@ -1,0 +1,150 @@
+countrows: 3
+filename: 929369.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00546572\x1C\x1CTroy Jackson for Congress\x1C213 Lisbon Street\x1C\x1CLewiston\x1CME\x1C04240\x1CH4ME02218\x1CJackson\x1CTroy\x1C\x1C\x1C\x1CH\x1CME\x1C02\x1CLindquist\x1CAlan\x1C\x1C\x1C\x1C20140603\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546572
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Troy Jackson for Congress
+  - name: STREET 1
+    number: '5'
+    value: 213 Lisbon Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lewiston
+  - name: STATE
+    number: '8'
+    value: ME
+  - name: ZIP
+    number: '9'
+    value: '04240'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4ME02218
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Jackson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Troy
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ME
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lindquist
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Alan
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140603
+
+'
+- input: "F65\x1CC00546572\x1CVN8QECPDF02\x1CPAC\x1CAMALGAMATED TRANSIT UNION - COPE\x1C\x1C\x1C\x1C\x1C\x1C5025
+    Wisconsin Ave NW\x1C\x1CWashington\x1CDC\x1C200164113\x1CC00032995\x1C20140602\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546572
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8QECPDF02
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMALGAMATED TRANSIT UNION - COPE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5025 Wisconsin Ave NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200164113'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00032995
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140602'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140603
+type: chunk

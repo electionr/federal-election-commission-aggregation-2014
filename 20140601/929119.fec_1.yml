@@ -1,0 +1,151 @@
+countrows: 3
+filename: 929119.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00557256\x1C\x1CMatt Miller for Congress 2014\x1C15332 Antioch Street\x1CNumber
+    529\x1CPacific Palisades\x1CCA\x1C90272\x1CH4CA33168\x1CMiller\x1CMatt\x1C\x1C\x1C\x1CH\x1CCA\x1C33\x1CMoskwa\x1CShelly\x1CR\x1C\x1C\x1C20140531\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00557256
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Matt Miller for Congress 2014
+  - name: STREET 1
+    number: '5'
+    value: 15332 Antioch Street
+  - name: STREET 2
+    number: '6'
+    value: Number 529
+  - name: CITY
+    number: '7'
+    value: Pacific Palisades
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90272'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA33168
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Miller
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Matt
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '33'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Moskwa
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Shelly
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: R
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140531
+
+'
+- input: "F65\x1CC00557256\x1CVNJ4ECS9MP2\x1CIND\x1C\x1CMiller\x1CMatt\x1C\x1C\x1C\x1C15332
+    Antioch St\x1CSte 529\x1CPacific Palisades\x1CCA\x1C902723628\x1C\x1C20140529\x1C5200.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00557256
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4ECS9MP2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Miller
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Matt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 15332 Antioch St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 529
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pacific Palisades
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '902723628'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140529'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140601
+type: chunk

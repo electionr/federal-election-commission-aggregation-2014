@@ -1,0 +1,150 @@
+countrows: 3
+filename: 928395.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00547885\x1C\x1CTACHERRA FOR CONGRESS 2014\x1C10034 Elkhorn Ave\x1C\x1CBurrel\x1CCA\x1C93607\x1CH2CA16100\x1CTacherra\x1CJohnny\x1C\x1C\x1C\x1CH\x1CCA\x1C16\x1CMontgomery\x1CThomas\x1CE\x1CMr.\x1CIII\x1C20140527\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00547885
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: TACHERRA FOR CONGRESS 2014
+  - name: STREET 1
+    number: '5'
+    value: 10034 Elkhorn Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Burrel
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93607'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2CA16100
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Tacherra
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Johnny
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '16'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Montgomery
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Thomas
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: E
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: III
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140527
+
+'
+- input: "F65\x1CC00547885\x1CF6.4473\x1CIND\x1C\x1CDalena\x1CVirginia\x1C\x1C\x1C\x1C7636
+    Road 34\x1C\x1CMadera\x1CCA\x1C93638\x1C\x1C20140527\x1C2600.00\x1CDalena Farms\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00547885
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4473
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dalena
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Virginia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7636 Road 34
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Madera
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '93638'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Dalena Farms
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+sourceurl: !!python/unicode 20140527
+type: chunk

@@ -1,0 +1,218 @@
+countrows: 4
+filename: 929152.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00554980\x1C\x1CJANICE KOVACH FOR CONGRESS\x1C196 WEST STATE STREET\x1C\x1CTRENTON\x1CNJ\x1C08608\x1CH4NJ07099\x1CJanice\x1CKovach\x1C\x1C\x1C\x1CH\x1C\x1C\x1CPeter\x1CNichols\x1C\x1C\x1C\x1C20140601\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554980
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: JANICE KOVACH FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: 196 WEST STATE STREET
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: TRENTON
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: 08608
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4NJ07099
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Janice
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Kovach
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Peter
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Nichols
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140601
+
+'
+- input: "F65\x1CC00554980\x1CWFT2014511824-1\x1CIND\x1C\x1CThomas\x1CGiblin\x1C\x1C\x1C\x1C40
+    Montague Place\x1C\x1CMontclair\x1CNJ\x1C07042\x1C\x1C20140530\x1C1000.00\x1CState
+    of New Jersey\x1CAssemblyman\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554980
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT2014511824-1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Thomas
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Giblin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 40 Montague Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Montclair
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07042'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: State of New Jersey
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Assemblyman
+
+'
+- input: "F65\x1CC00554980\x1CWFT2014511825-1\x1CIND\x1C\x1CJanice\x1CKovach\x1C\x1C\x1C\x1C(Candidate
+    Personal Funds)\x1C4 Mitchell Lane\x1CClinton\x1CNJ\x1C08809\x1C\x1C20140530\x1C1700.00\x1CTown
+    of Clinton\x1CMayor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554980
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: WFT2014511825-1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Janice
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kovach
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: (Candidate Personal Funds)
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 4 Mitchell Lane
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Clinton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 08809
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1700.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Town of Clinton
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Mayor
+
+'
+sourceurl: !!python/unicode 20140601
+type: chunk

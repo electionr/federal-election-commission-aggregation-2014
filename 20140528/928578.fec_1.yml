@@ -1,0 +1,219 @@
+countrows: 4
+filename: 928578.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00560698\x1C\x1CCommittee to Elect Tamara Harris Johnson for Congress\x1C1509-A
+    8th Avenue North\x1C\x1CBirmingham\x1CAL\x1C35203\x1CH4AL07096\x1CJohnson\x1CTamara\x1CHarris\x1CMs\x1CEsq.\x1CH\x1CAL\x1C07\x1CGardner\x1CBarry\x1CVaughn\x1CMr.\x1C\x1C20140528\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00560698
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Committee to Elect Tamara Harris Johnson for Congress
+  - name: STREET 1
+    number: '5'
+    value: 1509-A 8th Avenue North
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Birmingham
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '35203'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4AL07096
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Johnson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Tamara
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: Harris
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Ms
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: Esq.
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: AL
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '07'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Gardner
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Barry
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: Vaughn
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140528
+
+'
+- input: "F65\x1CC00560698\x1CF6.4257\x1CIND\x1C\x1CBender\x1CDarryl\x1C\x1C\x1C\x1C711
+    18th North\x1C\x1CBirmingham\x1CAL\x1C35203\x1C\x1C20140520\x1C1000.00\x1CBender
+    & Agboola LLC\x1CAttorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00560698
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4257
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bender
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Darryl
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 711 18th North
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '35203'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140520'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Bender & Agboola LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00560698\x1CF6.4258\x1CIND\x1C\x1CHicks\x1CWesley\x1CL\x1C\x1CJr.\x1C9714
+    Erie Rd\x1C\x1CAngola\x1CNY\x1C14006\x1C\x1C20140527\x1C1000.00\x1CWesley L Hicks
+    MD\x1CMedical Doctor\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00560698
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4258
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hicks
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Wesley
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9714 Erie Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Angola
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '14006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140527'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Wesley L Hicks MD
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Medical Doctor
+
+'
+sourceurl: !!python/unicode 20140528
+type: chunk

@@ -1,0 +1,150 @@
+countrows: 3
+filename: 929630.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00546077\x1C\x1CCain for Congress\x1CPO Box 1523\x1C\x1CBangor\x1CME\x1C04402\x1CH4ME02200\x1CCain\x1CEmily\x1C\x1C\x1C\x1CH\x1CME\x1C02\x1CFischer\x1CJeremy\x1C\x1C\x1C\x1C20140605\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546077
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Cain for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1523
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bangor
+  - name: STATE
+    number: '8'
+    value: ME
+  - name: ZIP
+    number: '9'
+    value: '04402'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4ME02200
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Cain
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Emily
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ME
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Fischer
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jeremy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140605
+
+'
+- input: "F65\x1CC00546077\x1CVNVT5A72DG6\x1CIND\x1C\x1CSclar\x1CMaxine\x1CR.\x1C\x1C\x1C22
+    Lake Avenue\x1C\x1CWindham\x1CME\x1C040625745\x1C\x1C20140604\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546077
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNVT5A72DG6
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sclar
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Maxine
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: R.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 22 Lake Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Windham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ME
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '040625745'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140604'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+sourceurl: !!python/unicode 20140605
+type: chunk

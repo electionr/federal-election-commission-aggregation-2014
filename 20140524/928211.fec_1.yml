@@ -1,0 +1,486 @@
+countrows: 8
+filename: 928211.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00545467\x1C\x1CHURD FOR CONGRESS\x1CPO BOX 656\x1C\x1CHELOTES\x1CTX\x1C78023\x1CH0TX23086\x1CHURD\x1CWILLIAM\x1C\x1C\x1C\x1CH\x1CTX\x1C23\x1CCRATE\x1CBRADLEY\x1C\x1C\x1C\x1C20140524\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: HURD FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 656
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HELOTES
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78023'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0TX23086
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: HURD
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: WILLIAM
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: TX
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '23'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: CRATE
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: BRADLEY
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140524
+
+'
+- input: "F65\x1CC00545467\x1CF6.6244\x1CIND\x1C\x1CBOSARGE\x1CED\x1C\x1C\x1C\x1CYOAKUM
+    BLVD\x1CSTE 200\x1CHOUSTON\x1CTX\x1C77006\x1C\x1C20140522\x1C2600.00\x1CCAPITAL
+    TECHNOLOGIES\x1CBUSINESSMAN\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6244
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BOSARGE
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ED
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: YOAKUM BLVD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: STE 200
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HOUSTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77006'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: CAPITAL TECHNOLOGIES
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'BUSINESSMAN
+
+'
+- input: "F65\x1CC00545467\x1CF6.6245\x1CIND\x1C\x1CBRIGMAN\x1CJOSE\x1C\x1C\x1C\x1C12415
+    BANDERA RD\x1CSUITE 110\x1CHELOTES\x1CTX\x1C78023\x1C\x1C20140523\x1C1000.00\x1CDBA
+    HELOTES FAMILY DENISTRY\x1CDENTIST\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6245
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BRIGMAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JOSE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12415 BANDERA RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 110
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: HELOTES
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78023'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DBA HELOTES FAMILY DENISTRY
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'DENTIST
+
+'
+- input: "F65\x1CC00545467\x1CF6.6246\x1CIND\x1C\x1CBROADDUS\x1CJAMES\x1C\x1C\x1C\x1C1301
+    S. CAPITAL OF TEXAS HWY \x1C#A-302\x1CAUSTIN\x1CTX\x1C78746\x1C\x1C20140524\x1C1000.00\x1CBROADDUS
+    & ASSOCIATES, INC.\x1CBUSINESS OWNER\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6246
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BROADDUS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: JAMES
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '1301 S. CAPITAL OF TEXAS HWY '
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '#A-302'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: AUSTIN
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78746'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140524'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: BROADDUS & ASSOCIATES, INC.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'BUSINESS OWNER
+
+'
+- input: "F65\x1CC00545467\x1CF6.6238\x1CIND\x1C\x1CBROUMAND\x1CVARSHASB\x1C\x1C\x1C\x1C207
+    BENTLEY MANOR\x1C\x1CSAN ANTONIO\x1CTX\x1C78249\x1C\x1C20140523\x1C2000.00\x1CSOUTH
+    TEXAS RENAL CARE\x1CPHYSICIAN\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6238
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BROUMAND
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: VARSHASB
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 207 BENTLEY MANOR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN ANTONIO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78249'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SOUTH TEXAS RENAL CARE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'PHYSICIAN
+
+'
+- input: "F65\x1CC00545467\x1CF6.6240\x1CIND\x1C\x1CMIZANI\x1CMOHAMMAD\x1C\x1C\x1C\x1C303
+    WEST HOUSTON STREET\x1CSUITE 609\x1CSAN ANTONIO\x1CTX\x1C78205\x1C\x1C20140523\x1C2600.00\x1CSOUTH
+    TEXAS RENAL CARE\x1CPHYSICIAN\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6240
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MIZANI
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MOHAMMAD
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 303 WEST HOUSTON STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 609
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN ANTONIO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SOUTH TEXAS RENAL CARE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'PHYSICIAN
+
+'
+- input: "F65\x1CC00545467\x1CF6.6242\x1CIND\x1C\x1CMIZANI\x1CMOHAMMAD\x1C\x1C\x1C\x1C303
+    WEST HOUSTON STREET\x1CSUITE 609\x1CSAN ANTONIO\x1CTX\x1C78205\x1C\x1C20140523\x1C2600.00\x1CSOUTH
+    TEXAS RENAL CARE\x1CPHYSICIAN\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545467
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.6242
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MIZANI
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MOHAMMAD
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 303 WEST HOUSTON STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 609
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN ANTONIO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78205'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SOUTH TEXAS RENAL CARE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'PHYSICIAN
+
+'
+sourceurl: !!python/unicode 20140524
+type: chunk

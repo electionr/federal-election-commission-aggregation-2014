@@ -1,0 +1,2561 @@
+countrows: 20
+filename: 928638.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00549006\x1C24\x1C\x1CNEW AMERICA PAC NV\x1C717 King Street\x1CSuite
+    300\x1CAlexandria\x1CVA\x1C22314\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '24'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: NEW AMERICA PAC NV
+  - name: STREET 1
+    number: '6'
+    value: 717 King Street
+  - name: STREET 2
+    number: '7'
+    value: Suite 300
+  - name: CITY
+    number: '8'
+    value: Alexandria
+  - name: STATE
+    number: '9'
+    value: VA
+  - name: ZIP
+    number: '10'
+    value: '22314'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: Gruccio
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: Michael
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140529
+
+'
+- input: "SE\x1CC00549006\x1CSE.4168\x1C\x1C\x1CIND\x1C\x1CBletnitsky\x1CLeo\x1C\x1CMr.\x1C\x1C2251
+    North Rampart Blvd\x1C#375\x1CLas Vegas\x1CNV\x1C89128\x1CP2014\x1C\x1C20140527\x1C523.87\x1C20140519\x1C20407.23\x1CVideo
+    Production\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4168
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Bletnitsky
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Leo
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2251 North Rampart Blvd
+  - name: PAYEE STREET  2
+    number: '14'
+    value: '#375'
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89128'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '523.87'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '20407.23'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4169\x1C\x1C\x1CIND\x1C\x1CBletnitsky\x1CLeo\x1C\x1CMr.\x1C\x1C2251
+    North Rampart Blvd\x1C#375\x1CLas Vegas\x1CNV\x1C89128\x1CP2014\x1C\x1C20140527\x1C523.87\x1C20140519\x1C19883.36\x1CVideo
+    Production\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4169
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Bletnitsky
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Leo
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: Mr.
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2251 North Rampart Blvd
+  - name: PAYEE STREET  2
+    number: '14'
+    value: '#375'
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89128'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '523.87'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '19883.36'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4166\x1C\x1C\x1CORG\x1CCox Media\x1C\x1C\x1C\x1C\x1C\x1C1700
+    Vegas Dr\x1C\x1CLas Vegas\x1CNV\x1C89106\x1CP2014\x1C\x1C20140527\x1C3678.38\x1C20140519\x1C18311.75\x1CAdvertising
+    Buy\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4166
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Cox Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1700 Vegas Dr
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89106'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3678.38'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '18311.75'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4167\x1C\x1C\x1CORG\x1CCox Media\x1C\x1C\x1C\x1C\x1C\x1C1700
+    Vegas Dr\x1C\x1CLas Vegas\x1CNV\x1C89106\x1CP2014\x1C\x1C20140527\x1C3678.37\x1C20140519\x1C14633.37\x1CAdvertising
+    Buy\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4167
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Cox Media
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1700 Vegas Dr
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89106'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3678.37'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '14633.37'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4164\x1C\x1C\x1CORG\x1CKLAS TV 8\x1C\x1C\x1C\x1C\x1C\x1C3228
+    Channel 8 Drive\x1C\x1CLas Vegas\x1CNV\x1C89109\x1CP2014\x1C\x1C20140527\x1C3081.25\x1C20140519\x1C8808.75\x1CAdvertising
+    Buy\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4164
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: KLAS TV 8
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3228 Channel 8 Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89109'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3081.25'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '8808.75'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4165\x1C\x1C\x1CORG\x1CKLAS TV 8\x1C\x1C\x1C\x1C\x1C\x1C3228
+    Channel 8 Drive\x1C\x1CLas Vegas\x1CNV\x1C89109\x1CP2014\x1C\x1C20140527\x1C3081.25\x1C20140519\x1C5727.50\x1CAdvertising
+    Buy\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4165
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: KLAS TV 8
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3228 Channel 8 Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89109'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '3081.25'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '5727.50'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4162\x1C\x1C\x1CORG\x1CKSNV TV\x1C\x1C\x1C\x1C\x1C\x1C1500
+    Foremaster Lane\x1C\x1CLas Vegas\x1CNV\x1C89101\x1CP2014\x1C\x1C20140527\x1C2146.25\x1C20140519\x1C10955.00\x1CAdvertising
+    Buy\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4162
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: KSNV TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1500 Foremaster Lane
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89101'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2146.25'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '10955.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4163\x1C\x1C\x1CORG\x1CKSNV TV\x1C\x1C\x1C\x1C\x1C\x1C1500
+    Foremaster Lane\x1C\x1CLas Vegas\x1CNV\x1C89101\x1CP2014\x1C\x1C20140527\x1C2146.25\x1C20140519\x1C2646.25\x1CAdvertising
+    Buy\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4163
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: KSNV TV
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1500 Foremaster Lane
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89101'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '2146.25'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '2646.25'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Advertising Buy
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4160\x1C\x1C\x1CORG\x1CLaguna Productions\x1C\x1C\x1C\x1C\x1C\x1C2708
+    S Highland Dr\x1C\x1CLas Vegas\x1CNV\x1C89109\x1CP2014\x1C\x1C20140527\x1C1250.00\x1C20140519\x1C23954.97\x1CVideo
+    Production\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4160
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Laguna Productions
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2708 S Highland Dr
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89109'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1250.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '23954.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4161\x1C\x1C\x1CORG\x1CLaguna Productions\x1C\x1C\x1C\x1C\x1C\x1C2708
+    S Highland Dr\x1C\x1CLas Vegas\x1CNV\x1C89109\x1CP2014\x1C\x1C20140527\x1C1250.00\x1C20140519\x1C22704.97\x1CVideo
+    Production\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4161
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Laguna Productions
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2708 S Highland Dr
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89109'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '1250.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '22704.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4158\x1C\x1C\x1CORG\x1CLaguna Productions\x1C\x1C\x1C\x1C\x1C\x1C2708
+    S Highland Dr\x1C\x1CLas Vegas\x1CNV\x1C89109\x1CP2014\x1C\x1C20140527\x1C75.00\x1C20140522\x1C24104.97\x1CVideo
+    Production\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4158
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Laguna Productions
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2708 S Highland Dr
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89109'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '75.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140522'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '24104.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4159\x1C\x1C\x1CORG\x1CLaguna Productions\x1C\x1C\x1C\x1C\x1C\x1C2708
+    S Highland Dr\x1C\x1CLas Vegas\x1CNV\x1C89109\x1CP2014\x1C\x1C20140527\x1C75.00\x1C20140522\x1C24104.97\x1CVideo
+    Production\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4159
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Laguna Productions
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 2708 S Highland Dr
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89109'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '75.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140522'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '24104.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4156\x1C\x1C\x1CIND\x1C\x1CMaffat\x1CCarlos\x1C\x1C\x1C\x1C7495
+    West Azure Drive\x1C\x1CNorth Las Vegas\x1CNV\x1C89130\x1CP2014\x1C\x1C20140527\x1C523.87\x1C20140519\x1C19359.49\x1CVideo
+    Production\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4156
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Maffat
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Carlos
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 7495 West Azure Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: North Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89130'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '523.87'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '19359.49'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4157\x1C\x1C\x1CIND\x1C\x1CMaffat\x1CCarlos\x1C\x1C\x1C\x1C7495
+    West Azure Drive\x1C\x1CNorth Las Vegas\x1CNV\x1C89130\x1CP2014\x1C\x1C20140527\x1C523.87\x1C20140519\x1C18835.62\x1CVideo
+    Production\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4157
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Maffat
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Carlos
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 7495 West Azure Drive
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: North Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89130'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '523.87'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '18835.62'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4154\x1C\x1C\x1CIND\x1C\x1CStoffel\x1CSusan\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP2014\x1C\x1C20140527\x1C523.87\x1C20140519\x1C21454.97\x1CVideo
+    Production\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4154
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Stoffel
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Susan
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: ''
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: ''
+  - name: PAYEE STATE
+    number: '16'
+    value: ''
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '523.87'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '21454.97'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4155\x1C\x1C\x1CIND\x1C\x1CStoffel\x1CSusan\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1CP2014\x1C\x1C20140527\x1C523.87\x1C20140519\x1C20931.10\x1CVideo
+    Production\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4155
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Stoffel
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Susan
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: ''
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: ''
+  - name: PAYEE STATE
+    number: '16'
+    value: ''
+  - name: PAYEE ZIP
+    number: '17'
+    value: ''
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '523.87'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '20931.10'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4148\x1C\x1C\x1CIND\x1C\x1CWaymire\x1CStuart\x1CD.\x1C\x1C\x1C3588
+    S. Malafia Cir\x1C\x1CLas Vegas\x1CNV\x1C89103\x1CP2014\x1C\x1C20140527\x1C250.00\x1C20140519\x1C500.00\x1CVideo
+    Production\x1C003\x1CC00549006\x1CO\x1CH4NV04017\x1CHARDY\x1CCRESENT\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4148
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Waymire
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Stuart
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: D.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3588 S. Malafia Cir
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89103'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '250.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '500.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: H4NV04017
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: HARDY
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: CRESENT
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00549006\x1CSE.4153\x1C\x1C\x1CIND\x1C\x1CWaymire\x1CStuart\x1CD.\x1C\x1C\x1C3588
+    S. Malafia Cir\x1C\x1CLas Vegas\x1CNV\x1C89103\x1CP2014\x1C\x1C20140527\x1C250.00\x1C20140519\x1C250.00\x1CVideo
+    Production\x1C003\x1CC00549006\x1CS\x1C\x1CINNIS\x1CNIGER\x1C\x1C\x1C\x1CH\x1C04\x1CNV\x1CGruccio\x1CMichael\x1C\x1C\x1C\x1C20140529\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00549006
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.4153
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Waymire
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Stuart
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: D.
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 3588 S. Malafia Cir
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Las Vegas
+  - name: PAYEE STATE
+    number: '16'
+    value: NV
+  - name: PAYEE ZIP
+    number: '17'
+    value: '89103'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140527'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '250.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140519'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '250.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Video Production
+  - name: CATEGORY CODE
+    number: '25'
+    value: '003'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00549006
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: INNIS
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: NIGER
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '04'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: NV
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: Gruccio
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: Michael
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140529'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140529
+type: chunk

@@ -1,0 +1,4438 @@
+countrows: 32
+filename: 928838.fec
+header: {}
+rows:
+- 2
+- input: "F3A\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1CPO BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1COR\x1C00\x1CQ1\x1C\x1C\x1C\x1C20140101\x1C20140331\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1C20140404\x1C11285.00\x1C0.00\x1C11285.00\x1C11591.73\x1C0.00\x1C11591.73\x1C3442.87\x1C0.00\x1C4000.00\x1C5250.00\x1C1035.00\x1C6285.00\x1C0.00\x1C0.00\x1C5000.00\x1C11285.00\x1C0.00\x1C500.00\x1C0.00\x1C500.00\x1C0.00\x1C0.00\x1C11785.00\x1C11591.73\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C11591.73\x1C3249.60\x1C11785.00\x1C15034.60\x1C11591.73\x1C3442.87\x1C17299.54\x1C0.00\x1C17299.54\x1C17856.67\x1C0.00\x1C17856.67\x1C5750.00\x1C2475.00\x1C8225.00\x1C0.00\x1C0.00\x1C9074.54\x1C17299.54\x1C0.00\x1C4000.00\x1C0.00\x1C4000.00\x1C0.00\x1C0.00\x1C21299.54\x1C17856.67\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C17856.67\n"
+  record: fec.version.v8_1.F3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CALLAHAN FOR OREGON
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 4352
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SALEM
+  - name: STATE
+    number: '8'
+    value: OR
+  - name: ZIP
+    number: '9'
+    value: '97302'
+  - name: ELECTION STATE
+    number: '10'
+    value: OR
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '00'
+  - name: REPORT CODE
+    number: '12'
+    value: Q1
+  - name: ELECTION CODE {was RPTPGI}
+    number: '13'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20140101'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20140331'
+  - name: TREASURER LAST NAME
+    number: '18'
+    value: CALLAHAN
+  - name: TREASURER FIRST NAME
+    number: '19'
+    value: MARK
+  - name: TREASURER MIDDLE NAME
+    number: '20'
+    value: ALLEN
+  - name: TREASURER PREFIX
+    number: '21'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20140404'
+  - name: Total Contributions (NO Loans)
+    number: 24-(6a)
+    value: '11285.00'
+  - name: Total Contribution Refunds
+    number: 25-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 26-(6c)
+    value: '11285.00'
+  - name: Total Operating Expenditures
+    number: 27-(7a)
+    value: '11591.73'
+  - name: Total Offset to Operating Expenditures
+    number: 28-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 29-(7c)
+    value: '11591.73'
+  - name: CASH ON HAND AT CLOSE ...
+    number: 30-8.
+    value: '3442.87'
+  - name: DEBTS TO ( Totals from SCH C and/or D)
+    number: 31-9.
+    value: '0.00'
+  - name: DEBTS BY (Totals from SCH C and/or D)
+    number: 32-10.
+    value: '4000.00'
+  - name: Individuals Itemized
+    number: 33-11(a i.)
+    value: '5250.00'
+  - name: Individuals Unitemized
+    number: 34-11(a.ii)
+    value: '1035.00'
+  - name: Individual Contribution Total
+    number: 35-11(a.iii)
+    value: '6285.00'
+  - name: Political Party Committees
+    number: 36-11(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 37-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 38-11(d)
+    value: '5000.00'
+  - name: Total Contributions
+    number: 39-11(e)
+    value: '11285.00'
+  - name: Transfers From Other Authorized Cmttes
+    number: 40-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 41-13(a)
+    value: '500.00'
+  - name: All Other Loans
+    number: 42-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 43-13(c)
+    value: '500.00'
+  - name: Offsets to Operating Expenditures
+    number: 44-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 45-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 46-16.
+    value: '11785.00'
+  - name: Operating Expenditures
+    number: 47-17.
+    value: '11591.73'
+  - name: Transfers to Other Authorized Committees
+    number: 48-18.
+    value: '0.00'
+  - name: Of Loans made or guar. by the Cand.
+    number: 49-19(a)
+    value: '0.00'
+  - name: Loan Repayments, All Other Loans
+    number: 50-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 51-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Pol. Cmtes
+    number: 52-20(a)
+    value: '0.00'
+  - name: Refund/Political Party Committees
+    number: 53-20(b)
+    value: '0.00'
+  - name: Refund/Other Political Committees
+    number: 54-20(c)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 55-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 56-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 57-22.
+    value: '11591.73'
+  - name: Cash Beginning Reporting Period
+    number: 58-23.
+    value: '3249.60'
+  - name: Total Receipts this Period
+    number: 59-24.
+    value: '11785.00'
+  - name: Subtotals
+    number: 60-25.
+    value: '15034.60'
+  - name: Total Disbursements this Period
+    number: 61-26.
+    value: '11591.73'
+  - name: Cash on hand at Close Period
+    number: 62-27.
+    value: '3442.87'
+  - name: Total Contributions (No Loans)
+    number: 63-(6a)
+    value: '17299.54'
+  - name: Total Contribution Refunds
+    number: 64-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 65-(6c)
+    value: '17299.54'
+  - name: Total Operating Expenditures
+    number: 66-(7a)
+    value: '17856.67'
+  - name: Total Offsets to Operating Expenditures
+    number: 67-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 68-(7c)
+    value: '17856.67'
+  - name: Individuals Itemized
+    number: 69-11(a i.)
+    value: '5750.00'
+  - name: Individuals Unitemized
+    number: 70-11(a.ii)
+    value: '2475.00'
+  - name: Individuals Total
+    number: 71-11(a.iii)
+    value: '8225.00'
+  - name: Political Party Committees
+    number: 72-11(b)
+    value: '0.00'
+  - name: All Other Political Committees (PACS)
+    number: 73-11(c)
+    value: '0.00'
+  - name: The Candidate
+    number: 74-11(d)
+    value: '9074.54'
+  - name: Total Contributions
+    number: 75-11(e)
+    value: '17299.54'
+  - name: Transfers From Other AUTH Committees
+    number: 76-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 77-13(a)
+    value: '4000.00'
+  - name: All Other Loans
+    number: 78-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 79-13(c)
+    value: '4000.00'
+  - name: Offsets to Operating Expenditures
+    number: 80-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 81-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 82-16.
+    value: '21299.54'
+  - name: Operating Expenditures
+    number: 83-17
+    value: '17856.67'
+  - name: Transfers To Other AUTH Committees
+    number: 84-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 85-19(a)
+    value: '0.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 86-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 87-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Pol. Cmtes
+    number: 88-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 89-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 90-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 91-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 92-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 93-22.
+    value: '17856.67
+
+'
+- input: "SA11AI\x1CC00548115\x1CSA11AI.4592\x1C\x1C\x1CIND\x1C\x1CClopton\x1CDaniel\x1C\x1C\x1C\x1CP.O.
+    Box 7442\x1C\x1CSpringfield\x1COR\x1C97475\x1CP2014\x1C\x1C20140331\x1C2500.00\x1C2500.00\x1CIn-kind
+    - Donation for campaign consulting services for January/February 2014\x1CThe Right
+    Associates\x1CPolitical Consultant\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4592
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Clopton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Daniel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: P.O. Box 7442
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Springfield
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '97475'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140331'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: In-kind - Donation for campaign consulting services for January/February
+      2014
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: The Right Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Political Consultant
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00548115\x1CSA11AI.4376\x1C\x1C\x1CIND\x1C\x1CFlaherty\x1CKathleen\x1C\x1C\x1C\x1C4302
+    Myrtlewood Drive,\x1C\x1CSanford\x1CFL\x1C32771\x1CP2014\x1C\x1C20140129\x1C100.00\x1C250.00\x1CCampaign
+    Contribution\x1CCentury 21 Insurance\x1CService Advocate\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4376
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Flaherty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Kathleen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 4302 Myrtlewood Drive,
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Sanford
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '32771'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140129'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '100.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Campaign Contribution
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Century 21 Insurance
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Service Advocate
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00548115\x1CSA11AI.4377\x1C\x1C\x1CIND\x1C\x1CFlaherty\x1CKathleen\x1C\x1C\x1C\x1C4302
+    Myrtlewood Drive,\x1C\x1CSanford\x1CFL\x1C32771\x1CP2014\x1C\x1C20140129\x1C50.00\x1C300.00\x1CCampaign
+    Contribution\x1CCentury 21 Insurance\x1CService Advocate\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4377
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Flaherty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Kathleen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 4302 Myrtlewood Drive,
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Sanford
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '32771'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140129'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '50.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '300.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Campaign Contribution
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Century 21 Insurance
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Service Advocate
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00548115\x1CSA11AI.4563\x1C\x1C\x1CIND\x1C\x1CFlaherty\x1CKathleen\x1C\x1C\x1C\x1C4302
+    Myrtlewood Drive,\x1C\x1CSanford\x1CFL\x1C32771\x1CP2014\x1C\x1C20140212\x1C100.00\x1C400.00\x1CCampaign
+    contribution\x1CCentury 21 Insurance\x1CService Advocate\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4563
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Flaherty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Kathleen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 4302 Myrtlewood Drive,
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Sanford
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '32771'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140212'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '100.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '400.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Campaign contribution
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Century 21 Insurance
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Service Advocate
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00548115\x1CSA11AI.4639\x1C\x1C\x1CORG\x1CRight Action - Bryan
+    Smith\x1C\x1C\x1C\x1C\x1C\x1C1430 Willamette Street\x1C\x1CEugene\x1COR\x1C97401\x1CP2014\x1C\x1C20140331\x1C2500.00\x1C2500.00\x1CIn-kind
+    - Donation of online and social media services\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4639
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: Right Action - Bryan Smith
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1430 Willamette Street
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Eugene
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '97401'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140331'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: In-kind - Donation of online and social media services
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11D\x1CC00548115\x1CSA11D.4638\x1C\x1C\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C20140131\x1C2500.00\x1C10074.54\x1CCampaign
+    Contribution\x1CRobert Half International\x1CInformation Technology Consultant\x1C\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11D
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11D.4638
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: CALLAHAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: MARK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ALLEN
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO BOX 4352
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: SALEM
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140131'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '10074.54'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Campaign Contribution
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Robert Half International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Information Technology Consultant
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: S4OR00172
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ALLEN
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11D\x1CC00548115\x1CSA11D.4636\x1C\x1C\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C20140228\x1C2000.00\x1C12574.54\x1CCampaign
+    Contribution\x1CRobert Half International\x1CInformation Technology Consultant\x1C\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11D
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11D.4636
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: CALLAHAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: MARK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ALLEN
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO BOX 4352
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: SALEM
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140228'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '12574.54'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Campaign Contribution
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Robert Half International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Information Technology Consultant
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: S4OR00172
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ALLEN
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11D\x1CC00548115\x1CSA11D.4634\x1C\x1C\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C20140315\x1C500.00\x1C13074.54\x1CCampaign
+    Contribution\x1CRobert Half International\x1CInformation Technology Consultant\x1C\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11D
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11D.4634
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: CALLAHAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: MARK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ALLEN
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO BOX 4352
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: SALEM
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140315'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '13074.54'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Campaign Contribution
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Robert Half International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Information Technology Consultant
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: S4OR00172
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ALLEN
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA13A\x1CC00548115\x1CSA13A.5160\x1C\x1C\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C20140201\x1C500.00\x1C10574.54\x1CLoan
+    from Candidate to Campaign\x1CRobert Half International\x1CInformation Technology
+    Consultant\x1C\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA13A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA13A.5160
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: CALLAHAN
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: MARK
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ALLEN
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO BOX 4352
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: SALEM
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: OR
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140201'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '10574.54'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: Loan from Candidate to Campaign
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Robert Half International
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Information Technology Consultant
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: S4OR00172
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ALLEN
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4614\x1C\x1C\x1CIND\x1C\x1CClopton\x1CDaniel\x1C\x1C\x1C\x1CP.O.
+    Box 7442\x1C\x1CSpringfield\x1COR\x1C97475\x1CP2014\x1C\x1C20140123\x1C900.00\x1C\x1CCampaign
+    manager consulting fee\x1C001\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4614
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Clopton
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Daniel
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 7442
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Springfield
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97475'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140123'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '900.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Campaign manager consulting fee
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4628\x1C\x1C\x1CIND\x1C\x1CClopton\x1CDaniel\x1C\x1C\x1C\x1CP.O.
+    Box 7442\x1C\x1CSpringfield\x1COR\x1C97475\x1C\x1C\x1C20140305\x1C999.98\x1C\x1CCampaign
+    manager consulting fee\x1C001\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4628
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Clopton
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Daniel
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 7442
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Springfield
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97475'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140305'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '999.98'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Campaign manager consulting fee
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4593\x1C\x1C\x1CIND\x1C\x1CClopton\x1CDaniel\x1C\x1C\x1C\x1CP.O.
+    Box 7442\x1C\x1CSpringfield\x1COR\x1C97475\x1CP2014\x1C\x1C20140331\x1C2500.00\x1C\x1CIn-kind
+    - Donation for campaign consulting services for January/February 2014\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4593
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: Clopton
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: Daniel
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 7442
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Springfield
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97475'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140331'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2500.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: In-kind - Donation for campaign consulting services for January/February
+      2014
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4436\x1C\x1C\x1CORG\x1CCostco\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Hawthorne Avenue, S.E.\x1C\x1CSalem\x1COR\x1C97301\x1CP2014\x1C\x1C20140105\x1C50.76\x1C\x1CGas
+    for car to/from campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4436
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Costco
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Hawthorne Avenue, S.E.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Salem
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97301'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140105'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '50.76'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Gas for car to/from campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4528\x1C\x1C\x1CORG\x1CCostco\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Hawthorne Avenue, S.E.\x1C\x1CSalem\x1COR\x1C97301\x1CP2014\x1C\x1C20140310\x1C48.56\x1C\x1Cgas
+    for car to/from campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4528
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Costco
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1010 Hawthorne Avenue, S.E.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Salem
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97301'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140310'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '48.56'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: gas for car to/from campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4479\x1C\x1C\x1CORG\x1CCostco - Wilsonville\x1C\x1C\x1C\x1C\x1C\x1C25920
+    SW Heather Place\x1C\x1CWilsonville\x1COR\x1C97070\x1CP2014\x1C\x1C20140305\x1C46.62\x1C\x1CGas
+    for car to/from campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4479
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Costco - Wilsonville
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 25920 SW Heather Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Wilsonville
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97070'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140305'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '46.62'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Gas for car to/from campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4535\x1C\x1C\x1CORG\x1CCostco - Wilsonville\x1C\x1C\x1C\x1C\x1C\x1C25920
+    SW Heather Place\x1C\x1CWilsonville\x1COR\x1C97070\x1CP2014\x1C\x1C20140311\x1C49.10\x1C\x1CGas
+    for car to/from campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4535
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Costco - Wilsonville
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 25920 SW Heather Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Wilsonville
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97070'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140311'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '49.10'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Gas for car to/from campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4499\x1C\x1C\x1CORG\x1CCostco - Wilsonville\x1C\x1C\x1C\x1C\x1C\x1C25920
+    SW Heather Place\x1C\x1CWilsonville\x1COR\x1C97070\x1CP2014\x1C\x1C20140317\x1C48.68\x1C\x1CGas
+    for car to/from campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4499
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Costco - Wilsonville
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 25920 SW Heather Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Wilsonville
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97070'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140317'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '48.68'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Gas for car to/from campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4495\x1C\x1C\x1CORG\x1CCostco - Wilsonville\x1C\x1C\x1C\x1C\x1C\x1C25920
+    SW Heather Place\x1C\x1CWilsonville\x1COR\x1C97070\x1CP2014\x1C\x1C20140319\x1C50.12\x1C\x1CGas
+    for car to/from campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4495
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Costco - Wilsonville
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 25920 SW Heather Place
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Wilsonville
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97070'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140319'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '50.12'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Gas for car to/from campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4567\x1C\x1C\x1CORG\x1CPolitical Innovations\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    Box 1902\x1C\x1CSpring\x1CTX\x1C77383\x1CP2014\x1C\x1C20140116\x1C900.00\x1C\x1CWebsite
+    Redesign/Development final payment invoice\x1C004\x1CC00548115\x1CCALLAHAN FOR
+    OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4567
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Political Innovations
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: P.O. Box 1902
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Spring
+  - name: PAYEE STATE
+    number: '16'
+    value: TX
+  - name: PAYEE ZIP
+    number: '17'
+    value: '77383'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140116'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '900.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Website Redesign/Development final payment invoice
+  - name: CATEGORY CODE
+    number: '24'
+    value: '004'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4623\x1C\x1C\x1CORG\x1CPriceLine.com\x1C\x1C\x1C\x1C\x1C\x1C800
+    Connecticut Avenue\x1C\x1CNorwalk\x1CCT\x1C06854\x1CP2014\x1C\x1C20140215\x1C49.32\x1C\x1CHotel
+    stay at Rodeway Inn PDX after campaign event\x1C002\x1CC00548115\x1CCALLAHAN FOR
+    OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4623
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PriceLine.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 800 Connecticut Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Norwalk
+  - name: PAYEE STATE
+    number: '16'
+    value: CT
+  - name: PAYEE ZIP
+    number: '17'
+    value: 06854
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140215'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '49.32'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Hotel stay at Rodeway Inn PDX after campaign event
+  - name: CATEGORY CODE
+    number: '24'
+    value: '002'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4641\x1C\x1C\x1CORG\x1CRight Action - Bryan Smith\x1C\x1C\x1C\x1C\x1C\x1C1430
+    Willamette Street\x1C\x1CEugene\x1COR\x1C97401\x1CP2014\x1C\x1C20140331\x1C2500.00\x1C\x1CIn-kind
+    - Donation of online and social media services\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4641
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Right Action - Bryan Smith
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1430 Willamette Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Eugene
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97401'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140331'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2500.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: In-kind - Donation of online and social media services
+  - name: CATEGORY CODE
+    number: '24'
+    value: ''
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: ''
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: ''
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: ''
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: ''
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4413\x1C\x1C\x1CORG\x1CStaples\x1C\x1C\x1C\x1C\x1C\x1C6305
+    Ulali Drive\x1C\x1CKeizer\x1COR\x1C97303\x1CP2014\x1C\x1C20140119\x1C41.64\x1C\x1CPrinter
+    in to print campaign literature\x1C006\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4413
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Staples
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 6305 Ulali Drive
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Keizer
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97303'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140119'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.64'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Printer in to print campaign literature
+  - name: CATEGORY CODE
+    number: '24'
+    value: '006'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4490\x1C\x1C\x1CORG\x1CThe Cleanery\x1C\x1C\x1C\x1C\x1C\x1C3410
+    Commercial Street, S.E.\x1C\x1CSalem\x1COR\x1C97302\x1CP2014\x1C\x1C20140321\x1C14.50\x1C\x1CDry
+    cleaning for campaign suit\x1C001\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4490
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: The Cleanery
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 3410 Commercial Street, S.E.
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Salem
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140321'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '14.50'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Dry cleaning for campaign suit
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4594\x1C\x1C\x1CORG\x1CVistaprint.com\x1C\x1C\x1C\x1C\x1C\x1C95
+    Hayden Avenue\x1C\x1CLexington\x1CMA\x1C02421\x1CP2014\x1C\x1C20140102\x1C53.70\x1C\x1CLarge
+    yard sign and campaign banner\x1C006\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4594
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Vistaprint.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 95 Hayden Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lexington
+  - name: PAYEE STATE
+    number: '16'
+    value: MA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '02421'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140102'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '53.70'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Large yard sign and campaign banner
+  - name: CATEGORY CODE
+    number: '24'
+    value: '006'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4595\x1C\x1C\x1CORG\x1CVistaprint.com\x1C\x1C\x1C\x1C\x1C\x1C95
+    Hayden Avenue\x1C\x1CLexington\x1CMA\x1C02421\x1CP2014\x1C\x1C20140211\x1C76.72\x1C\x1CCampaign
+    business cards\x1C006\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4595
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Vistaprint.com
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 95 Hayden Avenue
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Lexington
+  - name: PAYEE STATE
+    number: '16'
+    value: MA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '02421'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140211'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '76.72'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Campaign business cards
+  - name: CATEGORY CODE
+    number: '24'
+    value: '006'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4487\x1C\x1C\x1CORG\x1CWalmart\x1C\x1C\x1C\x1C\x1C\x1C1940
+    Turner Road\x1C\x1CSalem\x1COR\x1C97302\x1CP2014\x1C\x1C20140324\x1C12.87\x1C\x1CGarment
+    bag to protect campaign suit\x1C001\x1CC00548115\x1CCALLAHAN FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4487
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Walmart
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 1940 Turner Road
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Salem
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140324'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '12.87'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Garment bag to protect campaign suit
+  - name: CATEGORY CODE
+    number: '24'
+    value: '001'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SB17\x1CC00548115\x1CSB17.4416\x1C\x1C\x1CORG\x1CWalmart - Commercial Street\x1C\x1C\x1C\x1C\x1C\x1C5250
+    Commercial Street\x1C\x1CSalem\x1COR\x1C97306\x1CP2014\x1C\x1C20140118\x1C54.94\x1C\x1CPortable
+    gazebo/tent for campaign event and button bin\x1C007\x1CC00548115\x1CCALLAHAN
+    FOR OREGON\x1C\x1C\x1C\x1C\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4416
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Walmart - Commercial Street
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 5250 Commercial Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Salem
+  - name: PAYEE STATE
+    number: '16'
+    value: OR
+  - name: PAYEE ZIP
+    number: '17'
+    value: '97306'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140118'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '54.94'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: Portable gazebo/tent for campaign event and button bin
+  - name: CATEGORY CODE
+    number: '24'
+    value: '007'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00548115
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: CALLAHAN FOR OREGON
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: S
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: OR
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SC/10\x1CC00548115\x1CSC/10.5159\x1C13A\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C1000.00\x1C0.00\x1C1000.00\x1C20131030\x1C6/1/14\x1C0.0000\x1CN\x1CY\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.5159
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: CALLAHAN
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: MARK
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ALLEN
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: PO BOX 4352
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: SALEM
+  - name: LENDER STATE
+    number: '15'
+    value: OR
+  - name: LENDER ZIP
+    number: '16'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '1000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '1000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20131030'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 6/1/14
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: S4OR00172
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ALLEN
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC/10\x1CC00548115\x1CSC/10.5156\x1C13A\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C2500.00\x1C0.00\x1C2500.00\x1C20131228\x1C6/1/14\x1C0.0000\x1CN\x1CY\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.5156
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: CALLAHAN
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: MARK
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ALLEN
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: PO BOX 4352
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: SALEM
+  - name: LENDER STATE
+    number: '15'
+    value: OR
+  - name: LENDER ZIP
+    number: '16'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '2500.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '2500.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20131228'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 6/1/14
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: S4OR00172
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ALLEN
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC/10\x1CC00548115\x1CSC/10.5160\x1C13A\x1CCAN\x1C\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CPO
+    BOX 4352\x1C\x1CSALEM\x1COR\x1C97302\x1CP2014\x1C\x1C500.00\x1C0.00\x1C500.00\x1C20140201\x1C6/1/14\x1C0.0000\x1CN\x1CY\x1C\x1CS4OR00172\x1CCALLAHAN\x1CMARK\x1CALLEN\x1C\x1C\x1CS\x1COR\x1C00\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548115
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.5160
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: CALLAHAN
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: MARK
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ALLEN
+  - name: LENDER PREFIX
+    number: '10'
+    value: ''
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: PO BOX 4352
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: SALEM
+  - name: LENDER STATE
+    number: '15'
+    value: OR
+  - name: LENDER ZIP
+    number: '16'
+    value: '97302'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '500.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '500.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20140201'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: 6/1/14
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: S4OR00172
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: CALLAHAN
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: MARK
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ALLEN
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: OR
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '00'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140530
+type: chunk

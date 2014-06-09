@@ -1,0 +1,150 @@
+countrows: 3
+filename: 928958.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00551309\x1C\x1CHughes for Congress\x1CPo Box 102\x1C\x1CNorthfield\x1CNJ\x1C08225\x1CH6NJ02046\x1CHughes\x1CWilliam\x1CJ\x1C\x1CJR\x1CH\x1CNJ\x1C02\x1CFiore\x1CMark\x1C\x1C\x1C\x1C20140530\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551309
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Hughes for Congress
+  - name: STREET 1
+    number: '5'
+    value: Po Box 102
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Northfield
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: 08225
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6NJ02046
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Hughes
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: William
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: J
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: JR
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NJ
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Fiore
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Mark
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140530
+
+'
+- input: "F65\x1CC00551309\x1CC8862797\x1CPAC\x1CCommittee to Strengthen America\x1C\x1C\x1C\x1C\x1C\x1C356
+    MORRIS STREET\x1C\x1CWOODBURY\x1CNJ\x1C08096\x1CC00492165\x1C20140530\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551309
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8862797
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Committee to Strengthen America
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 356 MORRIS STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WOODBURY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 08096
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00492165
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140530'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140530
+type: chunk

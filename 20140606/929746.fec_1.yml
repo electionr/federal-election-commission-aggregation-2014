@@ -1,0 +1,151 @@
+countrows: 3
+filename: 929746.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00213611\x1C\x1CLouise Slaughter Re-Election Committee\x1C1150 University
+    Avenue\x1CBuilding 5\x1CRochester\x1CNY\x1C14607\x1CH6NY03031\x1CSlaughter\x1CLouise\x1CMcIntosh\x1C\x1C\x1CH\x1CNY\x1C25\x1CTuthill\x1CNora\x1CE.\x1C\x1C\x1C20140606\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213611
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Louise Slaughter Re-Election Committee
+  - name: STREET 1
+    number: '5'
+    value: 1150 University Avenue
+  - name: STREET 2
+    number: '6'
+    value: Building 5
+  - name: CITY
+    number: '7'
+    value: Rochester
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '14607'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6NY03031
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Slaughter
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Louise
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: McIntosh
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '25'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Tuthill
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Nora
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: E.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140606
+
+'
+- input: "F65\x1CC00213611\x1CC10349238\x1CPAC\x1CCarpenters Legislative Improvement
+    Committee\x1C\x1C\x1C\x1C\x1C\x1C101 Constitution Ave NW\x1C\x1CWashington\x1CDC\x1C200012133\x1CC00001016\x1C20140605\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00213611
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C10349238
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Carpenters Legislative Improvement Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Constitution Ave NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200012133'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00001016
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140605'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140606
+type: chunk

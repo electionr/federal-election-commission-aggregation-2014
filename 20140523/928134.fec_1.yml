@@ -1,0 +1,367 @@
+countrows: 6
+filename: 928134.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00552596\x1C\x1CWill Brooke for Congress, Inc.\x1CPO Box 59208\x1C\x1CHomewood\x1CAL\x1C352599208\x1CH4AL06106\x1CBrooke\x1CWill\x1C\x1CMr.\x1C\x1CH\x1CAL\x1C06\x1CDow\x1CWilliam\x1C\x1C\x1C\x1C20140523\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552596
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Will Brooke for Congress, Inc.
+  - name: STREET 1
+    number: '5'
+    value: PO Box 59208
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Homewood
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '352599208'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4AL06106
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Brooke
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Will
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: AL
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Dow
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: William
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140523
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552596
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6FDEF565C3ABF4DAAB11
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dow
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kareth
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Ms.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 20112 Harbour Vista Circle
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Saint Augustine
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '320805118'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2250.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: student
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: student
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00552596\x1C6FDEF565C3ABF4DAAB11\x1CIND\x1C\x1CDow\x1CKareth\x1CA.\x1CMs.\x1C\x1C20112
+    Harbour Vista Circle\x1C\x1CSaint Augustine\x1CFL\x1C320805118\x1C\x1C20140521\x1C2250.00\x1Cstudent\x1Cstudent\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552596
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 69A47377121694A61859
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: McKnight
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Tom
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 239 La Prado Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '352094123'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Wallace Jordan Ratliff & Brandt, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Attorney
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00552596\x1C69A47377121694A61859\x1CIND\x1C\x1CMcKnight\x1CTom\x1C\x1CMr.\x1C\x1C239
+    La Prado Place\x1C\x1CBirmingham\x1CAL\x1C352094123\x1C\x1C20140521\x1C1600.00\x1CWallace
+    Jordan Ratliff & Brandt, LLC\x1CAttorney\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552596
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6127930C82ECF4E01B3B
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Brooke
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Will
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2500 Lanark Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '352231030'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '150000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Harbert Management Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Venture Capital
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00552596\x1C6127930C82ECF4E01B3B\x1CCAN\x1C\x1CBrooke\x1CWill\x1C\x1CMr.\x1C\x1C2500
+    Lanark Road\x1C\x1CBirmingham\x1CAL\x1C352231030\x1C\x1C20140521\x1C150000.00\x1CHarbert
+    Management Corporation\x1CVenture Capital\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552596
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 647E12FD91DDE42E0B33
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Dow
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Will
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4245 Silver Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Birmingham
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '352132725'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140521'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2040.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Mspark
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Director, Finance
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00552596\x1C647E12FD91DDE42E0B33\x1CIND\x1C\x1CDow\x1CWill\x1C\x1CMr.\x1C\x1C4245
+    Silver Court\x1C\x1CBirmingham\x1CAL\x1C352132725\x1C\x1C20140521\x1C2040.00\x1CMspark\x1CDirector,
+    Finance\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140523
+type: chunk

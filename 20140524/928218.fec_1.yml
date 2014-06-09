@@ -1,0 +1,285 @@
+countrows: 5
+filename: 928218.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00548289\x1C\x1CMATT ROSENDALE FOR MONTANA\x1C1954 HWY 16\x1C\x1CGLENDIVE\x1CMT\x1C59330\x1CH4MT00050\x1CRosendale\x1CMatt\x1C\x1C\x1C\x1CH\x1CMT\x1C00\x1CVanCanagan\x1CBill\x1C\x1CMr.\x1C\x1C20140524\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548289
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: MATT ROSENDALE FOR MONTANA
+  - name: STREET 1
+    number: '5'
+    value: 1954 HWY 16
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: GLENDIVE
+  - name: STATE
+    number: '8'
+    value: MT
+  - name: ZIP
+    number: '9'
+    value: '59330'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4MT00050
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Rosendale
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Matt
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: MT
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '00'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: VanCanagan
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Bill
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140524
+
+'
+- input: "F65\x1CC00548289\x1CF6.7160\x1CIND\x1C\x1CJustin\x1CAnn\x1C\x1C\x1C\x1C618
+    Autumn Ridge Rd.\x1C\x1CBozeman\x1CMT\x1C59715\x1C\x1C20140522\x1C1000.00\x1CInfo
+    Requested\x1CInfo Requested\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548289
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7160
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Justin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ann
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 618 Autumn Ridge Rd.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bozeman
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '59715'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Info Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Info Requested
+
+'
+- input: "F65\x1CC00548289\x1CF6.7161\x1CIND\x1C\x1CSoulek\x1CWendy L.\x1C\x1C\x1C\x1CP.O.
+    Box 699\x1C\x1CSpearfish\x1CSD\x1C577830699\x1C\x1C20140522\x1C1000.00\x1CInfo
+    Requested\x1CInfo Requested\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548289
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7161
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Soulek
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Wendy L.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. Box 699
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Spearfish
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '577830699'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140522'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Info Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Info Requested
+
+'
+- input: "F65\x1CC00548289\x1CF6.7162\x1CCAN\x1C\x1CRosendale\x1CMatt\x1C\x1C\x1C\x1C1954
+    Hwy 16\x1C\x1CGlendive\x1CMT\x1C59330\x1C\x1C20140523\x1C40000.00\x1CState of
+    Montanta\x1CState Senator\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00548289
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7162
+  - name: ENTITY TYPE
+    number: '4'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rosendale
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Matt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1954 Hwy 16
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Glendive
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '59330'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '40000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: State of Montanta
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'State Senator
+
+'
+sourceurl: !!python/unicode 20140524
+type: chunk

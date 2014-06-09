@@ -1,0 +1,286 @@
+countrows: 5
+filename: 928264.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00550863\x1C\x1CMARIANNE WILLIAMSON FOR CONGRESS\x1C1507 7TH STREET,
+    #7B\x1C\x1CSANTA MONICA\x1CCA\x1C90401\x1CH4CA33085\x1CWILLIAMSON\x1CMARIANNE\x1C\x1C\x1C\x1CH\x1CCA\x1C33\x1CHENEGHAN\x1CKEVIN\x1C\x1C\x1C\x1C20140525\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00550863
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: MARIANNE WILLIAMSON FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: '1507 7TH STREET, #7B'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SANTA MONICA
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90401'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA33085
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: WILLIAMSON
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: MARIANNE
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '33'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: HENEGHAN
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: KEVIN
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140525
+
+'
+- input: "F65\x1CC00550863\x1CINC.F65.10663\x1CIND\x1C\x1CBURRUS\x1CPAMELA\x1C\x1C\x1C\x1C5550
+    WILSHIRE BLVD., #512\x1C\x1CLOS ANGELES\x1CCA\x1C90036\x1C\x1C20140523\x1C2600.00\x1CSELF
+    EMPLOYED / SAME NAME\x1CFILMMAKER\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00550863
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.10663
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: BURRUS
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: PAMELA
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '5550 WILSHIRE BLVD., #512'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LOS ANGELES
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: SELF EMPLOYED / SAME NAME
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'FILMMAKER
+
+'
+- input: "F65\x1CC00550863\x1CINC.F65.10664\x1CIND\x1C\x1CFRESHWATER\x1CKATHERINE\x1C\x1C\x1C\x1C9933
+    ROBBINS DRIVE #4\x1C\x1CBEVERLY HILLS\x1CCA\x1C90212\x1C\x1C20140523\x1C2000.00\x1CTOPLINE
+    GAME LABS\x1CHEAD OF MARKETING\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00550863
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.10664
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: FRESHWATER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: KATHERINE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '9933 ROBBINS DRIVE #4'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BEVERLY HILLS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '90212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: TOPLINE GAME LABS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'HEAD OF MARKETING
+
+'
+- input: "F65\x1CC00550863\x1CINC.F65.10665\x1CIND\x1C\x1CKESSLER\x1CDAVID\x1C\x1C\x1C\x1C12201
+    HILLSLOPE ST\x1C\x1CSTUDIO CITY\x1CCA\x1C91604\x1C\x1C20140523\x1C1500.00\x1CDAVID
+    KESSLER INC\x1CWRITER\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00550863
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: INC.F65.10665
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: KESSLER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: DAVID
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 12201 HILLSLOPE ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: STUDIO CITY
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '91604'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140523'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: DAVID KESSLER INC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'WRITER
+
+'
+sourceurl: !!python/unicode 20140526
+type: chunk

@@ -1,0 +1,150 @@
+countrows: 3
+filename: 929005.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00555649\x1C\x1CEbbin for Congress\x1CPO Box 26415\x1C\x1CAlexandria\x1CVA\x1C22313\x1CH4VA08208\x1CEbbin\x1CAdam\x1C\x1C\x1C\x1CH\x1CVA\x1C08\x1CTicer\x1CPatsy\x1C\x1C\x1C\x1C20140530\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00555649
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Ebbin for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 26415
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22313'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4VA08208
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Ebbin
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Adam
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: 08
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Ticer
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Patsy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140530
+
+'
+- input: "F65\x1CC00555649\x1CVNJ1RCS2RA2\x1CPAC\x1CGay & Lesbian Victory Fund Political
+    Action Committee\x1C\x1C\x1C\x1C\x1C\x1C1133 15th St NW\x1CSte 350\x1CWashington\x1CDC\x1C200052722\x1CC00251835\x1C20140528\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00555649
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1RCS2RA2
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Gay & Lesbian Victory Fund Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1133 15th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 350
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200052722'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00251835
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140528'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140530
+type: chunk

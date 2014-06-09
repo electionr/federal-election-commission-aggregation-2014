@@ -1,0 +1,551 @@
+countrows: 9
+filename: 929310.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00558080\x1C\x1CKanuth for Congress\x1C736-A Lincoln Avenue\x1C\x1CVenice\x1CCA\x1C90291\x1CH4CA33143\x1CKanuth\x1CDavid\x1C\x1C\x1C\x1CH\x1CCA\x1C33\x1CCourtney\x1CRobert\x1C\x1C\x1C\x1C20140602\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Kanuth for Congress
+  - name: STREET 1
+    number: '5'
+    value: 736-A Lincoln Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Venice
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90291'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4CA33143
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Kanuth
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '33'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Courtney
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Robert
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140602
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCSANH1\x1CIND\x1C\x1CChi\x1CMargaret\x1C\x1C\x1C\x1C130
+    E 67th St\x1CApt 6B\x1CNew York\x1CNY\x1C100656136\x1C\x1C20140531\x1C2600.00\x1CN/A\x1CStay
+    at home Mom\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCSANH1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Margaret
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 130 E 67th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 6B
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100656136'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Stay at home Mom
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCSANT2\x1CIND\x1C\x1CChi\x1CMargaret\x1C\x1C\x1C\x1C130
+    E 67th St\x1CApt 6B\x1CNew York\x1CNY\x1C100656136\x1C\x1C20140531\x1C2600.00\x1CN/A\x1CStay
+    at home Mom\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCSANT2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Margaret
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 130 E 67th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 6B
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100656136'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: N/A
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Stay at home Mom
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCSANQ8\x1CIND\x1C\x1CChi\x1CMichael\x1C\x1C\x1C\x1C130
+    E 67th St\x1CApt 6B\x1CNew York\x1CNY\x1C100656136\x1C\x1C20140531\x1C2600.00\x1CGilt
+    Groupe\x1CRetail Executive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCSANQ8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 130 E 67th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 6B
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100656136'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Gilt Groupe
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retail Executive
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCSANV0\x1CIND\x1C\x1CChi\x1CMichael\x1C\x1C\x1C\x1C130
+    E 67th St\x1CApt 6B\x1CNew York\x1CNY\x1C100656136\x1C\x1C20140531\x1C2600.00\x1CGilt
+    Groupe\x1CRetail Executive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCSANV0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Chi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 130 E 67th St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 6B
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100656136'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Gilt Groupe
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retail Executive
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCSAGQ8\x1CIND\x1C\x1CCrawford\x1CGordon\x1C\x1C\x1C\x1C520
+    Georgian Rd\x1C\x1CLa Canada\x1CCA\x1C910113546\x1C\x1C20140531\x1C2600.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCSAGQ8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Crawford
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gordon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 520 Georgian Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: La Canada
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '910113546'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCSAMP8\x1CIND\x1C\x1CGehret\x1CDevyn\x1C\x1C\x1C\x1C9176
+    Bay Dr\x1C\x1CSurfside\x1CFL\x1C331543112\x1C\x1C20140531\x1C2600.00\x1Cn/a\x1Cn/a\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCSAMP8
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gehret
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Devyn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9176 Bay Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Surfside
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '331543112'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'n/a
+
+'
+- input: "F65\x1CC00558080\x1CVNJ4RCS8J39\x1CIND\x1C\x1CLiu\x1CSheldon\x1C\x1C\x1C\x1C10490
+    Wilshire Blvd\x1CApt 903\x1CLos Angeles\x1CCA\x1C900244667\x1C\x1C20140531\x1C2600.00\x1Cself-employed\x1CKailai
+    Investments\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00558080
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ4RCS8J39
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Liu
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sheldon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10490 Wilshire Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt 903
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Los Angeles
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '900244667'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140531'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Kailai Investments
+
+'
+sourceurl: !!python/unicode 20140603
+type: chunk
