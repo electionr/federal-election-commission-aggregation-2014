@@ -1,0 +1,547 @@
+countrows: 9
+filename: 923201.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00503094\x1C\x1CMeadows for Congress\x1CPO Box 811\x1C\x1CHendersonville\x1CNC\x1C287930811\x1CH2NC11080\x1CMeadows\x1CMark\x1CR\x1C\x1C\x1CH\x1CNC\x1C11\x1CMcMichael\x1CCollin\x1C\x1C\x1C\x1C20140503\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Meadows for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 811
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hendersonville
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '287930811'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2NC11080
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Meadows
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Mark
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: R
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '11'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: McMichael
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Collin
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140503
+
+'
+- input: "F65\x1CC00503094\x1CF6.9908\x1CPAC\x1CAMERICAN COUNCIL OF ENGINEERING COMPANIES
+    (ACEC/PAC)\x1C\x1C\x1C\x1C\x1C\x1C1015 15TH ST. NW\x1CSUITE 802\x1CWASHINGTON\x1CDC\x1C20005\x1CC00010868\x1C20140502\x1C3000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9908
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN COUNCIL OF ENGINEERING COMPANIES (ACEC/PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1015 15TH ST. NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 802
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00010868
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00503094\x1CF6.9909\x1CPAC\x1CAMERICAN MEDICAL ASSOCIATION POLITICAL
+    ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C25 MASSACHUSETTS AVE, NW\x1CSUITE 600\x1CWASHINGTON\x1CDC\x1C20001\x1C\x1C20140502\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9909
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 25 MASSACHUSETTS AVE, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00503094\x1CF6.9911\x1CPAC\x1CBNSF RAILWAY COMPANY RAILPAC (BNSF
+    RAILPAC)\x1C\x1C\x1C\x1C\x1C\x1CP.O. BOX 961039\x1C\x1CFORT WORTH\x1CTX\x1C76161\x1CC00235739\x1C20140502\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9911
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BNSF RAILWAY COMPANY RAILPAC (BNSF RAILPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 961039
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: FORT WORTH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '76161'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00235739
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00503094\x1CF6.9910\x1CPAC\x1CMAJORITY COMMITTEE PAC--MC PAC\x1C\x1C\x1C\x1C\x1C\x1CP.O.
+    BOX 10134\x1C\x1CBAKERSFIELD\x1CCA\x1C93389\x1CC00428052\x1C20140502\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9910
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: MAJORITY COMMITTEE PAC--MC PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: P.O. BOX 10134
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BAKERSFIELD
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '93389'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00428052
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00503094\x1CF6.9906\x1CPAC\x1CNATIONAL BEER WHOLESALERS ASSOCIATION
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1101 KING STREET\x1CSUITE 600\x1CALEXANDRIA\x1CVA\x1C22314\x1CC00144766\x1C20140502\x1C3000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9906
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL BEER WHOLESALERS ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 KING STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ALEXANDRIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22314'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00144766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00503094\x1CF6.9907\x1CPAC\x1CNATIONAL MULTI HOUSING COUNCIL POLITICAL
+    ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1850 M STREET, NW\x1CSUITE 540\x1CWASHINGTON\x1CDC\x1C20036\x1CC00130773\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9907
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL MULTI HOUSING COUNCIL POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1850 M STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 540
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00130773
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00503094\x1CF6.9905\x1CPAC\x1CWINE AND SPIRITS WHOLESALERS OF AMERICA,
+    INC. POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C805 FIFTEENTH ST NW SUITE
+    430\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1CC00147173\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00503094
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.9905
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: WINE AND SPIRITS WHOLESALERS OF AMERICA, INC. POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 805 FIFTEENTH ST NW SUITE 430
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00147173
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140503
+type: chunk

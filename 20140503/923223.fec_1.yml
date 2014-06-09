@@ -1,0 +1,549 @@
+countrows: 9
+filename: 923223.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00546796\x1C\x1CLane for WV\x1CPO Box 11791\x1C\x1CCharleston\x1CWV\x1C25339\x1CH4WV02098\x1CLane\x1CCharlotte\x1CR.\x1C\x1C\x1CH\x1CWV\x1C02\x1CMarston\x1CChris\x1C\x1C\x1C\x1C20140503\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Lane for WV
+  - name: STREET 1
+    number: '5'
+    value: PO Box 11791
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Charleston
+  - name: STATE
+    number: '8'
+    value: WV
+  - name: ZIP
+    number: '9'
+    value: '25339'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4WV02098
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Lane
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Charlotte
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: R.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: WV
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Marston
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Chris
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140503
+
+'
+- input: "F65\x1CC00546796\x1CTX373\x1CPAC\x1C\"ALPHA NAT RESOURCES PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1301
+    PENNSYLVANIA AVE., NW\"\x1C\"SUITE 404 \"\x1C\"WASHINGTON\"\x1CDC\x1C20004    \x1CC00348524\x1C20140501\x1C2500.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX373
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ALPHA NAT RESOURCES PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1301 PENNSYLVANIA AVE., NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'SUITE 404 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20004    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00348524
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX374\x1CPAC\x1C\"CONSOL ENERGY PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1000
+    CONSOL ENERGY DRIVE\"\x1C\"\"\x1C\"CANONSBURG\"\x1CPA\x1C153176506\x1CC00279331\x1C20140501\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX374
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CONSOL ENERGY PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1000 CONSOL ENERGY DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CANONSBURG
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '153176506'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00279331
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX375\x1CPAC\x1C\"FIRSTENERGY CORP. PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"7
+    GREENBRIER STREET\"\x1C\"\"\x1C\"CHARLESTON\"\x1CWV\x1C253112131\x1CC00140855\x1C20140501\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX375
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FIRSTENERGY CORP. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7 GREENBRIER STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLESTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '253112131'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00140855
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX386\x1CPAC\x1C\"CMR POLITICAL ACTION COMMITTEE\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"PO
+    BOX 2485\"\x1C\"\"\x1C\"SPRINGFIELD\"\x1CVA\x1C22152    \x1CC00469429\x1C20140501\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX386
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: CMR POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 2485
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SPRINGFIELD
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22152    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00469429
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX387\x1CPAC\x1C\"KOCH INDUSTRIES INC POLITICAL ACTION
+    COMMITTEE (KOCHPAC)\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"600 14TH ST.,
+    NW\"\x1C\"SUITE 800 \"\x1C\"WASHINGTON\"\x1CDC\x1C20005    \x1CC00236489\x1C20140501\x1C5000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX387
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: KOCH INDUSTRIES INC POLITICAL ACTION COMMITTEE (KOCHPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 600 14TH ST., NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'SUITE 800 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00236489
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX369\x1CIND\x1C\"\"\x1C\"GREER\"\x1C\"MIKE\"\x1C\"D.\"\x1C\"\"\x1C\"\"\x1C\"58
+    BERKSHIRE CIRCLE\"\x1C\"\"\x1C\"BRIDGEPORT\"\x1CWV\x1C263309662\x1C\x1C20140501\x1C1000.00\x1C\"INFORMATION
+    REQUESTED PER BEST EFFORTS\"\x1C\"INFORMATION REQUESTED PER BEST EFFORTS\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX369
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: GREER
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: MIKE
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 58 BERKSHIRE CIRCLE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BRIDGEPORT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '263309662'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: INFORMATION REQUESTED PER BEST EFFORTS
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'INFORMATION REQUESTED PER BEST EFFORTS
+
+'
+- input: "F65\x1CC00546796\x1CTX363\x1CIND\x1C\"\"\x1C\"MORRISON\"\x1C\"C. DAVID\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1401
+    AARON SMITH DR.\"\x1C\"\"\x1C\"BRIDGEPORT\"\x1CWV\x1C263309644\x1C\x1C20140501\x1C1000.00\x1C\"STEPTOE
+    & JOHNSON PLLC\"\x1C\"ATTORNEY\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX363
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: MORRISON
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: C. DAVID
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1401 AARON SMITH DR.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BRIDGEPORT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '263309644'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: STEPTOE & JOHNSON PLLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'ATTORNEY
+
+'
+sourceurl: !!python/unicode 20140503
+type: chunk

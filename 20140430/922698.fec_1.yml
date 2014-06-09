@@ -1,0 +1,366 @@
+countrows: 6
+filename: 922698.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00527457\x1C\x1CFriends of Dave Joyce\x1C320 Kenarden Drive\x1C\x1CCleveland\x1COH\x1C441433710\x1CH2OH14064\x1CJoyce\x1CDavid\x1CP\x1C\x1C\x1CH\x1COH\x1C14\x1CColeman\x1CScott\x1C\x1C\x1C\x1C20140429\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of Dave Joyce
+  - name: STREET 1
+    number: '5'
+    value: 320 Kenarden Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cleveland
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '441433710'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2OH14064
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Joyce
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '14'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Coleman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Scott
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140429
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3910000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Amodei
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 503 N Division Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Carson City
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '897034104'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: US Congress
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Congressman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3910000\x1CIND\x1C\x1CAmodei\x1CMark\x1C\x1C\x1C\x1C503
+    N Division Street\x1C\x1CCarson City\x1CNV\x1C897034104\x1C\x1C20140429\x1C1500\x1CUS
+    Congress\x1CCongressman\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3909000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Defino
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Leonard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4920 Middledale Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lyndhurst
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '441242525'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Malin Co
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3909000\x1CIND\x1C\x1CDefino\x1CLeonard\x1C\x1C\x1C\x1C4920
+    Middledale Road\x1C\x1CLyndhurst\x1COH\x1C441242525\x1C\x1C20140429\x1C2500\x1CMalin
+    Co\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3911000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Mawby
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Nicole
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6800 Bonnieview Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cleveland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '441433511'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: NONE
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: HOMEMAKER
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3911000\x1CIND\x1C\x1CMawby\x1CNicole\x1C\x1C\x1C\x1C6800
+    Bonnieview Road\x1C\x1CCleveland\x1COH\x1C441433511\x1C\x1C20140429\x1C1000\x1CNONE\x1CHOMEMAKER\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3908000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Visconsi
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Julie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2569 Fairmount Boulevard
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cleveland Heights
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '441065200'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Student
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: None
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3908000\x1CIND\x1C\x1CVisconsi\x1CJulie\x1C\x1C\x1C\x1C2569
+    Fairmount Boulevard\x1C\x1CCleveland Heights\x1COH\x1C441065200\x1C\x1C20140429\x1C2600\x1CStudent\x1CNone\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140430
+type: chunk

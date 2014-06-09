@@ -1,0 +1,284 @@
+countrows: 5
+filename: 922539.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00468579\x1C\x1CWalorski for Congress\x1CPO Box 954\x1C\x1CMishawaka\x1CIN\x1C465460954\x1CH0IN02190\x1CWalorski\x1CJackie\x1C\x1C\x1C\x1CH\x1CIN\x1C02\x1CMarston\x1CChris\x1C\x1C\x1C\x1C20140425\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468579
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Walorski for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 954
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mishawaka
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '465460954'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0IN02190
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Walorski
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Jackie
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Marston
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Chris
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140425
+
+'
+- input: "F65\x1CC00468579\x1CTX19592\x1CPAC\x1C\"ORAL AND MAXILLOFACIAL SURGERY PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"9700
+    W. BRYN MAWR AVE\"\x1C\"\"\x1C\"ROSEMONT\"\x1CIL\x1C600185701\x1CC00468579\x1C20140423\x1C5000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468579
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX19592
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ORAL AND MAXILLOFACIAL SURGERY PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9700 W. BRYN MAWR AVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ROSEMONT
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '600185701'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00468579
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00468579\x1CTX19593\x1CPAC\x1C\"AMERICAN DENTAL POLITICAL ACTION
+    COMMITTEE\"\x1C\"\"\x1C\" \"\x1C\" \"\x1C\" \"\x1C\" \"\x1C\"1111 14TH STREET
+    NW\"\x1C\"SUITE 1100  \"\x1C\"WASHINGTON\"\x1CDC\x1C200055627\x1CC00000729\x1C20140423\x1C1500.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468579
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX19593
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN DENTAL POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ' '
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ' '
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ' '
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ' '
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1111 14TH STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'SUITE 1100  '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200055627'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000729
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00468579\x1CTX19594\x1CPAC\x1C\"NATIONAL ASSOCIATION OF INSURANCE
+    AND FINANCIAL ADVISORS PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"2901
+    TELESTAR COURT\"\x1C\"\"\x1C\"FALLS CHURCH\"\x1CVA\x1C220421260\x1CC00005249\x1C20140423\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00468579
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX19594
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ASSOCIATION OF INSURANCE AND FINANCIAL ADVISORS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2901 TELESTAR COURT
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: FALLS CHURCH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '220421260'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00005249
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140426
+type: chunk

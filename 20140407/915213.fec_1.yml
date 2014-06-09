@@ -1,0 +1,218 @@
+countrows: 4
+filename: 915213.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00556241\x1C\x1CLizbeth Benacquisto for Congress\x1C610 S. Boulevard\x1C\x1CTampa\x1CFL\x1C33606\x1CH4FL19090\x1CBenacquisto\x1CLizbeth\x1C\x1C\x1C\x1CH\x1CFL\x1C19\x1CWatkins\x1CNancy\x1CH.\x1C\x1C\x1C20140407\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556241
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Lizbeth Benacquisto for Congress
+  - name: STREET 1
+    number: '5'
+    value: 610 S. Boulevard
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tampa
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33606'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4FL19090
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Benacquisto
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Lizbeth
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: FL
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '19'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Watkins
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Nancy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: H.
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140407
+
+'
+- input: "F65\x1CC00556241\x1CF6.4157\x1CIND\x1C\x1CCompton\x1CKenneth H.\x1C\x1C\x1C\x1C6643
+    Hayter Drive\x1C\x1CLakeland\x1CFL\x1C33813\x1C\x1C20140406\x1C1000.00\x1Cself-employed\x1Casset
+    manager\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4157
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Compton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kenneth H.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6643 Hayter Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Lakeland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: FL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '33813'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140406'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'asset manager
+
+'
+- input: "F65\x1CC00556241\x1CF6.4158\x1CPAC\x1CUNITED SERVICES AUTOMOBILE ASSOCIATION
+    EMPLOYEE PAC - USAA EMPLOYEE PAC\x1C\x1C\x1C\x1C\x1C\x1C9800 FREDERICKSBURG ROAD\x1C\x1CSAN
+    ANTONIO\x1CTX\x1C78288\x1CC00164145\x1C20140407\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556241
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4158
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITED SERVICES AUTOMOBILE ASSOCIATION EMPLOYEE PAC - USAA EMPLOYEE PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9800 FREDERICKSBURG ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN ANTONIO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78288'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00164145
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140407'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140407
+type: chunk

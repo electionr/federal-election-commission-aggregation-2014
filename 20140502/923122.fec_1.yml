@@ -1,0 +1,637 @@
+countrows: 7
+filename: 923122.fec
+header: {}
+rows:
+- 2
+- input: "F5N\x1CC90013145\x1CORG\x1CUS Chamber of Commerce\x1C\x1C\x1C\x1C\x1C\x1C
+    \x1C1615 H Street NW\x1C\x1CWashington\x1CDC\x1C20062\x1C\x1C\x1C  \x1C48\x1C\x1C\x1C\x1C0.00\x1C1995000.00\x1CPowers\x1CWarren\x1C\x1C\x1C\x1C20140502\n"
+  record: fec.version.v8_1.F5
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013145
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: ORGANIZATION NAME
+    number: '4'
+    value: US Chamber of Commerce
+  - name: INDIVIDUAL LAST NAME
+    number: '5'
+    value: ''
+  - name: INDIVIDUAL FIRST NAME
+    number: '6'
+    value: ''
+  - name: INDIVIDUAL MIDDLE NAME
+    number: '7'
+    value: ''
+  - name: INDIVIDUAL PREFIX
+    number: '8'
+    value: ''
+  - name: INDIVIDUAL SUFFIX
+    number: '9'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '10'
+    value: ' '
+  - name: STREET  1
+    number: '11'
+    value: 1615 H Street NW
+  - name: STREET  2
+    number: '12'
+    value: ''
+  - name: CITY
+    number: '13'
+    value: Washington
+  - name: STATE
+    number: '14'
+    value: DC
+  - name: ZIP
+    number: '15'
+    value: '20062'
+  - name: INDIVIDUAL OCCUPATION
+    number: '16'
+    value: ''
+  - name: INDIVIDUAL EMPLOYER
+    number: '17'
+    value: ''
+  - name: REPORT CODE
+    number: '18'
+    value: '  '
+  - name: HOUR 48HOUR CODE
+    number: 19-24
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '20'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '21'
+    value: ''
+  - name: COVERAGE THROUGH DATE
+    number: '22'
+    value: ''
+  - name: TOTAL CONTRIBUTION
+    number: '23'
+    value: '0.00'
+  - name: TOTAL INDEPENDENT EXPENDITURE
+    number: '24'
+    value: '1995000.00'
+  - name: PERSON COMPLETING LAST NAME
+    number: '25'
+    value: Powers
+  - name: PERSON COMPLETING FIRST NAME
+    number: '26'
+    value: Warren
+  - name: PERSON COMPLETING MIDDLE NAME
+    number: '27'
+    value: ''
+  - name: PERSON COMPLETING PREFIX
+    number: '28'
+    value: ''
+  - name: PERSON COMPLETING SUFFIX
+    number: '29'
+    value: ''
+  - name: DATE SIGNED
+    number: '30'
+    value: '20140502
+
+'
+- input: "F57\x1CC90013145\x1C57495119\x1CCCM\x1CRevolution Agency\x1C\x1C\x1C\x1C\x1C\x1C1020
+    Princess Street\x1C\x1CAlexandria\x1CVA\x1C22314\x1CP2014\x1C\x1C20140430\x1C162500.00\x1C325000.00\x1CTV
+    and Digital advertisement \"Sullivan\", 4/30 - 5/13.\x1C004\x1C\x1CO\x1C\x1CBegich\x1CMark\x1C\x1C\x1C\x1CS\x1CAK\x1C\n"
+  record: fec.version.v8_1.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57495119'
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Revolution Agency
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '11'
+    value: 1020 Princess Street
+  - name: PAYEE STREET  2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '18'
+    value: '20140430'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '162500.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '325000.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: TV and Digital advertisement Sullivan, 4/30 - 5/13.
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Begich
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Mark
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: AK
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '
+
+'
+- input: "F57\x1CC90013145\x1C57495055\x1CCCM\x1CRevolution Agency\x1C\x1C\x1C\x1C\x1C\x1C1020
+    Princess Street\x1C\x1CAlexandria\x1CVA\x1C22314\x1CP2014\x1C\x1C20140430\x1C920000.00\x1C920000.00\x1CTV
+    and Digital advertisement \"Kingston Jobs\" supporting Jack Kingston, 4/30 - 5/20.\x1C004\x1C\x1CS\x1C\x1CKingston\x1CJack\x1C\x1C\x1C\x1CS\x1CGA\x1C\n"
+  record: fec.version.v8_1.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57495055'
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Revolution Agency
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '11'
+    value: 1020 Princess Street
+  - name: PAYEE STREET  2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '18'
+    value: '20140430'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '920000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '920000.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: TV and Digital advertisement Kingston Jobs supporting Jack Kingston, 4/30
+      - 5/20.
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Kingston
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Jack
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: GA
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '
+
+'
+- input: "F57\x1CC90013145\x1C57495057\x1CCCM\x1CRevolution Agency\x1C\x1C\x1C\x1C\x1C\x1C1020
+    Princess Street\x1C\x1CAlexandria\x1CVA\x1C22314\x1CP2014\x1C\x1C20140430\x1C162500.00\x1C325000.00\x1CTV
+    and Digital advertisement \"Sullivan\", 4/30 - 5/13.\x1C004\x1C\x1CS\x1C\x1CSullivan\x1CDan\x1C\x1C\x1C\x1CS\x1CAK\x1C\n"
+  record: fec.version.v8_1.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57495057'
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Revolution Agency
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '11'
+    value: 1020 Princess Street
+  - name: PAYEE STREET  2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Alexandria
+  - name: PAYEE STATE
+    number: '14'
+    value: VA
+  - name: PAYEE ZIP
+    number: '15'
+    value: '22314'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '18'
+    value: '20140430'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '162500.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '325000.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: TV and Digital advertisement Sullivan, 4/30 - 5/13.
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Sullivan
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Dan
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: AK
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '
+
+'
+- input: "F57\x1CC90013145\x1C57495059\x1CCCM\x1CCraft Media/Digital\x1C\x1C\x1C\x1C\x1C\x1C1600
+    K St. NW Suite 300\x1C\x1CWashington\x1CDC\x1C20006\x1CP2014\x1C\x1C20140430\x1C500000.00\x1C500000.00\x1CTV
+    and Digital advertisement \"Hub\" supporting Terri Lynn Land, 4/30 - 5/13.\x1C004\x1C\x1CS\x1C\x1CLand\x1CTerri
+    Lynn\x1C\x1C\x1C\x1CS\x1CMI\x1C\n"
+  record: fec.version.v8_1.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57495059'
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Craft Media/Digital
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '11'
+    value: 1600 K St. NW Suite 300
+  - name: PAYEE STREET  2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20006'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '18'
+    value: '20140430'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '500000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '500000.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: TV and Digital advertisement Hub supporting Terri Lynn Land, 4/30 - 5/13.
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Land
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Terri Lynn
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: MI
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '
+
+'
+- input: "F57\x1CC90013145\x1C57495060\x1CCCM\x1CCraft Media/Digital\x1C\x1C\x1C\x1C\x1C\x1C1600
+    K St. NW Suite 300\x1C\x1CWashington\x1CDC\x1C20006\x1CP2014\x1C\x1C20140430\x1C250000.00\x1C250000.00\x1CTV
+    and Digital advertisement \"Here in Montana\" supporting Steve Daines, 4/30 -
+    5/27.\x1C004\x1C\x1CS\x1C\x1CDaines\x1CSteven\x1C\x1C\x1C\x1CS\x1CMT\x1C\n"
+  record: fec.version.v8_1.F57
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C90013145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '57495060'
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '5'
+    value: Craft Media/Digital
+  - name: PAYEE LAST NAME
+    number: '6'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '7'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '9'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '10'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '11'
+    value: 1600 K St. NW Suite 300
+  - name: PAYEE STREET  2
+    number: '12'
+    value: ''
+  - name: PAYEE CITY
+    number: '13'
+    value: Washington
+  - name: PAYEE STATE
+    number: '14'
+    value: DC
+  - name: PAYEE ZIP
+    number: '15'
+    value: '20006'
+  - name: ELECTION CODE
+    number: '16'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '17'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '18'
+    value: '20140430'
+  - name: EXPENDITURE AMOUNT
+    number: '19'
+    value: '250000.00'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '20'
+    value: '250000.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '21'
+    value: TV and Digital advertisement Here in Montana supporting Steve Daines, 4/30
+      - 5/27.
+  - name: CATEGORY CODE
+    number: '22'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '23'
+    value: ''
+  - name: SUPPORT/OPPOSE CODE
+    number: '24'
+    value: S
+  - name: S/O CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: S/O CANDIDATE LAST NAME
+    number: '26'
+    value: Daines
+  - name: S/O CANDIDATE FIRST NAME
+    number: '27'
+    value: Steven
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '28'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '29'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '30'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '31'
+    value: S
+  - name: S/O CANDIDATE STATE
+    number: '32'
+    value: MT
+  - name: S/O CANDIDATE DISTRICT
+    number: '33'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140502
+type: chunk

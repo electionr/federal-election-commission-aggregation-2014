@@ -1,0 +1,420 @@
+countrows: 7
+filename: 922993.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00552638\x1C\x1CBERGER FOR CONGRESS\x1CPO BOX 3117\x1C\x1CEDEN\x1CNC\x1C27289\x1CH4NC06102\x1CBerger\x1CPhil\x1C\x1C\x1CJr\x1CH\x1CNC\x1C06\x1CEllis\x1CAmy\x1CB\x1C\x1C\x1C20140501\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552638
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: BERGER FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 3117
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: EDEN
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27289'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4NC06102
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Berger
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Phil
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: Jr
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Ellis
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Amy
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: B
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140501
+
+'
+- input: "F65\x1CC00552638\x1CF6.5107\x1CIND\x1C\x1CBratton\x1CVincent\x1C\x1C\x1C\x1C11411
+    Southern Highlands Pkwy\x1C\x1CLas  Vegas\x1CNV\x1C89141\x1C\x1C20140429\x1C2500.00\x1CLightspeed
+    VT\x1CVP Development\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552638
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5107
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Bratton
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Vincent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 11411 Southern Highlands Pkwy
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Las  Vegas
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NV
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '89141'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Lightspeed VT
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'VP Development
+
+'
+- input: "F65\x1CC00552638\x1CF6.5108\x1CIND\x1C\x1CFloyd\x1CFrank\x1C\x1C\x1CJr\x1CPO
+    Box 1328\x1C\x1CCary\x1CNC\x1C27512\x1C\x1C20140429\x1C2500.00\x1CFloyd Development
+    Inc.\x1COwner\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552638
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5108
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Floyd
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Frank
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 1328
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cary
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27512'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Floyd Development Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Owner
+
+'
+- input: "F65\x1CC00552638\x1CF6.5110\x1CIND\x1C\x1CReiman\x1CShirley\x1C\x1C\x1C\x1CPO
+    box 686\x1C\x1CJefferson\x1CTX\x1C75657\x1C\x1C20140429\x1C2500.00\x1CHouse of
+    the Seasons\x1CManager\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552638
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5110
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Reiman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Shirley
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO box 686
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jefferson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '75657'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: House of the Seasons
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Manager
+
+'
+- input: "F65\x1CC00552638\x1CF6.5111\x1CIND\x1C\x1CStutts\x1CPaul\x1C\x1C\x1C\x1C3415
+    Deep Green Drive\x1C\x1CGreensboro\x1CNC\x1C27410\x1C\x1C20140429\x1C1000.00\x1CPaul
+    Stutts, CPA\x1CCPA\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552638
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5111
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Stutts
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3415 Deep Green Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Greensboro
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27410'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Paul Stutts, CPA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CPA
+
+'
+- input: "F65\x1CC00552638\x1CF6.5109\x1CPAC\x1CNORTH CAROLINA PORK COUNCIL PAC (NCP
+    PAC) FKA N C PORK PRODUCERS ASSOC IN PAC\x1C\x1C\x1C\x1C\x1C\x1C2300 REXWOODS
+    DRIVE SUITE 340\x1C\x1CRALEIGH\x1CNC\x1C27607\x1CC00235184\x1C20140429\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00552638
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5109
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NORTH CAROLINA PORK COUNCIL PAC (NCP PAC) FKA N C PORK PRODUCERS ASSOC
+      IN PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2300 REXWOODS DRIVE SUITE 340
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RALEIGH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27607'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00235184
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140501
+type: chunk

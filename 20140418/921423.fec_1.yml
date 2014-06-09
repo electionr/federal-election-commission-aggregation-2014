@@ -1,0 +1,155 @@
+countrows: 3
+filename: 921423.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00497818\x1C\x1CWenstrup for Congress\x1CPO Box 9551\x1C\x1CCincinnati\x1COH\x1C452090551\x1CH2OH02085\x1CWenstrup\x1CBrad\x1C\x1CDr.\x1C\x1CH\x1COH\x1C02\x1CCarroll\x1CRobert
+    E.\x1C\x1C\x1C\x1C20140418\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497818
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Wenstrup for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 9551
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cincinnati
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '452090551'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2OH02085
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Wenstrup
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Brad
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Dr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Carroll
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Robert E.
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140418
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00497818
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '4505000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Dental PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1111 14th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1100
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200055627'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000729
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140417'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00497818\x1C4505000\x1CCOM\x1CAmerican Dental PAC\x1C\x1C\x1C\x1C\x1C\x1C1111
+    14th Street NW\x1CSuite 1100\x1CWashington\x1CDC\x1C200055627\x1CC00000729\x1C20140417\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140418
+type: chunk

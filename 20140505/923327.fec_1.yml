@@ -1,0 +1,365 @@
+countrows: 6
+filename: 923327.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00545962\x1C\x1CFriends of Jeff Chapman\x1CPO Box 1971\x1C\x1CBrunswick\x1CGA\x1C315211971\x1CH4GA01070\x1CChapman\x1CJeff\x1C\x1C\x1C\x1CH\x1CGA\x1C01\x1CKilgore\x1CPaul\x1C\x1C\x1C\x1C20140505\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545962
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of Jeff Chapman
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1971
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brunswick
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '315211971'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4GA01070
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Chapman
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Jeff
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Kilgore
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Paul
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140505
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545962
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '547000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Egan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 308 Old Plantation Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jekyll Island
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '315270838'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00545962\x1C547000\x1CIND\x1C\x1CEgan\x1CDavid\x1C\x1C\x1C\x1C308
+    Old Plantation Road\x1C\x1CJekyll Island\x1CGA\x1C315270838\x1C\x1C20140503\x1C1600\x1CNone\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545962
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '546000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Egan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Melinda
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 308 Old Plantation Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jekyll Island
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '315270838'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00545962\x1C546000\x1CIND\x1C\x1CEgan\x1CMelinda\x1CA.\x1CMrs.\x1C\x1C308
+    Old Plantation Road\x1C\x1CJekyll Island\x1CGA\x1C315270838\x1C\x1C20140503\x1C1600\x1CNone\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545962
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '544000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Blackmon
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Billy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1035 Beachview Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apt. 19
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: St Simons Island
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '315225026'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ProDocs, LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Radiologist
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00545962\x1C544000\x1CIND\x1C\x1CBlackmon\x1CBilly\x1C\x1C\x1C\x1C1035
+    Beachview Drive\x1CApt. 19\x1CSt Simons Island\x1CGA\x1C315225026\x1C\x1C20140504\x1C1000\x1CProDocs,
+    LLC\x1CRadiologist\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545962
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '543000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Rubin
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Margery
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 308 Old Plantation Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Jekyll Island
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '315270838'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: None
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Retired
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00545962\x1C543000\x1CIND\x1C\x1CRubin\x1CMargery\x1C\x1C\x1C\x1C308
+    Old Plantation Road\x1C\x1CJekyll Island\x1CGA\x1C315270838\x1C\x1C20140504\x1C2600\x1CNone\x1CRetired\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140505
+type: chunk

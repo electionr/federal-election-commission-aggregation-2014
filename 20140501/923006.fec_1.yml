@@ -1,0 +1,284 @@
+countrows: 5
+filename: 923006.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00289983\x1C\x1CWHITFIELD FOR CONGRESS COMMITTEE\x1CP.O. BOX 391\x1C\x1CHOPKINSVILLE\x1CKY\x1C42241\x1C\x1CWHITFIELD\x1CWAYNE\x1CEDWARD\x1C\x1C\x1CH\x1CKY\x1C01\x1CCalhoun\x1CEarl
+    L.\x1C\x1CMr.\x1C\x1C20140501\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: WHITFIELD FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 391
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HOPKINSVILLE
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '42241'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: WHITFIELD
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: WAYNE
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: EDWARD
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: KY
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Calhoun
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Earl L.
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140501
+
+'
+- input: "F65\x1CC00289983\x1CF6.37296\x1CIND\x1C\x1CPonder\x1CJimmy\x1C\x1C\x1CJr.\x1C208
+    Acadia Woods Drive\x1C\x1CThibodaux\x1CLA\x1C70301\x1C\x1C20140501\x1C1000.00\x1CHeadache
+    & Pain Center\x1CPhysician\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.37296
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ponder
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jimmy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Jr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 208 Acadia Woods Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Thibodaux
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: LA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '70301'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Headache & Pain Center
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Physician
+
+'
+- input: "F65\x1CC00289983\x1CF6.37301\x1CPAC\x1CNATIONAL ASSOCIATION OF REALTORS
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C430 NORTH MICHIGAN AVENUE\x1C\x1CCHICAGO\x1CIL\x1C60611\x1CC00030718\x1C20140501\x1C3000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.37301
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ASSOCIATION OF REALTORS POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 430 NORTH MICHIGAN AVENUE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHICAGO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60611'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00030718
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00289983\x1CF6.37297\x1CPAC\x1CUNITED MINE WORKERS OF AMERICA\x1C\x1C\x1C\x1C\x1C\x1C8315
+    LEE HIGHWAY 5TH FLOOR\x1C\x1CFAIRFAX\x1CVA\x1C22031\x1CC30001291\x1C20140501\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00289983
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.37297
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITED MINE WORKERS OF AMERICA
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8315 LEE HIGHWAY 5TH FLOOR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: FAIRFAX
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22031'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C30001291
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140501
+type: chunk

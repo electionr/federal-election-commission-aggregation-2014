@@ -1,0 +1,752 @@
+countrows: 12
+filename: 923204.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00476820\x1C\x1CJohnson for Congress\x1CPO Box 14496\x1C\x1CPoland\x1COH\x1C44514\x1CH0OH06189\x1CJohnson\x1CBill\x1C\x1C\x1C\x1CH\x1COH\x1C06\x1CChickonoski\x1CPerry\x1C\x1C\x1C\x1C20140503\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Johnson for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 14496
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Poland
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44514'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0OH06189
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Johnson
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Bill
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Chickonoski
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Perry
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140503
+
+'
+- input: "F65\x1CC00476820\x1CF65.94385\x1CPAC\x1CNUCOR CORPORATION POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1915 REXFORD ROAD\x1C\x1CCHARLOTTE\x1CNC\x1C28211\x1CC00379628\x1C20140501\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94385
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NUCOR CORPORATION POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1915 REXFORD ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28211'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00379628
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94386\x1CPAC\x1CBUCHANAN INGERSOLL & ROONEY PC COMMITTEE
+    FOR EFFECTIVE GOVERNMENT 'BIRPC PAC'\x1C\x1C\x1C\x1C\x1C\x1CONE OXFORD CENTRE,
+    \ MILES H. SIMON\x1C301 GRANT STREET 20TH FLOOR\x1CPITTSBURGH\x1CPA\x1C15219\x1CC00195388\x1C20140501\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94386
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BUCHANAN INGERSOLL & ROONEY PC COMMITTEE FOR EFFECTIVE GOVERNMENT 'BIRPC
+      PAC'
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: ONE OXFORD CENTRE,  MILES H. SIMON
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 301 GRANT STREET 20TH FLOOR
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: PITTSBURGH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '15219'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00195388
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94387\x1CPAC\x1CAMERICAN SOCIETY OF HEALTH-SYSTEM
+    PHARMACISTS POLITICAL ACTION COMMITTEE (ASHP-PAC)\x1C\x1C\x1C\x1C\x1C\x1C7272
+    WISCONSIN AVENUE\x1C\x1CBETHESDA\x1CMD\x1C20814\x1CC00245530\x1C20140501\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94387
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN SOCIETY OF HEALTH-SYSTEM PHARMACISTS POLITICAL ACTION COMMITTEE
+      (ASHP-PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 7272 WISCONSIN AVENUE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BETHESDA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20814'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00245530
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94388\x1CPAC\x1CKELLEY DRYE & WARREN POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C3050 K STREET NW SUITE 400\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1CC00301929\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94388
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: KELLEY DRYE & WARREN POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3050 K STREET NW SUITE 400
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20007'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00301929
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94389\x1CPAC\x1CDOMINION RESOURCES, INC. POLITICAL
+    ACTION COMMITTEE - DOMINION PAC\x1C\x1C\x1C\x1C\x1C\x1CONE JAMES RIVER PLAZA,
+    20TH FLOOR\x1CP.O. BOX 26666\x1CRICHMOND\x1CVA\x1C23261\x1CC00108209\x1C20140502\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94389
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DOMINION RESOURCES, INC. POLITICAL ACTION COMMITTEE - DOMINION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: ONE JAMES RIVER PLAZA, 20TH FLOOR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: P.O. BOX 26666
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RICHMOND
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23261'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00108209
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94390\x1CPAC\x1CRETAIL INDUSTRY LEADERS ASSOCIATION
+    POLITICAL ACTION COMMITTEE AKA RETAIL LEADERS PAC\x1C\x1C\x1C\x1C\x1C\x1C1700
+    N. MOORE STREET\x1CSUITE 2250\x1CARLINGTON\x1CVA\x1C22209\x1CC00112763\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94390
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: RETAIL INDUSTRY LEADERS ASSOCIATION POLITICAL ACTION COMMITTEE AKA RETAIL
+      LEADERS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1700 N. MOORE STREET
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 2250
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ARLINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22209'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00112763
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94391\x1CPAC\x1CNISOURCE INC. PAC\x1C\x1C\x1C\x1C\x1C\x1C200
+    CIVIC CENTER DRIVE\x1C\x1CCOLUMBUS\x1COH\x1C43215\x1CC00051979\x1C20140502\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94391
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NISOURCE INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 200 CIVIC CENTER DRIVE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: COLUMBUS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '43215'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00051979
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94392\x1CPAC\x1CSIEMENS CORPORATION PAC\x1C\x1C\x1C\x1C\x1C\x1C300
+    NEW JERSEY AVENUE, NW\x1CSUITE 1000\x1CWASHINGTON\x1CDC\x1C20001\x1CC00353797\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94392
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SIEMENS CORPORATION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 300 NEW JERSEY AVENUE, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 1000
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00353797
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94393\x1CPAC\x1CDOMINION RESOURCES, INC. POLITICAL
+    ACTION COMMITTEE - DOMINION PAC\x1C\x1C\x1C\x1C\x1C\x1CONE JAMES RIVER PLAZA,
+    20TH FLOOR\x1CP.O. BOX 26666\x1CRICHMOND\x1CVA\x1C23261\x1CC00108209\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94393
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: DOMINION RESOURCES, INC. POLITICAL ACTION COMMITTEE - DOMINION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: ONE JAMES RIVER PLAZA, 20TH FLOOR
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: P.O. BOX 26666
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: RICHMOND
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23261'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00108209
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00476820\x1CF65.94394\x1CPAC\x1CNATIONAL ASSOCIATION OF BROADCASTERS
+    POLITICAL ACTION COMMITTEE (NABPAC)\x1C\x1C\x1C\x1C\x1C\x1C1771 N STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1CC00009985\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00476820
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F65.94394
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL ASSOCIATION OF BROADCASTERS POLITICAL ACTION COMMITTEE (NABPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1771 N STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00009985
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140503
+type: chunk

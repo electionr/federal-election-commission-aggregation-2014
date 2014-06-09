@@ -1,0 +1,151 @@
+countrows: 3
+filename: 921947.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00557603\x1C\x1CWASINGER FOR CONGRESS\x1C10638 TIMBERIDGE ROAD\x1C\x1CFAIRFAX
+    STATION\x1CVA\x1C22039\x1CH4VA10113\x1CWASINGER\x1CROBERT\x1CKIRK\x1C\x1C\x1CH\x1CVA\x1C10\x1CWASINGER\x1CMARILYN\x1CC\x1C\x1C\x1C20140420\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00557603
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: WASINGER FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: 10638 TIMBERIDGE ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: FAIRFAX STATION
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22039'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4VA10113
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: WASINGER
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: ROBERT
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: KIRK
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: WASINGER
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: MARILYN
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: C
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140420
+
+'
+- input: "F65\x1CC00557603\x1CF6.5543\x1CIND\x1C\x1CHuntsman\x1CMary\x1CKaye\x1C\x1C\x1C2121
+    Leroy Place\x1C\x1CWashington\x1CDC\x1C20008\x1C\x1C20140419\x1C2600.00\x1Cn/a\x1Chomemaker\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00557603
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.5543
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Huntsman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mary
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: Kaye
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2121 Leroy Place
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20008'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140419'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'homemaker
+
+'
+sourceurl: !!python/unicode 20140421
+type: chunk

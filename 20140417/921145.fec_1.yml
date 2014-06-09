@@ -1,0 +1,297 @@
+countrows: 5
+filename: 921145.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00431684\x1C\x1CFRIENDS OF JASON CHAFFETZ\x1C315 WESTFIELD CIRCLE\x1C\x1CALPINE\x1CUT\x1C84004\x1C\x1CChaffetz\x1CJason\x1C\x1C\x1C\x1C\x1C\x1C\x1CGarfield\x1CBruce\x1C\x1C\x1C\x1C20140417\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00431684
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: FRIENDS OF JASON CHAFFETZ
+  - name: STREET 1
+    number: '5'
+    value: 315 WESTFIELD CIRCLE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ALPINE
+  - name: STATE
+    number: '8'
+    value: UT
+  - name: ZIP
+    number: '9'
+    value: '84004'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: ''
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Chaffetz
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Jason
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: ''
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ''
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: ''
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Garfield
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Bruce
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140417
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00431684
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 6245A80EF8353467EBA0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Kamerath
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Eric
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 297 Summermeadow Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bountiful
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: UT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '840105862'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140411'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Information Requested
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00431684\x1C6245A80EF8353467EBA0\x1CIND\x1C\x1CKamerath\x1CEric\x1C\x1C\x1C\x1C297
+    Summermeadow Cir\x1C\x1CBountiful\x1CUT\x1C840105862\x1C\x1C20140411\x1C2600.00\x1CInformation
+    Requested\x1CInformation Requested\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00431684
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 66636BC2FF06B4AD5B29
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Corley
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 229 N Dobson St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Burleson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '760284215'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140416'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Information Requested
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Information Requested
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00431684\x1C66636BC2FF06B4AD5B29\x1CIND\x1C\x1CCorley\x1CChristopher\x1C\x1C\x1C\x1C229
+    N Dobson St\x1C\x1CBurleson\x1CTX\x1C760284215\x1C\x1C20140416\x1C2600.00\x1CInformation
+    Requested\x1CInformation Requested\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00431684
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: 62D17A7158235415B8AD
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Howell
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mark
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4279 Silver Sage Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alpine
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: UT
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '840041852'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140417'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AmericanWest Bank
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Banker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00431684\x1C62D17A7158235415B8AD\x1CIND\x1C\x1CHowell\x1CMark\x1C\x1C\x1C\x1C4279
+    Silver Sage Cir\x1C\x1CAlpine\x1CUT\x1C840041852\x1C\x1C20140417\x1C1000.00\x1CAmericanWest
+    Bank\x1CBanker\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140417
+type: chunk

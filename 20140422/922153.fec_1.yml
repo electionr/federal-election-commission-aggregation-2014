@@ -1,0 +1,339 @@
+countrows: 4
+filename: 922153.fec
+header: {}
+rows:
+- 2
+- input: "F24N\x1CC00011114\x1C48\x1C\x1CAMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL
+    EMPLOYEES  P E O P L E\x1C1625 L STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1CREYES\x1CLAURA\x1C\x1C\x1C\x1C20140422\n"
+  record: fec.version.v8_1.F24
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00011114
+  - name: REPORT TYPE {24/48 Hour}
+    number: '3'
+    value: '48'
+  - name: ORIGINAL AMENDMENT DATE
+    number: '4'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '5'
+    value: AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES  P E O P L E
+  - name: STREET 1
+    number: '6'
+    value: 1625 L STREET NW
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: WASHINGTON
+  - name: STATE
+    number: '9'
+    value: DC
+  - name: ZIP
+    number: '10'
+    value: '20036'
+  - name: TREASURER LAST NAME
+    number: '11'
+    value: REYES
+  - name: TREASURER FIRST NAME
+    number: '12'
+    value: LAURA
+  - name: TREASURER MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: TREASURER PREFIX
+    number: '14'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '15'
+    value: ''
+  - name: DATE SIGNED
+    number: '16'
+    value: '20140422
+
+'
+- input: "SE\x1CC00011114\x1CSE.45488\x1C\x1C\x1CORG\x1CMESSAGE AND MEDIA\x1C\x1C\x1C\x1C\x1C\x1C100
+    Albany Street\x1C\x1CNew Brunswick\x1CNJ\x1C08901\x1CG2014\x1C\x1C20140421\x1C12536.50\x1C20140421\x1C300163.00\x1CProduction
+    Cost - 'Fall'\x1C004\x1CC00011114\x1CO\x1CS4MI00363\x1CLAND\x1CTERRI LYNN\x1C\x1C\x1C\x1CS\x1C00\x1CMI\x1CREYES\x1CLAURA\x1C\x1C\x1C\x1C20140422\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00011114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.45488
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: MESSAGE AND MEDIA
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 100 Albany Street
+  - name: PAYEE STREET  2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: New Brunswick
+  - name: PAYEE STATE
+    number: '16'
+    value: NJ
+  - name: PAYEE ZIP
+    number: '17'
+    value: 08901
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140421'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '12536.50'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140421'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '300163.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: Production Cost - 'Fall'
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00011114
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4MI00363
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: LAND
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: TERRI LYNN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MI
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: REYES
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: LAURA
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140422'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+- input: "SE\x1CC00011114\x1CSE.45487\x1C\x1C\x1CORG\x1CWATERFRONT STRATEGIES\x1C\x1C\x1C\x1C\x1C\x1C1010
+    Wisconsin Avenue NW\x1CSuite 800\x1CWashington\x1CDC\x1C20007\x1CG2014\x1C\x1C20140421\x1C300163.00\x1C20140417\x1C300163.00\x1CTV
+    Ad - 'Fall'\x1C004\x1CC00011114\x1CO\x1CS4MI00363\x1CLAND\x1CTERRI LYNN\x1C\x1C\x1C\x1CS\x1C00\x1CMI\x1CREYES\x1CLAURA\x1C\x1C\x1C\x1C20140422\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00011114
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SE.45487
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: WATERFRONT STRATEGIES
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET  1
+    number: '13'
+    value: 1010 Wisconsin Avenue NW
+  - name: PAYEE STREET  2
+    number: '14'
+    value: Suite 800
+  - name: PAYEE CITY
+    number: '15'
+    value: Washington
+  - name: PAYEE STATE
+    number: '16'
+    value: DC
+  - name: PAYEE ZIP
+    number: '17'
+    value: '20007'
+  - name: ELECTION CODE
+    number: '18'
+    value: G2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: DISSEMINATION DATE
+    number: '20'
+    value: '20140421'
+  - name: EXPENDITURE AMOUNT
+    number: '21'
+    value: '300163.00'
+  - name: DISBURSEMENT DATE
+    number: '22'
+    value: '20140417'
+  - name: CALENDAR Y-T-D (per election/office)
+    number: '23'
+    value: '300163.00'
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '24'
+    value: TV Ad - 'Fall'
+  - name: CATEGORY CODE
+    number: '25'
+    value: '004'
+  - name: PAYEE CMTTE FEC ID NUMBER
+    number: '26'
+    value: C00011114
+  - name: SUPPORT/OPPOSE CODE
+    number: '27'
+    value: O
+  - name: S/O CANDIDATE ID NUMBER
+    number: '28'
+    value: S4MI00363
+  - name: S/O CANDIDATE LAST NAME
+    number: '29'
+    value: LAND
+  - name: S/O CANDIDATE FIRST NAME
+    number: '30'
+    value: TERRI LYNN
+  - name: S/O CANDINATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: S/O CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: S/O CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: S/O CANDIDATE OFFICE
+    number: '34'
+    value: S
+  - name: S/O CANDIDATE DISTRICT
+    number: '35'
+    value: '00'
+  - name: S/O CANDIDATE STATE
+    number: '36'
+    value: MI
+  - name: COMPLETING LAST NAME
+    number: '37'
+    value: REYES
+  - name: COMPLETING FIRST NAME
+    number: '38'
+    value: LAURA
+  - name: COMPLETING MIDDLE NAME
+    number: '39'
+    value: ''
+  - name: COMPLETING PREFIX
+    number: '40'
+    value: ''
+  - name: COMPLETING SUFFIX
+    number: '41'
+    value: ''
+  - name: DATE SIGNED
+    number: '42'
+    value: '20140422'
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140422
+type: chunk

@@ -1,0 +1,507 @@
+countrows: 8
+filename: 923517.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00467571\x1C\x1CAndy Barr for Congress, Inc.\x1CPO Box 2059\x1C\x1CLexington\x1CKY\x1C40588\x1CH0KY06104\x1CBarr\x1CGarland
+    ''Andy''\x1C\x1C\x1C\x1CH\x1CKY\x1C06\x1CAnderson\x1CChristopher E.\x1C\x1C\x1C\x1C20140505\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Andy Barr for Congress, Inc.
+  - name: STREET 1
+    number: '5'
+    value: PO Box 2059
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40588'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0KY06104
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Barr
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Garland ''Andy''
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: KY
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '06'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Anderson
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Christopher E.
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140505
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14710000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AT&T Inc. Federal PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1133 21st St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00109017
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00467571\x1C14710000\x1CCOM\x1CAT&T Inc. Federal PAC\x1C\x1C\x1C\x1C\x1C\x1C1133
+    21st St NW\x1CSte 900\x1CWashington\x1CDC\x1C20036\x1CC00109017\x1C20140504\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14711000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Bipartisan Voluntary Public Affairs Committee Of The PNC Financial Services
+      Group, Inc.
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 249  5th Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Floor 21
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Pittsburgh
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '152222707'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00035519
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00467571\x1C14711000\x1CCOM\x1CBipartisan Voluntary Public Affairs
+    Committee Of The PNC Financial Services Group, Inc.\x1C\x1C\x1C\x1C\x1C\x1C249
+    \ 5th Avenue\x1CFloor 21\x1CPittsburgh\x1CPA\x1C152222707\x1CC00035519\x1C20140504\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14706000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Comerica Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 75000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Detroit
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '482750001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00393173
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00467571\x1C14706000\x1CCOM\x1CComerica Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 75000\x1C\x1CDetroit\x1CMI\x1C482750001\x1CC00393173\x1C20140504\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14707000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Comerica Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 75000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Detroit
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '482750001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00393173
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00467571\x1C14707000\x1CCOM\x1CComerica Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 75000\x1C\x1CDetroit\x1CMI\x1C482750001\x1CC00393173\x1C20140504\x1C3000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14708000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Independent Community Bankers of America PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1615  L Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200365623'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00032698
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00467571\x1C14708000\x1CCOM\x1CIndependent Community Bankers of
+    America PAC\x1C\x1C\x1C\x1C\x1C\x1C1615  L Street NW\x1CSuite 900\x1CWashington\x1CDC\x1C200365623\x1CC00032698\x1C20140504\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00467571
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14709000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Wine and Spirits Wholesalers of America, Inc. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 805  15th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 430
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200052273'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00147173
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00467571\x1C14709000\x1CCOM\x1CWine and Spirits Wholesalers of America,
+    Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1C805  15th Street NW\x1CSuite 430\x1CWashington\x1CDC\x1C200052273\x1CC00147173\x1C20140504\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140506
+type: chunk

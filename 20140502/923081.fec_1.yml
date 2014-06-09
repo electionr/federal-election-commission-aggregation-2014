@@ -1,0 +1,150 @@
+countrows: 3
+filename: 923081.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00384735\x1C\x1CFriends of John Barrow\x1CPO Box 1001\x1C\x1CAugusta\x1CGA\x1C30903\x1CH4GA12010\x1CBarrow\x1CJohn\x1CJ\x1C\x1C\x1CH\x1CGA\x1C12\x1CBordeaux\x1CTom\x1C\x1C\x1C\x1C20140502\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of John Barrow
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1001
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Augusta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30903'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4GA12010
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Barrow
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: John
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: J
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Bordeaux
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Tom
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140502
+
+'
+- input: "F65\x1CC00384735\x1CC9711029\x1CPAC\x1CFEDERATION OF AMERICAN HOSPITALS
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C750 9TH STREET NW\x1CSUITE 600\x1CWASHINGTON\x1CDC\x1C20001\x1CC00002261\x1C20140501\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00384735
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C9711029
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FEDERATION OF AMERICAN HOSPITALS PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 750 9TH STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20001'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00002261
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140502
+type: chunk

@@ -1,0 +1,217 @@
+countrows: 4
+filename: 921600.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00556092\x1C\x1CClay Aiken for North Carolina\x1CPO Box 3809\x1C\x1CCary\x1CNC\x1C27519\x1CH4NC02127\x1CAiken\x1CClay\x1C\x1CMr.\x1C\x1CH\x1CNC\x1C02\x1CConti\x1CEugene\x1CA\x1CMr.\x1C\x1C20140417\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Clay Aiken for North Carolina
+  - name: STREET 1
+    number: '5'
+    value: PO Box 3809
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cary
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27519'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4NC02127
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Aiken
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Clay
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Conti
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Eugene
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: A
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140417
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCK6JM3\x1CIND\x1C\x1COckerman\x1CPamela\x1C\x1C\x1C\x1C5180
+    Duffield Rd\x1C\x1CSwartz Creek\x1CMI\x1C484738601\x1C\x1C20140418\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCK6JM3
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Ockerman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Pamela
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 5180 Duffield Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Swartz Creek
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '484738601'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140418'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCK4DQ9\x1CIND\x1C\x1CTietjen\x1CBarbara\x1C\x1C\x1C\x1C2731
+    Manchester Rd\x1C\x1CAnn Arbor\x1CMI\x1C481046571\x1C\x1C20140417\x1C1000.00\x1CUniversity
+    of Michigan\x1CSenior Research Admin\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCK4DQ9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Tietjen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Barbara
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2731 Manchester Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Ann Arbor
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '481046571'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140417'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: University of Michigan
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Senior Research Admin
+
+'
+sourceurl: !!python/unicode 20140418
+type: chunk

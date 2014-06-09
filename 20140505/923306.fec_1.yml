@@ -1,0 +1,643 @@
+countrows: 11
+filename: 923306.fec
+header: {}
+rows:
+- 2
+- input: "F6A\x1CC00545400\x1C20140504\x1CBattle for Congress\x1CPO Box 480305\x1C\x1CCharlotte\x1CNC\x1C28269\x1CH4NC12076\x1CBattle\x1CGeorge\x1CE\x1CMr.\x1CIII\x1CH\x1CNC\x1C12\x1CRichardson\x1CAlbert\x1CLee\x1CMr.\x1CJr.\x1C20140504\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140504'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Battle for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 480305
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Charlotte
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28269'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4NC12076
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Battle
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: George
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: E
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: III
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Richardson
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Albert
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: Lee
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: Jr.
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140504
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCP6K34\x1CIND\x1C\x1CBaker\x1CBessie\x1CF\x1C\x1C\x1C10653
+    Stone Bunker Dr\x1C\x1CCharlotte\x1CNC\x1C282277036\x1C\x1C20140430\x1C1000.00\x1CCharlotte-Mecklenburg
+    Schools\x1CTeacher\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCP6K34
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Baker
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bessie
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: F
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10653 Stone Bunker Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Charlotte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '282277036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Charlotte-Mecklenburg Schools
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Teacher
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCP6KK0\x1CIND\x1C\x1CHines\x1CMildred\x1C\x1C\x1C\x1C123
+    Sagefield Sq\x1C\x1CCanton\x1CMS\x1C390467800\x1C\x1C20140430\x1C1000.00\x1CAME
+    Zion Church\x1CBishop\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCP6KK0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hines
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Mildred
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 123 Sagefield Sq
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Canton
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MS
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '390467800'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AME Zion Church
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Bishop
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCP6HY1\x1CIND\x1C\x1CHunter\x1CLouis\x1C\x1C\x1CSr.\x1C4255
+    Laurel Grove Trce\x1C\x1CSuwanee\x1CGA\x1C300246928\x1C\x1C20140430\x1C1000.00\x1CAME
+    Zion Church\x1CBishop\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCP6HY1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hunter
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Louis
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: Sr.
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4255 Laurel Grove Trce
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Suwanee
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '300246928'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AME Zion Church
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Bishop
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCP6WR9\x1CIND\x1C\x1CJones\x1CSaire\x1C\x1C\x1C\x1C767
+    Rockwood Dr\x1C\x1CRock Hill\x1CSC\x1C297305814\x1C\x1C20140501\x1C500.00\x1CTerminix\x1CCall
+    Center Agent\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCP6WR9
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jones
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Saire
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 767 Rockwood Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rock Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '297305814'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Terminix
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Call Center Agent
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCP6WT5\x1CIND\x1C\x1CJones\x1CSaire\x1C\x1C\x1C\x1C767
+    Rockwood Dr\x1C\x1CRock Hill\x1CSC\x1C297305814\x1C\x1C20140501\x1C500.00\x1CTerminix\x1CCall
+    Center Agent\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCP6WT5
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jones
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Saire
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 767 Rockwood Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Rock Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '297305814'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Terminix
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Call Center Agent
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCPGC12\x1CIND\x1C\x1CJones\x1CShelton\x1C\x1C\x1C\x1C1761
+    Stratford Xing SE\x1C\x1CConyers\x1CGA\x1C300136432\x1C\x1C20140502\x1C1000.00\x1CVerizon\x1CSales\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCPGC12
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Jones
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Shelton
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1761 Stratford Xing SE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Conyers
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '300136432'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Verizon
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Sales
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCPHY01\x1CIND\x1C\x1CLovett\x1CJoyce\x1C\x1C\x1C\x1C6620
+    Valleybrook Rd\x1C\x1CColumbia\x1CSC\x1C292061053\x1C\x1C20140502\x1C1000.00\x1CSchool
+    Nutrition Association of South \x1CExecutive Director\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCPHY01
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Lovett
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joyce
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6620 Valleybrook Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Columbia
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: SC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '292061053'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: 'School Nutrition Association of South '
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive Director
+
+'
+- input: "F65\x1CC00545400\x1CVN8VGCP6J65\x1CIND\x1C\x1CSloan\x1CJames\x1CM\x1C\x1C\x1C4129
+    Swindon Ct\x1C\x1CCharlotte\x1CNC\x1C282155355\x1C\x1C20140430\x1C1500.00\x1CAME
+    Zion Church\x1CPresiding Elder\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN8VGCP6J65
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Sloan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: M
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4129 Swindon Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Charlotte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '282155355'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: AME Zion Church
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Presiding Elder
+
+'
+- input: "TEXT\x1CC00545400\x1CX2168\x1C\x1CF6A\x1CAmended to show contributions of
+    single individual (merged contacts).\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545400
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: X2168
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F6A
+  - name: TEXT4000
+    number: '6'
+    value: 'Amended to show contributions of single individual (merged contacts).
+
+'
+sourceurl: !!python/unicode 20140505
+type: chunk

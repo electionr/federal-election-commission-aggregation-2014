@@ -1,0 +1,419 @@
+countrows: 7
+filename: 923307.fec
+header: {}
+rows:
+- 2
+- input: "F6A\x1CC00475145\x1C20140501\x1CMARINO FOR CONGRESS\x1CPO BOX 653\x1C\x1CWILLIAMSPORT\x1CPA\x1C17703\x1CH0PA10078\x1CMARINO\x1CTHOMAS
+    ANTHONY\x1C\x1C\x1C\x1CH\x1CPA\x1C10\x1CRothenberg\x1CHoward\x1C\x1C\x1C\x1C20140504\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475145
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: '20140501'
+  - name: COMMITTEE NAME
+    number: '4'
+    value: MARINO FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 653
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WILLIAMSPORT
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '17703'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0PA10078
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: MARINO
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: THOMAS ANTHONY
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Rothenberg
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Howard
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140504
+
+'
+- input: "F65\x1CC00475145\x1CF6.15805\x1CPAC\x1CAMERICAN BANKERS ASSOCIATION PAC
+    (BANKPAC)\x1C\x1C\x1C\x1C\x1C\x1C1120 Connecticut Avenue NW\x1CSuite 600\x1CWashington\x1CDC\x1C20036\x1CC00004275\x1C20140501\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15805
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN BANKERS ASSOCIATION PAC (BANKPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1120 Connecticut Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00004275
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00475145\x1CF6.15810\x1CPAC\x1CBUILD POLITICAL ACTION COMMITTEE
+    OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)\x1C\x1C\x1C\x1C\x1C\x1C1201
+    15TH STREET, NW\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1CC00000901\x1C20140501\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15810
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS
+      (BUILDPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 15TH STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000901
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00475145\x1CF6.15811\x1CPAC\x1CBUILD POLITICAL ACTION COMMITTEE
+    OF THE NATIONAL ASSOCIATION OF HOME BUILDERS (BUILDPAC)\x1C\x1C\x1C\x1C\x1C\x1C1201
+    15TH STREET, NW\x1C\x1CWASHINGTON\x1CDC\x1C20005\x1CC00000901\x1C20140501\x1C-1500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15811
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BUILD POLITICAL ACTION COMMITTEE OF THE NATIONAL ASSOCIATION OF HOME BUILDERS
+      (BUILDPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1201 15TH STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00000901
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '-1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00475145\x1CF6.15794\x1CPAC\x1CFEDEXPAC          FEDERAL EXPRESS
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C942 SOUTH SHADY GROVE ROAD\x1C\x1CMEMPHIS\x1CTN\x1C38120\x1CC00068692\x1C20140501\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15794
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: FEDEXPAC          FEDERAL EXPRESS POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 942 SOUTH SHADY GROVE ROAD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MEMPHIS
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '38120'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00068692
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00475145\x1CF6.15795\x1CPAC\x1CUNITED PARCEL SERVICE INC. PAC\x1C\x1C\x1C\x1C\x1C\x1C55
+    GLENLAKE PARKWAY NE\x1C\x1CATLANTA\x1CGA\x1C30328\x1CC00064766\x1C20140501\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475145
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.15795
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: UNITED PARCEL SERVICE INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 55 GLENLAKE PARKWAY NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ATLANTA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '30328'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00064766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140505
+type: chunk

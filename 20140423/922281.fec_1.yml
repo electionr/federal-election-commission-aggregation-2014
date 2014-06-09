@@ -1,0 +1,788 @@
+countrows: 12
+filename: 922281.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00347492\x1C\x1CTiberi for Congress\x1C2931 E Dublin Granville Road\x1CSuite
+    190\x1CColumbus\x1COH\x1C432312098\x1CH0OH12062\x1CTiberi\x1CPatrick\x1CJ.\x1C\x1C\x1CH\x1COH\x1C12\x1CBenton\x1CJeffrey\x1C\x1C\x1C\x1C20140423\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Tiberi for Congress
+  - name: STREET 1
+    number: '5'
+    value: 2931 E Dublin Granville Road
+  - name: STREET 2
+    number: '6'
+    value: Suite 190
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '432312098'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0OH12062
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Tiberi
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Patrick
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: J.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Benton
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jeffrey
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140423
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33136000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Dominion PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: One James River Plaza 20th Floor
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: P.O. Box 26666
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Richmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23261'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00108209
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33136000\x1CCOM\x1CDominion PAC\x1C\x1C\x1C\x1C\x1C\x1COne
+    James River Plaza 20th Floor\x1CP.O. Box 26666\x1CRichmond\x1CVA\x1C23261\x1CC00108209\x1C20140423\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33137000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: First Energy PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 76 S Main Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443081812'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00140855
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33137000\x1CCOM\x1CFirst Energy PAC\x1C\x1C\x1C\x1C\x1C\x1C76
+    S Main Street\x1C\x1CAkron\x1COH\x1C443081812\x1CC00140855\x1C20140423\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33133000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Johnson & Johnson PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 Johnson And Johnson Plaza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New Brunswick
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 089330001
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00010983
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33133000\x1CCOM\x1CJohnson & Johnson PAC\x1C\x1C\x1C\x1C\x1C\x1C1
+    Johnson And Johnson Plaza\x1C\x1CNew Brunswick\x1CNJ\x1C089330001\x1CC00010983\x1C20140423\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33134000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Johnson & Johnson PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1 Johnson And Johnson Plaza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New Brunswick
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 089330001
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00010983
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33134000\x1CCOM\x1CJohnson & Johnson PAC\x1C\x1C\x1C\x1C\x1C\x1C1
+    Johnson And Johnson Plaza\x1C\x1CNew Brunswick\x1CNJ\x1C089330001\x1CC00010983\x1C20140423\x1C3000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33140000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: National Assn Of Federal Credit Unions PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3138 10th Street N
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '222012160'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00040659
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33140000\x1CCOM\x1CNational Assn Of Federal Credit Unions
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C3138 10th Street N\x1C\x1CArlington\x1CVA\x1C222012160\x1CC00040659\x1C20140423\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33139000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PG&E Corporation Energy PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 900 7th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 950
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200013888'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00177469
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33139000\x1CCOM\x1CPG&E Corporation Energy PAC\x1C\x1C\x1C\x1C\x1C\x1C900
+    7th Street NW\x1CSuite 950\x1CWashington\x1CDC\x1C200013888\x1CC00177469\x1C20140423\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33138000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Sanofi-Aventis Us Inc. Employees' PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 55 Corporate Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Bridgewater
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: 088071265
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00144345
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33138000\x1CCOM\x1CSanofi-Aventis Us Inc. Employees'
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C55 Corporate Drive\x1C\x1CBridgewater\x1CNJ\x1C088071265\x1CC00144345\x1C20140423\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33141000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Hook
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Judith
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1690 Timberlake Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Delaware
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '430159212'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Real Estate Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33141000\x1CIND\x1C\x1CHook\x1CJudith\x1CD.\x1C\x1C\x1C1690
+    Timberlake Drive\x1C\x1CDelaware\x1COH\x1C430159212\x1C\x1C20140423\x1C2500\x1CSelf\x1CReal
+    Estate Investor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33143000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Penzone
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Debra
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1994 Wingate Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Delaware
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '430159116'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Charles Penzone Salon
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33143000\x1CIND\x1C\x1CPenzone\x1CDebra\x1C\x1C\x1C\x1C1994
+    Wingate Drive\x1C\x1CDelaware\x1COH\x1C430159116\x1C\x1C20140423\x1C2500\x1CCharles
+    Penzone Salon\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33135000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Smith
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Howard
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: J.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1712 Deer Creek Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Saint Louis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '631241446'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Smith NMTC Associates LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Principal
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33135000\x1CIND\x1C\x1CSmith\x1CHoward\x1CJ.\x1C\x1C\x1C1712
+    Deer Creek Lane\x1C\x1CSaint Louis\x1CMO\x1C631241446\x1C\x1C20140423\x1C1000\x1CSmith
+    NMTC Associates LLC\x1CPrincipal\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140423
+type: chunk

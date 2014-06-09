@@ -1,0 +1,350 @@
+countrows: 6
+filename: 922686.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00551234\x1C\x1CBock for Congress\x1CPO Box 582\x1C\x1CSouth Bend\x1CIN\x1C46624\x1CH4IN02135\x1CBock\x1CJoseph\x1C\x1C\x1C\x1CH\x1CIN\x1C02\x1CGoldberg\x1CSteven\x1C\x1C\x1C\x1C20140429\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Bock for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 582
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: South Bend
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46624'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4IN02135
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Bock
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Joseph
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Goldberg
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Steven
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140429
+
+'
+- input: "F65\x1CC00551234\x1CVN912CKY8G0\x1CIND\x1C\x1CDoyle\x1CCraig\x1CD.\x1C\x1C\x1C6246
+    Cherbourg Dr\x1C\x1CIndianapolis\x1CIN\x1C462206005\x1C\x1C20140428\x1C2600.00\x1CDoyle
+    Legal Corporation\x1CPresident\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN912CKY8G0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Doyle
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Craig
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6246 Cherbourg Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Indianapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '462206005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Doyle Legal Corporation
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'President
+
+'
+- input: "F65\x1CC00551234\x1CVN912CKY7C6\x1CPAC\x1CInternational Union of Operating
+    Engineers Local 150\x1C\x1C\x1C\x1C\x1C\x1C6200 Joliet Rd\x1C\x1CCountryside\x1CIL\x1C605253957\x1CC00142851\x1C20140428\x1C2500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN912CKY7C6
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: International Union of Operating Engineers Local 150
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 6200 Joliet Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Countryside
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '605253957'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00142851
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00551234\x1CVN912CKY743\x1CIND\x1C\x1CJulian\x1CFranklin\x1CD.\x1C\x1C\x1C1620
+    S Bend Ave\x1C\x1CSouth Bend\x1CIN\x1C466171747\x1C\x1C20140428\x1C1000.00\x1CSweeney
+    Julian\x1CAttorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN912CKY743
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Julian
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Franklin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: D.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1620 S Bend Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South Bend
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '466171747'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Sweeney Julian
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00551234\x1CVN912CKY8S8\x1CPAC\x1CUnited Food and Commercial Workers
+    International Union Active Ballot Club\x1C\x1C\x1C\x1C\x1C\x1C1775 K St NW\x1C\x1CWashington\x1CDC\x1C200061228\x1CC00002766\x1C20140428\x1C5000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN912CKY8S8
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: United Food and Commercial Workers International Union Active Ballot Club
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1775 K St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200061228'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00002766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140429
+type: chunk

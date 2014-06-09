@@ -1,0 +1,547 @@
+countrows: 9
+filename: 923209.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00369801\x1C\x1CDAVID SCOTT FOR CONGRESS\x1CP.O. BOX 960821\x1C\x1CRIVERDALE\x1CGA\x1C30296\x1CH2GA13012\x1CSCOTT\x1CDAVID
+    ALBERT\x1C\x1C\x1C\x1CH\x1CGA\x1C13\x1CAaron\x1CHenry\x1C\x1C\x1C\x1C20140503\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: DAVID SCOTT FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 960821
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: RIVERDALE
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30296'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2GA13012
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: SCOTT
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: DAVID ALBERT
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '13'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Aaron
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Henry
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140503
+
+'
+- input: "F65\x1CC00369801\x1CF6.4120\x1CIND\x1C\x1CDraper\x1CStephen E.\x1C\x1C\x1C\x1C1401
+    Peachtree Street NE #500\x1C\x1CAtlanta\x1CGA\x1C30309\x1C\x1C20140502\x1C2500.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4120
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Draper
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stephen E.
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: '1401 Peachtree Street NE #500'
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atlanta
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '30309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00369801\x1CF6.4109\x1CPAC\x1CAMERICAN FEDERATION OF STATE COUNTY
+    & MUNICIPAL EMPLOYEES  P E O P L E\x1C\x1C\x1C\x1C\x1C\x1C1625 L STREET NW\x1C\x1CWASHINGTON\x1CDC\x1C20036\x1CC00011114\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4109
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES  P E O P L E
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1625 L STREET NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00011114
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00369801\x1CF6.4103\x1CPAC\x1CBRAVE PAC\x1C\x1C\x1C\x1C\x1C\x1C499
+    S. CAPITOL ST, SW\x1CSUITE 404\x1CWASHINGTON\x1CDC\x1C20003\x1CC00430579\x1C20140502\x1C5200.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4103
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BRAVE PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 499 S. CAPITOL ST, SW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 404
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20003'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00430579
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5200.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00369801\x1CF6.4106\x1CPAC\x1CINDEPENDENT COMMUNITY BANKERS OF AMERICA
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1615 L STREET, NW\x1CSUITE 900\x1CWASHINGTON\x1CDC\x1C20036\x1CC00032698\x1C20140502\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4106
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INDEPENDENT COMMUNITY BANKERS OF AMERICA POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1615 L STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00032698
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00369801\x1CF6.4111\x1CPAC\x1CINDEPENDENT COMMUNITY BANKERS OF AMERICA
+    POLITICAL ACTION COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1615 L STREET, NW\x1CSUITE 900\x1CWASHINGTON\x1CDC\x1C20036\x1CC00032698\x1C20140502\x1C1500.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4111
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INDEPENDENT COMMUNITY BANKERS OF AMERICA POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1615 L STREET, NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: SUITE 900
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: WASHINGTON
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00032698
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00369801\x1CF6.4117\x1CPAC\x1CNATIONAL PAWNBROKERS ASSOCIATION INC
+    POLITICAL ACTION COMMITTEE (NPA-PAC)\x1C\x1C\x1C\x1C\x1C\x1CPO BOX 508\x1C\x1CKELLER\x1CTX\x1C76244\x1CC00307397\x1C20140502\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4117
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL PAWNBROKERS ASSOCIATION INC POLITICAL ACTION COMMITTEE (NPA-PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 508
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: KELLER
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '76244'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00307397
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00369801\x1CF6.4114\x1CCCM\x1CPALLONE FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1CPO
+    BOX 3176\x1C\x1CLONG BRANCH\x1CNJ\x1C07740\x1CC00226928\x1C20140502\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00369801
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.4114
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: PALLONE FOR CONGRESS
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 3176
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: LONG BRANCH
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NJ
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '07740'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00226928
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140503
+type: chunk

@@ -1,0 +1,506 @@
+countrows: 8
+filename: 922507.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00393629\x1C\x1CMcHenry for Congress\x1CPO Box 1406\x1C\x1CHickory\x1CNC\x1C286031406\x1CH4NC10047\x1CMcHenry\x1CPatrick
+    Timothy\x1C\x1C\x1C\x1CH\x1CNC\x1C10\x1CLisker\x1CLisa\x1C\x1C\x1C\x1C20140425\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: McHenry for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1406
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hickory
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '286031406'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4NC10047
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: McHenry
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Patrick Timothy
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Lisker
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Lisa
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140425
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18612000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Carolinas Healthcare System PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 32861
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Charlotte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '282322861'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00423871
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140424'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00393629\x1C18612000\x1CCOM\x1CCarolinas Healthcare System PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 32861\x1C\x1CCharlotte\x1CNC\x1C282322861\x1CC00423871\x1C20140424\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18611000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Duke Energy Corporation PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 550 S Tryon Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# DEC37D'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Charlotte
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '282024200'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00083535
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140424'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00393629\x1C18611000\x1CCOM\x1CDuke Energy Corporation PAC\x1C\x1C\x1C\x1C\x1C\x1C550
+    S Tryon Street\x1C# DEC37D\x1CCharlotte\x1CNC\x1C282024200\x1CC00083535\x1C20140424\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18615000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: McguireWoods Federal PAC Fund
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: One James Center
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 901 E. Cary Street
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Richmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '23219'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00225342
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00393629\x1C18615000\x1CCOM\x1CMcguireWoods Federal PAC Fund\x1C\x1C\x1C\x1C\x1C\x1COne
+    James Center\x1C901 E. Cary Street\x1CRichmond\x1CVA\x1C23219\x1CC00225342\x1C20140425\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18613000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SUNTRUST BANK GOOD GOVERNMENT GROUP - MID-ATLANTIC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 26665
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Richmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '232616665'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00214965
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '3000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00393629\x1C18613000\x1CCOM\x1CSUNTRUST BANK GOOD GOVERNMENT GROUP
+    - MID-ATLANTIC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 26665\x1C\x1CRichmond\x1CVA\x1C232616665\x1CC00214965\x1C20140425\x1C3000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18614000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: SUNTRUST BANK GOOD GOVERNMENT GROUP - MID-ATLANTIC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 26665
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Richmond
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '232616665'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00214965
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00393629\x1C18614000\x1CCOM\x1CSUNTRUST BANK GOOD GOVERNMENT GROUP
+    - MID-ATLANTIC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 26665\x1C\x1CRichmond\x1CVA\x1C232616665\x1CC00214965\x1C20140425\x1C5000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00393629
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '18616000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Finerman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Ralph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1250 4th Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Santa Monica
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '904011366'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: RFG Financial Group, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00393629\x1C18616000\x1CIND\x1C\x1CFinerman\x1CRalph\x1C\x1CMr.\x1C\x1C1250
+    4th Street\x1C\x1CSanta Monica\x1CCA\x1C904011366\x1C\x1C20140425\x1C1000\x1CRFG
+    Financial Group, Inc.\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140425
+type: chunk

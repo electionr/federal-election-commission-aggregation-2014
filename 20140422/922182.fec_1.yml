@@ -1,0 +1,265 @@
+countrows: 6
+filename: 922182.fec
+header: {}
+rows:
+- 2
+- input: "F2N\x1CH0NY20095\x1CGIBSON\x1CCHRISTOPHER P\x1C\x1C\x1C\x1C\x1CPO BOX 543\x1C\x1CKINDERHOOK\x1CNY\x1C12106\x1CREP\x1CH\x1CNY\x1C19\x1C2014\x1CC00477984\x1CCHRIS
+    GIBSON FOR CONGRESS\x1CPO BOX 255\x1C\x1CKINDERHOOK\x1CNY\x1C12106\x1CC00523985\x1C(FRESHMAN
+    HOLD'EM JFC) FRESHMAN HOLD'EM, STUTZMAN FOR CONGRESS, GARDNER FOR CONGRESS 2012\x1C209
+    PENNSYLVANIA AVE SE\x1CSUITE 2109\x1CWASHINGTON\x1CDC\x1C20003\x1CGIBSON\x1CCHRISTOPHER
+    P\x1C\x1C\x1C\x1C20140422\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY20095
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: GIBSON
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: CHRISTOPHER P
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: PO BOX 543
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: ''
+  - name: CANDIDATE CITY
+    number: '11'
+    value: KINDERHOOK
+  - name: CANDIDATE STATE
+    number: '12'
+    value: NY
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '12106'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: NY
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '19'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00477984
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: CHRIS GIBSON FOR CONGRESS
+  - name: PCC STREET 1
+    number: '21'
+    value: PO BOX 255
+  - name: PCC STREET 2
+    number: '22'
+    value: ''
+  - name: PCC CITY
+    number: '23'
+    value: KINDERHOOK
+  - name: PCC STATE
+    number: '24'
+    value: NY
+  - name: PCC ZIP
+    number: '25'
+    value: '12106'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00523985
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: (FRESHMAN HOLD'EM JFC) FRESHMAN HOLD'EM, STUTZMAN FOR CONGRESS, GARDNER
+      FOR CONGRESS 2012
+  - name: AUTH STREET 1
+    number: '28'
+    value: 209 PENNSYLVANIA AVE SE
+  - name: AUTH STREET 2
+    number: '29'
+    value: SUITE 2109
+  - name: AUTH CITY
+    number: '30'
+    value: WASHINGTON
+  - name: AUTH STATE
+    number: '31'
+    value: DC
+  - name: AUTH ZIP
+    number: '32'
+    value: '20003'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: GIBSON
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: CHRISTOPHER P
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: ''
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140422
+
+'
+- input: "F2S\x1CH0NY20095\x1CC00523985\x1C(FRESHMAN HOLD'EM JFC) FRESHMAN HOLD'EM,
+    STUTZMAN FOR CONGRESS, GARDNER FOR CONGRESS 2012\x1C209 PENNSYLVANIA AVE SE\x1CSUITE
+    2109\x1CWASHINGTON\x1CDC\x1C20003\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY20095
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00523985
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: (FRESHMAN HOLD'EM JFC) FRESHMAN HOLD'EM, STUTZMAN FOR CONGRESS, GARDNER
+      FOR CONGRESS 2012
+  - name: AUTH STREET 1
+    number: '5'
+    value: 209 PENNSYLVANIA AVE SE
+  - name: AUTH STREET 2
+    number: '6'
+    value: SUITE 2109
+  - name: AUTH CITY
+    number: '7'
+    value: WASHINGTON
+  - name: AUTH STATE
+    number: '8'
+    value: DC
+  - name: AUTH ZIP
+    number: '9'
+    value: '20003
+
+'
+- input: "F2S\x1CH0NY20095\x1CC00493783\x1CFRESHMAN AGRICULTURAL REPUBLICAN MEMBERS
+    TRUST AKA FARM TRUST\x1CPO BOX 30844\x1C\x1CBETHESDA\x1CMD\x1C20824\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY20095
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00493783
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: FRESHMAN AGRICULTURAL REPUBLICAN MEMBERS TRUST AKA FARM TRUST
+  - name: AUTH STREET 1
+    number: '5'
+    value: PO BOX 30844
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: BETHESDA
+  - name: AUTH STATE
+    number: '8'
+    value: MD
+  - name: AUTH ZIP
+    number: '9'
+    value: '20824
+
+'
+- input: "F2S\x1CH0NY20095\x1CC00543975\x1CPATRIOT DAY I\x1C228 S WASHINGTON ST STE
+    115\x1C\x1CALEXANDRIA\x1CVA\x1C22314\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY20095
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00543975
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: PATRIOT DAY I
+  - name: AUTH STREET 1
+    number: '5'
+    value: 228 S WASHINGTON ST STE 115
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '22314
+
+'
+- input: "F2S\x1CH0NY20095\x1CC00560052\x1CGIBSON REED VICTORY FUND\x1C2470 DANIELLS
+    BR RD STE 121\x1C\x1CATHENS\x1CGA\x1C30606\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0NY20095
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00560052
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: GIBSON REED VICTORY FUND
+  - name: AUTH STREET 1
+    number: '5'
+    value: 2470 DANIELLS BR RD STE 121
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: ATHENS
+  - name: AUTH STATE
+    number: '8'
+    value: GA
+  - name: AUTH ZIP
+    number: '9'
+    value: '30606
+
+'
+sourceurl: !!python/unicode 20140422
+type: chunk

@@ -1,0 +1,154 @@
+countrows: 3
+filename: 923579.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00470948\x1C\x1CRaul Labrador for Idaho\x1CPO Box 1616\x1C\x1CBoise\x1CID\x1C837011616\x1CH0ID01253\x1CLabrador\x1CRaul\x1C\x1C\x1C\x1CH\x1CID\x1C01\x1CChigbrow\x1CCordell\x1C\x1C\x1C\x1C20140506\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470948
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Raul Labrador for Idaho
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1616
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Boise
+  - name: STATE
+    number: '8'
+    value: ID
+  - name: ZIP
+    number: '9'
+    value: '837011616'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0ID01253
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Labrador
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Raul
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: ID
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Chigbrow
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Cordell
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140506
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00470948
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '7645000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Reider
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Jenise
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2948 S Denali Way
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Meridian
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: ID
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '836428104'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: homemake
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00470948\x1C7645000\x1CIND\x1C\x1CReider\x1CJenise\x1C\x1C\x1C\x1C2948
+    S Denali Way\x1C\x1CMeridian\x1CID\x1C836428104\x1C\x1C20140505\x1C1000\x1Chomemaker\x1Chomemake\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140506
+type: chunk

@@ -1,0 +1,1424 @@
+countrows: 21
+filename: 922484.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00527457\x1C\x1CFriends of Dave Joyce\x1C320 Kenarden Drive\x1C\x1CCleveland\x1COH\x1C441433710\x1CH2OH14064\x1CJoyce\x1CDavid\x1CP\x1C\x1C\x1CH\x1COH\x1C14\x1CColeman\x1CScott\x1C\x1C\x1C\x1C20140425\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Friends of Dave Joyce
+  - name: STREET 1
+    number: '5'
+    value: 320 Kenarden Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cleveland
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '441433710'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H2OH14064
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Joyce
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: P
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '14'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Coleman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Scott
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140425
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3875000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Altria Group, Inc.
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 120 Park Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: New York
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NY
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '100175577'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00089136
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3875000\x1CCOM\x1CAltria Group, Inc.\x1C\x1C\x1C\x1C\x1C\x1C120
+    Park Avenue\x1C\x1CNew York\x1CNY\x1C100175577\x1CC00089136\x1C20140425\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3878000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Gaming Association Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1299 Pennsylvania Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 1175
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200042426'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00309146
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3878000\x1CCOM\x1CAmerican Gaming Association Political
+    Action Committee\x1C\x1C\x1C\x1C\x1C\x1C1299 Pennsylvania Avenue NW\x1CSuite 1175\x1CWashington\x1CDC\x1C200042426\x1CC00309146\x1C20140425\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3877000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Continental Airlines Inc.
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: Employee Fund For A. Better
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Amerca P. A. C.
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Houston
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '77002'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00101766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3877000\x1CCOM\x1CContinental Airlines Inc.\x1C\x1C\x1C\x1C\x1C\x1CEmployee
+    Fund For A. Better\x1CAmerca P. A. C.\x1CHouston\x1CTX\x1C77002\x1CC00101766\x1C20140425\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3876000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: First Energy
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: S Main Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Political Action Committee 76
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443081440'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00140855
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3876000\x1CCOM\x1CFirst Energy\x1C\x1C\x1C\x1C\x1C\x1CS
+    Main Street\x1CPolitical Action Committee 76\x1CAkron\x1COH\x1C443081440\x1CC00140855\x1C20140425\x1C2600\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3890000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Arshinkoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Alexander
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 466 W Streetsboro Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hudson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '442362059'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Summit County GOP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3890000\x1CIND\x1C\x1CArshinkoff\x1CAlexander\x1C\x1C\x1C\x1C466
+    W Streetsboro Street\x1C\x1CHudson\x1COH\x1C442362059\x1C\x1C20140425\x1C2500\x1CSummit
+    County GOP\x1CChairman\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3891000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Arshinkoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Alexander
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 466 W Streetsboro Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hudson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '442362059'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Summit County GOP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chairman
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3891000\x1CIND\x1C\x1CArshinkoff\x1CAlexander\x1C\x1C\x1C\x1C466
+    W Streetsboro Street\x1C\x1CHudson\x1COH\x1C442362059\x1C\x1C20140425\x1C2500\x1CSummit
+    County GOP\x1CChairman\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3892000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Arshinkoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Karen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 466 W Streetsboro Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hudson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '442362059'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Summa, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3892000\x1CIND\x1C\x1CArshinkoff\x1CKaren\x1C\x1C\x1C\x1C466
+    W Streetsboro Street\x1C\x1CHudson\x1COH\x1C442362059\x1C\x1C20140425\x1C2500\x1CSumma,
+    Inc.\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3893000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Arshinkoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Karen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 466 W Streetsboro Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Hudson
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '442362059'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Summa, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3893000\x1CIND\x1C\x1CArshinkoff\x1CKaren\x1C\x1C\x1C\x1C466
+    W Streetsboro Street\x1C\x1CHudson\x1COH\x1C442362059\x1C\x1C20140425\x1C2500\x1CSumma,
+    Inc.\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3889000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Buchholzer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Frances
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 654 N Portage Path
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443031224'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Chapel Hill Mall
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3889000\x1CIND\x1C\x1CBuchholzer\x1CFrances\x1C\x1C\x1C\x1C654
+    N Portage Path\x1C\x1CAkron\x1COH\x1C443031224\x1C\x1C20140425\x1C1000\x1CChapel
+    Hill Mall\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3888000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Fedeli Jr.
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Umberto
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 820 Village Trail
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Gates Mills
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '440409660'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: The Fedeli Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3888000\x1CIND\x1C\x1CFedeli Jr.\x1CUmberto\x1C\x1C\x1C\x1C820
+    Village Trail\x1C\x1CGates Mills\x1COH\x1C440409660\x1C\x1C20140425\x1C2000\x1CThe
+    Fedeli Group\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3885000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9500 Forty Corners Road NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Massillon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '446479309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3885000\x1CIND\x1C\x1CScala\x1CChristopher\x1C\x1C\x1C\x1C9500
+    Forty Corners Road NW\x1C\x1CMassillon\x1COH\x1C446479309\x1C\x1C20140425\x1C600\x1CKenmore
+    Company\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3884000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Christopher
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 9500 Forty Corners Road NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Massillon
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '446479309'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3884000\x1CIND\x1C\x1CScala\x1CChristopher\x1C\x1C\x1C\x1C9500
+    Forty Corners Road NW\x1C\x1CMassillon\x1COH\x1C446479309\x1C\x1C20140425\x1C1400\x1CKenmore
+    Company\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3881000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4501 Shaw Road Extension
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443331445'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Executive
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3881000\x1CIND\x1C\x1CScala\x1CJoy\x1CA\x1C\x1C\x1C4501
+    Shaw Road Extension\x1C\x1CAkron\x1COH\x1C443331445\x1C\x1C20140425\x1C2400\x1CKenmore\x1CExecutive\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3886000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 4872
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443100872'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3886000\x1CIND\x1C\x1CScala\x1CMichael\x1C\x1C\x1C\x1CPO
+    Box 4872\x1C\x1CAkron\x1COH\x1C443100872\x1C\x1C20140425\x1C600\x1CKenmore Company\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3887000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 4872
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443100872'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Company
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3887000\x1CIND\x1C\x1CScala\x1CMichael\x1C\x1C\x1C\x1CPO
+    Box 4872\x1C\x1CAkron\x1COH\x1C443100872\x1C\x1C20140425\x1C1400\x1CKenmore Company\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3882000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 4768
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443100768'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Const.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3882000\x1CIND\x1C\x1CScala\x1CPaul\x1C\x1C\x1C\x1CPO
+    Box 4768\x1C\x1CAkron\x1COH\x1C443100768\x1C\x1C20140425\x1C600\x1CKenmore Const.\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3883000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 4768
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443100768'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1800'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Const.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: EXECUTIVE
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3883000\x1CIND\x1C\x1CScala\x1CPaul\x1C\x1C\x1C\x1CPO
+    Box 4768\x1C\x1CAkron\x1COH\x1C443100768\x1C\x1C20140425\x1C1800\x1CKenmore Const.\x1CEXECUTIVE\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3879000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 700 Home Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443104104'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Const.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3879000\x1CIND\x1C\x1CScala\x1CWilliam\x1C\x1C\x1C\x1C700
+    Home Avenue\x1C\x1CAkron\x1COH\x1C443104104\x1C\x1C20140425\x1C600\x1CKenmore
+    Const.\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00527457
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '3880000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Scala
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 700 Home Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Akron
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '443104104'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140425'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1400'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Kenmore Const.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: President
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00527457\x1C3880000\x1CIND\x1C\x1CScala\x1CWilliam\x1C\x1C\x1C\x1C700
+    Home Avenue\x1C\x1CAkron\x1COH\x1C443104104\x1C\x1C20140425\x1C1400\x1CKenmore
+    Const.\x1CPresident\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140425
+type: chunk

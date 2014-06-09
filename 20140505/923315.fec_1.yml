@@ -1,0 +1,151 @@
+countrows: 3
+filename: 923315.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00474189\x1C\x1CMIKE KELLY FOR CONGRESS\x1CPO BOX 476\x1C\x1CLYNDORA\x1CPA\x1C16045\x1CH0PA03271\x1CKELLY\x1CGEORGE
+    J JR\x1CJ.\x1C\x1CJr.\x1CH\x1CPA\x1C03\x1CColeman\x1CAnn\x1C\x1C\x1C\x1C20140503\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474189
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: MIKE KELLY FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 476
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LYNDORA
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '16045'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0PA03271
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: KELLY
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: GEORGE J JR
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: J.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: Jr.
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Coleman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Ann
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140503
+
+'
+- input: "F65\x1CC00474189\x1CF6.7620\x1CPAC\x1CLOWE'S COMPANIES, INC. POLITICAL ACTION
+    COMMITTEE\x1C\x1C\x1C\x1C\x1C\x1C1000 LOWE'S BOULEVARD\x1C\x1CMOORESVILLE\x1CNC\x1C28117\x1CC00251751\x1C20140503\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00474189
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7620
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: LOWE'S COMPANIES, INC. POLITICAL ACTION COMMITTEE
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1000 LOWE'S BOULEVARD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MOORESVILLE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28117'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00251751
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140505
+type: chunk

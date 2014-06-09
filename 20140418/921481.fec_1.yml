@@ -1,0 +1,7338 @@
+countrows: 51
+filename: 921481.fec
+header: {}
+rows:
+- 2
+- input: "F3XN\x1CC00435982\x1CDuPage Medical Group LTD PAC\x1C\x1C1100 West 31ST
+    Street\x1CSuite 300\x1CDowners Grove\x1CIL\x1C60515\x1CM4\x1C\x1C\x1C\x1C20140301\x1C20140331\x1CX\x1CMcCormick
+    \x1CMichael\x1CK.\x1C\x1C\x1C20140418\x1C178110.35\x1C3234.08\x1C181344.43\x1C2000.00\x1C179344.43\x1C0.00\x1C0.00\x1C2042.28\x1C1191.80\x1C3234.08\x1C0.00\x1C0.00\x1C3234.08\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C3234.08\x1C3234.08\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C2000.00\x1C3234.08\x1C0.00\x1C3234.08\x1C0.00\x1C0.00\x1C0.00\x1C174940.53\x1C2014\x1C11403.90\x1C186344.43\x1C7000.00\x1C179344.43\x1C2600.96\x1C8802.94\x1C11403.90\x1C0.00\x1C0.00\x1C11403.90\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C11403.90\x1C11403.90\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C5000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7000.00\x1C7000.00\x1C11403.90\x1C0.00\x1C11403.90\x1C0.00\x1C0.00\x1C0.00\n"
+  record: fec.version.v8_1.F3X
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3XN
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DuPage Medical Group LTD PAC
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 1100 West 31ST Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 300
+  - name: CITY
+    number: '7'
+    value: Downers Grove
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60515'
+  - name: REPORT CODE
+    number: '10'
+    value: M4
+  - name: ELECTION CODE {was RPTPGI}
+    number: '11'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '12'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '13'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '14'
+    value: '20140301'
+  - name: COVERAGE THROUGH DATE
+    number: '15'
+    value: '20140331'
+  - name: QUALIFIED COMMITTEE
+    number: '16'
+    value: X
+  - name: TREASURER LAST NAME
+    number: '17'
+    value: 'McCormick '
+  - name: TREASURER FIRST NAME
+    number: '18'
+    value: Michael
+  - name: TREASURER MIDDLE NAME
+    number: '19'
+    value: K.
+  - name: TREASURER PREFIX
+    number: '20'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '21'
+    value: ''
+  - name: DATE SIGNED
+    number: '22'
+    value: '20140418'
+  - name: Cash on Hand beginning
+    number: 23-6(b)
+    value: '178110.35'
+  - name: Total Receipts
+    number: 24-6(c)
+    value: '3234.08'
+  - name: Subtotal
+    number: 25-6(d)
+    value: '181344.43'
+  - name: Total Disbursements
+    number: 26-7.
+    value: '2000.00'
+  - name: Cash on Hand at Close
+    number: 27-8.
+    value: '179344.43'
+  - name: Debts to
+    number: 28-9.
+    value: '0.00'
+  - name: Debts by
+    number: 29-10.
+    value: '0.00'
+  - name: Itemized
+    number: 30-11(a)i
+    value: '2042.28'
+  - name: Unitemized
+    number: 31-11(a)ii
+    value: '1191.80'
+  - name: Total
+    number: 32-11(a)iii
+    value: '3234.08'
+  - name: Political Party Committees
+    number: 33-11(b)
+    value: '0.00'
+  - name: Other Political Committees (PACs)
+    number: 34-11(c)
+    value: '0.00'
+  - name: Total Contributions
+    number: 35-11(d)
+    value: '3234.08'
+  - name: Transfers from Affiliated/Other Party Cmtes
+    number: 36-12.
+    value: '0.00'
+  - name: All Loans Received
+    number: 37-13.
+    value: '0.00'
+  - name: Loan Repayments Received
+    number: 38-14.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures (refunds)
+    number: 39-15.
+    value: '0.00'
+  - name: Refunds of Federal Contributions
+    number: 40-16.
+    value: '0.00'
+  - name: Other Federal Receipts (dividends)
+    number: 41-17.
+    value: '0.00'
+  - name: Transfers from Nonfederal Account (H3)
+    number: 42-18(a)
+    value: '0.00'
+  - name: Transfers from Non-Federal (Levin - H5)
+    number: 43-18(b)
+    value: '0.00'
+  - name: Total Non-Federal Transfers (18a+18b)
+    number: 44-18(c)
+    value: '0.00'
+  - name: Total Receipts
+    number: 45-19.
+    value: '3234.08'
+  - name: Total Federal Receipts
+    number: 46-20.
+    value: '3234.08'
+  - name: Federal Share
+    number: 47-21(a)i
+    value: '0.00'
+  - name: Non-Federal Share
+    number: 48-21(a)ii
+    value: '0.00'
+  - name: Other Federal Operating Expenditures
+    number: 49-21(b)
+    value: '0.00'
+  - name: Total Operating Expenditures
+    number: 50-21(c)
+    value: '0.00'
+  - name: Transfers to Affiliated/Other Party Cmtes
+    number: 51-22.
+    value: '0.00'
+  - name: Contributions to Federal Candidates/Cmtes
+    number: 52-23.
+    value: '2000.00'
+  - name: Independent Expenditures
+    number: 53-24.
+    value: '0.00'
+  - name: Coordinated Expend made by Party Cmtes
+    number: 54-25.
+    value: '0.00'
+  - name: Loan Repayments
+    number: 55-26.
+    value: '0.00'
+  - name: Loans Made
+    number: 56-27.
+    value: '0.00'
+  - name: Individuals/Persons
+    number: 57-28(a)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 58-28(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 59-28(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 60-28(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 61-29.
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Fed Share
+    number: 62-30(a)i
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Non-Fed
+    number: 63-30(a)ii
+    value: '0.00'
+  - name: Non-Allocable 100% Fed Election Activity
+    number: 64-30(b)
+    value: '0.00'
+  - name: Total Federal Election Activity
+    number: 65-30(c)
+    value: '0.00'
+  - name: Total Disbursements
+    number: 66-31.
+    value: '2000.00'
+  - name: Total Federal Disbursements
+    number: 67-32.
+    value: '2000.00'
+  - name: Total Contributions
+    number: 68-33.
+    value: '3234.08'
+  - name: Total Contribution Refunds
+    number: 69-34.
+    value: '0.00'
+  - name: Net Contributions
+    number: 70-35.
+    value: '3234.08'
+  - name: Total Federal Operating Expenditures
+    number: 71-36.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 72-37.
+    value: '0.00'
+  - name: Net Operating Expenditures
+    number: 73-38.
+    value: '0.00'
+  - name: Cash on Hand Jan 1, 19
+    number: 74-6(a)
+    value: '174940.53'
+  - name: Year for Above
+    number: '75'
+    value: '2014'
+  - name: Total Receipts
+    number: 76-6(c)
+    value: '11403.90'
+  - name: Subtotal
+    number: 77-6(d)
+    value: '186344.43'
+  - name: Total disbursements
+    number: 78-7.
+    value: '7000.00'
+  - name: Cash on Hand Close
+    number: 79-8.
+    value: '179344.43'
+  - name: Itemized
+    number: 80-11(a)i
+    value: '2600.96'
+  - name: Unitemized
+    number: 81-11(a)ii
+    value: '8802.94'
+  - name: Total
+    number: 82-11(a)iii
+    value: '11403.90'
+  - name: Political Party committees
+    number: 83-11(b)
+    value: '0.00'
+  - name: Other Political Committees (PACs)
+    number: 84-11(c)
+    value: '0.00'
+  - name: Total Contributions
+    number: 85-11(d)
+    value: '11403.90'
+  - name: Transfers from Affiliated/Other Party Cmtes
+    number: 86-12.
+    value: '0.00'
+  - name: All Loans Received
+    number: 87-13.
+    value: '0.00'
+  - name: Loan Repayments Received
+    number: 88-14.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures (refunds)
+    number: 89-15.
+    value: '0.00'
+  - name: Refunds of Federal Contributions
+    number: 90-16.
+    value: '0.00'
+  - name: Other Federal Receipts (dividends)
+    number: 91-17.
+    value: '0.00'
+  - name: Transfers from Nonfederal Account (H3)
+    number: 92-18(a)
+    value: '0.00'
+  - name: Transfers from Non-Federal (Levin - H5)
+    number: 93-18(b)
+    value: '0.00'
+  - name: Total Non-Federal Transfers (18a+18b)
+    number: 94-18(c)
+    value: '0.00'
+  - name: Total Receipts
+    number: 95-19.
+    value: '11403.90'
+  - name: Total Federal Receipts
+    number: 96-20.
+    value: '11403.90'
+  - name: Federal Share
+    number: 97-21(a)i
+    value: '0.00'
+  - name: Non-Federal Share
+    number: 98-21(a)ii
+    value: '0.00'
+  - name: Other Federal Operating Expenditures
+    number: 99-21(b)
+    value: '0.00'
+  - name: Total operating Expenditures
+    number: 100-21(c)
+    value: '0.00'
+  - name: Transfers to Affiliated/Other Party Cmtes
+    number: 101-22.
+    value: '0.00'
+  - name: Contributions to Federal Candidates/Cmtes
+    number: 102-23.
+    value: '2000.00'
+  - name: Independent Expenditures
+    number: 103-24.
+    value: '0.00'
+  - name: Coordinated Expend made by Party Cmtes
+    number: 104-25.
+    value: '0.00'
+  - name: Loan Repayments Made
+    number: 105-26.
+    value: '0.00'
+  - name: Loans Made
+    number: 106-27.
+    value: '0.00'
+  - name: Individuals/Persons
+    number: 107-28(a)
+    value: '0.00'
+  - name: Political Party Committees
+    number: 108-28(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 109-28(c)
+    value: '0.00'
+  - name: Total contributions Refunds
+    number: 110-28(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 111-29.
+    value: '5000.00'
+  - name: Shared Federal Activity (H6) Fed Share
+    number: 112-30(a)i
+    value: '0.00'
+  - name: Shared Federal Activity (H6) Non-Fed
+    number: 113-30(a)ii
+    value: '0.00'
+  - name: Non-Allocable 100% Fed Election Activity
+    number: 114-30(b)
+    value: '0.00'
+  - name: Total Federal Election Activity
+    number: 115-30(c)
+    value: '0.00'
+  - name: Total Disbursements
+    number: 116-31.
+    value: '7000.00'
+  - name: Total Federal Disbursements
+    number: 117-32.
+    value: '7000.00'
+  - name: Total Contributions
+    number: 118-33.
+    value: '11403.90'
+  - name: Total Contribution Refunds
+    number: 119-34.
+    value: '0.00'
+  - name: Net contributions
+    number: 120-35.
+    value: '11403.90'
+  - name: Total Federal Operating Expenditures
+    number: 121-36.
+    value: '0.00'
+  - name: Offsets to Operating Expenditures
+    number: 122-37.
+    value: '0.00'
+  - name: Net Operating Expenditures
+    number: 123-38.
+    value: '0.00
+
+'
+- input: "SA11AI\x1CC00435982\x1C889E60000CA54E6FA0B4\x1C\x1C\x1CIND\x1C\x1CAsselmeier\x1CMarc\x1C\x1C\x1C\x1C750
+    Brentwood Ct\x1C\x1CGlen Ellyn\x1CIL\x1C601376365\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 889E60000CA54E6FA0B4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Asselmeier
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Marc
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 750 Brentwood Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601376365'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C2E3D64A4A5C649F3BF75\x1C\x1C\x1CIND\x1C\x1CAsselmeier\x1CMarc\x1C\x1C\x1C\x1C750
+    Brentwood Ct\x1C\x1CGlen Ellyn\x1CIL\x1C601376365\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 2E3D64A4A5C649F3BF75
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Asselmeier
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Marc
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 750 Brentwood Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601376365'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CF7A88102A6BD4FB29E2E\x1C\x1C\x1CIND\x1C\x1CCollins\x1CJames\x1C\x1C\x1C\x1C1673
+    Imperial Cir\x1C\x1CNaperville\x1CIL\x1C605630132\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: F7A88102A6BD4FB29E2E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Collins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1673 Imperial Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605630132'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C14B003A0C3E9444A95B4\x1C\x1C\x1CIND\x1C\x1CCollins\x1CJames\x1C\x1C\x1C\x1C1673
+    Imperial Cir\x1C\x1CNaperville\x1CIL\x1C605630132\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 14B003A0C3E9444A95B4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Collins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1673 Imperial Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605630132'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C1CFA608B56D54E09B00D\x1C\x1C\x1CIND\x1C\x1CFitzgerald\x1CMichael\x1C\x1C\x1C\x1C1207
+    Sanctuary Ln\x1C\x1CNaperville\x1CIL\x1C605401936\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 1CFA608B56D54E09B00D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Fitzgerald
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1207 Sanctuary Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605401936'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CDFFD653E1C3F4983937C\x1C\x1C\x1CIND\x1C\x1CFitzgerald\x1CMichael\x1C\x1C\x1C\x1C1207
+    Sanctuary Ln\x1C\x1CNaperville\x1CIL\x1C605401936\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: DFFD653E1C3F4983937C
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Fitzgerald
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1207 Sanctuary Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605401936'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CB4713543822F4037B033\x1C\x1C\x1CIND\x1C\x1CGallagher\x1CThomas\x1C\x1C\x1C\x1C1105
+    Adelia St\x1C\x1CDowners Grove\x1CIL\x1C605162830\x1C\x1C\x1C20140314\x1C50.00\x1C350.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: B4713543822F4037B033
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gallagher
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1105 Adelia St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Downers Grove
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605162830'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '50.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '350.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CC4D830F0109D411A8249\x1C\x1C\x1CIND\x1C\x1CGallagher\x1CThomas\x1C\x1C\x1C\x1C1105
+    Adelia St\x1C\x1CDowners Grove\x1CIL\x1C605162830\x1C\x1C\x1C20140328\x1C50.00\x1C350.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: C4D830F0109D411A8249
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gallagher
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Thomas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1105 Adelia St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Downers Grove
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605162830'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '50.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '350.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C7C557BE0A9AE4581B1ED\x1C\x1C\x1CIND\x1C\x1CGallo\x1CMartin\x1C\x1C\x1C\x1C118
+    Allen Ct\x1C\x1CClarendon Hills\x1CIL\x1C605141466\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 7C557BE0A9AE4581B1ED
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gallo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Martin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 118 Allen Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Clarendon Hills
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605141466'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C14990299B991457B8655\x1C\x1C\x1CIND\x1C\x1CGallo\x1CMartin\x1C\x1C\x1C\x1C118
+    Allen Ct\x1C\x1CClarendon Hills\x1CIL\x1C605141466\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 14990299B991457B8655
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gallo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Martin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 118 Allen Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Clarendon Hills
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605141466'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CC138534FBBC3403397C4\x1C\x1C\x1CIND\x1C\x1CGiardina\x1CJohn\x1C\x1C\x1C\x1C832
+    Abbey Dr\x1C\x1CGlen Ellyn\x1CIL\x1C601376130\x1C\x1C\x1C20140314\x1C38.46\x1C269.22\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: C138534FBBC3403397C4
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Giardina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 832 Abbey Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601376130'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '38.46'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '269.22'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C0D102A22F5854AF3978B\x1C\x1C\x1CIND\x1C\x1CGiardina\x1CJohn\x1C\x1C\x1C\x1C832
+    Abbey Dr\x1C\x1CGlen Ellyn\x1CIL\x1C601376130\x1C\x1C\x1C20140328\x1C38.46\x1C269.22\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 0D102A22F5854AF3978B
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Giardina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: John
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 832 Abbey Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601376130'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '38.46'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '269.22'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CF80F7EEFD0D0448DBA9D\x1C\x1C\x1CIND\x1C\x1CGraham\x1CL.
+    Douglas\x1C\x1C\x1C\x1C15224 Summit Ave.\x1CSte. 107\x1COakbrook Terrace\x1CIL\x1C60181\x1C\x1C\x1C20140314\x1C42.00\x1C294.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: F80F7EEFD0D0448DBA9D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Graham
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: L. Douglas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 15224 Summit Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Ste. 107
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Oakbrook Terrace
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '60181'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '42.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '294.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CA1FBE2CA988A4B728381\x1C\x1C\x1CIND\x1C\x1CGraham\x1CL.
+    Douglas\x1C\x1C\x1C\x1C15224 Summit Ave.\x1CSte. 107\x1COakbrook Terrace\x1CIL\x1C60181\x1C\x1C\x1C20140328\x1C42.00\x1C294.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: A1FBE2CA988A4B728381
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Graham
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: L. Douglas
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 15224 Summit Ave.
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Ste. 107
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Oakbrook Terrace
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '60181'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '42.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '294.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C3A1BB04669C2451788E0\x1C\x1C\x1CIND\x1C\x1CGruener\x1CLinda\x1C\x1C\x1C\x1C8207
+    Gruener Ct\x1C\x1CPalos Hills\x1CIL\x1C604652200\x1C\x1C\x1C20140314\x1C100.00\x1C700.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 3A1BB04669C2451788E0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gruener
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Linda
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 8207 Gruener Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Palos Hills
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '604652200'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '100.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '700.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CB9C7EFEA2BB44CB18405\x1C\x1C\x1CIND\x1C\x1CGruener\x1CLinda\x1C\x1C\x1C\x1C8207
+    Gruener Ct\x1C\x1CPalos Hills\x1CIL\x1C604652200\x1C\x1C\x1C20140328\x1C100.00\x1C700.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: B9C7EFEA2BB44CB18405
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gruener
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Linda
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 8207 Gruener Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Palos Hills
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '604652200'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '100.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '700.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C44B41F5FE46C4C1DA70E\x1C\x1C\x1CIND\x1C\x1CHermann\x1CJames\x1C\x1C\x1C\x1C1962
+    Hampton Dr\x1C\x1CWheaton\x1CIL\x1C601892020\x1C\x1C\x1C20140314\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 44B41F5FE46C4C1DA70E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hermann
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1962 Hampton Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Wheaton
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601892020'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C3B6312742B41424DAA4D\x1C\x1C\x1CIND\x1C\x1CHermann\x1CJames\x1C\x1C\x1C\x1C1962
+    Hampton Dr\x1C\x1CWheaton\x1CIL\x1C601892020\x1C\x1C\x1C20140328\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 3B6312742B41424DAA4D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hermann
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1962 Hampton Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Wheaton
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601892020'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CAB21F19BE2F14AB2A71D\x1C\x1C\x1CIND\x1C\x1CHsu\x1CTe-Shao\x1C\x1C\x1C\x1C1155
+    N Dearborn St\x1CApt. 804\x1CChicago\x1CIL\x1C606106539\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: AB21F19BE2F14AB2A71D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hsu
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Te-Shao
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1155 N Dearborn St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Apt. 804
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '606106539'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C4B43B619E1354104841C\x1C\x1C\x1CIND\x1C\x1CHsu\x1CTe-Shao\x1C\x1C\x1C\x1C1155
+    N Dearborn St\x1CApt. 804\x1CChicago\x1CIL\x1C606106539\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 4B43B619E1354104841C
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hsu
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Te-Shao
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1155 N Dearborn St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Apt. 804
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '606106539'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C0A0C3D351B934A999981\x1C\x1C\x1CIND\x1C\x1CHurst\x1CRobert\x1C\x1C\x1C\x1C1348
+    Richmond Ln\x1C\x1CBartlett\x1CIL\x1C601038939\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 0A0C3D351B934A999981
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hurst
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1348 Richmond Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Bartlett
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601038939'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CAA36AB8B4DB5489F839D\x1C\x1C\x1CIND\x1C\x1CHurst\x1CRobert\x1C\x1C\x1C\x1C1348
+    Richmond Ln\x1C\x1CBartlett\x1CIL\x1C601038939\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: AA36AB8B4DB5489F839D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hurst
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1348 Richmond Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Bartlett
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601038939'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C380F150A6BE64A0CA7B0\x1C\x1C\x1CIND\x1C\x1CKing\x1CRobert\x1C\x1C\x1C\x1C2796
+    Crestfield Ct\x1C\x1CNaperville\x1CIL\x1C605653043\x1C\x1C\x1C20140314\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 380F150A6BE64A0CA7B0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: King
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 2796 Crestfield Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605653043'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C8A85AEE1E8A94F32A942\x1C\x1C\x1CIND\x1C\x1CKing\x1CRobert\x1C\x1C\x1C\x1C2796
+    Crestfield Ct\x1C\x1CNaperville\x1CIL\x1C605653043\x1C\x1C\x1C20140328\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 8A85AEE1E8A94F32A942
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: King
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 2796 Crestfield Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605653043'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C41127ECEB2674ADEA309\x1C\x1C\x1CIND\x1C\x1CKumins\x1CNorman\x1C\x1C\x1C\x1C677
+    Duane St\x1C\x1CGlen Ellyn\x1CIL\x1C601374611\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 41127ECEB2674ADEA309
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Kumins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Norman
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 677 Duane St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601374611'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CCB7CA83499A646369D8D\x1C\x1C\x1CIND\x1C\x1CKumins\x1CNorman\x1C\x1C\x1C\x1C677
+    Duane St\x1C\x1CGlen Ellyn\x1CIL\x1C601374611\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: CB7CA83499A646369D8D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Kumins
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Norman
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 677 Duane St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601374611'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C21380A6BBC2C4E8392AE\x1C\x1C\x1CIND\x1C\x1CLizek\x1CErnest\x1C\x1C\x1C\x1C416
+    S Sleight St\x1C\x1CNaperville\x1CIL\x1C605405441\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 21380A6BBC2C4E8392AE
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lizek
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Ernest
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 416 S Sleight St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605405441'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C3C27F81800D249168CCD\x1C\x1C\x1CIND\x1C\x1CLizek\x1CErnest\x1C\x1C\x1C\x1C416
+    S Sleight St\x1C\x1CNaperville\x1CIL\x1C605405441\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 3C27F81800D249168CCD
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lizek
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Ernest
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 416 S Sleight St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605405441'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C33B8B08145544A92B400\x1C\x1C\x1CIND\x1C\x1CMeyer\x1CM.
+    Paul\x1C\x1C\x1C\x1C1801 S Highland Ave\x1C\x1CLombard\x1CIL\x1C601484932\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 33B8B08145544A92B400
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Meyer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: M. Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1801 S Highland Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Lombard
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601484932'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CF44CC03A171142669811\x1C\x1C\x1CIND\x1C\x1CMeyer\x1CM.
+    Paul\x1C\x1C\x1C\x1C1801 S Highland Ave\x1C\x1CLombard\x1CIL\x1C601484932\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: F44CC03A171142669811
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Meyer
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: M. Paul
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1801 S Highland Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Lombard
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601484932'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C876EE0C731A54826A96D\x1C\x1C\x1CIND\x1C\x1CMomoyama\x1CYoko\x1C\x1C\x1C\x1CPO
+    Box 7144\x1C\x1CVilla Park\x1CIL\x1C601817144\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 876EE0C731A54826A96D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Momoyama
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Yoko
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO Box 7144
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Villa Park
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601817144'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CB6EE7011FFDA490C9303\x1C\x1C\x1CIND\x1C\x1CMomoyama\x1CYoko\x1C\x1C\x1C\x1CPO
+    Box 7144\x1C\x1CVilla Park\x1CIL\x1C601817144\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: B6EE7011FFDA490C9303
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Momoyama
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Yoko
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO Box 7144
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Villa Park
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601817144'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C7C96662A964D44019461\x1C\x1C\x1CIND\x1C\x1CPhilip\x1CMathew\x1C\x1C\x1C\x1C1608
+    W North Ave\x1CApt. 3\x1CChicago\x1CIL\x1C606222245\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 7C96662A964D44019461
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Philip
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Mathew
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1608 W North Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Apt. 3
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '606222245'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C1FD4788FCE5F4499AE61\x1C\x1C\x1CIND\x1C\x1CPhilip\x1CMathew\x1C\x1C\x1C\x1C1608
+    W North Ave\x1CApt. 3\x1CChicago\x1CIL\x1C606222245\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 1FD4788FCE5F4499AE61
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Philip
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Mathew
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1608 W North Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Apt. 3
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '606222245'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CF3A9D2F5458C4389B552\x1C\x1C\x1CIND\x1C\x1CPulluru\x1CSoujanya\x1C\x1C\x1C\x1C3908
+    Littlestone Cir\x1C\x1CNaperville\x1CIL\x1C605645915\x1C\x1C\x1C20140314\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: F3A9D2F5458C4389B552
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Pulluru
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Soujanya
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 3908 Littlestone Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605645915'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C9E042EBCEB934DFE8B1E\x1C\x1C\x1CIND\x1C\x1CPulluru\x1CSoujanya\x1C\x1C\x1C\x1C3908
+    Littlestone Cir\x1C\x1CNaperville\x1CIL\x1C605645915\x1C\x1C\x1C20140328\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 9E042EBCEB934DFE8B1E
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Pulluru
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Soujanya
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 3908 Littlestone Cir
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605645915'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CC46556DCB0564702887C\x1C\x1C\x1CIND\x1C\x1CSaid\x1CYasser\x1C\x1C\x1C\x1C914
+    W Hubbard St\x1CApt. 202\x1CChicago\x1CIL\x1C606427500\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: C46556DCB0564702887C
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Said
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Yasser
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 914 W Hubbard St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Apt. 202
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '606427500'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C2E65D533E2C2449F94A0\x1C\x1C\x1CIND\x1C\x1CSaid\x1CYasser\x1C\x1C\x1C\x1C914
+    W Hubbard St\x1CApt. 202\x1CChicago\x1CIL\x1C606427500\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 2E65D533E2C2449F94A0
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Said
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Yasser
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 914 W Hubbard St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: Apt. 202
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '606427500'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C0177864D001E4D0A8E14\x1C\x1C\x1CIND\x1C\x1CSu\x1CLenora\x1C\x1C\x1C\x1C1404
+    Chelsea Ln\x1C\x1CNaperville\x1CIL\x1C605651612\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 0177864D001E4D0A8E14
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Su
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Lenora
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1404 Chelsea Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605651612'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C85A88B8BCAC54ECC8AED\x1C\x1C\x1CIND\x1C\x1CSu\x1CLenora\x1C\x1C\x1C\x1C1404
+    Chelsea Ln\x1C\x1CNaperville\x1CIL\x1C605651612\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 85A88B8BCAC54ECC8AED
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Su
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Lenora
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1404 Chelsea Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605651612'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CBA8C8726E39F4DFD9F9D\x1C\x1C\x1CIND\x1C\x1CTorres\x1CArnaldo\x1C\x1C\x1C\x1C229
+    Wren Ct\x1C\x1CBloomingdale\x1CIL\x1C601081433\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: BA8C8726E39F4DFD9F9D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Torres
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Arnaldo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 229 Wren Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Bloomingdale
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601081433'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CA5BA6296FB5E4BBEA105\x1C\x1C\x1CIND\x1C\x1CTorres\x1CArnaldo\x1C\x1C\x1C\x1C229
+    Wren Ct\x1C\x1CBloomingdale\x1CIL\x1C601081433\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: A5BA6296FB5E4BBEA105
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Torres
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Arnaldo
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 229 Wren Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Bloomingdale
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601081433'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CC901C74FBDE14D00BB97\x1C\x1C\x1CIND\x1C\x1CTowers\x1CJoseph\x1C\x1C\x1C\x1C412
+    S Columbia St\x1C\x1CNaperville\x1CIL\x1C605405418\x1C\x1C\x1C20140314\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: C901C74FBDE14D00BB97
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Towers
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Joseph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 412 S Columbia St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605405418'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C8151E74087D04B62BFDA\x1C\x1C\x1CIND\x1C\x1CTowers\x1CJoseph\x1C\x1C\x1C\x1C412
+    S Columbia St\x1C\x1CNaperville\x1CIL\x1C605405418\x1C\x1C\x1C20140328\x1C41.67\x1C291.69\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 8151E74087D04B62BFDA
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Towers
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Joseph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 412 S Columbia St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605405418'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '41.67'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '291.69'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C3443F472D51F47ACBE76\x1C\x1C\x1CIND\x1C\x1CUng\x1CFeodor\x1C\x1C\x1C\x1C711
+    Wellner Rd\x1C\x1CNaperville\x1CIL\x1C605406727\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 3443F472D51F47ACBE76
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Ung
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Feodor
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 711 Wellner Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605406727'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1CBFDAE89BD7394472BB6D\x1C\x1C\x1CIND\x1C\x1CUng\x1CFeodor\x1C\x1C\x1C\x1C711
+    Wellner Rd\x1C\x1CNaperville\x1CIL\x1C605406727\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: BFDAE89BD7394472BB6D
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Ung
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Feodor
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 711 Wellner Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Naperville
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '605406727'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C2659D49D57A940568335\x1C\x1C\x1CIND\x1C\x1CVallina\x1CVan\x1C\x1C\x1C\x1C241
+    Lorraine St\x1C\x1CGlen Ellyn\x1CIL\x1C601375326\x1C\x1C\x1C20140314\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 2659D49D57A940568335
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Vallina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Van
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 241 Lorraine St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601375326'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140314'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00435982\x1C1A2DE6A1FF7445E1A8D3\x1C\x1C\x1CIND\x1C\x1CVallina\x1CVan\x1C\x1C\x1C\x1C241
+    Lorraine St\x1C\x1CGlen Ellyn\x1CIL\x1C601375326\x1C\x1C\x1C20140328\x1C39.00\x1C273.00\x1C\x1CDuPage
+    Medical Group, Ltd.\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID
+    number: '3'
+    value: 1A2DE6A1FF7445E1A8D3
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Vallina
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Van
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 241 Lorraine St
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Glen Ellyn
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '601375326'
+  - name: ELECTION CODE
+    number: '18'
+    value: ''
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20140328'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '39.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '273.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: DuPage Medical Group, Ltd.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB23\x1CC00435982\x1CFCAC984B3CF1F43137F\x1C\x1C\x1CCCM\x1CSenger for Congress\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 4883\x1C\x1CNaperville\x1CIL\x1C60567\x1CP2014\x1C\x1C20140313\x1C2000.00\x1C\x1C2014
+    Primary\x1C011\x1CC00544734\x1C\x1CH4IL11195\x1CSenger\x1CDarlene\x1CJ\x1C\x1C\x1CH\x1CIL\x1C11\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00435982
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: FCAC984B3CF1F43137F
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CCM
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: Senger for Congress
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: PO Box 4883
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: Naperville
+  - name: PAYEE STATE
+    number: '16'
+    value: IL
+  - name: PAYEE ZIP
+    number: '17'
+    value: '60567'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20140313'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2000.00'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: 2014 Primary
+  - name: CATEGORY CODE
+    number: '24'
+    value: '011'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00544734
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: H4IL11195
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: Senger
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: Darlene
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: J
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: IL
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '11'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140418
+type: chunk

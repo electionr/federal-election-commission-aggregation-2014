@@ -1,0 +1,225 @@
+countrows: 4
+filename: 923146.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00475103\x1C\x1CFitzpatrick for Congress\x1CPO Box 185\x1C\x1CLanghorne\x1CPA\x1C190470185\x1CH4PA08074\x1CFitzpatrick\x1CMichael\x1CG.\x1C\x1C\x1CH\x1CPA\x1C08\x1CPoprik\x1CJohn\x1C\x1C\x1C\x1C20140502\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475103
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Fitzpatrick for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 185
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Langhorne
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '190470185'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4PA08074
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Fitzpatrick
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Michael
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: G.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: PA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: 08
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Poprik
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: John
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140502
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14816000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Heenan
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bernadette
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8 Butternut Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Ivyland
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '18974'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140501'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Homemaker
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Homemaker
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00475103\x1C14816000\x1CIND\x1C\x1CHeenan\x1CBernadette\x1CC.\x1C\x1C\x1C8
+    Butternut Court\x1C\x1CIvyland\x1CPA\x1C18974\x1C\x1C20140501\x1C2600\x1CHomemaker\x1CHomemaker\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00475103
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '14815000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Foulke
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Bruce
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 768
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Worcester
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: PA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '194900768'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: American Heritage FCU
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Chief Executive Officer
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00475103\x1C14815000\x1CIND\x1C\x1CFoulke\x1CBruce\x1C\x1C\x1C\x1CPO
+    Box 768\x1C\x1CWorcester\x1CPA\x1C194900768\x1C\x1C20140502\x1C2000\x1CAmerican
+    Heritage FCU\x1CChief Executive Officer\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140502
+type: chunk

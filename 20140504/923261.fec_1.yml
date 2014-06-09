@@ -1,0 +1,7047 @@
+countrows: 50
+filename: 923261.fec
+header: {}
+rows:
+- 2
+- input: "F3A\x1CC00545418\x1CFRIENDS OF BOB JOHNSON, LLC\x1C\x1CPO Box 16401\x1C\x1CSavannah\x1CGA\x1C31416\x1CGA\x1C01\x1CQ2\x1C\x1C\x1C\x1C20130401\x1C20130630\x1CShapoff\x1CEdward\x1CL\x1C\x1C\x1C20140504\x1C42375.00\x1C0.00\x1C42375.00\x1C764.53\x1C0.00\x1C764.53\x1C106610.47\x1C0.00\x1C65000.00\x1C36300.00\x1C1075.00\x1C37375.00\x1C0.00\x1C5000.00\x1C0.00\x1C42375.00\x1C0.00\x1C65000.00\x1C0.00\x1C65000.00\x1C0.00\x1C0.00\x1C107375.00\x1C764.53\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C764.53\x1C0.00\x1C107375.00\x1C107375.00\x1C764.53\x1C106610.47\x1C42375.00\x1C0.00\x1C42375.00\x1C764.53\x1C0.00\x1C764.53\x1C36300.00\x1C1075.00\x1C37375.00\x1C0.00\x1C5000.00\x1C0.00\x1C42375.00\x1C0.00\x1C65000.00\x1C0.00\x1C65000.00\x1C0.00\x1C0.00\x1C107375.00\x1C764.53\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C764.53\n"
+  record: fec.version.v8_1.F3
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F3A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF BOB JOHNSON, LLC
+  - name: CHANGE OF ADDRESS
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: PO Box 16401
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Savannah
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '31416'
+  - name: ELECTION STATE
+    number: '10'
+    value: GA
+  - name: ELECTION DISTRICT
+    number: '11'
+    value: '01'
+  - name: REPORT CODE
+    number: '12'
+    value: Q2
+  - name: ELECTION CODE {was RPTPGI}
+    number: '13'
+    value: ''
+  - name: DATE OF ELECTION
+    number: '14'
+    value: ''
+  - name: STATE OF ELECTION
+    number: '15'
+    value: ''
+  - name: COVERAGE FROM DATE
+    number: '16'
+    value: '20130401'
+  - name: COVERAGE THROUGH DATE
+    number: '17'
+    value: '20130630'
+  - name: TREASURER LAST NAME
+    number: '18'
+    value: Shapoff
+  - name: TREASURER FIRST NAME
+    number: '19'
+    value: Edward
+  - name: TREASURER MIDDLE NAME
+    number: '20'
+    value: L
+  - name: TREASURER PREFIX
+    number: '21'
+    value: ''
+  - name: TREASURER SUFFIX
+    number: '22'
+    value: ''
+  - name: DATE SIGNED
+    number: '23'
+    value: '20140504'
+  - name: Total Contributions (NO Loans)
+    number: 24-(6a)
+    value: '42375.00'
+  - name: Total Contribution Refunds
+    number: 25-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 26-(6c)
+    value: '42375.00'
+  - name: Total Operating Expenditures
+    number: 27-(7a)
+    value: '764.53'
+  - name: Total Offset to Operating Expenditures
+    number: 28-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 29-(7c)
+    value: '764.53'
+  - name: CASH ON HAND AT CLOSE ...
+    number: 30-8.
+    value: '106610.47'
+  - name: DEBTS TO ( Totals from SCH C and/or D)
+    number: 31-9.
+    value: '0.00'
+  - name: DEBTS BY (Totals from SCH C and/or D)
+    number: 32-10.
+    value: '65000.00'
+  - name: Individuals Itemized
+    number: 33-11(a i.)
+    value: '36300.00'
+  - name: Individuals Unitemized
+    number: 34-11(a.ii)
+    value: '1075.00'
+  - name: Individual Contribution Total
+    number: 35-11(a.iii)
+    value: '37375.00'
+  - name: Political Party Committees
+    number: 36-11(b)
+    value: '0.00'
+  - name: Other Political Committees
+    number: 37-11(c)
+    value: '5000.00'
+  - name: The Candidate
+    number: 38-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 39-11(e)
+    value: '42375.00'
+  - name: Transfers From Other Authorized Cmttes
+    number: 40-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 41-13(a)
+    value: '65000.00'
+  - name: All Other Loans
+    number: 42-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 43-13(c)
+    value: '65000.00'
+  - name: Offsets to Operating Expenditures
+    number: 44-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 45-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 46-16.
+    value: '107375.00'
+  - name: Operating Expenditures
+    number: 47-17.
+    value: '764.53'
+  - name: Transfers to Other Authorized Committees
+    number: 48-18.
+    value: '0.00'
+  - name: Of Loans made or guar. by the Cand.
+    number: 49-19(a)
+    value: '0.00'
+  - name: Loan Repayments, All Other Loans
+    number: 50-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 51-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Pol. Cmtes
+    number: 52-20(a)
+    value: '0.00'
+  - name: Refund/Political Party Committees
+    number: 53-20(b)
+    value: '0.00'
+  - name: Refund/Other Political Committees
+    number: 54-20(c)
+    value: '0.00'
+  - name: Total Contribution Refunds
+    number: 55-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 56-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 57-22.
+    value: '764.53'
+  - name: Cash Beginning Reporting Period
+    number: 58-23.
+    value: '0.00'
+  - name: Total Receipts this Period
+    number: 59-24.
+    value: '107375.00'
+  - name: Subtotals
+    number: 60-25.
+    value: '107375.00'
+  - name: Total Disbursements this Period
+    number: 61-26.
+    value: '764.53'
+  - name: Cash on hand at Close Period
+    number: 62-27.
+    value: '106610.47'
+  - name: Total Contributions (No Loans)
+    number: 63-(6a)
+    value: '42375.00'
+  - name: Total Contribution Refunds
+    number: 64-(6b)
+    value: '0.00'
+  - name: Net Contributions
+    number: 65-(6c)
+    value: '42375.00'
+  - name: Total Operating Expenditures
+    number: 66-(7a)
+    value: '764.53'
+  - name: Total Offsets to Operating Expenditures
+    number: 67-(7b)
+    value: '0.00'
+  - name: NET Operating Expenditures.
+    number: 68-(7c)
+    value: '764.53'
+  - name: Individuals Itemized
+    number: 69-11(a i.)
+    value: '36300.00'
+  - name: Individuals Unitemized
+    number: 70-11(a.ii)
+    value: '1075.00'
+  - name: Individuals Total
+    number: 71-11(a.iii)
+    value: '37375.00'
+  - name: Political Party Committees
+    number: 72-11(b)
+    value: '0.00'
+  - name: All Other Political Committees (PACS)
+    number: 73-11(c)
+    value: '5000.00'
+  - name: The Candidate
+    number: 74-11(d)
+    value: '0.00'
+  - name: Total Contributions
+    number: 75-11(e)
+    value: '42375.00'
+  - name: Transfers From Other AUTH Committees
+    number: 76-12.
+    value: '0.00'
+  - name: Loans made or guarn. by the Candidate
+    number: 77-13(a)
+    value: '65000.00'
+  - name: All Other Loans
+    number: 78-13(b)
+    value: '0.00'
+  - name: Total Loans
+    number: 79-13(c)
+    value: '65000.00'
+  - name: Offsets to Operating Expenditures
+    number: 80-14.
+    value: '0.00'
+  - name: Other Receipts
+    number: 81-15.
+    value: '0.00'
+  - name: Total Receipts
+    number: 82-16.
+    value: '107375.00'
+  - name: Operating Expenditures
+    number: 83-17
+    value: '764.53'
+  - name: Transfers To Other AUTH Committees
+    number: 84-18.
+    value: '0.00'
+  - name: Loan Repayment By Candidate
+    number: 85-19(a)
+    value: '0.00'
+  - name: Loan Repayments, ALL Other Loans
+    number: 86-19(b)
+    value: '0.00'
+  - name: Total Loan Repayments
+    number: 87-19(c)
+    value: '0.00'
+  - name: Refund/Individuals Other than Pol. Cmtes
+    number: 88-20(a)
+    value: '0.00'
+  - name: Refund, Political Party Committees
+    number: 89-20(b)
+    value: '0.00'
+  - name: Refund, Other Political Committees
+    number: 90-20(c)
+    value: '0.00'
+  - name: Total Contributions Refunds
+    number: 91-20(d)
+    value: '0.00'
+  - name: Other Disbursements
+    number: 92-21.
+    value: '0.00'
+  - name: Total Disbursements
+    number: 93-22.
+    value: '764.53
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4188\x1C\x1C\x1CIND\x1C\x1CBishop\x1CRandolph\x1C\x1CDr.\x1C\x1C8
+    Palmwood Court\x1C\x1CTybee Island\x1CGA\x1C31328\x1CP2014\x1C\x1C20130628\x1C2600.00\x1C2600.00\x1C\x1CNeurological
+    Institute\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4188
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Bishop
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Randolph
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 8 Palmwood Court
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Tybee Island
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31328'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Neurological Institute
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4176\x1C\x1C\x1CIND\x1C\x1CBlohm\x1CCarolyn\x1C\x1C\x1C\x1C237
+    Fallegant Ave\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130628\x1C1000.00\x1C1000.00\x1C\x1CGA
+    Ctr for Reproductive Med\x1COffice Manager\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4176
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Blohm
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Carolyn
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 237 Fallegant Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: GA Ctr for Reproductive Med
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Office Manager
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4170\x1C\x1C\x1CIND\x1C\x1CBottner\x1CRandy\x1C\x1CDr.\x1C\x1C4
+    Adams Point\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130628\x1C1000.00\x1C1000.00\x1C\x1CSavannah
+    Cardiology\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4170
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Bottner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Randy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 4 Adams Point
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Savannah Cardiology
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4131\x1C\x1C\x1CIND\x1C\x1CBromberg\x1CWilliam\x1C\x1CDr.\x1C\x1C153
+    Dutch Island Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CR2014\x1CRunoff\x1C20130617\x1C2600.00\x1C2600.00\x1C\x1CMemorial
+    Health\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4131
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Bromberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 153 Dutch Island Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: R2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Runoff
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130617'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Memorial Health
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4138\x1C\x1C\x1CIND\x1C\x1CDaly\x1CJames\x1C\x1CDr.\x1C\x1C1132
+    Wilmington Island Road\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130619\x1C2600.00\x1C2600.00\x1C\x1CSoutheast
+    Lung & Critical Care\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4138
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Daly
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: James
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1132 Wilmington Island Road
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130619'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Southeast Lung & Critical Care
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4136\x1C\x1C\x1CIND\x1C\x1CDaniel\x1CFred\x1C\x1CDr.\x1C\x1C61
+    W. Bluff Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130618\x1C500.00\x1C500.00\x1C\x1CENT
+    Associates\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4136
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Daniel
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Fred
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 61 W. Bluff Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130618'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ENT Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4140\x1C\x1C\x1CIND\x1C\x1CDaugherty\x1CDonna\x1C\x1C\x1C\x1C1426
+    Wilmington Island Road\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130619\x1C250.00\x1C250.00\x1C\x1Cn/a\x1CHomemaker\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4140
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Daugherty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Donna
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1426 Wilmington Island Road
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130619'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Homemaker
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4150\x1C\x1C\x1CIND\x1C\x1CDaugherty\x1CDonna\x1C\x1C\x1C\x1C1426
+    Wilmington Island Road\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130622\x1C250.00\x1C500.00\x1C\x1Cn/a\x1CHomemaker\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4150
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Daugherty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Donna
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1426 Wilmington Island Road
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130622'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Homemaker
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4146\x1C\x1C\x1CIND\x1C\x1CDaugherty\x1CWilliam\x1CF\x1C\x1C\x1C1426
+    Wilmington Island Road\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130620\x1C250.00\x1C250.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4146
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Daugherty
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: F
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1426 Wilmington Island Road
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130620'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4192\x1C\x1C\x1CIND\x1C\x1CDevaro\x1CJosepha\x1C\x1CDr.\x1C\x1C306
+    Wheeler St.\x1C\x1CSavannah\x1CGA\x1C31405\x1CP2014\x1C\x1C20130628\x1C250.00\x1C250.00\x1C\x1CChildrens
+    Eye Institute\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4192
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Devaro
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Josepha
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 306 Wheeler St.
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31405'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Childrens Eye Institute
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4204\x1C\x1C\x1CIND\x1C\x1CEskew\x1CSamuel\x1C\x1C\x1C\x1C38
+    Log Landing Road\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130629\x1C250.00\x1C250.00\x1C\x1CRemote
+    Technologies\x1COwner\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4204
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Eskew
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Samuel
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 38 Log Landing Road
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130629'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Remote Technologies
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Owner
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4196\x1C\x1C\x1CIND\x1C\x1CFreesmann\x1CTodd\x1C\x1C\x1C\x1C5
+    Lakeshore Court\x1C\x1CSavannah\x1CGA\x1C31419\x1CP2014\x1C\x1C20130628\x1C500.00\x1C500.00\x1C\x1CUS
+    Military\x1CMilitary - Air Guard\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4196
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Freesmann
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Todd
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 5 Lakeshore Court
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31419'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: US Military
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Military - Air Guard
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4168\x1C\x1C\x1CIND\x1C\x1CFuqua\x1CNancy\x1C\x1C\x1C\x1C9988
+    Whitefield Avenue\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130627\x1C250.00\x1C250.00\x1C\x1Cn/a\x1CHomemaker\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4168
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Fuqua
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Nancy
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 9988 Whitefield Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130627'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Homemaker
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4212\x1C\x1C\x1CIND\x1C\x1CGarber\x1CDonna\x1C\x1C\x1C\x1C122
+    Radick Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130630\x1C500.00\x1C500.00\x1C\x1CMemorial
+    Health\x1CAnethestist\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4212
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Garber
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Donna
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 122 Radick Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130630'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Memorial Health
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Anethestist
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4153\x1C\x1C\x1CIND\x1C\x1CGaudrey\x1CPamela\x1C\x1CDr.\x1C\x1CPO
+    Box 2805\x1C\x1CTybee Island\x1CGA\x1C31328\x1CP2014\x1C\x1C20130625\x1C2600.00\x1C2600.00\x1C\x1CMemorial
+    Health\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4153
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Gaudrey
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Pamela
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: PO Box 2805
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Tybee Island
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31328'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130625'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Memorial Health
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4190\x1C\x1C\x1CIND\x1C\x1CHendrix\x1CJanet\x1CD\x1C\x1C\x1C1
+    Mulberry Bluff Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130628\x1C500.00\x1C500.00\x1C\x1Cn/a\x1CHomemaker\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4190
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hendrix
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Janet
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: D
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1 Mulberry Bluff Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Homemaker
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4144\x1C\x1C\x1CIND\x1C\x1CHurst\x1CRonald\x1C\x1CDr.\x1C\x1C109
+    Grays Creek Court\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130619\x1C2500.00\x1C2500.00\x1C\x1CAnesthesia
+    Associates of Sav\x1CAnesthesiologist\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4144
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Hurst
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Ronald
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 109 Grays Creek Court
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130619'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Anesthesia Associates of Sav
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Anesthesiologist
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4157\x1C\x1C\x1CIND\x1C\x1CJarman\x1CRobert\x1C\x1CDr.\x1C\x1C7
+    Marsh Haven Lane\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130625\x1C500.00\x1C500.00\x1C\x1CAnesthesia
+    Associates\x1CAnesthesiologist\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4157
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Jarman
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 7 Marsh Haven Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130625'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Anesthesia Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Anesthesiologist
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4133\x1C\x1C\x1CCAN\x1C\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1C115
+    McIntosh Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130617\x1C100.00\x1C25100.00\x1C\x1CSouthcoast
+    Medical Group\x1CPhysician\x1C\x1C\x1CH4GA01054\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1CH\x1CGA\x1C01\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4133
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Johnson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 115 McIntosh Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130617'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '100.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '25100.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Southcoast Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: H4GA01054
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: Johnson
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: Dr.
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4198\x1C\x1C\x1CIND\x1C\x1CKuhn\x1CFrederick\x1CA\x1CDr.\x1C\x1C45
+    Tidewater Court\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130628\x1C250.00\x1C250.00\x1C\x1CGeorgia
+    Nasal-Sinus Institute\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4198
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Kuhn
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Frederick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: A
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 45 Tidewater Court
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Georgia Nasal-Sinus Institute
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4186\x1C\x1C\x1CIND\x1C\x1CKumjian\x1CDana\x1C\x1CDr.\x1C\x1C18
+    Shellworth Crossing\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130628\x1C2600.00\x1C2600.00\x1C\x1CMedical
+    Associates of Savannah\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4186
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Kumjian
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Dana
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 18 Shellworth Crossing
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Medical Associates of Savannah
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4194\x1C\x1C\x1CIND\x1C\x1CLively\x1CRobert\x1CW\x1CMr.\x1C\x1C2353
+    N. Oaklands Street\x1C\x1CArlington\x1CVA\x1C22207\x1CP2014\x1C\x1C20130628\x1C1000.00\x1C1000.00\x1C\x1CExpress
+    Scripts\x1CVice President\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4194
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lively
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: W
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 2353 N. Oaklands Street
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Arlington
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '22207'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Express Scripts
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Vice President
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4210\x1C\x1C\x1CIND\x1C\x1CLord\x1CAlan\x1C\x1C\x1C\x1C148
+    Grays Creek Drive\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130630\x1C250.00\x1C250.00\x1C\x1CMemorial
+    Health\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4210
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lord
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Alan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 148 Grays Creek Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130630'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Memorial Health
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4155\x1C\x1C\x1CIND\x1C\x1CLorenz\x1CPatricia\x1C\x1C\x1C\x1C29
+    Mulberry Bluff Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130625\x1C1000.00\x1C1000.00\x1C\x1Cn/a\x1CHomemaker\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4155
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Lorenz
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Patricia
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 29 Mulberry Bluff Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130625'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Homemaker
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4129\x1C\x1C\x1CIND\x1C\x1CMaddox\x1CRay\x1C\x1CDr.\x1C\x1C15
+    Montauk Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130617\x1C250.00\x1C250.00\x1C\x1CSt.
+    Joseph Candler Health\x1CPharmacist\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4129
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Maddox
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Ray
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 15 Montauk Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130617'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: St. Joseph Candler Health
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Pharmacist
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4178\x1C\x1C\x1CIND\x1C\x1CMiner\x1CBetty\x1C\x1CMrs.\x1C\x1C22966
+    Highway 144\x1C\x1CRichmond Hill\x1CGA\x1C31324\x1CP2014\x1C\x1C20130628\x1C250.00\x1C450.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4178
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Miner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Betty
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 22966 Highway 144
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Richmond Hill
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31324'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '450.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4179\x1C\x1C\x1CIND\x1C\x1CMiner\x1CBetty\x1C\x1CMrs.\x1C\x1C22966
+    Highway 144\x1C\x1CRichmond Hill\x1CGA\x1C31324\x1CP2014\x1C\x1C20130628\x1C250.00\x1C700.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4179
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Miner
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Betty
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Mrs.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 22966 Highway 144
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Richmond Hill
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31324'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '700.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4208\x1C\x1C\x1CIND\x1C\x1CMoretz\x1CWilliam\x1C\x1CDr.\x1C\x1C128
+    Marsh Side drive\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130630\x1C250.00\x1C250.00\x1C\x1CENT
+    Associates\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4208
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Moretz
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: William
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 128 Marsh Side drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130630'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ENT Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4117\x1C\x1C\x1CIND\x1C\x1COliver\x1CDavid\x1C\x1CDr.\x1C\x1C322
+    Commercial Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130610\x1C1000.00\x1C1000.00\x1C\x1CCoastal
+    ENT LLC\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4117
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Oliver
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: David
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 322 Commercial Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130610'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Coastal ENT LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4161\x1C\x1C\x1CIND\x1C\x1CRandall\x1CErin\x1C\x1C\x1C\x1C1744
+    Wilmington Island Drive\x1C\x1CSavannah\x1CGA\x1C31410\x1CP2014\x1C\x1C20130626\x1C500.00\x1C500.00\x1C\x1Cn/a\x1CHomemaker\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4161
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Randall
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Erin
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 1744 Wilmington Island Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31410'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130626'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: n/a
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Homemaker
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4163\x1C\x1C\x1CIND\x1C\x1CRedmond\x1CBrian\x1C\x1CDr.\x1C\x1C10
+    Wylly Island Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130626\x1C250.00\x1C250.00\x1C\x1CAnesthesia
+    Associates of Sav\x1CAnesthesiologist\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4163
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Redmond
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Brian
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 10 Wylly Island Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130626'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Anesthesia Associates of Sav
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Anesthesiologist
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4165\x1C\x1C\x1CIND\x1C\x1CRoyek\x1CDina\x1C\x1C\x1C\x1C28
+    Tidewater Way\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130627\x1C1000.00\x1C1000.00\x1C\x1CNot
+    employed\x1CPharmacist\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4165
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Royek
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Dina
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 28 Tidewater Way
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130627'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Not employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Pharmacist
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4182\x1C\x1C\x1CIND\x1C\x1CScarborough\x1CGlen\x1C\x1CDr.\x1C\x1C22
+    Whylly Island Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130628\x1C500.00\x1C500.00\x1C\x1CSouthCoast
+    Medical\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4182
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Scarborough
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Glen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 22 Whylly Island Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: SouthCoast Medical
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4109\x1C\x1C\x1CIND\x1C\x1CShapoff\x1CEdward\x1CL\x1C\x1C\x1C26
+    Islanders Retreat\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130606\x1C500.00\x1C500.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4109
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Shapoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Edward
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 26 Islanders Retreat
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130606'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4152\x1C\x1C\x1CIND\x1C\x1CShapoff\x1CEdward\x1CL\x1C\x1C\x1C26
+    Islanders Retreat\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130624\x1C100.00\x1C600.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4152
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Shapoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Edward
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 26 Islanders Retreat
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130624'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '100.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4175\x1C\x1C\x1CIND\x1C\x1CShapoff\x1CEdward\x1CL\x1C\x1C\x1C26
+    Islanders Retreat\x1C\x1CSavannah\x1CGA\x1C31411\x1CP2014\x1C\x1C20130628\x1C400.00\x1C1000.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4175
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Shapoff
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Edward
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: L
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 26 Islanders Retreat
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31411'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '400.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4180\x1C\x1C\x1CIND\x1C\x1CTimms\x1CM. Rick\x1C\x1CDr.\x1C\x1C46
+    Wylly Ave\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130628\x1C1000.00\x1C1000.00\x1C\x1CSelf-employed\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4180
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Timms
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: M. Rick
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 46 Wylly Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Self-employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4119\x1C\x1C\x1CIND\x1C\x1CToraya\x1CJules\x1C\x1CDr.\x1C\x1C19
+    Wylly Island Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CR2014\x1CRunoff\x1C20130610\x1C1000.00\x1C1000.00\x1C\x1CSouthcoast
+    Medical Group\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4119
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Toraya
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Jules
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 19 Wylly Island Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: R2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Runoff
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130610'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '1000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Southcoast Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4151\x1C\x1C\x1CIND\x1C\x1CToraya\x1CJules\x1C\x1CDr.\x1C\x1C19
+    Wylly Island Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CR2014\x1CRunoff\x1C20130624\x1C1600.00\x1C2600.00\x1C\x1CSouthcoast
+    Medical Group\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4151
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Toraya
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Jules
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 19 Wylly Island Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: R2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: Runoff
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130624'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '1600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Southcoast Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4125\x1C\x1C\x1CIND\x1C\x1CTsoulos\x1CDemetrios\x1C\x1C\x1C\x1C3
+    Steeple Run Way\x1C\x1CSavannah\x1CGA\x1C31405\x1CP2014\x1C\x1C20130612\x1C500.00\x1C500.00\x1C\x1CRetired\x1CRetired\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4125
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Tsoulos
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Demetrios
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 3 Steeple Run Way
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31405'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130612'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '500.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '500.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Retired
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4200\x1C\x1C\x1CIND\x1C\x1CWoo\x1CKent\x1C\x1CDr.\x1C\x1C309
+    McAlprin Dr.\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130628\x1C2600.00\x1C2600.00\x1C\x1COptim
+    Orthopedics\x1COrthopedic Surgeon\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4200
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Woo
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Kent
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 309 McAlprin Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '2600.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '2600.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Optim Orthopedics
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Orthopedic Surgeon
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11AI\x1CC00545418\x1CSA11AI.4159\x1C\x1C\x1CIND\x1C\x1CZoller\x1CMichael\x1C\x1CDr.\x1C\x1C100
+    McLaws Street\x1C\x1CSavannah\x1CGA\x1C31405\x1CP2014\x1C\x1C20130625\x1C250.00\x1C250.00\x1C\x1CENT
+    Associates\x1CPhysician\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11AI
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11AI.4159
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Zoller
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Michael
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 100 McLaws Street
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31405'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130625'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '250.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '250.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ENT Associates
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA11C\x1CC00545418\x1CSA11C.4216\x1C\x1C\x1CPAC\x1CEXPRESS SCRIPTS INC.
+    POLITICAL FUND (A/K/A EXPRESS SCRIPTS PAC)\x1C\x1C\x1C\x1C\x1C\x1CONE EXPRESS
+    WAY\x1C\x1CST. LOUIS\x1CMO\x1C63121\x1CP2014\x1C\x1C20130628\x1C5000.00\x1C5000.00\x1C\x1C\x1C\x1CC00365072\x1CEXPRESS
+    SCRIPTS INC. POLITICAL FUND (A/K/A EXPRESS SCRIPTS PAC)\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA11C.4216
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: EXPRESS SCRIPTS INC. POLITICAL FUND (A/K/A EXPRESS SCRIPTS PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: ONE EXPRESS WAY
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: ST. LOUIS
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: MO
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '63121'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '5000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '5000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: ''
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: C00365072
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: EXPRESS SCRIPTS INC. POLITICAL FUND (A/K/A EXPRESS SCRIPTS PAC)
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: ''
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: ''
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: ''
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: ''
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: ''
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: ''
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: ''
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA13A\x1CC00545418\x1CSA13A.4218\x1C\x1C\x1CCAN\x1C\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1C115
+    McIntosh Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130610\x1C25000.00\x1C25000.00\x1C\x1CSouthcoast
+    Medical Group\x1CPhysician\x1C\x1C\x1CH4GA01054\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1CH\x1CGA\x1C01\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA13A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA13A.4218
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Johnson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 115 McIntosh Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130610'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '25000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '25000.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Southcoast Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: H4GA01054
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: Johnson
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: Dr.
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SA13A\x1CC00545418\x1CSA13A.4217\x1C\x1C\x1CCAN\x1C\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1C115
+    McIntosh Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C20130628\x1C40000.00\x1C65100.00\x1C\x1CSouthcoast
+    Medical Group\x1CPhysician\x1C\x1C\x1CH4GA01054\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1CH\x1CGA\x1C01\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA13A
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID
+    number: '3'
+    value: SA13A.4217
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: CAN
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '8'
+    value: Johnson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '9'
+    value: Robert
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '11'
+    value: Dr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '13'
+    value: 115 McIntosh Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '14'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '15'
+    value: Savannah
+  - name: CONTRIBUTOR STATE
+    number: '16'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '17'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '20'
+    value: '20130628'
+  - name: CONTRIBUTION AMOUNT {F3L Bundled}
+    number: '21'
+    value: '40000.00'
+  - name: CONTRIBUTION AGGREGATE{F3L Semi-annual Bundled}
+    number: '22'
+    value: '65100.00'
+  - name: CONTRIBUTION PURPOSE DESCRIP
+    number: '23'
+    value: ''
+  - name: CONTRIBUTOR EMPLOYER
+    number: '24'
+    value: Southcoast Medical Group
+  - name: CONTRIBUTOR OCCUPATION
+    number: '25'
+    value: Physician
+  - name: DONOR COMMITTEE FEC ID
+    number: '26'
+    value: ''
+  - name: DONOR COMMITTEE NAME
+    number: '27'
+    value: ''
+  - name: DONOR CANDIDATE FEC ID
+    number: '28'
+    value: H4GA01054
+  - name: DONOR CANDIDATE LAST NAME
+    number: '29'
+    value: Johnson
+  - name: DONOR CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: DONOR CANDIDATE MIDDLE NAME
+    number: '31'
+    value: ''
+  - name: DONOR CANDIDATE PREFIX
+    number: '32'
+    value: Dr.
+  - name: DONOR CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: DONOR CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: DONOR CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: DONOR CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '38'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '39'
+    value: ''
+  - name: CONDUIT CITY
+    number: '40'
+    value: ''
+  - name: CONDUIT STATE
+    number: '41'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '42'
+    value: ''
+  - name: MEMO CODE
+    number: '43'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '44'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '45'
+    value: '
+
+'
+- input: "SB17\x1CC00545418\x1CSB17.4232\x1C\x1C\x1CORG\x1CPayPal\x1C\x1C\x1C\x1C\x1C\x1C2211
+    North First Street\x1C\x1CSan Jose\x1CCA\x1C95131\x1CP2014\x1C\x1C20130630\x1C531.73\x1C\x1CPayPal
+    on-line charges\x1C003\x1CC00545418\x1CFRIENDS OF BOB JOHNSON, LLC\x1C\x1C\x1C\x1C\x1C\x1C\x1CH\x1CGA\x1C01\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SB17.4232
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED NAME
+    number: '5'
+    value: ''
+  - name: ENTITY TYPE
+    number: '6'
+    value: ORG
+  - name: PAYEE ORGANIZATION NAME
+    number: '7'
+    value: PayPal
+  - name: PAYEE LAST NAME
+    number: '8'
+    value: ''
+  - name: PAYEE FIRST NAME
+    number: '9'
+    value: ''
+  - name: PAYEE MIDDLE NAME
+    number: '10'
+    value: ''
+  - name: PAYEE PREFIX
+    number: '11'
+    value: ''
+  - name: PAYEE SUFFIX
+    number: '12'
+    value: ''
+  - name: PAYEE STREET 1
+    number: '13'
+    value: 2211 North First Street
+  - name: PAYEE STREET 2
+    number: '14'
+    value: ''
+  - name: PAYEE CITY
+    number: '15'
+    value: San Jose
+  - name: PAYEE STATE
+    number: '16'
+    value: CA
+  - name: PAYEE ZIP
+    number: '17'
+    value: '95131'
+  - name: ELECTION CODE
+    number: '18'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '19'
+    value: ''
+  - name: EXPENDITURE DATE
+    number: '20'
+    value: '20130630'
+  - name: EXPENDITURE AMOUNT {F3L Bundled}
+    number: '21'
+    value: '531.73'
+  - name: SEMI-ANNUAL REFUNDED BUNDLED AMT
+    number: '22'
+    value: ''
+  - name: EXPENDITURE PURPOSE DESCRIP
+    number: '23'
+    value: PayPal on-line charges
+  - name: CATEGORY CODE
+    number: '24'
+    value: '003'
+  - name: BENEFICIARY COMMITTEE FEC ID
+    number: '25'
+    value: C00545418
+  - name: BENEFICIARY COMMITTEE NAME
+    number: '26'
+    value: FRIENDS OF BOB JOHNSON, LLC
+  - name: BENEFICIARY CANDIDATE FEC ID
+    number: '27'
+    value: ''
+  - name: BENEFICIARY CANDIDATE LAST NAME
+    number: '28'
+    value: ''
+  - name: BENEFICIARY CANDIDATE FIRST NAME
+    number: '29'
+    value: ''
+  - name: BENEFICIARY CANDIDATE MIDDLE NAME
+    number: '30'
+    value: ''
+  - name: BENEFICIARY CANDIDATE PREFIX
+    number: '31'
+    value: ''
+  - name: BENEFICIARY CANDIDATE SUFFIX
+    number: '32'
+    value: ''
+  - name: BENEFICIARY CANDIDATE OFFICE
+    number: '33'
+    value: H
+  - name: BENEFICIARY CANDIDATE STATE
+    number: '34'
+    value: GA
+  - name: BENEFICIARY CANDIDATE DISTRICT
+    number: '35'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '36'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '37'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '38'
+    value: ''
+  - name: CONDUIT CITY
+    number: '39'
+    value: ''
+  - name: CONDUIT STATE
+    number: '40'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '41'
+    value: ''
+  - name: MEMO CODE
+    number: '42'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '43'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '44'
+    value: '
+
+'
+- input: "SC/10\x1CC00545418\x1CSC/10.4218\x1C13A\x1CCAN\x1C\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1C115
+    McIntosh Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C25000.00\x1C0.00\x1C25000.00\x1C20130610\x1Copen\x1C0.0000\x1CN\x1CY\x1C\x1CH4GA01054\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1CH\x1CGA\x1C01\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4218
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Johnson
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Robert
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: Dr.
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 115 McIntosh Drive
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: Savannah
+  - name: LENDER STATE
+    number: '15'
+    value: GA
+  - name: LENDER ZIP
+    number: '16'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '25000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '25000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20130610'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: open
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: H4GA01054
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: Johnson
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: Dr.
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+- input: "SC/10\x1CC00545418\x1CSC/10.4217\x1C13A\x1CCAN\x1C\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1C115
+    McIntosh Drive\x1C\x1CSavannah\x1CGA\x1C31406\x1CP2014\x1C\x1C40000.00\x1C0.00\x1C40000.00\x1C20130628\x1Copen\x1C0.0000\x1CN\x1CY\x1C\x1CH4GA01054\x1CJohnson\x1CRobert\x1C\x1CDr.\x1C\x1CH\x1CGA\x1C01\x1C\x1C\n"
+  record: fec.version.v8_1.SC
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00545418
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: SC/10.4217
+  - name: RECEIPT LINE NUMBER
+    number: '4'
+    value: 13A
+  - name: ENTITY TYPE
+    number: '5'
+    value: CAN
+  - name: LENDER ORGANIZATION NAME
+    number: '6'
+    value: ''
+  - name: LENDER LAST NAME
+    number: '7'
+    value: Johnson
+  - name: LENDER FIRST NAME
+    number: '8'
+    value: Robert
+  - name: LENDER MIDDLE NAME
+    number: '9'
+    value: ''
+  - name: LENDER PREFIX
+    number: '10'
+    value: Dr.
+  - name: LENDER SUFFIX
+    number: '11'
+    value: ''
+  - name: LENDER STREET 1
+    number: '12'
+    value: 115 McIntosh Drive
+  - name: LENDER STREET 2
+    number: '13'
+    value: ''
+  - name: LENDER CITY
+    number: '14'
+    value: Savannah
+  - name: LENDER STATE
+    number: '15'
+    value: GA
+  - name: LENDER ZIP
+    number: '16'
+    value: '31406'
+  - name: ELECTION CODE
+    number: '17'
+    value: P2014
+  - name: ELECTION OTHER DESCRIPTION
+    number: '18'
+    value: ''
+  - name: LOAN AMOUNT (Original)
+    number: '19'
+    value: '40000.00'
+  - name: LOAN PAYMENT TO DATE
+    number: '20'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '21'
+    value: '40000.00'
+  - name: Terms
+    number: '22-LOAN INCURRED '
+    value: '20130628'
+  - name: Terms
+    number: '23-LOAN DUE '
+    value: open
+  - name: LOAN INTEREST RATE % (Terms)
+    number: '24'
+    value: '0.0000'
+  - name: Secured?
+    number: 25-
+    value: N
+  - name: Personal Funds
+    number: 26-
+    value: Y
+  - name: LENDER COMMITTEE ID NUMBER
+    number: '27'
+    value: ''
+  - name: LENDER CANDIDATE ID NUMBER
+    number: '28'
+    value: H4GA01054
+  - name: LENDER CANDIDATE LAST NAME
+    number: '29'
+    value: Johnson
+  - name: LENDER CANDIDATE FIRST NAME
+    number: '30'
+    value: Robert
+  - name: LENDER CANDIDATE MIDDLE NM
+    number: '31'
+    value: ''
+  - name: LENDER CANDIDATE PREFIX
+    number: '32'
+    value: Dr.
+  - name: LENDER CANDIDATE SUFFIX
+    number: '33'
+    value: ''
+  - name: LENDER CANDIDATE OFFICE
+    number: '34'
+    value: H
+  - name: LENDER CANDIDATE STATE
+    number: '35'
+    value: GA
+  - name: LENDER CANDIDATE DISTRICT
+    number: '36'
+    value: '01'
+  - name: MEMO CODE
+    number: '37'
+    value: ''
+  - name: MEMO TEXT/DESCRIPTION
+    number: '38'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140504
+type: chunk

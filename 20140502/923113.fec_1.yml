@@ -1,0 +1,151 @@
+countrows: 3
+filename: 923113.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00551234\x1C\x1CBock for Congress\x1CPO Box 582\x1C\x1CSouth Bend\x1CIN\x1C46624\x1CH4IN02135\x1CBock\x1CJoseph\x1C\x1C\x1C\x1CH\x1CIN\x1C02\x1CGoldberg\x1CSteven\x1C\x1C\x1C\x1C20140502\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Bock for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 582
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: South Bend
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46624'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4IN02135
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Bock
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Joseph
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: IN
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Goldberg
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Steven
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140502
+
+'
+- input: "F65\x1CC00551234\x1CVN912CM5JC4\x1CIND\x1C\x1CGoldberg\x1CSteven\x1CA.\x1C\x1C\x1C144
+    E North Shore Dr\x1C\x1CSouth Bend\x1CIN\x1C466171214\x1C\x1C20140430\x1C1000.00\x1CSteven
+    A Goldberg, CPA\x1CCPA\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00551234
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VN912CM5JC4
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Goldberg
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Steven
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: A.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 144 E North Shore Dr
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: South Bend
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '466171214'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Steven A Goldberg, CPA
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'CPA
+
+'
+sourceurl: !!python/unicode 20140502
+type: chunk

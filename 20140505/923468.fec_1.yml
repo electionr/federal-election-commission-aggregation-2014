@@ -1,0 +1,152 @@
+countrows: 3
+filename: 923468.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00330142\x1C\x1CLARSON FOR CONGRESS\x1CPO Box 261172\x1C\x1CHartford\x1CCT\x1C061261172\x1CH8CT01046\x1CLARSON\x1CJOHN
+    B\x1C\x1C\x1C\x1CH\x1CCT\x1C01\x1CFeldman\x1CBarry\x1C\x1C\x1C\x1C20140505\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: LARSON FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO Box 261172
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hartford
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '061261172'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8CT01046
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: LARSON
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: JOHN B
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: CT
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '01'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Feldman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Barry
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140505
+
+'
+- input: "F65\x1CC00330142\x1CF6.58131\x1CIND\x1C\x1CSiddiqui\x1CArshi\x1C\x1C\x1C\x1C1515
+    15th St NW\x1C\x1CWashington\x1CDC\x1C20005\x1C\x1C20140505\x1C1250.00\x1CAkin
+    Gump Strauss Hauer & Feld\x1CAttorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330142
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.58131
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Siddiqui
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Arshi
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1515 15th St NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20005'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1250.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Akin Gump Strauss Hauer & Feld
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+sourceurl: !!python/unicode 20140505
+type: chunk

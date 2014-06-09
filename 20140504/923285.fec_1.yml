@@ -1,0 +1,225 @@
+countrows: 4
+filename: 923285.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00477745\x1C\x1CWomack for Congress Committee\x1CPO Box 508\x1C\x1CRogers\x1CAR\x1C727570508\x1CH0AR03055\x1CWomack\x1CStephen\x1C\x1C\x1C\x1CH\x1CAR\x1C03\x1CEldredge\x1CMike\x1C\x1C\x1C\x1C20140504\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477745
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Womack for Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: PO Box 508
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rogers
+  - name: STATE
+    number: '8'
+    value: AR
+  - name: ZIP
+    number: '9'
+    value: '727570508'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0AR03055
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Womack
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Stephen
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: AR
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Eldredge
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Mike
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140504
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477745
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5383000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Windstream PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 4001 N Rodney Parham Road
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Little Rock
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: AR
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '722122442'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00425975
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140502'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00477745\x1C5383000\x1CCOM\x1CWindstream PAC\x1C\x1C\x1C\x1C\x1C\x1C4001
+    N Rodney Parham Road\x1C\x1CLittle Rock\x1CAR\x1C722122442\x1CC00425975\x1C20140502\x1C1500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00477745
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '5384000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: International Council Of Shopping Centers Inc Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 555  12th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 660
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200041241'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00217638
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00477745\x1C5384000\x1CCOM\x1CInternational Council Of Shopping
+    Centers Inc Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1C555  12th Street
+    NW\x1CSuite 660\x1CWashington\x1CDC\x1C200041241\x1CC00217638\x1C20140503\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140504
+type: chunk

@@ -1,0 +1,349 @@
+countrows: 6
+filename: 923464.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00546796\x1C\x1CLane for WV\x1CPO Box 11791\x1C\x1CCharleston\x1CWV\x1C25339\x1CH4WV02098\x1CLane\x1CCharlotte\x1CR.\x1C\x1C\x1CH\x1CWV\x1C02\x1CMarston\x1CChris\x1C\x1C\x1C\x1C20140505\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Lane for WV
+  - name: STREET 1
+    number: '5'
+    value: PO Box 11791
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Charleston
+  - name: STATE
+    number: '8'
+    value: WV
+  - name: ZIP
+    number: '9'
+    value: '25339'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4WV02098
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Lane
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Charlotte
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: R.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: WV
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Marston
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Chris
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140505
+
+'
+- input: "F65\x1CC00546796\x1CTX395\x1CPAC\x1C\"NATIONAL BEER WHOLESALERS ASSOCATION
+    PAC (NBWA PAC)\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1101 KING ST\"\x1C\"STE
+    600 \"\x1C\"ALEXANDRIA\"\x1CVA\x1C22314    \x1CC00144766\x1C20140503\x1C5000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX395
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NATIONAL BEER WHOLESALERS ASSOCATION PAC (NBWA PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 KING ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: 'STE 600 '
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: ALEXANDRIA
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '22314    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00144766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '5000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX396\x1CPAC\x1C\"ASSURANT INC. PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"501
+    W MICHIGAN ST\"\x1C\"\"\x1C\"MILWAUKEE\"\x1CWI\x1C53203    \x1C\x1C20140503\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX396
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ASSURANT INC. PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 501 W MICHIGAN ST
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: MILWAUKEE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: WI
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '53203    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX398\x1CPAC\x1C\"NUCOR CORPORATION PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"1915
+    REXFORD RD\"\x1C\"\"\x1C\"CHARLOTTE\"\x1CNC\x1C28211    \x1C\x1C20140503\x1C1000.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX398
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: NUCOR CORPORATION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1915 REXFORD RD
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: CHARLOTTE
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '28211    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00546796\x1CTX397\x1CPAC\x1C\"VALERO ENERGY CORPORATION PAC\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"\"\x1C\"PO
+    BOX 696000\"\x1C\"\"\x1C\"SAN ANTONIO\"\x1CTX\x1C78269    \x1C\x1C20140503\x1C2500.00\x1C\"\"\x1C\"\"\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00546796
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: TX397
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: VALERO ENERGY CORPORATION PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 696000
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: SAN ANTONIO
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '78269    '
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140505
+type: chunk

@@ -1,0 +1,298 @@
+countrows: 5
+filename: 922826.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00347492\x1C\x1CTiberi for Congress\x1C2931 E Dublin Granville Road\x1CSuite
+    190\x1CColumbus\x1COH\x1C432312098\x1CH0OH12062\x1CTiberi\x1CPatrick\x1CJ.\x1C\x1C\x1CH\x1COH\x1C12\x1CBenton\x1CJeffrey\x1C\x1C\x1C\x1C20140430\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Tiberi for Congress
+  - name: STREET 1
+    number: '5'
+    value: 2931 E Dublin Granville Road
+  - name: STREET 2
+    number: '6'
+    value: Suite 190
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '432312098'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H0OH12062
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Tiberi
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Patrick
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: J.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: OH
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '12'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Benton
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Jeffrey
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140430
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33170000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Cohen
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Carl
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: I
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2470 Deborah Drive
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Beachwood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '44122'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: KJB, Inc
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Consultant
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33170000\x1CIND\x1C\x1CCohen\x1CCarl\x1CI\x1C\x1C\x1C2470
+    Deborah Drive\x1C\x1CBeachwood\x1COH\x1C44122\x1C\x1C20140429\x1C1000\x1CKJB,
+    Inc\x1CConsultant\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33171000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Thomas
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Stephen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1424 Richland Wood Lane
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Brentwood
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '37027'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140429'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Thomas & Thorngren, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33171000\x1CIND\x1C\x1CThomas\x1CStephen\x1C\x1C\x1C\x1C1424
+    Richland Wood Lane\x1C\x1CBrentwood\x1CTN\x1C37027\x1C\x1C20140429\x1C1000\x1CThomas
+    & Thorngren, Inc.\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00347492
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '33169000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gill
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Rajan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 3943 Sweet Briar Court
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: frederick
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '21704'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Hiring Incentives, Inc.
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Owner
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00347492\x1C33169000\x1CIND\x1C\x1CGill\x1CRajan\x1C\x1C\x1C\x1C3943
+    Sweet Briar Court\x1C\x1Cfrederick\x1CMD\x1C21704\x1C\x1C20140430\x1C1000\x1CHiring
+    Incentives, Inc.\x1COwner\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140430
+type: chunk

@@ -1,0 +1,716 @@
+countrows: 11
+filename: 923483.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00330811\x1C\x1CLee Terry For Congress\x1CPO Box 540098\x1C\x1COmaha\x1CNE\x1C681540098\x1CH8NE02139\x1CTerry\x1CLee\x1C\x1C\x1C\x1CH\x1CNE\x1C02\x1CWellendorf\x1CDennis
+    \x1C\x1C\x1C\x1C20140505\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Lee Terry For Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 540098
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Omaha
+  - name: STATE
+    number: '8'
+    value: NE
+  - name: ZIP
+    number: '9'
+    value: '681540098'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H8NE02139
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Terry
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Lee
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NE
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Wellendorf
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: 'Dennis '
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140505
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60228000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Petroleum Institute PAC (API PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1220 L Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200054018'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00483677
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60228000\x1CCOM\x1CAmerican Petroleum Institute PAC
+    (API PAC)\x1C\x1C\x1C\x1C\x1C\x1C1220 L Street NW\x1C\x1CWashington\x1CDC\x1C200054018\x1CC00483677\x1C20140503\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60227000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Prairieland PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 228 South Washington Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 115
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Alexandria
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: VA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '223145404'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00457689
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140503'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2500'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60227000\x1CCOM\x1CPrairieland PAC\x1C\x1C\x1C\x1C\x1C\x1C228
+    South Washington Street\x1CSuite 115\x1CAlexandria\x1CVA\x1C223145404\x1CC00457689\x1C20140503\x1C2500\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60231000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Butler
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Matt
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: L.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 15606 William Plaza
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Apartment 109
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Omaha
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NE
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '68130'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140504'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Self-Employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: Investor
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60231000\x1CIND\x1C\x1CButler\x1CMatt\x1CL.\x1C\x1C\x1C15606
+    William Plaza\x1CApartment 109\x1COmaha\x1CNE\x1C68130\x1C\x1C20140504\x1C1000\x1CSelf-Employed\x1CInvestor\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60243000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: American Airlines PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 17th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00107300
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60243000\x1CCOM\x1CAmerican Airlines PAC\x1C\x1C\x1C\x1C\x1C\x1C1101
+    17th Street NW\x1CSuite 600\x1CWashington\x1CDC\x1C20036\x1CC00107300\x1C20140505\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60234000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Cargill PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 9300
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Minneapolis
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MN
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '554409300'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00067884
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60234000\x1CCOM\x1CCargill PAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 9300\x1C\x1CMinneapolis\x1CMN\x1C554409300\x1CC00067884\x1C20140505\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60230000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ENPAC Federal
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101 Constitution Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 200
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200012133'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00363879
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60230000\x1CCOM\x1CENPAC Federal\x1C\x1C\x1C\x1C\x1C\x1C101
+    Constitution Avenue NW\x1CSuite 200\x1CWashington\x1CDC\x1C200012133\x1CC00363879\x1C20140505\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60233000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Pharmaceutical Research & Manufacturers of America Better Gov't Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 950 F Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 300
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200041440'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00021972
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60233000\x1CCOM\x1CPharmaceutical Research & Manufacturers
+    of America Better Gov't Committee\x1C\x1C\x1C\x1C\x1C\x1C950 F Street NW\x1CSuite
+    300\x1CWashington\x1CDC\x1C200041440\x1CC00021972\x1C20140505\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60242000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: United Parcel Service PAC (UPSPAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 55 Glenlake Parkway NE
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Atlanta
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: GA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '303283474'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00064766
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60242000\x1CCOM\x1CUnited Parcel Service PAC (UPSPAC)\x1C\x1C\x1C\x1C\x1C\x1C55
+    Glenlake Parkway NE\x1C\x1CAtlanta\x1CGA\x1C303283474\x1CC00064766\x1C20140505\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00330811
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '60229000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Windstream PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 17th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 802
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '20036'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00425975
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140505'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00330811\x1C60229000\x1CCOM\x1CWindstream PAC\x1C\x1C\x1C\x1C\x1C\x1C1101
+    17th Street NW\x1CSuite 802\x1CWashington\x1CDC\x1C20036\x1CC00425975\x1C20140505\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140505
+type: chunk

@@ -1,0 +1,578 @@
+countrows: 9
+filename: 923004.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00412890\x1C\x1CAdrian Smith for Congress\x1C3321 Avenue I\x1CSuite
+    6\x1CScottsbluff\x1CNE\x1C693614587\x1CH6NE03115\x1CSmith\x1CAdrian\x1C\x1C\x1C\x1CH\x1CNE\x1C03\x1CGompert\x1CLenora\x1C\x1C\x1C\x1C20140501\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Adrian Smith for Congress
+  - name: STREET 1
+    number: '5'
+    value: 3321 Avenue I
+  - name: STREET 2
+    number: '6'
+    value: Suite 6
+  - name: CITY
+    number: '7'
+    value: Scottsbluff
+  - name: STATE
+    number: '8'
+    value: NE
+  - name: ZIP
+    number: '9'
+    value: '693614587'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6NE03115
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Smith
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Adrian
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NE
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '03'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Gompert
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Lenora
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140501
+
+'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22015000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: BNSF RAILPAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 961039
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Fort Worth
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: TX
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '761610039'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00235739
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22015000\x1CCOM\x1CBNSF RAILPAC\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 961039\x1C\x1CFort Worth\x1CTX\x1C761610039\x1CC00235739\x1C20140430\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22019000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Deloitte Federal Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO Box 365
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200440365'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00211318
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22019000\x1CCOM\x1CDeloitte Federal Political Action
+    Committee\x1C\x1C\x1C\x1C\x1C\x1CPO Box 365\x1C\x1CWashington\x1CDC\x1C200440365\x1CC00211318\x1C20140430\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22017000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Entergy Corporation Political Action Committee (enpac)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 101  Constitution Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Suite 200  E
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200012133'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00363879
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22017000\x1CCOM\x1CEntergy Corporation Political Action
+    Committee (enpac)\x1C\x1C\x1C\x1C\x1C\x1C101  Constitution Avenue NW\x1CSuite
+    200  E\x1CWashington\x1CDC\x1C200012133\x1CC00363879\x1C20140430\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22020000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Ernst & Young Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 New York Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200054269'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00227744
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22020000\x1CCOM\x1CErnst & Young Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1C1101
+    New York Avenue NW\x1C\x1CWashington\x1CDC\x1C200054269\x1CC00227744\x1C20140430\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22021000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Ernst & Young Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1101 New York Avenue NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200054269'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00227744
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22021000\x1CCOM\x1CErnst & Young Political Action Committee\x1C\x1C\x1C\x1C\x1C\x1C1101
+    New York Avenue NW\x1C\x1CWashington\x1CDC\x1C200054269\x1CC00227744\x1C20140430\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22016000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: INTERNATIONAL COUNCIL OF SHOPPING CENTERS INC POLITICAL ACTION COMMITTEE
+      (ICSC PAC)
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 555  12th Street NW
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Washington
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: DC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '200041200'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00217638
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22016000\x1CCOM\x1CINTERNATIONAL COUNCIL OF SHOPPING
+    CENTERS INC POLITICAL ACTION COMMITTEE (ICSC PAC)\x1C\x1C\x1C\x1C\x1C\x1C555  12th
+    Street NW\x1C\x1CWashington\x1CDC\x1C200041200\x1CC00217638\x1C20140430\x1C2000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00412890
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '22018000'
+  - name: ENTITY TYPE
+    number: '4'
+    value: COM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Jpmorgan Chase & Co. Federal Political Action Committee
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 10 S Dearborn Street
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: '# 1-0520'
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '606032300'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00104299
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140430'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: ''
+  - value: '
+
+'
+  expected_count: 20
+  input: "F65\x1CC00412890\x1C22018000\x1CCOM\x1CJpmorgan Chase & Co. Federal Political
+    Action Committee\x1C\x1C\x1C\x1C\x1C\x1C10 S Dearborn Street\x1C# 1-0520\x1CChicago\x1CIL\x1C606032300\x1CC00104299\x1C20140430\x1C1000\x1C\x1C\x1C\n"
+  input_count: 21
+  record: fec.version.v8_1.F65
+  result: []
+sourceurl: !!python/unicode 20140501
+type: chunk

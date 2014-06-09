@@ -1,0 +1,284 @@
+countrows: 5
+filename: 922589.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00195628\x1C\x1CPrice for Congress\x1CPO Box 1986\x1C\x1CRaleigh\x1CNC\x1C27602\x1CH6NC04037\x1CPrice\x1CDavid\x1C\x1CHon.\x1C\x1CH\x1CNC\x1C04\x1CAuman\x1CRose\x1C\x1C\x1C\x1C20140428\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00195628
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Price for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1986
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Raleigh
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27602'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H6NC04037
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Price
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: David
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Hon.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '04'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Auman
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Rose
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: ''
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140428
+
+'
+- input: "F65\x1CC00195628\x1CC8907689\x1CIND\x1C\x1CMeeker\x1CCharles\x1CC.\x1CMr.\x1C\x1C324
+    S. Boylan Avenue\x1C\x1CRaleigh\x1CNC\x1C27603\x1C\x1C20140428\x1C1000.00\x1CParker,
+    Poe, Adams & Bernstein LLP\x1CAttorney\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00195628
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8907689
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Meeker
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Charles
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: C.
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 324 S. Boylan Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Raleigh
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '27603'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Parker, Poe, Adams & Bernstein LLP
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Attorney
+
+'
+- input: "F65\x1CC00195628\x1CC8907646\x1CPAC\x1CRealtors PAC\x1C\x1C\x1C\x1C\x1C\x1C430
+    N. Michigan Avenue\x1C\x1CChicago\x1CIL\x1C60611\x1CC00030718\x1C20140428\x1C2000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00195628
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8907646
+  - name: ENTITY TYPE
+    number: '4'
+    value: PAC
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: Realtors PAC
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 430 N. Michigan Avenue
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chicago
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '60611'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00030718
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+- input: "F65\x1CC00195628\x1CC8907694\x1CIND\x1C\x1CPacchiana\x1CGregg\x1C\x1CMr.\x1C\x1C2812
+    New Hope Church Rd\x1C\x1CChapel Hill\x1CNC\x1C275148220\x1C\x1C20140428\x1C1000.00\x1CThalle
+    Construction\x1CExecutive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00195628
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: C8907694
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Pacchiana
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Gregg
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: Mr.
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 2812 New Hope Church Rd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Chapel Hill
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: NC
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '275148220'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140428'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Thalle Construction
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive
+
+'
+sourceurl: !!python/unicode 20140428
+type: chunk

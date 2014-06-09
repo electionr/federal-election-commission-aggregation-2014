@@ -1,0 +1,551 @@
+countrows: 9
+filename: 922329.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00556092\x1C\x1CClay Aiken for North Carolina\x1CPO Box 3809\x1C\x1CCary\x1CNC\x1C27519\x1CH4NC02127\x1CAiken\x1CClay\x1C\x1CMr.\x1C\x1CH\x1CNC\x1C02\x1CConti\x1CEugene\x1CA\x1CMr.\x1C\x1C20140424\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: Clay Aiken for North Carolina
+  - name: STREET 1
+    number: '5'
+    value: PO Box 3809
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cary
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27519'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4NC02127
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: Aiken
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: Clay
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: NC
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '02'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Conti
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: Eugene
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: A
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140424
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKGKD7\x1CIND\x1C\x1CFriend\x1CKathleen\x1C\x1C\x1C\x1C8746
+    Donovan Ct\x1C\x1CCincinnati\x1COH\x1C452498185\x1C\x1C20140423\x1C1000.00\x1COhio
+    National Financial Services\x1CQuality Review\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKGKD7
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Friend
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Kathleen
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8746 Donovan Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cincinnati
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '452498185'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Ohio National Financial Services
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Quality Review
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKF1J1\x1CIND\x1C\x1CGatewood\x1CSandi\x1C\x1C\x1C\x1C1480
+    Almagre Dr.\x1C\x1CColorado Springs\x1CCO\x1C80921\x1C\x1C20140423\x1C1000.00\x1CUnemployed\x1COrthodontic
+    Assistant\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKF1J1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Gatewood
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Sandi
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1480 Almagre Dr.
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Colorado Springs
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CO
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '80921'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Unemployed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Orthodontic Assistant
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKF1Q0\x1CIND\x1C\x1CLaMadeleine\x1CDonna\x1C\x1C\x1C\x1C340
+    Whitney St\x1CPO Box 202\x1CNorthborough\x1CMA\x1C015321144\x1C\x1C20140423\x1C1000.00\x1CRetired\x1CRetired\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKF1Q0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: LaMadeleine
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Donna
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 340 Whitney St
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: PO Box 202
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Northborough
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '015321144'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Retired
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Retired
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKDPW0\x1CIND\x1C\x1CManson\x1CMichelle\x1C\x1C\x1C\x1C1539
+    Apple Grove Ln\x1C\x1CWestmont\x1CIL\x1C605593456\x1C\x1C20140422\x1C1000.00\x1CMcGladrey\x1CAccountant\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKDPW0
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Manson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Michelle
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1539 Apple Grove Ln
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Westmont
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: IL
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '605593456'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140422'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: McGladrey
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Accountant
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKE677\x1CIND\x1C\x1CRenshaw\x1CSimon\x1C\x1C\x1C\x1C16000
+    Ventura Blvd\x1CSte 600\x1CEncino\x1CCA\x1C914362753\x1C\x1C20140422\x1C2600.00\x1CStrategic
+    Artist Management LLC\x1CExecutive\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKE677
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Renshaw
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Simon
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 16000 Ventura Blvd
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: Ste 600
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Encino
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: CA
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '914362753'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140422'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2600.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Strategic Artist Management LLC
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Executive
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKF4N1\x1CIND\x1C\x1CVesecky\x1CDebra\x1C\x1C\x1C\x1C8746
+    Donovan Ct\x1C\x1CCincinnati\x1COH\x1C452498185\x1C\x1C20140423\x1C1000.00\x1CTrihealth
+    Digestive Institute\x1Cmedical assistant\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKF4N1
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Vesecky
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Debra
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 8746 Donovan Ct
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cincinnati
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '452498185'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140423'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Trihealth Digestive Institute
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'medical assistant
+
+'
+- input: "F65\x1CC00556092\x1CVNJ1TCKDMT2\x1CIND\x1C\x1CWilliamson\x1CJoan\x1CF\x1C\x1C\x1C1685
+    Grand Ave\x1C\x1CCincinnati\x1COH\x1C452041614\x1C\x1C20140422\x1C2000.00\x1CNot
+    employed\x1CNot employed\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00556092
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: VNJ1TCKDMT2
+  - name: ENTITY TYPE
+    number: '4'
+    value: IND
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ''
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: Williamson
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: Joan
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: F
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: 1685 Grand Ave
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: Cincinnati
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: OH
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '452041614'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: ''
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140422'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '2000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: Not employed
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: 'Not employed
+
+'
+sourceurl: !!python/unicode 20140424
+type: chunk

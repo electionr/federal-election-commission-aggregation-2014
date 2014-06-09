@@ -1,0 +1,151 @@
+countrows: 3
+filename: 917322.fec
+header: {}
+rows:
+- 2
+- input: "F6N\x1CC00554261\x1C\x1CCOMSTOCK FOR CONGRESS\x1CPO BOX 71596\x1C\x1CRICHMOND\x1CVA\x1C23255\x1CH4VA10089\x1CCOMSTOCK\x1CBARBARA\x1CJ.\x1C\x1C\x1CH\x1CVA\x1C10\x1CSelph\x1CJohn
+    G.\x1C\x1CMr.\x1C\x1C20140414\n"
+  record: fec.version.v8_1.F6
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554261
+  - name: ORIGINAL AMENDMENT DATE
+    number: '3'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '4'
+    value: COMSTOCK FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 71596
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: RICHMOND
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23255'
+  - name: CANDIDATE ID NUMBER
+    number: '10'
+    value: H4VA10089
+  - name: CANDIDATE LAST NAME
+    number: '11'
+    value: COMSTOCK
+  - name: CANDIDATE FIRST NAME
+    number: '12'
+    value: BARBARA
+  - name: CANDIDATE MIDDLE NAME
+    number: '13'
+    value: J.
+  - name: CANDIDATE PREFIX
+    number: '14'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '15'
+    value: ''
+  - name: CANDIDATE OFFICE
+    number: '16'
+    value: H
+  - name: CANDIDATE STATE
+    number: '17'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '18'
+    value: '10'
+  - name: SIGNER LAST NAME
+    number: '19'
+    value: Selph
+  - name: SIGNER FIRST NAME
+    number: '20'
+    value: John G.
+  - name: SIGNER MIDDLE NAME
+    number: '21'
+    value: ''
+  - name: SIGNER PREFIX
+    number: '22'
+    value: Mr.
+  - name: SIGNER SUFFIX
+    number: '23'
+    value: ''
+  - name: DATE SIGNED
+    number: '24'
+    value: '20140414
+
+'
+- input: "F65\x1CC00554261\x1CF6.7456\x1CCCM\x1CANDY HARRIS FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1CPO
+    BOX 604\x1C\x1CBEL AIR\x1CMD\x1C21014\x1CC00435974\x1C20140414\x1C1000.00\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: C00554261
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: F6.7456
+  - name: ENTITY TYPE
+    number: '4'
+    value: CCM
+  - name: CONTRIBUTOR ORGANIZATION NAME
+    number: '5'
+    value: ANDY HARRIS FOR CONGRESS
+  - name: CONTRIBUTOR LAST NAME
+    number: '6'
+    value: ''
+  - name: CONTRIBUTOR FIRST NAME
+    number: '7'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '8'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '9'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '10'
+    value: ''
+  - name: CONTRIBUTOR STREET 1
+    number: '11'
+    value: PO BOX 604
+  - name: CONTRIBUTOR STREET 2
+    number: '12'
+    value: ''
+  - name: CONTRIBUTOR CITY
+    number: '13'
+    value: BEL AIR
+  - name: CONTRIBUTOR STATE
+    number: '14'
+    value: MD
+  - name: CONTRIBUTOR ZIP
+    number: '15'
+    value: '21014'
+  - name: CONTRIBUTOR COMMITTEE FEC ID
+    number: '16'
+    value: C00435974
+  - name: CONTRIBUTION DATE
+    number: '17'
+    value: '20140414'
+  - name: CONTRIBUTION AMOUNT
+    number: '18'
+    value: '1000.00'
+  - name: CONTRIBUTOR EMPLOYER
+    number: '19'
+    value: ''
+  - name: CONTRIBUTOR OCCUPATION
+    number: '20'
+    value: '
+
+'
+sourceurl: !!python/unicode 20140414
+type: chunk

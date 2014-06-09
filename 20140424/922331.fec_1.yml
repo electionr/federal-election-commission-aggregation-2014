@@ -1,0 +1,186 @@
+countrows: 4
+filename: 922331.fec
+header: {}
+rows:
+- 2
+- input: "F2A\x1CH0VA02084\x1CRigell\x1CEdward Scott\x1C\x1CMr.\x1C\x1C\x1C915 First
+    Colonial Rd\x1CSte 100\x1CVirginia Beach\x1CVA\x1C234543186\x1CREP\x1CH\x1CVA\x1C02\x1C2014\x1CC00463687\x1CScott
+    Rigell for Congress\x1C915 First Colonial Road\x1CSuite 100\x1CVirginia Beach\x1CVA\x1C23454\x1CC00547836\x1CPatriot
+    Day II 2013\x1C228 S Washington St., Suite 115\x1C\x1CAlexandria\x1CVA\x1C223145404\x1CRigell\x1CEdward
+    Scott\x1C\x1CMr.\x1C\x1C20140424\n"
+  record: fec.version.v8_1.F2
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0VA02084
+  - name: CANDIDATE LAST NAME
+    number: '3'
+    value: Rigell
+  - name: CANDIDATE FIRST NAME
+    number: '4'
+    value: Edward Scott
+  - name: CANDIDATE MIDDLE NAME
+    number: '5'
+    value: ''
+  - name: CANDIDATE PREFIX
+    number: '6'
+    value: Mr.
+  - name: CANDIDATE SUFFIX
+    number: '7'
+    value: ''
+  - name: CHANGE OF ADDRESS
+    number: '8'
+    value: ''
+  - name: CANDIDATE STREET 1
+    number: '9'
+    value: 915 First Colonial Rd
+  - name: CANDIDATE STREET 2
+    number: '10'
+    value: Ste 100
+  - name: CANDIDATE CITY
+    number: '11'
+    value: Virginia Beach
+  - name: CANDIDATE STATE
+    number: '12'
+    value: VA
+  - name: CANDIDATE ZIP
+    number: '13'
+    value: '234543186'
+  - name: CANDIDATE PARTY CODE
+    number: '14'
+    value: REP
+  - name: CANDIDATE OFFICE
+    number: '15'
+    value: H
+  - name: CANDIDATE STATE
+    number: '16'
+    value: VA
+  - name: CANDIDATE DISTRICT
+    number: '17'
+    value: '02'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '18'
+    value: '2014'
+  - name: PCC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00463687
+  - name: PCC COMMITTEE NAME
+    number: '20'
+    value: Scott Rigell for Congress
+  - name: PCC STREET 1
+    number: '21'
+    value: 915 First Colonial Road
+  - name: PCC STREET 2
+    number: '22'
+    value: Suite 100
+  - name: PCC CITY
+    number: '23'
+    value: Virginia Beach
+  - name: PCC STATE
+    number: '24'
+    value: VA
+  - name: PCC ZIP
+    number: '25'
+    value: '23454'
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '26'
+    value: C00547836
+  - name: AUTH COMMITTEE NAME
+    number: '27'
+    value: Patriot Day II 2013
+  - name: AUTH STREET 1
+    number: '28'
+    value: 228 S Washington St., Suite 115
+  - name: AUTH STREET 2
+    number: '29'
+    value: ''
+  - name: AUTH CITY
+    number: '30'
+    value: Alexandria
+  - name: AUTH STATE
+    number: '31'
+    value: VA
+  - name: AUTH ZIP
+    number: '32'
+    value: '223145404'
+  - name: CANDIDATE SIGNATURE LAST NAME
+    number: '33'
+    value: Rigell
+  - name: CANDIDATE SIGNATURE FIRST NAME
+    number: '34'
+    value: Edward Scott
+  - name: CANDIDATE SIGNATURE MIDDLE NAME
+    number: '35'
+    value: ''
+  - name: CANDIDATE SIGNATURE PREFIX
+    number: '36'
+    value: Mr.
+  - name: CANDIDATE SIGNATURE SUFFIX
+    number: '37'
+    value: ''
+  - name: DATE SIGNED
+    number: '38'
+    value: '20140424
+
+'
+- input: "F2S\x1CH0VA02084\x1CC00561837\x1CVirginia Redistricting Defense Fund\x1C25
+    E. Main Street\x1C\x1CRichmond\x1CVA\x1C232192109\n"
+  record: fec.version.v8_1.F2S
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2S
+  - name: FILER CANDIDATE ID NUMBER
+    number: '2'
+    value: H0VA02084
+  - name: AUTH COMMITTEE ID NUMBER
+    number: '3'
+    value: C00561837
+  - name: AUTH COMMITTEE NAME
+    number: '4'
+    value: Virginia Redistricting Defense Fund
+  - name: AUTH STREET 1
+    number: '5'
+    value: 25 E. Main Street
+  - name: AUTH STREET 2
+    number: '6'
+    value: ''
+  - name: AUTH CITY
+    number: '7'
+    value: Richmond
+  - name: AUTH STATE
+    number: '8'
+    value: VA
+  - name: AUTH ZIP
+    number: '9'
+    value: '232192109
+
+'
+- input: "TEXT\x1CH0VA02084\x1C1\x1C\x1CF2A\x1CAmend to add JFC\n"
+  record: fec.version.v8_1.TEXT
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FILER COMMITTEE ID NUMBER
+    number: '2'
+    value: H0VA02084
+  - name: TRANSACTION ID NUMBER
+    number: '3'
+    value: '1'
+  - name: BACK REFERENCE TRAN ID NUMBER
+    number: '4'
+    value: ''
+  - name: BACK REFERENCE SCHED / FORM NAME
+    number: '5'
+    value: F2A
+  - name: TEXT4000
+    number: '6'
+    value: 'Amend to add JFC
+
+'
+sourceurl: !!python/unicode 20140424
+type: chunk
