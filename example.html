@@ -1,0 +1,13 @@
+---
+layout: default
+title: Example Data
+---
+<html>
+<body>
+{% for x in site.data.929674.rows %}
+{% if x.result %}<dl class='{{ x.result[0].name }} {{ x.result[0].value }}' >{% for r in x.result %}{% if r.value != '' %}<dt class=field_{{ r.name }} >{{ r.name }}</dt><dd class=field_{{ r.name }} >{{r.value }}</dd> {% endif  %} 
+{% endfor %}
+</dl>{% endif  %}
+{% endfor %}
+</body>
+</html>
