@@ -79,10 +79,11 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "F65\x1CC00463687\x1C6806FE348A26C4685A12\x1CIND\x1C\x1CTaylor\x1CMarion\x1CP.\x1CMrs.\x1C\x1C531
+    Golfway Dr\x1C\x1CFort Wayne\x1CIN\x1C468149161\x1C\x1C20140606\x1C2600.00\x1CHomemaker\x1CHomemaker\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -143,16 +144,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Homemaker
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00463687\x1C6806FE348A26C4685A12\x1CIND\x1C\x1CTaylor\x1CMarion\x1CP.\x1CMrs.\x1C\x1C531
-    Golfway Dr\x1C\x1CFort Wayne\x1CIN\x1C468149161\x1C\x1C20140606\x1C2600.00\x1CHomemaker\x1CHomemaker\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00463687\x1C62F536224CF33424DA71\x1CIND\x1C\x1CSheppard\x1CJohn\x1CDaniel\x1CDr.\x1CJr\x1C3274
+    Butlers Bluff Dr\x1C\x1CCape Charles\x1CVA\x1C233101402\x1C\x1C20140606\x1C1000.00\x1CVA
+    Eye Consultants\x1CMD\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -213,17 +209,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: MD
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00463687\x1C62F536224CF33424DA71\x1CIND\x1C\x1CSheppard\x1CJohn\x1CDaniel\x1CDr.\x1CJr\x1C3274
-    Butlers Bluff Dr\x1C\x1CCape Charles\x1CVA\x1C233101402\x1C\x1C20140606\x1C1000.00\x1CVA
-    Eye Consultants\x1CMD\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00463687\x1C6FED0235FC9B24B1BABC\x1CPAC\x1CWal-Mart Stores, Inc.
+    PAC\x1C\x1C\x1C\x1C\x1C\x1C702 Southwest 8th Street\x1C\x1CBentonville\x1CAR\x1C727166209\x1C\x1C20140606\x1C2000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -284,14 +273,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00463687\x1C6FED0235FC9B24B1BABC\x1CPAC\x1CWal-Mart Stores, Inc.
-    PAC\x1C\x1C\x1C\x1C\x1C\x1C702 Southwest 8th Street\x1C\x1CBentonville\x1CAR\x1C727166209\x1C\x1C20140606\x1C2000.00\x1C\x1C\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

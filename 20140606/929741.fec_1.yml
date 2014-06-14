@@ -3,7 +3,10 @@ filename: 929741.fec
 header: {}
 rows:
 - 2
-- attempt:
+- input: "F5N\x1CC90010620\x1C\x1CVOTEVETS.ORG ACTION FUND\x1C\x1C\x1C\x1C\x1C\x1C\x1C2201
+    WISCONSIN AVE NW #320\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1C\x1C\x1C\x1C24\x1C\x1C20140605\x1C20140618\x1C.00\x1C295086.46\x1CMellman\x1CPeter\x1C\x1C\x1C\x1C20140606\x1C\n"
+  record: fec.version.v8_1.F5
+  result:
   - name: FORM TYPE
     number: '1'
     value: F5N
@@ -94,16 +97,11 @@ rows:
   - name: DATE SIGNED
     number: '30'
     value: '20140606'
-  - value: '
-
-'
-  expected_count: 30
-  input: "F5N\x1CC90010620\x1C\x1CVOTEVETS.ORG ACTION FUND\x1C\x1C\x1C\x1C\x1C\x1C\x1C2201
-    WISCONSIN AVE NW #320\x1C\x1CWASHINGTON\x1CDC\x1C20007\x1C\x1C\x1C\x1C24\x1C\x1C20140605\x1C20140618\x1C.00\x1C295086.46\x1CMellman\x1CPeter\x1C\x1C\x1C\x1C20140606\x1C\n"
-  input_count: 31
-  record: fec.version.v8_1.F5
-  result: []
-- attempt:
+- input: "F57\x1CC90010620\x1CF57.000001\x1CORG\x1CBuying Time LLC\x1C\x1C\x1C\x1C\x1C\x1C\"650
+    Massachusetts Ave, NW\"\x1C\x1CWashington\x1CDC\x1C20001\x1CG2014\x1C\x1C20140605\x1C275000.00\x1C295086.46\x1CMedia
+    Buy (\"Tough\")\x1C004\x1C\x1CO\x1CS2MT00096\x1CDaines\x1CSteven\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1C\n"
+  record: fec.version.v8_1.F57
+  result:
   - name: FORM TYPE
     number: '1'
     value: F57
@@ -203,17 +201,11 @@ rows:
   - name: S/O CANDIDATE DISTRICT
     number: '33'
     value: '00'
-  - value: '
-
-'
-  expected_count: 33
-  input: "F57\x1CC90010620\x1CF57.000001\x1CORG\x1CBuying Time LLC\x1C\x1C\x1C\x1C\x1C\x1C\"650
-    Massachusetts Ave, NW\"\x1C\x1CWashington\x1CDC\x1C20001\x1CG2014\x1C\x1C20140605\x1C275000.00\x1C295086.46\x1CMedia
-    Buy (\"Tough\")\x1C004\x1C\x1CO\x1CS2MT00096\x1CDaines\x1CSteven\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1C\n"
-  input_count: 34
+- input: "F57\x1CC90010620\x1CF57.000002\x1CORG\x1CPrism Communications\x1C\x1C\x1C\x1C\x1C\x1C1000
+    Potomac St. NW\x1C\x1CWashington\x1CDC\x1C20007\x1CG2014\x1C\x1C20140605\x1C20086.46\x1C295086.46\x1CProduction
+    (\"Tough\")\x1C004\x1C\x1CO\x1CS2MT00096\x1CDaines\x1CSteven\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1C\n"
   record: fec.version.v8_1.F57
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F57
@@ -313,15 +305,5 @@ rows:
   - name: S/O CANDIDATE DISTRICT
     number: '33'
     value: '00'
-  - value: '
-
-'
-  expected_count: 33
-  input: "F57\x1CC90010620\x1CF57.000002\x1CORG\x1CPrism Communications\x1C\x1C\x1C\x1C\x1C\x1C1000
-    Potomac St. NW\x1C\x1CWashington\x1CDC\x1C20007\x1CG2014\x1C\x1C20140605\x1C20086.46\x1C295086.46\x1CProduction
-    (\"Tough\")\x1C004\x1C\x1CO\x1CS2MT00096\x1CDaines\x1CSteven\x1C\x1C\x1C\x1CS\x1CMT\x1C00\x1C\n"
-  input_count: 34
-  record: fec.version.v8_1.F57
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

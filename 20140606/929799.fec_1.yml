@@ -78,10 +78,11 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "F65\x1CC00497180\x1C69767446FB8AB4319B15\x1CIND\x1C\x1CLaw\x1CJeremy\x1C\x1C\x1C\x1C6
+    Mountainview Rd\x1C\x1CGreenwood Village\x1CCO\x1C801111736\x1C\x1C20140605\x1C1000.00\x1CCentura\x1CPhysician\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -142,16 +143,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Physician
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00497180\x1C69767446FB8AB4319B15\x1CIND\x1C\x1CLaw\x1CJeremy\x1C\x1C\x1C\x1C6
-    Mountainview Rd\x1C\x1CGreenwood Village\x1CCO\x1C801111736\x1C\x1C20140605\x1C1000.00\x1CCentura\x1CPhysician\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00497180\x1C69B482DFB513D44D48C1\x1CIND\x1C\x1CKim\x1CLawrence\x1C\x1C\x1C\x1C4427
+    Christensen Cir.\x1C\x1CLittleton\x1CCO\x1C801236521\x1C\x1C20140605\x1C1000.00\x1CSouth
+    Denver Gastroenterology\x1CGastroenterologist\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -212,15 +208,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Gastroenterologist
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00497180\x1C69B482DFB513D44D48C1\x1CIND\x1C\x1CKim\x1CLawrence\x1C\x1C\x1C\x1C4427
-    Christensen Cir.\x1C\x1CLittleton\x1CCO\x1C801236521\x1C\x1C20140605\x1C1000.00\x1CSouth
-    Denver Gastroenterology\x1CGastroenterologist\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

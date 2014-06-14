@@ -78,10 +78,12 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140605
-
-'
-- attempt:
+    value: '20140605'
+- input: "F65\x1CC00257956\x1C6CFB846A38569447D9F8\x1CIND\x1C\x1CMeisels\x1CYoeli\x1C\x1CMr.\x1C\x1C1359
+    47 Street\x1C\x1CBrooklyn\x1CNY\x1C112192612\x1C\x1C20140605\x1C1000.00\x1Cself\x1CDacor
+    Line\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -142,17 +144,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Dacor Line
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00257956\x1C6CFB846A38569447D9F8\x1CIND\x1C\x1CMeisels\x1CYoeli\x1C\x1CMr.\x1C\x1C1359
-    47 Street\x1C\x1CBrooklyn\x1CNY\x1C112192612\x1C\x1C20140605\x1C1000.00\x1Cself\x1CDacor
-    Line\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00257956\x1C6344F8433423D405D8A8\x1CIND\x1C\x1CHager\x1CShifra\x1C\x1CMr.\x1C\x1C75
+    Huntington\x1C\x1CBrooklyn\x1CNY\x1C112311825\x1C\x1C20140605\x1C3000.00\x1CCornell
+    Realty\x1CManager\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -213,17 +209,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Manager
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00257956\x1C6344F8433423D405D8A8\x1CIND\x1C\x1CHager\x1CShifra\x1C\x1CMr.\x1C\x1C75
-    Huntington\x1C\x1CBrooklyn\x1CNY\x1C112311825\x1C\x1C20140605\x1C3000.00\x1CCornell
-    Realty\x1CManager\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00257956\x1C63348157FADC6474AB25\x1CIND\x1C\x1CKliegman\x1CSally\x1C\x1CMs.\x1C\x1C138
+    Long Lots Road\x1C\x1CWestport\x1CCT\x1C068803926\x1C\x1C20140605\x1C1000.00\x1CHomemaker\x1CHomemaker\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -284,16 +273,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Homemaker
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00257956\x1C63348157FADC6474AB25\x1CIND\x1C\x1CKliegman\x1CSally\x1C\x1CMs.\x1C\x1C138
-    Long Lots Road\x1C\x1CWestport\x1CCT\x1C068803926\x1C\x1C20140605\x1C1000.00\x1CHomemaker\x1CHomemaker\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00257956\x1C6BDE178A4F34E4FA9BDA\x1CPAC\x1CWendy's Political Action
+    Committee\x1C\x1C\x1C\x1C\x1C\x1COne Dave Thomas Boulevard\x1C\x1CDublin\x1COH\x1C430175452\x1C\x1C20140605\x1C5000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -354,16 +337,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00257956\x1C6BDE178A4F34E4FA9BDA\x1CPAC\x1CWendy's Political Action
-    Committee\x1C\x1C\x1C\x1C\x1C\x1COne Dave Thomas Boulevard\x1C\x1CDublin\x1COH\x1C430175452\x1C\x1C20140605\x1C5000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00257956\x1C666448428581F4272A9A\x1CPAC\x1CBayer Corporation PAC\x1C\x1C\x1C\x1C\x1C\x1C100
+    Bayer Road\x1C\x1CPittsburgh\x1CPA\x1C152059707\x1C\x1C20140605\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -424,16 +401,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00257956\x1C666448428581F4272A9A\x1CPAC\x1CBayer Corporation PAC\x1C\x1C\x1C\x1C\x1C\x1C100
-    Bayer Road\x1C\x1CPittsburgh\x1CPA\x1C152059707\x1C\x1C20140605\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00257956\x1C66697DDD72C774C8FB44\x1CPAC\x1CEXXON Mobil PAC\x1C\x1C\x1C\x1C\x1C\x1C5959
+    Las Colinas Blvd\x1C\x1CIrving\x1CTX\x1C750394202\x1C\x1C20140605\x1C2500.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -494,14 +465,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00257956\x1C66697DDD72C774C8FB44\x1CPAC\x1CEXXON Mobil PAC\x1C\x1C\x1C\x1C\x1C\x1C5959
-    Las Colinas Blvd\x1C\x1CIrving\x1CTX\x1C750394202\x1C\x1C20140605\x1C2500.00\x1C\x1C\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

@@ -77,10 +77,11 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "F65\x1CC00460550\x1C6370FE7F7E5C84D80AE9\x1CPAC\x1CLorillard Tobacco Company
+    Public Affairs Committee\x1C\x1C\x1C\x1C\x1C\x1C714 GREEN VALLEY ROAD\x1C\x1CGREENSBORO\x1CNC\x1C27408\x1C\x1C20140604\x1C2500.00\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -141,16 +142,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00460550\x1C6370FE7F7E5C84D80AE9\x1CPAC\x1CLorillard Tobacco Company
-    Public Affairs Committee\x1C\x1C\x1C\x1C\x1C\x1C714 GREEN VALLEY ROAD\x1C\x1CGREENSBORO\x1CNC\x1C27408\x1C\x1C20140604\x1C2500.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00460550\x1C66400D818E2E54868889\x1CPAC\x1CSociety of Independent
+    Gasoline Marketers of America PAC\x1C\x1C\x1C\x1C\x1C\x1C3930 Pender Dr., Ste.
+    340\x1C\x1CFairfax\x1CVA\x1C22030\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -211,17 +207,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00460550\x1C66400D818E2E54868889\x1CPAC\x1CSociety of Independent
-    Gasoline Marketers of America PAC\x1C\x1C\x1C\x1C\x1C\x1C3930 Pender Dr., Ste.
-    340\x1C\x1CFairfax\x1CVA\x1C22030\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00460550\x1C6E650214A399B4C8FB8C\x1CPAC\x1CNelson Mullins Riley
+    & Scarborough, Llp\x1C\x1C\x1C\x1C\x1C\x1C1320 Main Street, 17th Floor\x1CPO BOX
+    11070\x1CColumbia\x1CSC\x1C29201\x1C\x1C20140605\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -282,15 +272,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00460550\x1C6E650214A399B4C8FB8C\x1CPAC\x1CNelson Mullins Riley
-    & Scarborough, Llp\x1C\x1C\x1C\x1C\x1C\x1C1320 Main Street, 17th Floor\x1CPO BOX
-    11070\x1CColumbia\x1CSC\x1C29201\x1C\x1C20140605\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

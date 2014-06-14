@@ -78,10 +78,12 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "F65\x1CC00365692\x1C6EF1024AB5D4E4A59850\x1CIND\x1C\x1CStack\x1CRonald\x1C\x1C\x1C\x1C9011
+    Arboretum Pkwy\x1CSte 180\x1CNorth Chesterfield\x1CVA\x1C232363496\x1C\x1C20140606\x1C1000.00\x1CStack
+    Financial\x1COwner\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -142,17 +144,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Owner
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00365692\x1C6EF1024AB5D4E4A59850\x1CIND\x1C\x1CStack\x1CRonald\x1C\x1C\x1C\x1C9011
-    Arboretum Pkwy\x1CSte 180\x1CNorth Chesterfield\x1CVA\x1C232363496\x1C\x1C20140606\x1C1000.00\x1CStack
-    Financial\x1COwner\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00365692\x1C6045990A21B884D259B2\x1CIND\x1C\x1CHeinz\x1CArthur\x1C\x1C\x1C\x1C12230
+    Iron Bridge Rd\x1CSte A\x1CChester\x1CVA\x1C238311534\x1C\x1C20140606\x1C1000.00\x1CHeinz
+    Insurance & Financial Services\x1Cinsurance\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -213,17 +209,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: insurance
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00365692\x1C6045990A21B884D259B2\x1CIND\x1C\x1CHeinz\x1CArthur\x1C\x1C\x1C\x1C12230
-    Iron Bridge Rd\x1CSte A\x1CChester\x1CVA\x1C238311534\x1C\x1C20140606\x1C1000.00\x1CHeinz
-    Insurance & Financial Services\x1Cinsurance\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00365692\x1C679EFD252AA554734BD0\x1CIND\x1C\x1CWheat\x1CJames\x1CC\x1C\x1CIII\x1C10001
+    Patterson Ave. STE 100\x1C\x1CHenrico\x1CVA\x1C232385126\x1C\x1C20140606\x1C2000.00\x1CColonnade
+    Capital\x1COwner\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -284,17 +274,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Owner
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00365692\x1C679EFD252AA554734BD0\x1CIND\x1C\x1CWheat\x1CJames\x1CC\x1C\x1CIII\x1C10001
-    Patterson Ave. STE 100\x1C\x1CHenrico\x1CVA\x1C232385126\x1C\x1C20140606\x1C2000.00\x1CColonnade
-    Capital\x1COwner\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00365692\x1C6ED3FD872F8744810BC7\x1CIND\x1C\x1CMintz\x1CLouis\x1CN\x1C\x1C\x1C20
+    Fiske Place\x1C\x1CBrooklyn\x1CNY\x1C112152205\x1C\x1C20140606\x1C1000.00\x1CJF
+    Lehamn & Co\x1CFinance\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -355,17 +339,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Finance
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00365692\x1C6ED3FD872F8744810BC7\x1CIND\x1C\x1CMintz\x1CLouis\x1CN\x1C\x1C\x1C20
-    Fiske Place\x1C\x1CBrooklyn\x1CNY\x1C112152205\x1C\x1C20140606\x1C1000.00\x1CJF
-    Lehamn & Co\x1CFinance\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00365692\x1C61DB698A8614D42018E3\x1CCCM\x1CFriends of Dennis Proffitt\x1C\x1C\x1C\x1C\x1C\x1C5800
+    Kingsland Road\x1C\x1CRichmond\x1CVA\x1C23237\x1C\x1C20140606\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -426,14 +403,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00365692\x1C61DB698A8614D42018E3\x1CCCM\x1CFriends of Dennis Proffitt\x1C\x1C\x1C\x1C\x1C\x1C5800
-    Kingsland Road\x1C\x1CRichmond\x1CVA\x1C23237\x1C\x1C20140606\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

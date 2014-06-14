@@ -78,10 +78,12 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140605
-
-'
-- attempt:
+    value: '20140605'
+- input: "F65\x1CC00506048\x1C684DE7FCF9E76404D971\x1CIND\x1C\x1CConnolly\x1CT.J.\x1C\x1C\x1CII\x1C1639
+    Brookhaven Close NE\x1C\x1CAtlanta\x1CGA\x1C303195501\x1C\x1C20140604\x1C1500.00\x1CConnolly
+    Realty Services, Inc.\x1CReal Estate\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -142,17 +144,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Real Estate
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C684DE7FCF9E76404D971\x1CIND\x1C\x1CConnolly\x1CT.J.\x1C\x1C\x1CII\x1C1639
-    Brookhaven Close NE\x1C\x1CAtlanta\x1CGA\x1C303195501\x1C\x1C20140604\x1C1500.00\x1CConnolly
-    Realty Services, Inc.\x1CReal Estate\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C66869E6AEE0664718821\x1CIND\x1C\x1CBarber\x1CJohn\x1C\x1C\x1C\x1C12
+    Cateswood Dr\x1C\x1CSpartanburg\x1CSC\x1C293023463\x1C\x1C20140604\x1C1000.00\x1CWhite
+    Oak Manor\x1CPresident\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -213,17 +209,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: President
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C66869E6AEE0664718821\x1CIND\x1C\x1CBarber\x1CJohn\x1C\x1C\x1C\x1C12
-    Cateswood Dr\x1C\x1CSpartanburg\x1CSC\x1C293023463\x1C\x1C20140604\x1C1000.00\x1CWhite
-    Oak Manor\x1CPresident\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C66BD2F6B0A75D4B56B99\x1CIND\x1C\x1CPhillips\x1CMichael\x1C\x1C\x1C\x1C6507
+    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295723307\x1C\x1C20140604\x1C1000.00\x1CBaush
+    Linneman\x1CCEO\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -284,17 +274,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: CEO
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C66BD2F6B0A75D4B56B99\x1CIND\x1C\x1CPhillips\x1CMichael\x1C\x1C\x1C\x1C6507
-    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295723307\x1C\x1C20140604\x1C1000.00\x1CBaush
-    Linneman\x1CCEO\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C61F8DF936EC9846EA80B\x1CIND\x1C\x1CLee\x1CJ.\x1CRandal\x1C\x1C\x1C176
+    Laurelhurst Ave\x1C\x1CColumbia\x1CSC\x1C292103824\x1C\x1C20140604\x1C1000.00\x1CGrand
+    Strand Health Care\x1CAdminstrator\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -355,17 +339,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Adminstrator
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C61F8DF936EC9846EA80B\x1CIND\x1C\x1CLee\x1CJ.\x1CRandal\x1C\x1C\x1C176
-    Laurelhurst Ave\x1C\x1CColumbia\x1CSC\x1C292103824\x1C\x1C20140604\x1C1000.00\x1CGrand
-    Strand Health Care\x1CAdminstrator\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6453CBE792616440BB0D\x1CIND\x1C\x1CWendel\x1CPaula\x1C\x1C\x1C\x1C8704
+    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295724417\x1C\x1C20140604\x1C2500.00\x1CHomemaker\x1CHomemaker\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -426,16 +403,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Homemaker
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6453CBE792616440BB0D\x1CIND\x1C\x1CWendel\x1CPaula\x1C\x1C\x1C\x1C8704
-    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295724417\x1C\x1C20140604\x1C2500.00\x1CHomemaker\x1CHomemaker\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6DF8654217FFA4765948\x1CIND\x1C\x1COconnor\x1CMaryann\x1C\x1C\x1C\x1C1544
+    Kadleston Way\x1C\x1CAtlanta\x1CGA\x1C303192508\x1C\x1C20140604\x1C2600.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -496,16 +467,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6DF8654217FFA4765948\x1CIND\x1C\x1COconnor\x1CMaryann\x1C\x1C\x1C\x1C1544
-    Kadleston Way\x1C\x1CAtlanta\x1CGA\x1C303192508\x1C\x1C20140604\x1C2600.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6179F6A8C655F45918C3\x1CIND\x1C\x1CHolmes\x1CHal\x1C\x1CDr.\x1C\x1CPO
+    Box 1659\x1C\x1CConway\x1CSC\x1C295281659\x1C\x1C20140604\x1C1600.00\x1CRetired\x1CPhysician\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -566,16 +531,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Physician
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6179F6A8C655F45918C3\x1CIND\x1C\x1CHolmes\x1CHal\x1C\x1CDr.\x1C\x1CPO
-    Box 1659\x1C\x1CConway\x1CSC\x1C295281659\x1C\x1C20140604\x1C1600.00\x1CRetired\x1CPhysician\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C63B076C28CFB74503BC9\x1CIND\x1C\x1CHudgins\x1CThomas\x1C\x1C\x1C\x1C4700
+    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295772549\x1C\x1C20140604\x1C1000.00\x1CRetired\x1CRetired\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -636,16 +595,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Retired
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C63B076C28CFB74503BC9\x1CIND\x1C\x1CHudgins\x1CThomas\x1C\x1C\x1C\x1C4700
-    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295772549\x1C\x1C20140604\x1C1000.00\x1CRetired\x1CRetired\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6A5330EE6507C47FA879\x1CIND\x1C\x1CBass\x1CRobert Steven\x1C\x1CDr.\x1C\x1C4708
+    Oleander Dr\x1C\x1CMyrtle Beach\x1CSC\x1C295775742\x1C\x1C20140604\x1C2600.00\x1CRetired\x1CRadiation
+    Oncologist\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -706,17 +660,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Radiation Oncologist
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6A5330EE6507C47FA879\x1CIND\x1C\x1CBass\x1CRobert Steven\x1C\x1CDr.\x1C\x1C4708
-    Oleander Dr\x1C\x1CMyrtle Beach\x1CSC\x1C295775742\x1C\x1C20140604\x1C2600.00\x1CRetired\x1CRadiation
-    Oncologist\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6CD6C74C4E0CC4F92BBA\x1CIND\x1C\x1CMcDowell\x1CHarry\x1C\x1C\x1C\x1C4961
+    Main St\x1C\x1CLoris\x1CSC\x1C295692625\x1C\x1C20140604\x1C1000.00\x1CSelf Employed\x1CRealtor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -777,16 +724,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Realtor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6CD6C74C4E0CC4F92BBA\x1CIND\x1C\x1CMcDowell\x1CHarry\x1C\x1C\x1C\x1C4961
-    Main St\x1C\x1CLoris\x1CSC\x1C295692625\x1C\x1C20140604\x1C1000.00\x1CSelf Employed\x1CRealtor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6A07CFE7F91504E93ADA\x1CIND\x1C\x1CWilliamson\x1CKelly\x1C\x1C\x1C\x1CP.O.
+    Box 1585\x1C\x1CShallotte\x1CNC\x1C284591585\x1C\x1C20140604\x1C2500.00\x1CSelf
+    Employed\x1CSelf Employed\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -847,17 +789,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Self Employed
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6A07CFE7F91504E93ADA\x1CIND\x1C\x1CWilliamson\x1CKelly\x1C\x1C\x1C\x1CP.O.
-    Box 1585\x1C\x1CShallotte\x1CNC\x1C284591585\x1C\x1C20140604\x1C2500.00\x1CSelf
-    Employed\x1CSelf Employed\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C69184B4A0BD224036815\x1CIND\x1C\x1CCastles\x1CRobert\x1C\x1C\x1CJr.\x1C7539
+    Veneto Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295728015\x1C\x1C20140604\x1C1000.00\x1CCastles
+    & Associates\x1CCivil Engineer\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -918,17 +854,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Civil Engineer
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C69184B4A0BD224036815\x1CIND\x1C\x1CCastles\x1CRobert\x1C\x1C\x1CJr.\x1C7539
-    Veneto Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295728015\x1C\x1C20140604\x1C1000.00\x1CCastles
-    & Associates\x1CCivil Engineer\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6A4D784C0D0844858931\x1CIND\x1C\x1CShore\x1CNeal\x1CD.\x1CDr.\x1C\x1C4
+    Nelson Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295724408\x1C\x1C20140604\x1C1000.00\x1CAtlantic
+    Urology Clinics\x1CUrologist\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -989,17 +919,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Urologist
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6A4D784C0D0844858931\x1CIND\x1C\x1CShore\x1CNeal\x1CD.\x1CDr.\x1C\x1C4
-    Nelson Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295724408\x1C\x1C20140604\x1C1000.00\x1CAtlantic
-    Urology Clinics\x1CUrologist\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6C0583B3B54514F838CB\x1CIND\x1C\x1CLeonard\x1CDonald\x1C\x1C\x1C\x1C3501
+    N Kings Hwy\x1C\x1CMyrtle Beach\x1CSC\x1C295772970\x1C\x1C20140604\x1C1000.00\x1CLeonard,
+    Call & Associates, In\x1CReal Estate Agent\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1060,17 +984,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Real Estate Agent
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6C0583B3B54514F838CB\x1CIND\x1C\x1CLeonard\x1CDonald\x1C\x1C\x1C\x1C3501
-    N Kings Hwy\x1C\x1CMyrtle Beach\x1CSC\x1C295772970\x1C\x1C20140604\x1C1000.00\x1CLeonard,
-    Call & Associates, In\x1CReal Estate Agent\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6547ECEBFD7F24A85B0D\x1CIND\x1C\x1CRay\x1CCharley\x1C\x1C\x1C\x1C1216
+    Lakeland Drive\x1C\x1CConway\x1CSC\x1C295263658\x1C\x1C20140604\x1C1000.00\x1CRay
+    Realty, Inc.\x1CRealtor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1131,17 +1049,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Realtor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6547ECEBFD7F24A85B0D\x1CIND\x1C\x1CRay\x1CCharley\x1C\x1C\x1C\x1C1216
-    Lakeland Drive\x1C\x1CConway\x1CSC\x1C295263658\x1C\x1C20140604\x1C1000.00\x1CRay
-    Realty, Inc.\x1CRealtor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6BE89946EEE20414F974\x1CIND\x1C\x1CSwatzel\x1CTom\x1C\x1C\x1C\x1CPost
+    Office Box 1311\x1C\x1CMurrells Inlet\x1CSC\x1C295761311\x1C\x1C20140604\x1C1000.00\x1CSwatzel
+    Strategies, Llc\x1CConsultant\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1202,17 +1114,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Consultant
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6BE89946EEE20414F974\x1CIND\x1C\x1CSwatzel\x1CTom\x1C\x1C\x1C\x1CPost
-    Office Box 1311\x1C\x1CMurrells Inlet\x1CSC\x1C295761311\x1C\x1C20140604\x1C1000.00\x1CSwatzel
-    Strategies, Llc\x1CConsultant\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C681B079092C144E9DBAB\x1CIND\x1C\x1CCecil\x1CCam\x1C\x1C\x1C\x1C1225
+    Partridge Rd\x1C\x1CSpartanburg\x1CSC\x1C293023329\x1C\x1C20140604\x1C1600.00\x1CSelf
+    Employed\x1CHealthcare\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1273,17 +1179,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Healthcare
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C681B079092C144E9DBAB\x1CIND\x1C\x1CCecil\x1CCam\x1C\x1C\x1C\x1C1225
-    Partridge Rd\x1C\x1CSpartanburg\x1CSC\x1C293023329\x1C\x1C20140604\x1C1600.00\x1CSelf
-    Employed\x1CHealthcare\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C697F49DB1F9234916822\x1CIND\x1C\x1CNorwood\x1CAnne\x1C\x1C\x1C\x1C501
+    Camellia Cir\x1C\x1CFlorence\x1CSC\x1C295015771\x1C\x1C20140604\x1C2400.00\x1CSelf
+    Employed\x1CHomemaker\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1344,17 +1244,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Homemaker
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C697F49DB1F9234916822\x1CIND\x1C\x1CNorwood\x1CAnne\x1C\x1C\x1C\x1C501
-    Camellia Cir\x1C\x1CFlorence\x1CSC\x1C295015771\x1C\x1C20140604\x1C2400.00\x1CSelf
-    Employed\x1CHomemaker\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C64C8F2364CAB94B6398B\x1CIND\x1C\x1CDaniel\x1CLoyd\x1C\x1C\x1C\x1C1000
+    2nd Ave S\x1C\x1CNorth Myrtle Beach\x1CSC\x1C295828105\x1C\x1C20140604\x1C1000.00\x1COceana
+    Resorts\x1CManager\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1415,17 +1309,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Manager
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C64C8F2364CAB94B6398B\x1CIND\x1C\x1CDaniel\x1CLoyd\x1C\x1C\x1C\x1C1000
-    2nd Ave S\x1C\x1CNorth Myrtle Beach\x1CSC\x1C295828105\x1C\x1C20140604\x1C1000.00\x1COceana
-    Resorts\x1CManager\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C672A72EFB14ED4CF1842\x1CIND\x1C\x1CWilfong\x1CRobert\x1C\x1C\x1C\x1C3049
+    Holly Berry Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295795185\x1C\x1C20140604\x1C1000.00\x1CCastles
+    Engineering\x1CEngineer\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1486,17 +1374,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Engineer
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C672A72EFB14ED4CF1842\x1CIND\x1C\x1CWilfong\x1CRobert\x1C\x1C\x1C\x1C3049
-    Holly Berry Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295795185\x1C\x1C20140604\x1C1000.00\x1CCastles
-    Engineering\x1CEngineer\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C638A711D62B644F06875\x1CIND\x1C\x1CGrigg\x1CRoger\x1C\x1C\x1C\x1C302
+    Wildwood Dunes Trl\x1C\x1CMyrtle Beach\x1CSC\x1C295724749\x1C\x1C20140604\x1C1000.00\x1CLeonard,
+    Grigg & Assoc.\x1CReal Estate\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1557,17 +1439,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Real Estate
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C638A711D62B644F06875\x1CIND\x1C\x1CGrigg\x1CRoger\x1C\x1C\x1C\x1C302
-    Wildwood Dunes Trl\x1C\x1CMyrtle Beach\x1CSC\x1C295724749\x1C\x1C20140604\x1C1000.00\x1CLeonard,
-    Grigg & Assoc.\x1CReal Estate\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6755B299B42D64C21881\x1CIND\x1C\x1CBogache\x1CWilliam\x1C\x1CDr.\x1C\x1C8905
+    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295724422\x1C\x1C20140604\x1C1500.00\x1CGrand
+    Strand Regional Med. Ctr\x1CUrologist\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1628,17 +1504,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Urologist
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6755B299B42D64C21881\x1CIND\x1C\x1CBogache\x1CWilliam\x1C\x1CDr.\x1C\x1C8905
-    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295724422\x1C\x1C20140604\x1C1500.00\x1CGrand
-    Strand Regional Med. Ctr\x1CUrologist\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C674A1B5A1B4DE49F2B01\x1CIND\x1C\x1CLofe\x1CDennis\x1C\x1C\x1C\x1C41
+    Fernie Ln\x1C\x1CRembert\x1CSC\x1C291289695\x1C\x1C20140604\x1C1000.00\x1CGm Wilson
+    Group\x1CNursing Home Management\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1699,17 +1569,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Nursing Home Management
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C674A1B5A1B4DE49F2B01\x1CIND\x1C\x1CLofe\x1CDennis\x1C\x1C\x1C\x1C41
-    Fernie Ln\x1C\x1CRembert\x1CSC\x1C291289695\x1C\x1C20140604\x1C1000.00\x1CGm Wilson
-    Group\x1CNursing Home Management\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6FD0BF46E55EF4F248C1\x1CIND\x1C\x1CSingleton\x1CJames\x1C\x1C\x1C\x1C306
+    Wildwood Dunes Trl\x1C\x1CMyrtle Beach\x1CSC\x1C295724749\x1C\x1C20140604\x1C1000.00\x1CNew
+    South Companies\x1CBusiness Management\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1770,17 +1634,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Business Management
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6FD0BF46E55EF4F248C1\x1CIND\x1C\x1CSingleton\x1CJames\x1C\x1C\x1C\x1C306
-    Wildwood Dunes Trl\x1C\x1CMyrtle Beach\x1CSC\x1C295724749\x1C\x1C20140604\x1C1000.00\x1CNew
-    South Companies\x1CBusiness Management\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6E668E61A4DB34DD7807\x1CIND\x1C\x1CDean\x1CBrad\x1C\x1C\x1C\x1C256
+    Long Ridge Dr\x1C\x1CMurrells Inlet\x1CSC\x1C295767023\x1C\x1C20140604\x1C1000.00\x1CMyrtle
+    Beach Chamber of Commerce\x1CPresident\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1841,17 +1699,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: President
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6E668E61A4DB34DD7807\x1CIND\x1C\x1CDean\x1CBrad\x1C\x1C\x1C\x1C256
-    Long Ridge Dr\x1C\x1CMurrells Inlet\x1CSC\x1C295767023\x1C\x1C20140604\x1C1000.00\x1CMyrtle
-    Beach Chamber of Commerce\x1CPresident\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6377CFFD896884280A59\x1CIND\x1C\x1CIsaac\x1CDaniel\x1C\x1C\x1C\x1C204
+    Club Dr\x1C\x1CMyrtle Beach\x1CSC\x1C295724705\x1C\x1C20140604\x1C1900.00\x1CA
+    & I\x1CContractor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1912,17 +1764,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Contractor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6377CFFD896884280A59\x1CIND\x1C\x1CIsaac\x1CDaniel\x1C\x1C\x1C\x1C204
-    Club Dr\x1C\x1CMyrtle Beach\x1CSC\x1C295724705\x1C\x1C20140604\x1C1900.00\x1CA
-    & I\x1CContractor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6BBB35707E9504B198DF\x1CIND\x1C\x1CSmith\x1CDon\x1CJ\x1CMr.\x1C\x1C135
+    N Gate Rd\x1C\x1CMyrtle Beach\x1CSC\x1C295725618\x1C\x1C20140604\x1C1000.00\x1CChicora
+    Development\x1CRealtor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -1983,17 +1829,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Realtor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6BBB35707E9504B198DF\x1CIND\x1C\x1CSmith\x1CDon\x1CJ\x1CMr.\x1C\x1C135
-    N Gate Rd\x1C\x1CMyrtle Beach\x1CSC\x1C295725618\x1C\x1C20140604\x1C1000.00\x1CChicora
-    Development\x1CRealtor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6304B5736568B428AA93\x1CIND\x1C\x1CCalliham\x1CRobert\x1C\x1C\x1C\x1C407
+    37th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772921\x1C\x1C20140604\x1C1000.00\x1CSmith
+    Sapp & Callihan\x1CAccountant\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2054,17 +1894,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Accountant
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6304B5736568B428AA93\x1CIND\x1C\x1CCalliham\x1CRobert\x1C\x1C\x1C\x1C407
-    37th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772921\x1C\x1C20140604\x1C1000.00\x1CSmith
-    Sapp & Callihan\x1CAccountant\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6C668BAB5C7D74A5AB26\x1CIND\x1C\x1CNorwood\x1CTimothy\x1CF.\x1C\x1C\x1C501
+    Camellia Cir\x1C\x1CFlorence\x1CSC\x1C295015771\x1C\x1C20140604\x1C2600.00\x1CAdp\x1CVice
+    President of Sales\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2125,17 +1959,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Vice President of Sales
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6C668BAB5C7D74A5AB26\x1CIND\x1C\x1CNorwood\x1CTimothy\x1CF.\x1C\x1C\x1C501
-    Camellia Cir\x1C\x1CFlorence\x1CSC\x1C295015771\x1C\x1C20140604\x1C2600.00\x1CAdp\x1CVice
-    President of Sales\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C62A5E721AEFDD458280D\x1CIND\x1C\x1CBranton\x1CHarold\x1CD\x1C\x1C\x1C3507
+    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295772951\x1C\x1C20140604\x1C1000.00\x1CGrand
+    Strand Healthcare, Inc.\x1CLawyer\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2196,17 +2024,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Lawyer
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C62A5E721AEFDD458280D\x1CIND\x1C\x1CBranton\x1CHarold\x1CD\x1C\x1C\x1C3507
-    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295772951\x1C\x1C20140604\x1C1000.00\x1CGrand
-    Strand Healthcare, Inc.\x1CLawyer\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6069A74E30BEA4F1AAB7\x1CIND\x1C\x1CBeckham\x1CWarren\x1C\x1C\x1C\x1CPO
+    Box 7522\x1C\x1CMyrtle Beach\x1CSC\x1C295720013\x1C\x1C20140604\x1C1000.00\x1CBeckham
+    Management, Inc.\x1CManagement Services\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2267,17 +2089,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Management Services
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6069A74E30BEA4F1AAB7\x1CIND\x1C\x1CBeckham\x1CWarren\x1C\x1C\x1C\x1CPO
-    Box 7522\x1C\x1CMyrtle Beach\x1CSC\x1C295720013\x1C\x1C20140604\x1C1000.00\x1CBeckham
-    Management, Inc.\x1CManagement Services\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C65A6D2725723C4506825\x1CIND\x1C\x1CBonner\x1CJack\x1C\x1C\x1C\x1C408
+    37th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772922\x1C\x1C20140604\x1C1000.00\x1CCactus
+    Sands\x1COwner\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2338,17 +2154,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Owner
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C65A6D2725723C4506825\x1CIND\x1C\x1CBonner\x1CJack\x1C\x1C\x1C\x1C408
-    37th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772922\x1C\x1C20140604\x1C1000.00\x1CCactus
-    Sands\x1COwner\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C66C5FC90A1F4D434C9F3\x1CIND\x1C\x1CHinson\x1CKeith\x1CC.\x1C\x1C\x1C5
+    Nelson Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295724408\x1C\x1C20140604\x1C1600.00\x1CWaccamaw
+    Land & Timber\x1CReal Estate Investor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2409,17 +2219,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Real Estate Investor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C66C5FC90A1F4D434C9F3\x1CIND\x1C\x1CHinson\x1CKeith\x1CC.\x1C\x1C\x1C5
-    Nelson Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295724408\x1C\x1C20140604\x1C1600.00\x1CWaccamaw
-    Land & Timber\x1CReal Estate Investor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C693810F103007447EA6C\x1CIND\x1C\x1CWakefield\x1CJ.\x1CCollins\x1C\x1C\x1C5912
+    Haskell Cir\x1C\x1CMyrtle Beach\x1CSC\x1C295772351\x1C\x1C20140604\x1C1000.00\x1CIvory
+    Holdings LLC\x1CCFO\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2480,17 +2284,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: CFO
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C693810F103007447EA6C\x1CIND\x1C\x1CWakefield\x1CJ.\x1CCollins\x1C\x1C\x1C5912
-    Haskell Cir\x1C\x1CMyrtle Beach\x1CSC\x1C295772351\x1C\x1C20140604\x1C1000.00\x1CIvory
-    Holdings LLC\x1CCFO\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6DCEF3CB3117C4C8C8D7\x1CIND\x1C\x1CEnglish\x1CDavid\x1C\x1C\x1C\x1C578
+    Wallace Pate Dr\x1C\x1CGeorgetown\x1CSC\x1C294407087\x1C\x1C20140604\x1C1000.00\x1CCoastal
+    Nissan\x1COwner\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2551,17 +2349,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Owner
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6DCEF3CB3117C4C8C8D7\x1CIND\x1C\x1CEnglish\x1CDavid\x1C\x1C\x1C\x1C578
-    Wallace Pate Dr\x1C\x1CGeorgetown\x1CSC\x1C294407087\x1C\x1C20140604\x1C1000.00\x1CCoastal
-    Nissan\x1COwner\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6BC7078D6903D494F83A\x1CIND\x1C\x1CConnolly\x1CMary\x1C\x1C\x1C\x1C1639
+    Brookhaven Close NE\x1C\x1CAtlanta\x1CGA\x1C303195501\x1C\x1C20140604\x1C1500.00\x1CSelf
+    Employed\x1CHomemaker\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2622,17 +2414,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Homemaker
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6BC7078D6903D494F83A\x1CIND\x1C\x1CConnolly\x1CMary\x1C\x1C\x1C\x1C1639
-    Brookhaven Close NE\x1C\x1CAtlanta\x1CGA\x1C303195501\x1C\x1C20140604\x1C1500.00\x1CSelf
-    Employed\x1CHomemaker\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C612AB34AED76D4A648AF\x1CIND\x1C\x1CDurant\x1CLaura\x1C\x1C\x1C\x1C402
+    43rd Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772711\x1C\x1C20140604\x1C1000.00\x1CWebster
+    Rogers\x1CAccountant\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2693,17 +2479,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Accountant
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C612AB34AED76D4A648AF\x1CIND\x1C\x1CDurant\x1CLaura\x1C\x1C\x1C\x1C402
-    43rd Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772711\x1C\x1C20140604\x1C1000.00\x1CWebster
-    Rogers\x1CAccountant\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6C5FE07B8CE1048F78C3\x1CIND\x1C\x1CNapier\x1CJohn\x1CL\x1C\x1C\x1CPO
+    Box 2874\x1C\x1CPawleys Island\x1CSC\x1C295852874\x1C\x1C20140604\x1C1000.00\x1CSelf
+    Employed\x1CAttorney\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2764,17 +2544,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Attorney
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6C5FE07B8CE1048F78C3\x1CIND\x1C\x1CNapier\x1CJohn\x1CL\x1C\x1C\x1CPO
-    Box 2874\x1C\x1CPawleys Island\x1CSC\x1C295852874\x1C\x1C20140604\x1C1000.00\x1CSelf
-    Employed\x1CAttorney\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6B0EF212A6B614D07AB5\x1CIND\x1C\x1CFulchino\x1CMark\x1CL.\x1C\x1C\x1C1002
+    Rolandvue Road\x1C\x1CTowson\x1CMD\x1C212046815\x1C\x1C20140604\x1C1000.00\x1CTrans
+    Health Care Inc\x1CPresident\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2835,17 +2609,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: President
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6B0EF212A6B614D07AB5\x1CIND\x1C\x1CFulchino\x1CMark\x1CL.\x1C\x1C\x1C1002
-    Rolandvue Road\x1C\x1CTowson\x1CMD\x1C212046815\x1C\x1C20140604\x1C1000.00\x1CTrans
-    Health Care Inc\x1CPresident\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C64F9A7FEFB6B04974B72\x1CIND\x1C\x1CVukov\x1CGary\x1C\x1CDr.\x1C\x1C7901
+    Beach Dr\x1C\x1CMyrtle Beach\x1CSC\x1C295724337\x1C\x1C20140604\x1C1000.00\x1CCardiology
+    Gastroenterology As\x1CPhysician\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2906,17 +2674,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Physician
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C64F9A7FEFB6B04974B72\x1CIND\x1C\x1CVukov\x1CGary\x1C\x1CDr.\x1C\x1C7901
-    Beach Dr\x1C\x1CMyrtle Beach\x1CSC\x1C295724337\x1C\x1C20140604\x1C1000.00\x1CCardiology
-    Gastroenterology As\x1CPhysician\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6DE9420466A1A4DBE874\x1CIND\x1C\x1CWendel\x1CDoug\x1C\x1C\x1C\x1C8704
+    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295724417\x1C\x1C20140604\x1C2500.00\x1CSelf
+    Employed\x1CConsultant\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -2977,17 +2739,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Consultant
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6DE9420466A1A4DBE874\x1CIND\x1C\x1CWendel\x1CDoug\x1C\x1C\x1C\x1C8704
-    N Ocean Blvd\x1C\x1CMyrtle Beach\x1CSC\x1C295724417\x1C\x1C20140604\x1C2500.00\x1CSelf
-    Employed\x1CConsultant\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C663EE7E0003B046F6A4D\x1CIND\x1C\x1CLester\x1CDicke\x1C\x1C\x1C\x1C1303
+    Azalea Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295775765\x1C\x1C20140604\x1C2500.00\x1CLester
+    & Lester\x1CLawyer\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3048,17 +2804,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Lawyer
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C663EE7E0003B046F6A4D\x1CIND\x1C\x1CLester\x1CDicke\x1C\x1C\x1C\x1C1303
-    Azalea Ct\x1C\x1CMyrtle Beach\x1CSC\x1C295775765\x1C\x1C20140604\x1C2500.00\x1CLester
-    & Lester\x1CLawyer\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C64C15EC77C08341478BC\x1CIND\x1C\x1CHinds\x1CRebecca\x1C\x1C\x1C\x1C144
+    Cabana Road\x1C\x1CMyrtle Beach\x1CSC\x1C295725604\x1C\x1C20140604\x1C1000.00\x1CFirst
+    Presbyterian Church\x1CBusiness Administrator\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3119,17 +2869,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Business Administrator
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C64C15EC77C08341478BC\x1CIND\x1C\x1CHinds\x1CRebecca\x1C\x1C\x1C\x1C144
-    Cabana Road\x1C\x1CMyrtle Beach\x1CSC\x1C295725604\x1C\x1C20140604\x1C1000.00\x1CFirst
-    Presbyterian Church\x1CBusiness Administrator\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6FEF9CA5DA56B47BD8D3\x1CIND\x1C\x1CAdams\x1CJohn\x1C\x1C\x1C\x1C7
+    Waverly Rd\x1C\x1CPawleys Island\x1CSC\x1C295855803\x1C\x1C20140604\x1C1000.00\x1CNone\x1CRetired\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3190,16 +2933,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Retired
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6FEF9CA5DA56B47BD8D3\x1CIND\x1C\x1CAdams\x1CJohn\x1C\x1C\x1C\x1C7
-    Waverly Rd\x1C\x1CPawleys Island\x1CSC\x1C295855803\x1C\x1C20140604\x1C1000.00\x1CNone\x1CRetired\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6D63C259FF4A04D50895\x1CIND\x1C\x1CCooper\x1CGary\x1CC\x1C\x1C\x1C6
+    Lower Waverly Rd\x1C\x1CPawleys Island\x1CSC\x1C295855879\x1C\x1C20140604\x1C1000.00\x1CPalmetto
+    Infusion, Inc.\x1CPresident\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3260,17 +2998,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: President
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6D63C259FF4A04D50895\x1CIND\x1C\x1CCooper\x1CGary\x1CC\x1C\x1C\x1C6
-    Lower Waverly Rd\x1C\x1CPawleys Island\x1CSC\x1C295855879\x1C\x1C20140604\x1C1000.00\x1CPalmetto
-    Infusion, Inc.\x1CPresident\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C633954E0F2DF4456F9CB\x1CIND\x1C\x1CCorbett\x1CKenneth\x1C\x1C\x1C\x1C145
+    Cabana Rd\x1C\x1CMyrtle Beach\x1CSC\x1C295725604\x1C\x1C20140604\x1C1000.00\x1CKenneth
+    Corbett Law Office\x1CLawyer\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3331,17 +3063,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Lawyer
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C633954E0F2DF4456F9CB\x1CIND\x1C\x1CCorbett\x1CKenneth\x1C\x1C\x1C\x1C145
-    Cabana Rd\x1C\x1CMyrtle Beach\x1CSC\x1C295725604\x1C\x1C20140604\x1C1000.00\x1CKenneth
-    Corbett Law Office\x1CLawyer\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C632DC0DF708F747F385E\x1CORG\x1CDAEDALUS MANAGEMENT SOLUTIONS,
+    LLC\x1C\x1C\x1C\x1C\x1C\x1CLand 29585\x1C\x1CPawleys Is\x1CSC\x1C295850000\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3402,16 +3127,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C632DC0DF708F747F385E\x1CORG\x1CDAEDALUS MANAGEMENT SOLUTIONS,
-    LLC\x1C\x1C\x1C\x1C\x1C\x1CLand 29585\x1C\x1CPawleys Is\x1CSC\x1C295850000\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6281F8885A0144E2AB67\x1CPAC\x1CAction Committee for
+    Rural Electrification PAC\x1C\x1C\x1C\x1C\x1C\x1C4301 Wilson Blvd.\x1C\x1CArlington\x1CVA\x1C222031867\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3472,16 +3191,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6281F8885A0144E2AB67\x1CPAC\x1CAction Committee for
-    Rural Electrification PAC\x1C\x1C\x1C\x1C\x1C\x1C4301 Wilson Blvd.\x1C\x1CArlington\x1CVA\x1C222031867\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C65B7D463FBC014603B4D\x1CPAC\x1CBranch Banking & Trust
+    Company PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 1290\x1C\x1CWinston Salem\x1CNC\x1C271021290\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3542,16 +3255,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C65B7D463FBC014603B4D\x1CPAC\x1CBranch Banking & Trust
-    Company PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 1290\x1C\x1CWinston Salem\x1CNC\x1C271021290\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6CF2CBCBE41034DC58BE\x1CPAC\x1CHCA Good Government Fund\x1C\x1C\x1C\x1C\x1C\x1CPO
+    Box 550\x1C\x1CNashville\x1CTN\x1C372020550\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3612,16 +3319,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6CF2CBCBE41034DC58BE\x1CPAC\x1CHCA Good Government Fund\x1C\x1C\x1C\x1C\x1C\x1CPO
-    Box 550\x1C\x1CNashville\x1CTN\x1C372020550\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6761A826ED2884C34853\x1CPAC\x1CUnited Health Services
+    Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1C211 E. Doyle St.\x1C\x1CToccoa\x1CGA\x1C305772960\x1C\x1C20140604\x1C2500.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3682,16 +3383,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6761A826ED2884C34853\x1CPAC\x1CUnited Health Services
-    Inc. PAC\x1C\x1C\x1C\x1C\x1C\x1C211 E. Doyle St.\x1C\x1CToccoa\x1CGA\x1C305772960\x1C\x1C20140604\x1C2500.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6CE111FF878C4473BA5A\x1CPAC\x1CAmerican Health Care
+    Association PAC\x1C\x1C\x1C\x1C\x1C\x1C1201 L St NW\x1C\x1CWashington\x1CDC\x1C200054024\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3752,16 +3447,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6CE111FF878C4473BA5A\x1CPAC\x1CAmerican Health Care
-    Association PAC\x1C\x1C\x1C\x1C\x1C\x1C1201 L St NW\x1C\x1CWashington\x1CDC\x1C200054024\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C600FC91328C0E48B99F1\x1CPAC\x1CNational Health Corporation
+    PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 1398\x1C\x1CMurfreesboro\x1CTN\x1C371331398\x1C\x1C20140604\x1C2500.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3822,16 +3511,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C600FC91328C0E48B99F1\x1CPAC\x1CNational Health Corporation
-    PAC\x1C\x1C\x1C\x1C\x1C\x1CPO Box 1398\x1C\x1CMurfreesboro\x1CTN\x1C371331398\x1C\x1C20140604\x1C2500.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C65C39B1B4CD474461BE8\x1CPAC\x1COral and Maxillofacial
+    \ Surgery PAC\x1C\x1C\x1C\x1C\x1C\x1C9700 Bryn Mawr Ave\x1C\x1CRosemont\x1CIL\x1C600185701\x1C\x1C20140604\x1C2000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3892,16 +3575,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C65C39B1B4CD474461BE8\x1CPAC\x1COral and Maxillofacial
-    \ Surgery PAC\x1C\x1C\x1C\x1C\x1C\x1C9700 Bryn Mawr Ave\x1C\x1CRosemont\x1CIL\x1C600185701\x1C\x1C20140604\x1C2000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6FBB6BD3303DF4A20BC6\x1CPAC\x1CNational Telecommun Coop.
+    Assoc. PAC\x1C\x1C\x1C\x1C\x1C\x1C4121 Wilson Blvd Fl 10\x1C\x1CArlington\x1CVA\x1C222031839\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -3962,16 +3639,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6FBB6BD3303DF4A20BC6\x1CPAC\x1CNational Telecommun Coop.
-    Assoc. PAC\x1C\x1C\x1C\x1C\x1C\x1C4121 Wilson Blvd Fl 10\x1C\x1CArlington\x1CVA\x1C222031839\x1C\x1C20140604\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C6477953627896482A85D\x1CPAC\x1CRealtors Pac\x1C\x1C\x1C\x1C\x1C\x1C430
+    N Michigan Ave # 60611\x1C\x1CChicago\x1CIL\x1C606114011\x1C\x1C20140605\x1C1000.00\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -4032,16 +3703,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C6477953627896482A85D\x1CPAC\x1CRealtors Pac\x1C\x1C\x1C\x1C\x1C\x1C430
-    N Michigan Ave # 60611\x1C\x1CChicago\x1CIL\x1C606114011\x1C\x1C20140605\x1C1000.00\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C660A43DB115624EDC837\x1CIND\x1C\x1CWard\x1CJimmy\x1C\x1C\x1C\x1C402
+    44th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772713\x1C\x1C20140605\x1C2400.00\x1CSelf
+    Employed\x1CInvestor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -4102,17 +3768,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Investor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C660A43DB115624EDC837\x1CIND\x1C\x1CWard\x1CJimmy\x1C\x1C\x1C\x1C402
-    44th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772713\x1C\x1C20140605\x1C2400.00\x1CSelf
-    Employed\x1CInvestor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C67F0BE02412324E2B80F\x1CIND\x1C\x1CElliott\x1CRick\x1C\x1C\x1C\x1CPO
+    Box 3715\x1C\x1CNorth Myrtle Beach\x1CSC\x1C295820715\x1C\x1C20140605\x1C1000.00\x1CElliott
+    Realty\x1CRealtor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -4173,17 +3833,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Realtor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C67F0BE02412324E2B80F\x1CIND\x1C\x1CElliott\x1CRick\x1C\x1C\x1C\x1CPO
-    Box 3715\x1C\x1CNorth Myrtle Beach\x1CSC\x1C295820715\x1C\x1C20140605\x1C1000.00\x1CElliott
-    Realty\x1CRealtor\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00506048\x1C66F07074D597841DC99E\x1CIND\x1C\x1CWard\x1CJimmy\x1C\x1C\x1C\x1C402
+    44th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772713\x1C\x1C20140605\x1C2600.00\x1CSelf
+    Employed\x1CInvestor\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -4244,15 +3898,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Investor
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00506048\x1C66F07074D597841DC99E\x1CIND\x1C\x1CWard\x1CJimmy\x1C\x1C\x1C\x1C402
-    44th Ave N\x1C\x1CMyrtle Beach\x1CSC\x1C295772713\x1C\x1C20140605\x1C2600.00\x1CSelf
-    Employed\x1CInvestor\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

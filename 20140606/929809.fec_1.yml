@@ -77,10 +77,11 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "F65\x1CC00451005\x1C9013000\x1CCOM\x1CManufacturers & Traders Trust PAC
+    (M&T Bank PAC)\x1C\x1C\x1C\x1C\x1C\x1C465 Main Street\x1CSuite 500\x1CBuffalo\x1CNY\x1C14203\x1CC00137273\x1C20140605\x1C1000\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -141,16 +142,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9013000\x1CCOM\x1CManufacturers & Traders Trust PAC
-    (M&T Bank PAC)\x1C\x1C\x1C\x1C\x1C\x1C465 Main Street\x1CSuite 500\x1CBuffalo\x1CNY\x1C14203\x1CC00137273\x1C20140605\x1C1000\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9014000\x1CORG\x1CO'Hara Industrial Park\x1C\x1C\x1C\x1C\x1C\x1C101
+    Armstrong Road\x1C\x1CPittston\x1CPA\x1C18640\x1C\x1C20140605\x1C1000\x1C\x1C\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -211,16 +206,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: ''
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9014000\x1CORG\x1CO'Hara Industrial Park\x1C\x1C\x1C\x1C\x1C\x1C101
-    Armstrong Road\x1C\x1CPittston\x1CPA\x1C18640\x1C\x1C20140605\x1C1000\x1C\x1C\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9012000\x1CIND\x1C\x1CAkel\x1CRonald\x1C\x1C\x1C\x1C283
+    Riverside Drive\x1C\x1CBinghamton\x1CNY\x1C139054060\x1C\x1C20140605\x1C2600\x1CAkel
+    Wholesale\x1CBusinessman\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -281,17 +271,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Businessman
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9012000\x1CIND\x1C\x1CAkel\x1CRonald\x1C\x1C\x1C\x1C283
-    Riverside Drive\x1C\x1CBinghamton\x1CNY\x1C139054060\x1C\x1C20140605\x1C2600\x1CAkel
-    Wholesale\x1CBusinessman\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9015000\x1CIND\x1C\x1CCoghlan\x1CSandra\x1C\x1C\x1C\x1C124
+    \ Crocker Hill Road\x1C\x1CBinghamton\x1CNY\x1C139042509\x1C\x1C20140605\x1C3000\x1CInformation
+    Requested\x1CInformation Requested\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -352,17 +336,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Information Requested
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9015000\x1CIND\x1C\x1CCoghlan\x1CSandra\x1C\x1C\x1C\x1C124
-    \ Crocker Hill Road\x1C\x1CBinghamton\x1CNY\x1C139042509\x1C\x1C20140605\x1C3000\x1CInformation
-    Requested\x1CInformation Requested\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9016000\x1CIND\x1C\x1CFahs\x1CMaynard\x1C\x1C\x1C\x1C6
+    \ Oak Tree Drive\x1C\x1CBinghamton\x1CNY\x1C139035903\x1C\x1C20140605\x1C2400\x1CFahs
+    Construction Group\x1COwner\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -423,17 +401,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Owner
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9016000\x1CIND\x1C\x1CFahs\x1CMaynard\x1C\x1C\x1C\x1C6
-    \ Oak Tree Drive\x1C\x1CBinghamton\x1CNY\x1C139035903\x1C\x1C20140605\x1C2400\x1CFahs
-    Construction Group\x1COwner\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9017000\x1CIND\x1C\x1CFahs\x1CMegan\x1C\x1C\x1C\x1C6
+    \ Oak Tree Drive\x1C\x1CBinghamton\x1CNY\x1C139035903\x1C\x1C20140605\x1C2400\x1CHomemaker\x1CHomemaker\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -494,16 +465,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Homemaker
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9017000\x1CIND\x1C\x1CFahs\x1CMegan\x1C\x1C\x1C\x1C6
-    \ Oak Tree Drive\x1C\x1CBinghamton\x1CNY\x1C139035903\x1C\x1C20140605\x1C2400\x1CHomemaker\x1CHomemaker\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9011000\x1CIND\x1C\x1CMirabito\x1CJoseph\x1CP.\x1C\x1C\x1C57
+    Timber Bluff Court\x1C\x1CBinghamton\x1CNY\x1C13903\x1C\x1C20140605\x1C1000\x1CMirabito
+    Holdings\x1CExecutive\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -564,17 +530,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Executive
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9011000\x1CIND\x1C\x1CMirabito\x1CJoseph\x1CP.\x1C\x1C\x1C57
-    Timber Bluff Court\x1C\x1CBinghamton\x1CNY\x1C13903\x1C\x1C20140605\x1C1000\x1CMirabito
-    Holdings\x1CExecutive\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9005000\x1CIND\x1C\x1CWalsh\x1CWilliam\x1C\x1C\x1C\x1C4101
+    Watson Boulevard\x1C\x1CJohnson City\x1CNY\x1C13790\x1C\x1C20140605\x1C2000\x1CTraditions
+    Resort\x1COwner\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -635,17 +595,10 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Owner
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9005000\x1CIND\x1C\x1CWalsh\x1CWilliam\x1C\x1C\x1C\x1C4101
-    Watson Boulevard\x1C\x1CJohnson City\x1CNY\x1C13790\x1C\x1C20140605\x1C2000\x1CTraditions
-    Resort\x1COwner\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00451005\x1C9010000\x1CIND\x1C\x1CWhittaker\x1CSean\x1CE.\x1C\x1C\x1C106
+    Reach Run Road\x1C\x1CIthaca\x1CNY\x1C14850\x1C\x1C20140605\x1C1000\x1CIncodema\x1CPresident\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -706,14 +659,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: President
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00451005\x1C9010000\x1CIND\x1C\x1CWhittaker\x1CSean\x1CE.\x1C\x1C\x1C106
-    Reach Run Road\x1C\x1CIthaca\x1CNY\x1C14850\x1C\x1C20140605\x1C1000\x1CIncodema\x1CPresident\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

@@ -3,7 +3,10 @@ filename: 929812.fec
 header: {}
 rows:
 - 2
-- attempt:
+- input: "F3XN\x1CC00397893\x1CSSA Marine Inc. Good Government Fund\x1C\x1C1131 SW
+    Klickitat Way\x1C\x1CSeattle\x1CWA\x1C98134\x1CM6\x1CP2012\x1C\x1C\x1C20140501\x1C20140531\x1CX\x1CJOHNSON\x1CMARK\x1C\x1C\x1C\x1C20140606\x1C70870.00\x1C1330.00\x1C72200.00\x1C7000.00\x1C65200.00\x1C0.00\x1C0.00\x1C790.00\x1C540.00\x1C1330.00\x1C0.00\x1C0.00\x1C1330.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C1330.00\x1C1330.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C5000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7000.00\x1C7000.00\x1C1330.00\x1C0.00\x1C1330.00\x1C0.00\x1C0.00\x1C0.00\x1C92910.00\x1C2014\x1C6890.00\x1C99800.00\x1C34600.00\x1C65200.00\x1C2470.00\x1C4420.00\x1C6890.00\x1C0.00\x1C0.00\x1C6890.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C6890.00\x1C6890.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C29600.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C5000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C34600.00\x1C34600.00\x1C6890.00\x1C0.00\x1C6890.00\x1C0.00\x1C0.00\x1C0.00\x1C\n"
+  record: fec.version.v8_1.F3X
+  result:
   - name: FORM TYPE
     number: '1'
     value: F3XN
@@ -373,16 +376,11 @@ rows:
   - name: Net Operating Expenditures
     number: 123-38.
     value: '0.00'
-  - value: '
-
-'
-  expected_count: 123
-  input: "F3XN\x1CC00397893\x1CSSA Marine Inc. Good Government Fund\x1C\x1C1131 SW
-    Klickitat Way\x1C\x1CSeattle\x1CWA\x1C98134\x1CM6\x1CP2012\x1C\x1C\x1C20140501\x1C20140531\x1CX\x1CJOHNSON\x1CMARK\x1C\x1C\x1C\x1C20140606\x1C70870.00\x1C1330.00\x1C72200.00\x1C7000.00\x1C65200.00\x1C0.00\x1C0.00\x1C790.00\x1C540.00\x1C1330.00\x1C0.00\x1C0.00\x1C1330.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C1330.00\x1C1330.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C5000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7000.00\x1C7000.00\x1C1330.00\x1C0.00\x1C1330.00\x1C0.00\x1C0.00\x1C0.00\x1C92910.00\x1C2014\x1C6890.00\x1C99800.00\x1C34600.00\x1C65200.00\x1C2470.00\x1C4420.00\x1C6890.00\x1C0.00\x1C0.00\x1C6890.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C6890.00\x1C6890.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C29600.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C5000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C34600.00\x1C34600.00\x1C6890.00\x1C0.00\x1C6890.00\x1C0.00\x1C0.00\x1C0.00\x1C\n"
-  input_count: 124
-  record: fec.version.v8_1.F3X
-  result: []
-- attempt:
+- input: "SA11AI\x1CC00397893\x1CAA67787D378B1467096A\x1C\x1C\x1CIND\x1C\x1CMURRAY\x1CROBERT\x1C\x1C\x1C\x1C2419
+    8TH AVE N. #301\x1C\x1CSeattle\x1CWA\x1C981092285\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
+    Marine\x1CBSANYS\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -518,17 +516,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CAA67787D378B1467096A\x1C\x1C\x1CIND\x1C\x1CMURRAY\x1CROBERT\x1C\x1C\x1C\x1C2419
-    8TH AVE N. #301\x1C\x1CSeattle\x1CWA\x1C981092285\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
-    Marine\x1CBSANYS\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CAAA08B195E1454028A0F\x1C\x1C\x1CIND\x1C\x1CKELLY\x1CROBERT\x1C\x1C\x1C\x1C1129
+    WEST CAPITAL #39\x1C\x1CSan Pedro\x1CCA\x1C907322293\x1C\x1C\x1C20140515\x1C25.00\x1C225.00\x1C\x1CSSA
+    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -664,17 +656,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CAAA08B195E1454028A0F\x1C\x1C\x1CIND\x1C\x1CKELLY\x1CROBERT\x1C\x1C\x1C\x1C1129
-    WEST CAPITAL #39\x1C\x1CSan Pedro\x1CCA\x1C907322293\x1C\x1C\x1C20140515\x1C25.00\x1C225.00\x1C\x1CSSA
-    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA787F3051D3144B99BE4\x1C\x1C\x1CIND\x1C\x1CLUKINS\x1CKYLE\x1C\x1C\x1C\x1C15830
+    EUCLID AVE NE\x1C\x1CBainbridge Island\x1CWA\x1C981101186\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
+    Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -810,17 +796,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA787F3051D3144B99BE4\x1C\x1C\x1CIND\x1C\x1CLUKINS\x1CKYLE\x1C\x1C\x1C\x1C15830
-    EUCLID AVE NE\x1C\x1CBainbridge Island\x1CWA\x1C981101186\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
-    Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA48C87C42E8314061B08\x1C\x1C\x1CIND\x1C\x1CMICHOU\x1CDAVID\x1C\x1C\x1C\x1C8905
+    SPIKEWOOD DR\x1C\x1CHouston\x1CTX\x1C770784503\x1C\x1C\x1C20140515\x1C80.00\x1C720.00\x1C\x1CSSA
+    Marine\x1CRGVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -956,17 +936,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA48C87C42E8314061B08\x1C\x1C\x1CIND\x1C\x1CMICHOU\x1CDAVID\x1C\x1C\x1C\x1C8905
-    SPIKEWOOD DR\x1C\x1CHouston\x1CTX\x1C770784503\x1C\x1C\x1C20140515\x1C80.00\x1C720.00\x1C\x1CSSA
-    Marine\x1CRGVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CAFE10FB34F96A4F6C912\x1C\x1C\x1CIND\x1C\x1CMANTEL\x1CDAVID\x1C\x1C\x1C\x1C12473
+    N FALLEN SHADOWS DR\x1C\x1CMarana\x1CAZ\x1C856584392\x1C\x1C\x1C20140515\x1C30.00\x1C270.00\x1C\x1CSSA
+    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1102,17 +1076,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CAFE10FB34F96A4F6C912\x1C\x1C\x1CIND\x1C\x1CMANTEL\x1CDAVID\x1C\x1C\x1C\x1C12473
-    N FALLEN SHADOWS DR\x1C\x1CMarana\x1CAZ\x1C856584392\x1C\x1C\x1C20140515\x1C30.00\x1C270.00\x1C\x1CSSA
-    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA67FB5E36FDFF4B958AB\x1C\x1C\x1CIND\x1C\x1CKNEISLER\x1CJERRY\x1C\x1C\x1C\x1C9919
+    SAGEDALE\x1C\x1CHouston\x1CTX\x1C770895012\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
+    Marine\x1CVPGULF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1248,17 +1216,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA67FB5E36FDFF4B958AB\x1C\x1C\x1CIND\x1C\x1CKNEISLER\x1CJERRY\x1C\x1C\x1C\x1C9919
-    SAGEDALE\x1C\x1CHouston\x1CTX\x1C770895012\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
-    Marine\x1CVPGULF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CAB24A9E51EFA249F696F\x1C\x1C\x1CIND\x1C\x1CJOHNSON\x1CMARK\x1C\x1C\x1C\x1C1605
+    WALDEN DR\x1C\x1CMc Lean\x1CVA\x1C221013160\x1C\x1C\x1C20140515\x1C100.00\x1C900.00\x1C\x1CSSA
+    Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1394,17 +1356,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CAB24A9E51EFA249F696F\x1C\x1C\x1CIND\x1C\x1CJOHNSON\x1CMARK\x1C\x1C\x1C\x1C1605
-    WALDEN DR\x1C\x1CMc Lean\x1CVA\x1C221013160\x1C\x1C\x1C20140515\x1C100.00\x1C900.00\x1C\x1CSSA
-    Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA67AD6C8FB9E54E29833\x1C\x1C\x1CIND\x1C\x1CFERRIGNO\x1CSAL\x1C\x1C\x1C\x1C713
+    LEGARY PLACE\x1C\x1CSan Pedro\x1CCA\x1C907323413\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
+    Marine\x1CGENMGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1540,17 +1496,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA67AD6C8FB9E54E29833\x1C\x1C\x1CIND\x1C\x1CFERRIGNO\x1CSAL\x1C\x1C\x1C\x1C713
-    LEGARY PLACE\x1C\x1CSan Pedro\x1CCA\x1C907323413\x1C\x1C\x1C20140515\x1C40.00\x1C360.00\x1C\x1CSSA
-    Marine\x1CGENMGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CAFF6D02061294420BA04\x1C\x1C\x1CIND\x1C\x1CLUKINS\x1CKYLE\x1C\x1C\x1C\x1C15830
+    EUCLID AVE NE\x1C\x1CBainbridge Island\x1CWA\x1C981101186\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
+    Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1686,17 +1636,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CAFF6D02061294420BA04\x1C\x1C\x1CIND\x1C\x1CLUKINS\x1CKYLE\x1C\x1C\x1C\x1C15830
-    EUCLID AVE NE\x1C\x1CBainbridge Island\x1CWA\x1C981101186\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
+- input: "SA11AI\x1CC00397893\x1CA7C1544CD4B4748AF9F9\x1C\x1C\x1CIND\x1C\x1CJOHNSON\x1CMARK\x1C\x1C\x1C\x1C1605
+    WALDEN DR\x1C\x1CMc Lean\x1CVA\x1C221013160\x1C\x1C\x1C20140530\x1C100.00\x1C1000.00\x1C\x1CSSA
     Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1832,17 +1776,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA7C1544CD4B4748AF9F9\x1C\x1C\x1CIND\x1C\x1CJOHNSON\x1CMARK\x1C\x1C\x1C\x1C1605
-    WALDEN DR\x1C\x1CMc Lean\x1CVA\x1C221013160\x1C\x1C\x1C20140530\x1C100.00\x1C1000.00\x1C\x1CSSA
-    Marine\x1CVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA9363FB2190194A84915\x1C\x1C\x1CIND\x1C\x1CKNEISLER\x1CJERRY\x1C\x1C\x1C\x1C9919
+    SAGEDALE\x1C\x1CHouston\x1CTX\x1C770895012\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
+    Marine\x1CVPGULF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -1978,17 +1916,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA9363FB2190194A84915\x1C\x1C\x1CIND\x1C\x1CKNEISLER\x1CJERRY\x1C\x1C\x1C\x1C9919
-    SAGEDALE\x1C\x1CHouston\x1CTX\x1C770895012\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
-    Marine\x1CVPGULF\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA8433939E383F44469EA\x1C\x1C\x1CIND\x1C\x1CMANTEL\x1CDAVID\x1C\x1C\x1C\x1C12473
+    N FALLEN SHADOWS DR\x1C\x1CMarana\x1CAZ\x1C856584392\x1C\x1C\x1C20140530\x1C30.00\x1C300.00\x1C\x1CSSA
+    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -2124,17 +2056,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA8433939E383F44469EA\x1C\x1C\x1CIND\x1C\x1CMANTEL\x1CDAVID\x1C\x1C\x1C\x1C12473
-    N FALLEN SHADOWS DR\x1C\x1CMarana\x1CAZ\x1C856584392\x1C\x1C\x1C20140530\x1C30.00\x1C300.00\x1C\x1CSSA
-    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA13E8D41116544C8E854\x1C\x1C\x1CIND\x1C\x1CMICHOU\x1CDAVID\x1C\x1C\x1C\x1C8905
+    SPIKEWOOD DR\x1C\x1CHouston\x1CTX\x1C770784503\x1C\x1C\x1C20140530\x1C80.00\x1C800.00\x1C\x1CSSA
+    Marine\x1CRGVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -2270,17 +2196,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA13E8D41116544C8E854\x1C\x1C\x1CIND\x1C\x1CMICHOU\x1CDAVID\x1C\x1C\x1C\x1C8905
-    SPIKEWOOD DR\x1C\x1CHouston\x1CTX\x1C770784503\x1C\x1C\x1C20140530\x1C80.00\x1C800.00\x1C\x1CSSA
-    Marine\x1CRGVP\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA90F38CD23BA34DF3B46\x1C\x1C\x1CIND\x1C\x1CFERRIGNO\x1CSAL\x1C\x1C\x1C\x1C713
+    LEGARY PLACE\x1C\x1CSan Pedro\x1CCA\x1C907323413\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
+    Marine\x1CGENMGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -2416,17 +2336,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA90F38CD23BA34DF3B46\x1C\x1C\x1CIND\x1C\x1CFERRIGNO\x1CSAL\x1C\x1C\x1C\x1C713
-    LEGARY PLACE\x1C\x1CSan Pedro\x1CCA\x1C907323413\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
-    Marine\x1CGENMGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CA6CCC032D1F2C400D879\x1C\x1C\x1CIND\x1C\x1CKELLY\x1CROBERT\x1C\x1C\x1C\x1C1129
+    WEST CAPITAL #39\x1C\x1CSan Pedro\x1CCA\x1C907322293\x1C\x1C\x1C20140530\x1C25.00\x1C250.00\x1C\x1CSSA
+    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -2562,17 +2476,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CA6CCC032D1F2C400D879\x1C\x1C\x1CIND\x1C\x1CKELLY\x1CROBERT\x1C\x1C\x1C\x1C1129
-    WEST CAPITAL #39\x1C\x1CSan Pedro\x1CCA\x1C907322293\x1C\x1C\x1C20140530\x1C25.00\x1C250.00\x1C\x1CSSA
-    Marine\x1CMNGR\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
+- input: "SA11AI\x1CC00397893\x1CAC24F59E174504B23AA5\x1C\x1C\x1CIND\x1C\x1CMURRAY\x1CROBERT\x1C\x1C\x1C\x1C2419
+    8TH AVE N. #301\x1C\x1CSeattle\x1CWA\x1C981092285\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
+    Marine\x1CBSANYS\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SA
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -2708,17 +2616,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00397893\x1CAC24F59E174504B23AA5\x1C\x1C\x1CIND\x1C\x1CMURRAY\x1CROBERT\x1C\x1C\x1C\x1C2419
-    8TH AVE N. #301\x1C\x1CSeattle\x1CWA\x1C981092285\x1C\x1C\x1C20140530\x1C40.00\x1C400.00\x1C\x1CSSA
-    Marine\x1CBSANYS\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
-  record: fec.version.v8_1.SA
-  result: []
-- attempt:
+- input: "SB23\x1CC00397893\x1CB500A82D57CA5454C963\x1C\x1C\x1CCOM\x1CFriends of Dave
+    Reichert\x1C\x1C\x1C\x1C\x1C\x1CP. O. Box 53322\x1C\x1CBellevue\x1CWA\x1C980153322\x1CG2014\x1C\x1C20140523\x1C2000.00\x1C\x1CJune
+    11 Event\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
   - name: FORM TYPE
     number: '1'
     value: SB23
@@ -2851,17 +2753,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '44'
     value: ''
-  - value: '
-
-'
-  expected_count: 44
-  input: "SB23\x1CC00397893\x1CB500A82D57CA5454C963\x1C\x1C\x1CCOM\x1CFriends of Dave
-    Reichert\x1C\x1C\x1C\x1C\x1C\x1CP. O. Box 53322\x1C\x1CBellevue\x1CWA\x1C980153322\x1CG2014\x1C\x1C20140523\x1C2000.00\x1C\x1CJune
-    11 Event\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 45
+- input: "SB29\x1CC00397893\x1CBD70DC1C626044091B8F\x1C\x1C\x1CCOM\x1CTom Corbett
+    for Governor\x1C\x1C\x1C\x1C\x1C\x1CP. O. Box 1145\x1C\x1CHarrisburg\x1CPA\x1C17108\x1CG2014\x1C\x1C20140523\x1C5000.00\x1C\x1CJune
+    4 Event\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SB
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SB29
@@ -2994,15 +2890,5 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '44'
     value: ''
-  - value: '
-
-'
-  expected_count: 44
-  input: "SB29\x1CC00397893\x1CBD70DC1C626044091B8F\x1C\x1C\x1CCOM\x1CTom Corbett
-    for Governor\x1C\x1C\x1C\x1C\x1C\x1CP. O. Box 1145\x1C\x1CHarrisburg\x1CPA\x1C17108\x1CG2014\x1C\x1C20140523\x1C5000.00\x1C\x1CJune
-    4 Event\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 45
-  record: fec.version.v8_1.SB
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

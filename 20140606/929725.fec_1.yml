@@ -54,10 +54,12 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '16'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "SE\x1CC00488742\x1CE51440EE458104794AA1\x1C\x1C\x1CORG\x1CNational Association
+    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Ave\x1C\x1CChicago\x1CIL\x1C606114011\x1CP2014\x1C\x1C20140605\x1C50.00\x1C\x1C26125.00\x1CConsulting
+    Services\x1C\x1C\x1CS\x1CH0VA07042\x1CCantor\x1CEric\x1CI.\x1CRep.\x1C\x1CH\x1C07\x1CVA\x1CMcGrew\x1CMichael\x1C\x1C\x1C\x1C20140606\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SE
+  result:
   - name: FORM TYPE
     number: '1'
     value: SE
@@ -190,17 +192,11 @@ rows:
   - name: MEMO TEXT/DESCRIPTION
     number: '44'
     value: ''
-  - value: '
-
-'
-  expected_count: 44
-  input: "SE\x1CC00488742\x1CE51440EE458104794AA1\x1C\x1C\x1CORG\x1CNational Association
-    of REALTORS\x1C\x1C\x1C\x1C\x1C\x1C430 N Michigan Ave\x1C\x1CChicago\x1CIL\x1C606114011\x1CP2014\x1C\x1C20140605\x1C50.00\x1C\x1C26125.00\x1CConsulting
-    Services\x1C\x1C\x1CS\x1CH0VA07042\x1CCantor\x1CEric\x1CI.\x1CRep.\x1C\x1CH\x1C07\x1CVA\x1CMcGrew\x1CMichael\x1C\x1C\x1C\x1C20140606\x1C\x1C\x1C\n"
-  input_count: 45
+- input: "SE\x1CC00488742\x1CECD10D86292F7429FAF5\x1C\x1C\x1CORG\x1CMeath Media Group\x1C\x1C\x1C\x1C\x1C\x1C4441
+    Klingle St., NW\x1C\x1CWashington\x1CDC\x1C200163578\x1CP2014\x1C\x1C20140605\x1C26075.00\x1C\x1C26125.00\x1COnline
+    video production costs\x1C\x1C\x1CS\x1CH0VA07042\x1CCantor\x1CEric\x1CI.\x1CRep.\x1C\x1CH\x1C07\x1CVA\x1CMcGrew\x1CMichael\x1C\x1C\x1C\x1C20140606\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SE
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SE
@@ -333,15 +329,5 @@ rows:
   - name: MEMO TEXT/DESCRIPTION
     number: '44'
     value: ''
-  - value: '
-
-'
-  expected_count: 44
-  input: "SE\x1CC00488742\x1CECD10D86292F7429FAF5\x1C\x1C\x1CORG\x1CMeath Media Group\x1C\x1C\x1C\x1C\x1C\x1C4441
-    Klingle St., NW\x1C\x1CWashington\x1CDC\x1C200163578\x1CP2014\x1C\x1C20140605\x1C26075.00\x1C\x1C26125.00\x1COnline
-    video production costs\x1C\x1C\x1CS\x1CH0VA07042\x1CCantor\x1CEric\x1CI.\x1CRep.\x1C\x1CH\x1C07\x1CVA\x1CMcGrew\x1CMichael\x1C\x1C\x1C\x1C20140606\x1C\x1C\x1C\n"
-  input_count: 45
-  record: fec.version.v8_1.SE
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

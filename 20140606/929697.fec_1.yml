@@ -3,7 +3,10 @@ filename: 929697.fec
 header: {}
 rows:
 - 2
-- attempt:
+- input: "F3XN\x1CC00300376\x1CThe Doctors Company Federal PAC (DOCPAC)\x1C\x1C185
+    Greenwood Road\x1C\x1CNapa\x1CCA\x1C94558\x1CM6\x1CP2014\x1C\x1C\x1C20140501\x1C20140531\x1CX\x1CDasinger\x1CHarry\x1C\x1CMr.\x1C\x1C20140606\x1C238516.04\x1C7248.30\x1C245764.34\x1C2000.00\x1C243764.34\x1C0.00\x1C0.00\x1C112.50\x1C7135.80\x1C7248.30\x1C0.00\x1C0.00\x1C7248.30\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7248.30\x1C7248.30\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C2000.00\x1C7248.30\x1C0.00\x1C7248.30\x1C0.00\x1C0.00\x1C0.00\x1C198930.92\x1C2014\x1C57833.42\x1C256764.34\x1C13000.00\x1C243764.34\x1C1662.50\x1C56170.92\x1C57833.42\x1C0.00\x1C0.00\x1C57833.42\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C57833.42\x1C57833.42\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C13000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C13000.00\x1C13000.00\x1C57833.42\x1C0.00\x1C57833.42\x1C0.00\x1C0.00\x1C0.00\x1C\n"
+  record: fec.version.v8_1.F3X
+  result:
   - name: FORM TYPE
     number: '1'
     value: F3XN
@@ -373,16 +376,11 @@ rows:
   - name: Net Operating Expenditures
     number: 123-38.
     value: '0.00'
-  - value: '
-
-'
-  expected_count: 123
-  input: "F3XN\x1CC00300376\x1CThe Doctors Company Federal PAC (DOCPAC)\x1C\x1C185
-    Greenwood Road\x1C\x1CNapa\x1CCA\x1C94558\x1CM6\x1CP2014\x1C\x1C\x1C20140501\x1C20140531\x1CX\x1CDasinger\x1CHarry\x1C\x1CMr.\x1C\x1C20140606\x1C238516.04\x1C7248.30\x1C245764.34\x1C2000.00\x1C243764.34\x1C0.00\x1C0.00\x1C112.50\x1C7135.80\x1C7248.30\x1C0.00\x1C0.00\x1C7248.30\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C7248.30\x1C7248.30\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C2000.00\x1C2000.00\x1C7248.30\x1C0.00\x1C7248.30\x1C0.00\x1C0.00\x1C0.00\x1C198930.92\x1C2014\x1C57833.42\x1C256764.34\x1C13000.00\x1C243764.34\x1C1662.50\x1C56170.92\x1C57833.42\x1C0.00\x1C0.00\x1C57833.42\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C57833.42\x1C57833.42\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C13000.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C0.00\x1C13000.00\x1C13000.00\x1C57833.42\x1C0.00\x1C57833.42\x1C0.00\x1C0.00\x1C0.00\x1C\n"
-  input_count: 124
-  record: fec.version.v8_1.F3X
-  result: []
-- attempt:
+- input: "SA11AI\x1CC00300376\x1CA23951E019B9F4015AFF\x1C\x1C\x1CIND\x1C\x1CO'Neill\x1CPatrick\x1CJ\x1C\x1C\x1C245
+    Seven Farms Dr Suite 210\x1C\x1CDaniel Island\x1CSC\x1C29492\x1C\x1C\x1C20140512\x1C112.50\x1C225.00\x1C\x1CO'neill
+    Plastic Surgery Pa\x1CDoctor\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SA
+  result:
   - name: FORM TYPE
     number: '1'
     value: SA11AI
@@ -518,17 +516,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '45'
     value: ''
-  - value: '
-
-'
-  expected_count: 45
-  input: "SA11AI\x1CC00300376\x1CA23951E019B9F4015AFF\x1C\x1C\x1CIND\x1C\x1CO'Neill\x1CPatrick\x1CJ\x1C\x1C\x1C245
-    Seven Farms Dr Suite 210\x1C\x1CDaniel Island\x1CSC\x1C29492\x1C\x1C\x1C20140512\x1C112.50\x1C225.00\x1C\x1CO'neill
-    Plastic Surgery Pa\x1CDoctor\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 46
-  record: fec.version.v8_1.SA
-  result: []
-- attempt:
+- input: "SB23\x1CC00300376\x1CB5019C873674B4C608C0\x1C\x1C\x1CCOM\x1CMike Thompson
+    for Congress\x1C\x1C\x1C\x1C\x1C\x1CP.O. Box 10541\x1C\x1CNapa\x1CCA\x1C94581\x1CP2014\x1C\x1C20140529\x1C1000.00\x1C\x1CPolitical
+    Contribution\x1C\x1C\x1C\x1CH8CA01109\x1CThompson\x1CMike\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C05\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
+  record: fec.version.v8_1.SB
+  result:
   - name: FORM TYPE
     number: '1'
     value: SB23
@@ -661,17 +653,11 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '44'
     value: ''
-  - value: '
-
-'
-  expected_count: 44
-  input: "SB23\x1CC00300376\x1CB5019C873674B4C608C0\x1C\x1C\x1CCOM\x1CMike Thompson
-    for Congress\x1C\x1C\x1C\x1C\x1C\x1CP.O. Box 10541\x1C\x1CNapa\x1CCA\x1C94581\x1CP2014\x1C\x1C20140529\x1C1000.00\x1C\x1CPolitical
-    Contribution\x1C\x1C\x1C\x1CH8CA01109\x1CThompson\x1CMike\x1C\x1CRep.\x1C\x1CH\x1CCA\x1C05\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 45
+- input: "SB23\x1CC00300376\x1CBABC2FE62C1924107878\x1C\x1C\x1CCOM\x1CSCOTT PETERS
+    FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1CPO BOX 70980\x1C\x1CWashington\x1CDC\x1C200240980\x1CP2014\x1C\x1C20140530\x1C1000.00\x1C\x1CPolitical
+    Contribution\x1C\x1C\x1C\x1CH2CA52089\x1CPeters\x1CScott\x1CH.\x1CRep.\x1C\x1CH\x1CCA\x1C52\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
   record: fec.version.v8_1.SB
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: SB23
@@ -804,15 +790,5 @@ rows:
   - name: Reference to SI or SL system code that identifies the Account
     number: '44'
     value: ''
-  - value: '
-
-'
-  expected_count: 44
-  input: "SB23\x1CC00300376\x1CBABC2FE62C1924107878\x1C\x1C\x1CCOM\x1CSCOTT PETERS
-    FOR CONGRESS\x1C\x1C\x1C\x1C\x1C\x1CPO BOX 70980\x1C\x1CWashington\x1CDC\x1C200240980\x1CP2014\x1C\x1C20140530\x1C1000.00\x1C\x1CPolitical
-    Contribution\x1C\x1C\x1C\x1CH2CA52089\x1CPeters\x1CScott\x1CH.\x1CRep.\x1C\x1CH\x1CCA\x1C52\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\x1C\n"
-  input_count: 45
-  record: fec.version.v8_1.SB
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk

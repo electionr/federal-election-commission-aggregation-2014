@@ -78,10 +78,12 @@ rows:
     value: ''
   - name: DATE SIGNED
     number: '24'
-    value: '20140606
-
-'
-- attempt:
+    value: '20140606'
+- input: "F65\x1CC00556357\x1C6D584B17F35F54487BCE\x1CIND\x1C\x1CShaw\x1CBetty\x1CJane\x1C\x1C\x1C1606
+    Maple St\x1C\x1CShenandoah\x1CIA\x1C516012137\x1C\x1C20140604\x1C2600.00\x1CEarl
+    May\x1CPresident\x1C\n"
+  record: fec.version.v8_1.F65
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -142,17 +144,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: President
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00556357\x1C6D584B17F35F54487BCE\x1CIND\x1C\x1CShaw\x1CBetty\x1CJane\x1C\x1C\x1C1606
+- input: "F65\x1CC00556357\x1C63F1709F72ABC44E0A2F\x1CIND\x1C\x1CShaw\x1CWilliam\x1CE\x1C\x1C\x1C1606
     Maple St\x1C\x1CShenandoah\x1CIA\x1C516012137\x1C\x1C20140604\x1C2600.00\x1CEarl
-    May\x1CPresident\x1C\n"
-  input_count: 21
+    May\x1CCEO\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -213,17 +209,11 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: CEO
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00556357\x1C63F1709F72ABC44E0A2F\x1CIND\x1C\x1CShaw\x1CWilliam\x1CE\x1C\x1C\x1C1606
-    Maple St\x1C\x1CShenandoah\x1CIA\x1C516012137\x1C\x1C20140604\x1C2600.00\x1CEarl
-    May\x1CCEO\x1C\n"
-  input_count: 21
+- input: "F65\x1CC00556357\x1C65BC4730905094B878E2\x1CIND\x1C\x1CSherman\x1CGordon\x1C\x1C\x1C\x1C1409
+    Southmoreland Place\x1C\x1CShenandoah\x1CIA\x1C516012249\x1C\x1C20140606\x1C2600.00\x1CEarl
+    May\x1CSales Exec\x1C\n"
   record: fec.version.v8_1.F65
-  result: []
-- attempt:
+  result:
   - name: FORM TYPE
     number: '1'
     value: F65
@@ -284,15 +274,5 @@ rows:
   - name: CONTRIBUTOR OCCUPATION
     number: '20'
     value: Sales Exec
-  - value: '
-
-'
-  expected_count: 20
-  input: "F65\x1CC00556357\x1C65BC4730905094B878E2\x1CIND\x1C\x1CSherman\x1CGordon\x1C\x1C\x1C\x1C1409
-    Southmoreland Place\x1C\x1CShenandoah\x1CIA\x1C516012249\x1C\x1C20140606\x1C2600.00\x1CEarl
-    May\x1CSales Exec\x1C\n"
-  input_count: 21
-  record: fec.version.v8_1.F65
-  result: []
 sourceurl: !!python/unicode 20140606
 type: chunk
